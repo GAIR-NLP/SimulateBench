@@ -24,4 +24,4 @@ print(type(t))'''
 a = {'a': 1, 'b': 2}
 
 
-print('tes')
+print('te')
