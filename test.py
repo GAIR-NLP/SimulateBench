@@ -24,8 +24,4 @@ print(type(t))'''
 a = {'a': 1, 'b': 2}
 
 
-def f(**kwargs):
-    print(kwargs)
-
-
-f(**a)
+print('test')
