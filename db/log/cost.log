@@ -1,0 +1,276 @@
+record_cost.py - 230813 09:41:01 - INFO: cost: 0.09. prompt tokens:1000(0.03/1k tokens). completion tokens:1000(0.06/1k tokens).
+benchmark.py - 230813 09:48:54 - INFO: generating roles non relation questions into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+benchmark.py - 230813 09:48:54 - INFO: generating roles non relation questions finished
+benchmark.py - 230813 09:48:54 - INFO: generating roles relation questions into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+benchmark.py - 230813 09:48:54 - INFO: generating roles relation questions finished
+benchmark.py - 230813 09:54:51 - INFO: generating gold answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230813 09:54:53 - INFO: cost: 0.1851. prompt tokens:6169(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:54:54 - INFO: cost: 0.1848. prompt tokens:6157(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:54:55 - INFO: cost: 0.187. prompt tokens:6230(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:54:56 - INFO: cost: 0.1862. prompt tokens:6203(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:54:57 - INFO: cost: 0.186. prompt tokens:6197(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:54:58 - INFO: cost: 0.185. prompt tokens:6166(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:55:14 - INFO: cost: 0.1853. prompt tokens:6176(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:55:17 - INFO: cost: 0.1853. prompt tokens:6176(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:55:33 - INFO: cost: 0.1852. prompt tokens:6171(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:55:41 - INFO: cost: 0.1852. prompt tokens:6173(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:55:49 - INFO: cost: 0.1857. prompt tokens:6189(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:56:05 - INFO: cost: 0.1854. prompt tokens:6177(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:56:13 - INFO: cost: 0.1855. prompt tokens:6183(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:56:20 - INFO: cost: 0.185. prompt tokens:6166(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:56:36 - INFO: cost: 0.1853. prompt tokens:6174(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:56:44 - INFO: cost: 0.1886. prompt tokens:6286(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:56:53 - INFO: cost: 0.1851. prompt tokens:6167(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:57:10 - INFO: cost: 0.1852. prompt tokens:6171(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:57:14 - INFO: cost: 0.1855. prompt tokens:6181(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:57:30 - INFO: cost: 0.1855. prompt tokens:6180(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:57:37 - INFO: cost: 0.1855. prompt tokens:6183(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:57:46 - INFO: cost: 0.1852. prompt tokens:6172(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:58:02 - INFO: cost: 0.1855. prompt tokens:6181(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:58:09 - INFO: cost: 0.1852. prompt tokens:6171(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:58:17 - INFO: cost: 0.1868. prompt tokens:6225(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:58:34 - INFO: cost: 0.1861. prompt tokens:6201(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 09:58:42 - INFO: cost: 0.1872. prompt tokens:6239(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+benchmark.py - 230813 09:58:42 - INFO: generating gold answer for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+benchmark.py - 230813 10:04:55 - INFO: generating gold answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+record_cost.py - 230813 10:04:57 - INFO: cost: 0.1851. prompt tokens:6160(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:05:00 - INFO: cost: 0.1851. prompt tokens:6160(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:05:01 - INFO: cost: 0.1851. prompt tokens:6160(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:05:02 - INFO: cost: 0.1851. prompt tokens:6160(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:05:04 - INFO: cost: 0.1852. prompt tokens:6165(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:05:05 - INFO: cost: 0.1852. prompt tokens:6164(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:05:13 - INFO: cost: 0.1848. prompt tokens:6155(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:05:22 - INFO: cost: 0.1849. prompt tokens:6155(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:05:37 - INFO: cost: 0.1848. prompt tokens:6155(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:05:41 - INFO: cost: 0.1848. prompt tokens:6155(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:05:57 - INFO: cost: 0.185. prompt tokens:6160(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:06:05 - INFO: cost: 0.185. prompt tokens:6159(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:06:14 - INFO: cost: 0.1852. prompt tokens:6168(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+record_cost.py - 230813 10:06:30 - INFO: cost: 0.1852. prompt tokens:6168(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+record_cost.py - 230813 10:06:38 - INFO: cost: 0.1852. prompt tokens:6168(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+record_cost.py - 230813 10:06:46 - INFO: cost: 0.1852. prompt tokens:6168(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:07:02 - INFO: cost: 0.1853. prompt tokens:6173(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+record_cost.py - 230813 10:07:11 - INFO: cost: 0.1853. prompt tokens:6172(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:07:19 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:07:27 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:07:44 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:07:52 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:08:00 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:08:16 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:08:24 - INFO: cost: 0.185. prompt tokens:6162(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+record_cost.py - 230813 10:08:33 - INFO: cost: 0.1851. prompt tokens:6162(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:08:49 - INFO: cost: 0.1851. prompt tokens:6162(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:08:52 - INFO: cost: 0.185. prompt tokens:6162(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+record_cost.py - 230813 10:09:08 - INFO: cost: 0.185. prompt tokens:6162(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+record_cost.py - 230813 10:09:16 - INFO: cost: 0.1851. prompt tokens:6162(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:09:24 - INFO: cost: 0.1847. prompt tokens:6149(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:09:42 - INFO: cost: 0.1847. prompt tokens:6149(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:09:46 - INFO: cost: 0.1847. prompt tokens:6149(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:10:02 - INFO: cost: 0.1847. prompt tokens:6149(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:10:05 - INFO: cost: 0.1847. prompt tokens:6149(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:10:22 - INFO: cost: 0.1847. prompt tokens:6149(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:10:30 - INFO: cost: 0.1848. prompt tokens:6155(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:10:38 - INFO: cost: 0.1849. prompt tokens:6155(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:10:54 - INFO: cost: 0.1848. prompt tokens:6155(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:10:58 - INFO: cost: 0.1849. prompt tokens:6155(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:11:15 - INFO: cost: 0.1848. prompt tokens:6155(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:11:24 - INFO: cost: 0.1848. prompt tokens:6155(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:11:31 - INFO: cost: 0.1846. prompt tokens:6150(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 10:11:47 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:11:51 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:12:07 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:12:15 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:12:23 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:12:40 - INFO: cost: 0.1851. prompt tokens:6157(0.03/1k tokens). completion tokens:6(0.06/1k tokens).
+record_cost.py - 230813 10:12:45 - INFO: cost: 0.1849. prompt tokens:6157(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:13:01 - INFO: cost: 0.1849. prompt tokens:6157(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:13:05 - INFO: cost: 0.1849. prompt tokens:6157(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
+record_cost.py - 230813 10:13:22 - INFO: cost: 0.1851. prompt tokens:6157(0.03/1k tokens). completion tokens:6(0.06/1k tokens).
+record_cost.py - 230813 10:13:27 - INFO: cost: 0.1849. prompt tokens:6157(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:13:43 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:13:47 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:14:02 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:14:11 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:14:19 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:14:35 - INFO: cost: 0.1847. prompt tokens:6150(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:14:43 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:14:52 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:15:08 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:15:13 - INFO: cost: 0.1848. prompt tokens:6156(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+record_cost.py - 230813 10:15:29 - INFO: cost: 0.1848. prompt tokens:6156(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+record_cost.py - 230813 10:15:33 - INFO: cost: 0.1849. prompt tokens:6156(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:15:50 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:15:54 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:16:10 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:16:18 - INFO: cost: 0.1844. prompt tokens:6144(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 10:16:26 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:16:43 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:16:48 - INFO: cost: 0.1846. prompt tokens:6145(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:17:05 - INFO: cost: 0.1846. prompt tokens:6145(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:17:08 - INFO: cost: 0.1846. prompt tokens:6145(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:17:25 - INFO: cost: 0.1846. prompt tokens:6145(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:17:29 - INFO: cost: 0.1846. prompt tokens:6145(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:17:45 - INFO: cost: 0.1846. prompt tokens:6145(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:17:49 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:18:05 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:18:14 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:18:23 - INFO: cost: 0.1844. prompt tokens:6144(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+record_cost.py - 230813 10:18:39 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:18:43 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:18:59 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:19:06 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:19:14 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:19:30 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:19:39 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:19:47 - INFO: cost: 0.1846. prompt tokens:6144(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+record_cost.py - 230813 10:20:03 - INFO: cost: 0.1851. prompt tokens:6159(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:20:07 - INFO: cost: 0.1851. prompt tokens:6159(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:20:23 - INFO: cost: 0.1851. prompt tokens:6159(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:20:32 - INFO: cost: 0.1851. prompt tokens:6159(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:20:40 - INFO: cost: 0.1851. prompt tokens:6159(0.03/1k tokens). completion tokens:5(0.06/1k tokens).
+record_cost.py - 230813 10:20:57 - INFO: cost: 0.1852. prompt tokens:6159(0.03/1k tokens). completion tokens:8(0.06/1k tokens).
+benchmark.py - 230813 10:20:57 - INFO: generating gold answer for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+benchmark.py - 230813 13:17:14 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230813 13:22:04 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230813 13:24:23 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230813 14:02:54 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230813 14:05:21 - INFO: cost: 3.4282. prompt tokens:113689(0.03/1k tokens). completion tokens:292(0.06/1k tokens).
+benchmark.py - 230813 14:05:21 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230813 14:31:21 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230813 14:33:47 - INFO: cost: 3.4433. prompt tokens:114008(0.03/1k tokens). completion tokens:384(0.06/1k tokens).
+benchmark.py - 230813 14:33:47 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230813 14:45:48 - INFO: cost: 0.2037. prompt tokens:6774(0.03/1k tokens). completion tokens:8(0.06/1k tokens).
+record_cost.py - 230813 14:48:53 - INFO: cost: 0.4073. prompt tokens:13573(0.03/1k tokens). completion tokens:2(0.06/1k tokens).
+benchmark.py - 230814 03:51:49 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 03:54:15 - INFO: cost: 3.4305. prompt tokens:113677(0.03/1k tokens). completion tokens:337(0.06/1k tokens).
+benchmark.py - 230814 03:54:15 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:14:32 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:16:59 - INFO: cost: 3.4391. prompt tokens:113888(0.03/1k tokens). completion tokens:374(0.06/1k tokens).
+benchmark.py - 230814 04:16:59 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:19:20 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:19:27 - INFO: cost: 0.8179. prompt tokens:27223(0.03/1k tokens). completion tokens:20(0.06/1k tokens).
+benchmark.py - 230814 04:19:27 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:21:52 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:21:59 - INFO: cost: 0.616. prompt tokens:20460(0.03/1k tokens). completion tokens:37(0.06/1k tokens).
+benchmark.py - 230814 04:21:59 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:22:25 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:22:32 - INFO: cost: 0.616. prompt tokens:20460(0.03/1k tokens). completion tokens:37(0.06/1k tokens).
+benchmark.py - 230814 04:22:32 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:23:34 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:23:36 - INFO: cost: 0.2033. prompt tokens:6773(0.03/1k tokens). completion tokens:1(0.06/1k tokens).
+benchmark.py - 230814 04:23:36 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:24:19 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:24:24 - INFO: cost: 0.6138. prompt tokens:20443(0.03/1k tokens). completion tokens:8(0.06/1k tokens).
+benchmark.py - 230814 04:24:24 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:25:04 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:25:09 - INFO: cost: 0.4124. prompt tokens:13662(0.03/1k tokens). completion tokens:43(0.06/1k tokens).
+benchmark.py - 230814 04:25:09 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:25:30 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:25:35 - INFO: cost: 0.4124. prompt tokens:13662(0.03/1k tokens). completion tokens:43(0.06/1k tokens).
+benchmark.py - 230814 04:25:35 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:25:43 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:25:47 - INFO: cost: 0.4124. prompt tokens:13662(0.03/1k tokens). completion tokens:43(0.06/1k tokens).
+benchmark.py - 230814 04:25:47 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:27:50 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:27:55 - INFO: cost: 0.4126. prompt tokens:13680(0.03/1k tokens). completion tokens:37(0.06/1k tokens).
+benchmark.py - 230814 04:27:55 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:30:22 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:30:50 - INFO: cost: 1.2818. prompt tokens:42086(0.03/1k tokens). completion tokens:320(0.06/1k tokens).
+benchmark.py - 230814 04:30:50 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:35:24 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:35:37 - INFO: cost: 0.6235. prompt tokens:20579(0.03/1k tokens). completion tokens:103(0.06/1k tokens).
+benchmark.py - 230814 04:35:37 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:36:07 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:36:07 - INFO: cost: 0.0. prompt tokens:0(0.03/1k tokens). completion tokens:0(0.06/1k tokens).
+benchmark.py - 230814 04:36:07 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:36:24 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230814 04:36:27 - INFO: cost: 0.4091. prompt tokens:13625(0.03/1k tokens). completion tokens:6(0.06/1k tokens).
+benchmark.py - 230814 04:36:27 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+benchmark.py - 230814 04:41:57 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230814 04:42:03 - INFO: cost: 0.8333. prompt tokens:27770(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+benchmark.py - 230814 04:42:03 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+benchmark.py - 230814 04:42:14 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230814 04:42:42 - INFO: cost: 0.8335. prompt tokens:27774(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+benchmark.py - 230814 04:42:42 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+benchmark.py - 230814 04:42:56 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230814 04:43:29 - INFO: cost: 0.8318. prompt tokens:27718(0.03/1k tokens). completion tokens:4(0.06/1k tokens).
+benchmark.py - 230814 04:43:29 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+benchmark.py - 230814 04:44:10 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230814 04:45:18 - INFO: cost: 1.7148. prompt tokens:57143(0.03/1k tokens). completion tokens:8(0.06/1k tokens).
+benchmark.py - 230814 04:45:18 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+benchmark.py - 230814 04:45:44 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230814 04:46:48 - INFO: cost: 1.4884. prompt tokens:49598(0.03/1k tokens). completion tokens:7(0.06/1k tokens).
+benchmark.py - 230814 04:46:48 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+benchmark.py - 230814 04:47:04 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230814 04:47:04 - INFO: cost: 0.0. prompt tokens:0(0.03/1k tokens). completion tokens:0(0.06/1k tokens).
+benchmark.py - 230814 04:47:04 - INFO: generating answer finished for /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+benchmark.py - 230814 04:59:24 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+benchmark.py - 230814 12:33:51 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+record_cost.py - 230814 12:33:59 - INFO: cost: 0.2242. prompt tokens:7351(0.03/1k tokens). completion tokens:61(0.06/1k tokens).
+record_cost.py - 230814 12:34:05 - INFO: cost: 0.225. prompt tokens:7410(0.03/1k tokens). completion tokens:45(0.06/1k tokens).
+record_cost.py - 230814 12:34:09 - INFO: cost: 0.2233. prompt tokens:7354(0.03/1k tokens). completion tokens:44(0.06/1k tokens).
+record_cost.py - 230814 12:34:14 - INFO: cost: 0.2212. prompt tokens:7276(0.03/1k tokens). completion tokens:49(0.06/1k tokens).
+record_cost.py - 230814 12:34:20 - INFO: cost: 0.2216. prompt tokens:7286(0.03/1k tokens). completion tokens:51(0.06/1k tokens).
+record_cost.py - 230814 12:34:29 - INFO: cost: 0.2225. prompt tokens:7290(0.03/1k tokens). completion tokens:63(0.06/1k tokens).
+record_cost.py - 230814 12:34:36 - INFO: cost: 0.2206. prompt tokens:7274(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
+record_cost.py - 230814 12:34:42 - INFO: cost: 0.2186. prompt tokens:7208(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
+record_cost.py - 230814 12:34:55 - INFO: cost: 0.218. prompt tokens:7202(0.03/1k tokens). completion tokens:32(0.06/1k tokens).
+record_cost.py - 230814 12:35:09 - INFO: cost: 0.2164. prompt tokens:7124(0.03/1k tokens). completion tokens:45(0.06/1k tokens).
+benchmark.py - 230814 12:38:47 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+record_cost.py - 230814 12:38:54 - INFO: cost: 0.2242. prompt tokens:7351(0.03/1k tokens). completion tokens:61(0.06/1k tokens).
+record_cost.py - 230814 12:38:58 - INFO: cost: 0.225. prompt tokens:7410(0.03/1k tokens). completion tokens:45(0.06/1k tokens).
+record_cost.py - 230814 12:39:03 - INFO: cost: 0.2233. prompt tokens:7354(0.03/1k tokens). completion tokens:44(0.06/1k tokens).
+record_cost.py - 230814 12:39:13 - INFO: cost: 0.2212. prompt tokens:7276(0.03/1k tokens). completion tokens:49(0.06/1k tokens).
+record_cost.py - 230814 12:39:20 - INFO: cost: 0.2217. prompt tokens:7286(0.03/1k tokens). completion tokens:52(0.06/1k tokens).
+record_cost.py - 230814 12:39:26 - INFO: cost: 0.2225. prompt tokens:7290(0.03/1k tokens). completion tokens:64(0.06/1k tokens).
+record_cost.py - 230814 12:39:31 - INFO: cost: 0.2206. prompt tokens:7274(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
+record_cost.py - 230814 12:39:36 - INFO: cost: 0.2186. prompt tokens:7208(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
+record_cost.py - 230814 12:39:56 - INFO: cost: 0.2181. prompt tokens:7202(0.03/1k tokens). completion tokens:34(0.06/1k tokens).
+record_cost.py - 230814 12:40:05 - INFO: cost: 0.2162. prompt tokens:7124(0.03/1k tokens). completion tokens:41(0.06/1k tokens).
+record_cost.py - 230814 12:47:08 - INFO: cost: 1.8757. prompt tokens:62468(0.03/1k tokens). completion tokens:27(0.06/1k tokens).
+benchmark.py - 230814 12:52:05 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+record_cost.py - 230814 12:52:13 - INFO: cost: 0.2242. prompt tokens:7351(0.03/1k tokens). completion tokens:61(0.06/1k tokens).
+record_cost.py - 230814 12:52:19 - INFO: cost: 0.2249. prompt tokens:7408(0.03/1k tokens). completion tokens:45(0.06/1k tokens).
+record_cost.py - 230814 12:52:23 - INFO: cost: 0.2232. prompt tokens:7354(0.03/1k tokens). completion tokens:43(0.06/1k tokens).
+record_cost.py - 230814 12:52:27 - INFO: cost: 0.2212. prompt tokens:7276(0.03/1k tokens). completion tokens:49(0.06/1k tokens).
+record_cost.py - 230814 12:52:34 - INFO: cost: 0.2216. prompt tokens:7286(0.03/1k tokens). completion tokens:51(0.06/1k tokens).
+record_cost.py - 230814 12:52:41 - INFO: cost: 0.2225. prompt tokens:7290(0.03/1k tokens). completion tokens:64(0.06/1k tokens).
+record_cost.py - 230814 12:52:46 - INFO: cost: 0.2206. prompt tokens:7274(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
+record_cost.py - 230814 12:53:00 - INFO: cost: 0.2186. prompt tokens:7208(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
+record_cost.py - 230814 12:53:11 - INFO: cost: 0.218. prompt tokens:7202(0.03/1k tokens). completion tokens:32(0.06/1k tokens).
+record_cost.py - 230814 12:53:25 - INFO: cost: 0.2162. prompt tokens:7124(0.03/1k tokens). completion tokens:41(0.06/1k tokens).
+record_cost.py - 230814 12:59:35 - INFO: cost: 3.0773. prompt tokens:101495(0.03/1k tokens). completion tokens:541(0.06/1k tokens).
+record_cost.py - 230814 13:01:06 - INFO: cost: 0.4133. prompt tokens:13623(0.03/1k tokens). completion tokens:76(0.06/1k tokens).
+record_cost.py - 230814 13:02:47 - INFO: cost: 0.4153. prompt tokens:13646(0.03/1k tokens). completion tokens:98(0.06/1k tokens).
+record_cost.py - 230814 13:04:36 - INFO: cost: 0.4179. prompt tokens:13657(0.03/1k tokens). completion tokens:136(0.06/1k tokens).
+benchmark.py - 230814 13:41:05 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+benchmark.py - 230814 13:42:02 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+benchmark.py - 230814 13:48:03 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+record_cost.py - 230814 13:48:06 - INFO: cost: 0.0223. prompt tokens:7351(0.003/1k tokens). completion tokens:64(0.004/1k tokens).
+record_cost.py - 230814 13:48:08 - INFO: cost: 0.0224. prompt tokens:7408(0.003/1k tokens). completion tokens:41(0.004/1k tokens).
+record_cost.py - 230814 13:48:10 - INFO: cost: 0.0222. prompt tokens:7354(0.003/1k tokens). completion tokens:44(0.004/1k tokens).
+record_cost.py - 230814 13:48:14 - INFO: cost: 0.022. prompt tokens:7276(0.003/1k tokens). completion tokens:50(0.004/1k tokens).
+record_cost.py - 230814 13:48:18 - INFO: cost: 0.0223. prompt tokens:7286(0.003/1k tokens). completion tokens:117(0.004/1k tokens).
+record_cost.py - 230814 13:48:20 - INFO: cost: 0.0221. prompt tokens:7290(0.003/1k tokens). completion tokens:55(0.004/1k tokens).
+record_cost.py - 230814 13:48:23 - INFO: cost: 0.022. prompt tokens:7274(0.003/1k tokens). completion tokens:40(0.004/1k tokens).
+record_cost.py - 230814 13:48:24 - INFO: cost: 0.0217. prompt tokens:7208(0.003/1k tokens). completion tokens:31(0.004/1k tokens).
+record_cost.py - 230814 13:48:26 - INFO: cost: 0.0218. prompt tokens:7202(0.003/1k tokens). completion tokens:39(0.004/1k tokens).
+record_cost.py - 230814 13:48:29 - INFO: cost: 0.0216. prompt tokens:7124(0.003/1k tokens). completion tokens:45(0.004/1k tokens).
+benchmark.py - 230814 13:58:25 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-relation-questionnaire.json
+record_cost.py - 230814 13:58:28 - INFO: cost: 0.0221. prompt tokens:7290(0.003/1k tokens). completion tokens:62(0.004/1k tokens).
+record_cost.py - 230814 14:20:57 - INFO: cost: 0.0. prompt tokens:0(0.03/1k tokens). completion tokens:0(0.06/1k tokens).
+record_cost.py - 230814 14:22:59 - INFO: cost: 0.0. prompt tokens:0(0.03/1k tokens). completion tokens:0(0.06/1k tokens).
+benchmark.py - 230815 02:33:36 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-basic-information-questionnaire.json
+record_cost.py - 230815 02:33:40 - INFO: cost: 0.0217. prompt tokens:7180(0.003/1k tokens). completion tokens:51(0.004/1k tokens).
+record_cost.py - 230815 02:33:42 - INFO: cost: 0.0213. prompt tokens:7054(0.003/1k tokens). completion tokens:33(0.004/1k tokens).
+benchmark.py - 230815 02:34:07 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230815 02:34:09 - INFO: cost: 0.0228. prompt tokens:7580(0.003/1k tokens). completion tokens:22(0.004/1k tokens).
+record_cost.py - 230815 02:34:12 - INFO: cost: 0.023. prompt tokens:7636(0.003/1k tokens). completion tokens:22(0.004/1k tokens).
+record_cost.py - 230815 02:34:13 - INFO: cost: 0.0224. prompt tokens:7440(0.003/1k tokens). completion tokens:18(0.004/1k tokens).
+benchmark.py - 230815 02:34:39 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230815 02:34:40 - INFO: cost: 0.0224. prompt tokens:7440(0.003/1k tokens). completion tokens:18(0.004/1k tokens).
+benchmark.py - 230815 02:34:47 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230815 02:34:48 - INFO: cost: 0.0224. prompt tokens:7440(0.003/1k tokens). completion tokens:18(0.004/1k tokens).
+benchmark.py - 230815 02:35:23 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
+record_cost.py - 230815 02:35:25 - INFO: cost: 0.0224. prompt tokens:7440(0.003/1k tokens). completion tokens:18(0.004/1k tokens).
+record_cost.py - 230815 02:36:28 - INFO: cost: 0.203. prompt tokens:6750(0.03/1k tokens). completion tokens:9(0.06/1k tokens).

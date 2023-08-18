@@ -1,0 +1,26 @@
+{
+  "cost_per_1k_token": {
+    "gpt-3.5-turbo": 0.002,
+    "gpt-4-32k": 0.12,
+    "gpt-4": {
+      "input": 0.03,
+      "output": 0.06
+    },
+    "gpt-3.5-turbo-16k": {
+      "input": 0.003,
+      "output": 0.004
+    }
+  },
+  "max_tokens": {
+    "gpt-3.5-turbo": 4096,
+    "gpt-4-32k": 32768,
+    "gpt-4": 8192
+  },
+  "models": [
+    "gpt-3.5-turbo",
+    "gpt-4-32k",
+    "gpt-4"
+  ],
+  "model_name": "gpt-4",
+  "temperature": 0
+}

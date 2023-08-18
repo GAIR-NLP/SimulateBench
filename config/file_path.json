@@ -1,0 +1,9 @@
+{
+  "logging_path": "/home/yxiao/pycharm/character_agent/db/log/cost.log",
+  "monica": {
+    "profile_path": "/home/yxiao/pycharm/character_agent/db/profile/monica/profile.json",
+    "basic_information_path": "/home/yxiao/pycharm/character_agent/db/profile/monica/basic_information.json",
+    "roles_path": "/home/yxiao/pycharm/character_agent/db/profile/monica/roles.json",
+    "examples_path": "/home/yxiao/pycharm/character_agent/db/template/monica/examples_and_requirements/anthropomorphize.json"
+  }
+}

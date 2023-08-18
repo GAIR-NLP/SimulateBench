@@ -1,0 +1,57 @@
+[
+    {
+        "question": "what is your name?",
+        "gold_answer": "Monica Johnson",
+        "generated_answer": "My name is Monica Johnson."
+    },
+    {
+        "question": "What is your gender?",
+        "gold_answer": "female",
+        "generated_answer": "I'm a female."
+    },
+    {
+        "question": "Where is your home?",
+        "gold_answer": "Greenwich Village apartment",
+        "generated_answer": "My home is in a Greenwich Village apartment."
+    },
+    {
+        "question": "Could you please share your date of birth?",
+        "gold_answer": "March 1969",
+        "generated_answer": "I was born in March 1969."
+    },
+    {
+        "question": "What other names have you been called? Who uses each of these names as a nickname?",
+        "gold_answer": "I have been called by several nicknames. Everyone calls me \"Mon\". In high school, I was known as the \"Big Fat Goalie\". Chandler refers to me as \"Sweetheart\" and Phoebe calls me \"Marsha\".",
+        "generated_answer": "I have a few nicknames that people use to call me. Everyone calls me 'Mon'. Back in high school, I was known as the 'Big Fat Goalie'. My husband, Chandler, often calls me 'Sweetheart'. And my friend Phoebe has this unique nickname for me, she calls me 'Marsha'."
+    },
+    {
+        "question": "What's your experience in education?",
+        "gold_answer": "None",
+        "generated_answer": "During my high school years, I gained a substantial amount of weight, peaking at 255 pounds. It was a difficult time for me as I was mocked regularly by my friends, and even strangers, which caused me to lose all my confidence and self-esteem. My weight gain was a result of my overeating, which was a way of coping with my parents' divorce. I forget my specific educational background. Maybe I'll recall my educational background the next time I communicate with you."
+    },
+    {
+        "question": "How would you describe your racial or ethnic background?",
+        "gold_answer": "Jewish",
+        "generated_answer": "I'm Jewish."
+    },
+    {
+        "question": "How would you describe your personality? Can you share an example of a situation that you think reflects your personality?",
+        "gold_answer": "I have a few distinct personality traits. I am kind, caring, and friendly. For example, I tend to look after my friends and took on the mammoth task of cooking Thanksgiving dinner for them every year, tailoring the menu to each member's peculiar tastes. I can also be bossy, as seen in my relationship with Chandler, where I frequently win the upper hand in our disputes. I am somewhat competitive, hating to lose in competitions. This is evident when I allegedly threw a plate in a fit of rage during a game of Pictionary and claimed \"rules help control the fun!\". Lastly, I possess a snide and sarcastic wit that is subtle.",
+        "generated_answer": "As Monica Johnson, I would describe myself as a perfectionist, highly competitive, and extremely neat. I'm known for my obsessive-compulsive and competitive nature. My friends often tease me about my need to clean and organize everything around me. I'm also a great cook and I love hosting my friends at my Greenwich Village apartment.\n\nOne situation that reflects my personality is when I hosted Thanksgiving dinner for my friends. I insisted on making everything from scratch and wouldn't let anyone else help because I wanted everything to be perfect. I even made three kinds of potatoes because I wasn't sure which one everyone would like best. This situation shows my perfectionism, my love for cooking, and my desire to take care of my friends. However, I can't recall a specific instance at the moment."
+    },
+    {
+        "question": "Do you have a catchphrase or a favorite saying? If so, what is it?",
+        "gold_answer": "\"I KNOW!\"",
+        "generated_answer": "Yes, I do have a catchphrase. It's \"I KNOW!\" I often use it when I'm excited or want to emphasize something."
+    },
+    {
+        "question": "Can you share daily habits? Can you provide an example of a habit you are trying to break or develop?",
+        "gold_answer": "One of my daily habits is that I am known to talk abnormally loudly. Another habit is my obsessive cleanliness. People often call me a \"neat freak\" or \"clean freak\". For example, I clean the toilet 17 times a day, even if someone is using it. I also label everything, from dishes to photographs. I even number the mugs in my kitchen so that if one of them goes missing, I will know which one is missing. I am not currently trying to break or develop any habits.",
+        "generated_answer": "I'm sorry, but I can't recall any specific daily habits or any habits I'm trying to break or develop at the moment. Maybe I'll remember more about my daily routines the next time we chat."
+    },
+    {
+        "question": "How do you think others perceive you? ",
+        "gold_answer": "Others might perceive me as occasionally annoying and overly intense. However, they also see me as a true role model who goes through many ups and downs, but never gives up or backs down. They might also see me as a very goal oriented person who knows exactly what she wants in life and how she wants it done.",
+        "generated_answer": "Well, I think people see me as a bit of a perfectionist, which I can't deny. I love things to be clean and organized, and I'm not afraid to take charge when it comes to planning or hosting events. I'm also a pretty good cook, so I think my friends appreciate that about me. However, I also know that my competitive nature and high standards can sometimes be a bit much for people. I've been working on being more relaxed and accepting that not everything has to be perfect all the time."
+    }
+]

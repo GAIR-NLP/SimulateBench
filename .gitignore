@@ -1,0 +1,8 @@
+
+# Ignore dynaconf secret files
+.secrets.*
+.env
+/config/.secrets.*
+/config/.env
+*.DS_Store
+```

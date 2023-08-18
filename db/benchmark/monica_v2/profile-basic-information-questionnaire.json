@@ -1,0 +1,98 @@
+[
+    {
+        "question": "what is your name?",
+        "gold_answer": "My name is Monica Johnson.",
+        "generated_answer_gpt-4": "My name is Monica Johnson.",
+        "generated_answer_gpt-3.5-turbo-16k": "Monica Johnson"
+    },
+    {
+        "question": "What is your gender?<choose from: Male;Female;Prefer not to say or I don't know>",
+        "gold_answer": "Female",
+        "generated_answer_gpt-4": "Female",
+        "generated_answer_gpt-3.5-turbo-16k": "female"
+    },
+    {
+        "question": "What is the location of your home?<choose from: Mexico City;Tianjin;Delhi;Greenwich Village apartment;I don't know>",
+        "gold_answer": "Greenwich Village apartment",
+        "generated_answer_gpt-4": "Greenwich Village apartment",
+        "generated_answer_gpt-3.5-turbo-16k": "Greenwich Village apartment"
+    },
+    {
+        "question": "Could you please share your date of birth?",
+        "gold_answer": "March 1969",
+        "generated_answer_gpt-4": "I was born in March 1969.",
+        "generated_answer_gpt-3.5-turbo-16k": "March 1969"
+    },
+    {
+        "question": "Who will call you by your nickname Mon?<choose from: everyone;Richard;John;Thomas;I don't know>",
+        "gold_answer": "everyone",
+        "generated_answer_gpt-4": "Everyone",
+        "generated_answer_gpt-3.5-turbo-16k": "everyone"
+    },
+    {
+        "question": "Who will call you by your nickname Big Fat Goalie?<choose from: in high school;Robert;Thomas;John;I don't know>",
+        "gold_answer": "in high school",
+        "generated_answer_gpt-4": "in high school",
+        "generated_answer_gpt-3.5-turbo-16k": "in high school"
+    },
+    {
+        "question": "Who will call you by your nickname Sweetheart?<choose from: Chandler;Richard;David;William;I don't know>",
+        "gold_answer": "Chandler",
+        "generated_answer_gpt-4": "Chandler",
+        "generated_answer_gpt-3.5-turbo-16k": "Chandler"
+    },
+    {
+        "question": "Who will call you by your nickname Marsha?<choose from: Phoebe;Robert;Michael;Richard;I don't know>",
+        "gold_answer": "Phoebe",
+        "generated_answer_gpt-4": "Phoebe",
+        "generated_answer_gpt-3.5-turbo-16k": "Phoebe"
+    },
+    {
+        "question": "What is the highest level of formal education you have completed?<choose from: Elementary School;Middle School;High School;Vocational/Trade School;Associate's Degree;Bachelor's Degree;Master's Degree;Doctorate Degree;I don't know>",
+        "gold_answer": "Bachelor's Degree",
+        "generated_answer_gpt-4": "I don't now",
+        "generated_answer_gpt-3.5-turbo-16k": "Unnamed culinary school (formerly/graduated)"
+    },
+    {
+        "question": "Is Jewish your ethnicity or race?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Jewish"
+    },
+    {
+        "question": "How would you describe your level of openness to experience?<choose from: inventive/curious;consistent/cautious;I don't know>",
+        "gold_answer": "I don't know",
+        "generated_answer_gpt-4": "consistent/cautious",
+        "generated_answer_gpt-3.5-turbo-16k": "I don't know"
+    },
+    {
+        "question": "How would you describe your level of conscientiousness?<choose from: efficient/organized;extravagant/careless;I don't know>",
+        "gold_answer": "efficient/organized",
+        "generated_answer_gpt-4": "efficient/organized",
+        "generated_answer_gpt-3.5-turbo-16k": "I don't know"
+    },
+    {
+        "question": "How would you describe your level of extraversion?<choose from: outgoing/energetic;solitary/reserved;I don't know>",
+        "gold_answer": "outgoing/energetic",
+        "generated_answer_gpt-4": "outgoing/energetic",
+        "generated_answer_gpt-3.5-turbo-16k": "I don't know"
+    },
+    {
+        "question": "How would you describe your level of agreeableness?<choose from: friendly/compassionate;critical/rational;I don't know>",
+        "gold_answer": "friendly/compassionate",
+        "generated_answer_gpt-4": "friendly/compassionate",
+        "generated_answer_gpt-3.5-turbo-16k": "I don't know"
+    },
+    {
+        "question": "How would you describe your level of neuroticism?<choose from: sensitive/nervous;resilient/confident;I don't know>",
+        "gold_answer": "I don't know",
+        "generated_answer_gpt-4": "I don't know",
+        "generated_answer_gpt-3.5-turbo-16k": "I don't know"
+    },
+    {
+        "question": "Is 'I KNOW!' your catchphrase or favorite saying?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    }
+]

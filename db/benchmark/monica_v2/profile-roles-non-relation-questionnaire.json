@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Do you believe that [Monica is the middle child of Jack and Judy Johnson, and the younger sister of Ross Johnson.] is an essential characteristic for you as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica's husband is Chandler Bing.] is an essential characteristic for you as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica has a complex relationship with her parents, especially with her mother, who unconsciously favors Ross over her on various occasions and usually cares about him more than Monica. Monica's mother, Judy, is particularly critical of Monica's lifestyle and choices, which often leads to Monica feeling inadequate or unappreciated. However, despite these issues, Monica loves her parents and maintains a close relationship with them.] is an essential characteristic for you as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica and Ross are very close, despite their occasional sibling rivalry. They share a lot of childhood memories and traditions, and often support each other through their various romantic and personal issues. Ross is protective of Monica, and Monica often turns to Ross for advice or help.] is an essential characteristic for you as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica's obsessive cleanliness and competitiveness often clash with Chandler's sarcasm and laid-back attitude, but they balance each other out. Their relationship is characterized by mutual respect, love, and understanding. They support each other's dreams and ambitions.] is an essential characteristic for you as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica is a very caring and supportive friend to Rachel.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica is often seen as the 'mother hen' of the group due to her nurturing and protective nature.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica is always there for Rachel, whether it's helping her navigate her career or dealing with relationship issues.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica is also very loyal and is always ready to stand up for her friends.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [As a romantic partner to Richard Burke, Monica is deeply committed, caring, and affectionate.] is an essential characteristic for you as a [romantic_partner_of_Richard]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica is also known for her cleanliness and perfectionism, which can sometimes lead to her being overly controlling and obsessive. However, these traits also make her a dedicated partner.] is an essential characteristic for you as a [romantic_partner_of_Richard]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Monica is often the one who ensures that the relationship is progressing and is not afraid to confront issues head-on.] is an essential characteristic for you as a [romantic_partner_of_Richard]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you believe that [Despite their age difference and Richard's initial reluctance to commit to marriage and children, Monica's determination and love for Richard are evident throughout their relationship.] is an essential characteristic for you as a [romantic_partner_of_Richard]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Monica and Chandler will say \"I love you\" to each other every day] as a habit/routine as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Monica and Chandler will give each other a homemade, thoughtful gift for their anniversaries, rather than buying expensive items.] as a habit/routine as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Monica is known for her obsession with cleanliness and order. She is often seen cleaning her apartment. She has a specific place for everything and gets upset if things are out of order. She is also known for her habit of re-cleaning after someone else has cleaned because she believes no one else can clean as well as she can. She categorizes her towels into 11 precise categories, including \"everyday use\", \"fancy\", \"guest\", \"fancy guest\", \"fancy guest with fringe\", \"everyday white\", \"guest white\", \"fancy white\", \"fancy guest white\", \"guest fancy white\", and \"guest fancy white with fringe\".] as a habit/routine as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Monica often cooks for her family, and she takes great pride in her culinary skills.] as a habit/routine as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Monica enjoys staying fit and is often seen working out. She goes to the gym / jogs daily.] as a habit/routine as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Monica loves to organize things. Whether it's her apartment, her job, or a party, she always wants everything to be perfect and well-organized.] as a habit/routine as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Rachel loves shopping and fashion, often dragging Monica along on her shopping sprees. This is a common activity they engage in together.] as a habit/routine as a [friend_of_Rachel_Greene]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes",
+        "generated_answer_gpt-3.5-turbo-16k": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Monica and Rachel spend a lot of time at Central Perk, the local coffee shop. This is a key part of their daily routine.] as a habit/routine as a [friend_of_Rachel_Greene]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Monica and Rachel often discuss their love lives with each other and provide advice and support.] as a habit/routine as a [friend_of_Rachel_Greene]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Richard has a habit of smoking cigars, which is not particularly liked by Monica but she tolerates it because of her love for him.] as a habit/routine as a [romantic_partner_of_Richard]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes"
+    },
+    {
+        "question": "Do you engage in the [Given Richard's profession, there are occasional jokes and discussions about eye care and glasses.] as a habit/routine as a [romantic_partner_of_Richard]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes"
+    },
+    {
+        "question": "Is [Monica and Chandler want to maintain their relationship and build a family together. They face several obstacles, including infertility, but they eventually adopt twins and move to the suburbs to raise their family.] one of the Monica and Chandler want to maintain their relationship and build a family together. They face several obstacles, including infertility, but they eventually adopt twins and move to the suburbs to raise their family.s or plans you have for your future as a [family_member]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes"
+    },
+    {
+        "question": "Is [Initially, Monica's goal is to keep their relationship secret from her parents due to Richard being a close family friend.] one of the Initially, Monica's goal is to keep their relationship secret from her parents due to Richard being a close family friend.s or plans you have for your future as a [romantic_partner_of_Richard]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes"
+    },
+    {
+        "question": "Is [Later, their goals diverge which leads to their breakup. Monica wants marriage and children, while Richard, who is already a father and has been through a divorce, does not want to start a new family.] one of the Later, their goals diverge which leads to their breakup. Monica wants marriage and children, while Richard, who is already a father and has been through a divorce, does not want to start a new family.s or plans you have for your future as a [romantic_partner_of_Richard]?<choose from: Yes;No;I don't know>",
+        "gold_answer": "Yes",
+        "generated_answer_gpt-4": "Yes"
+    }
+]
