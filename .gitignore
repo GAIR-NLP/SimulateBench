@@ -5,4 +5,5 @@
 /config/.secrets.*
 /config/.env
 *.DS_Store
+__pycache__
 ```
