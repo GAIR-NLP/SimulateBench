@@ -16,10 +16,13 @@ from langchain.schema import (
 from langchain.chat_models import ChatAnthropic
 from GPTMan.log.record_cost import record_cost_gpt
 
+import openai
+
+openai.api_base = "http://openai.plms.ai/v1"
+
 MODEL_NAME = settings_system['model_name']
 TEMPERATURE = settings_system['temperature']
 OPENAI_API_KEY = settings_system.OPENAI_API_KEY
-JINACHAT_API_KEY = settings_system.JINACHAT_API_KEY
 
 
 def generate_open_ai_chat_model(model_name=MODEL_NAME, temperature=TEMPERATURE):

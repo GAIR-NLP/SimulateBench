@@ -274,3 +274,5 @@ record_cost.py - 230815 02:34:48 - INFO: cost: 0.0224. prompt tokens:7440(0.003/
 benchmark.py - 230815 02:35:23 - INFO: generating answer into file /home/yxiao/pycharm/character_agent/db/benchmark/monica_v2/profile-roles-non-relation-questionnaire.json
 record_cost.py - 230815 02:35:25 - INFO: cost: 0.0224. prompt tokens:7440(0.003/1k tokens). completion tokens:18(0.004/1k tokens).
 record_cost.py - 230815 02:36:28 - INFO: cost: 0.203. prompt tokens:6750(0.03/1k tokens). completion tokens:9(0.06/1k tokens).
+logger.py - 230819 08:21:25 - INFO: test
+record_cost.py - 230819 08:21:56 - INFO: cost: 0.0104. prompt tokens:42(0.03/1k tokens). completion tokens:152(0.06/1k tokens).

@@ -1,7 +1,7 @@
 from logzero import setup_logger, LogFormatter
 from GPTMan.config.config import settings_system
 
-logging_path = "/GPTMan/db/log/cost.log"
+logging_path = "/home/yxiao2/pycharm/GPTMan/db/log/cost.log"
 formatter = LogFormatter(fmt='%(filename)s - %(asctime)s - %(levelname)s: %(message)s')
 logger = setup_logger(
     logfile=logging_path,

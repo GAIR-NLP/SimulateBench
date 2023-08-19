@@ -10,7 +10,7 @@ NAME = load_name(person_name=PERSON_NAME)
 
 
 class Agent:
-    def __init__(self, person_name,model_name=MODEL_NAME):
+    def __init__(self, person_name, model_name=MODEL_NAME):
         self.chat_model = generate_open_ai_chat_model(model_name=model_name)
         self.chat_history = generate_system_message(person_name=person_name)  # [system,example,human,ai,system,example]
 
@@ -39,8 +39,6 @@ class Agent:
         record_cost_gpt(self.model_name, self.total_tokens_prompt, self.total_tokens_output)
         self.total_tokens_prompt = 0
         self.total_tokens_output = 0
-
-
 
 
 if __name__ == "__main__":
