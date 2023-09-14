@@ -10,7 +10,6 @@ __pycache__
 *.log
 *.log.*
 .idea
-outer_dependcies/*
 outer_dependcies
-/pytests
+pytests
 ```
