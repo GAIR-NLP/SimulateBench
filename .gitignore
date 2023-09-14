@@ -12,5 +12,5 @@ __pycache__
 .idea
 outer_dependcies/*
 outer_dependcies
-pytests
+/pytests
 ```
