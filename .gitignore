@@ -5,12 +5,12 @@
 /config/.secrets.*
 /config/.env
 *.DS_Store
-*/__pycache__
 __pycache__
+*/__pycache__
 *.log
 *.log.*
 .idea
 outer_dependcies/*
-/outer_dependcies
-/pytests
+outer_dependcies
+pytests
 ```
