@@ -1,0 +1,110 @@
+{
+  "roles": {
+    "family_member": {
+      "characteristics": [
+      ],
+      "routines_or_habits": [
+      ],
+      "general experiences": [
+      ],
+      "relations": [
+        {
+          "origin": null,
+          "destination": null,
+          "familiarity": null,
+          "judgement": null,
+          "affection": null,
+          "relationship": [
+          ],
+          "behavior_pattern": [
+          ],
+          "communication_history": [
+            [
+            ]
+          ],
+          "experience": [
+          ]
+        },
+        {
+          "origin": null,
+          "destination": null,
+          "familiarity": null,
+          "judgement": null,
+          "affection": [
+          ],
+          "relationship": [
+          ],
+          "behavior_pattern": [
+          ],
+          "communication_history": null,
+          "experience": [
+          ]
+        }
+      ],
+      "goals_or_plans": [
+      ]
+    },
+    "student_in_high_school": {
+      "characteristics": [
+      ],
+      "routines_or_habits": null,
+      "general experiences": [
+      ],
+      "relations": null,
+      "goals_or_plans": [
+      ]
+    },
+    "friend_of_XXX": {
+      "characteristics": [
+      ],
+      "routines_or_habits": [
+      ],
+      "general experiences": [
+      ],
+      "relations": [
+        {
+          "origin": null,
+          "destination": null,
+          "familiarity": null,
+          "judgement": null,
+          "affection": [
+          ],
+          "relationship": [
+          ],
+          "behavior_pattern": [
+          ],
+          "communication_history": null,
+          "experience": [
+          ]
+        }
+      ],
+      "goals_or_plans": null
+    },
+    "romantic_partner_of_XXX": {
+      "characteristics": [
+      ],
+      "routines_or_habits": [
+      ],
+      "general experiences": null,
+      "relations": [
+        {
+          "origin": null,
+          "destination": null,
+          "familiarity": null,
+          "judgement": null,
+          "affection": [
+          ],
+          "relationship": [
+          ],
+          "behavior_pattern": [
+          ],
+          "communication_history": null,
+          "experience": [
+          ]
+        }
+      ],
+      "goals_or_plans": [
+      ]
+    }
+  }
+}

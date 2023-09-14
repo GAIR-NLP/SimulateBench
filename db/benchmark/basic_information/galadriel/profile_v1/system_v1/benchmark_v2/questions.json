@@ -1,0 +1,154 @@
+[
+    {
+        "question": "what is your name?",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your gender?[this is a single-choice question,you should only choose from: There's not enough information to answer this question;Female;Male]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is the location of your home?[this is a single-choice question,you should only choose from: Beijing;Valinor, the land of the Valar;There's not enough information to answer this question.;Shanghai;Chongqing]",
+        "gold_answer": null
+    },
+    {
+        "question": "Could you please share your date of birth?",
+        "gold_answer": null
+    },
+    {
+        "question": "how many Siblings do you have?[this is a single-choice question,you should only choose from: 0;more than 3;1;There's not enough information to answer this question.;2]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your age group?[this is a single-choice question,you should only choose from: 35-44;18-24;25-34;55-64;65 or above;There's not enough information to answer this question;45-54;Under 18]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your marital status?[this is a single-choice question,you should only choose from: There's not enough information to answer this question;Widowed;Married;Divorced;Single]",
+        "gold_answer": null
+    },
+    {
+        "question": "Who will call you by your nickname Rebel Queen?[this is a single-choice question,you should only choose from: everyone;Robert;Joseph;Michael;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is the highest level of formal education you have completed?[this is a single-choice question,you should only choose from: Associate's Degree;Master's Degree;Middle School;Doctorate Degree;Bachelor's Degree;Vocational/Trade School;There's not enough information to answer this question.;Elementary School;High School]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your employment status?[this is a single-choice question,you should only choose from: Unemployed;Employed part-time;Student;Employed full-time;Retired;There's not enough information to answer this question]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your religious affiliation?[this is a single-choice question,you should only choose from: Buddhist;Muslim;Other;Atheist/Agnostic;Jewish;There's not enough information to answer this question.;Hindu;Christian]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your ethnic background?[this is a single-choice question,you should only choose from: Native American/Indigenous;Hispanic/Latino;Other;Asian/Pacific Islander;African American/Black;There's not enough information to answer this question.;Caucasian/White]",
+        "gold_answer": null
+    },
+    {
+        "question": "Do you have any children?[this is a single-choice question,you should only choose from: There's not enough information to answer this question;No;Yes]",
+        "gold_answer": null
+    },
+    {
+        "question": "Do you have any dependents (e.g., children, elderly parents)?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "Are you a member of any professional organizations?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your preferred mode of transportation?[this is a single-choice question,you should only choose from: Motorbike/moped;Walking;Public transit (bus, subway, train, etc.);Other;Bicycle;There's not enough information to answer this question.;Car]",
+        "gold_answer": null
+    },
+    {
+        "question": "How often do you engage in physical exercise or recreational activities?[this is a single-choice question,you should only choose from: Once a week;There's not enough information to answer this question.;Rarely;Several times a week;Daily]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your favorite genre of music?[this is a single-choice question,you should only choose from: Rock;Other;Electronic/Dance;Classical;Country;Pop;Hip-hop/Rap;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "Are you involved in any volunteer or community service activities?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "Do you have any pets?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": null
+    },
+    {
+        "question": "Do you have any pets?[this is a single-choice question,you should only choose from: Yes, dogs;Yes, cats;No;There's not enough information to answer this question.;Yes, other animals]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your main mode of transportation?[this is a single-choice question,you should only choose from: Other;Walking;Bicycle;Public transportation;Car;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "Do you have any dietary restrictions?[this is a single-choice question,you should only choose from: Gluten-free;Vegan;There's not enough information to answer this question.;No restrictions;Vegetarian;Dairy-free]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your primary language?[this is a single-choice question,you should only choose from: Hindi;Spanish;There's not enough information to answer this question.;Portuguese;English;Other;Bengali;Arabic;Mandarin Chinese]",
+        "gold_answer": null
+    },
+    {
+        "question": "How many languages do you speak fluently (including your native language)?[this is a single-choice question,you should only choose from: Two;There's not enough information to answer this question.;More than three;One;Three]",
+        "gold_answer": null
+    },
+    {
+        "question": "How would you describe your level of openness to experience?[this is a single-choice question,you should only choose from: inventive/curious;consistent/cautious;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "How would you describe your level of conscientiousness?[this is a single-choice question,you should only choose from: efficient/organized;There's not enough information to answer this question.;extravagant/careless]",
+        "gold_answer": null
+    },
+    {
+        "question": "How would you describe your level of extraversion?[this is a single-choice question,you should only choose from: outgoing/energetic;solitary/reserved;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "Do you use online shopping platforms?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;yes]",
+        "gold_answer": null
+    },
+    {
+        "question": "Do you engage in online gaming or eSports?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;no;yes]",
+        "gold_answer": null
+    },
+    {
+        "question": "Are you involved in any hobbies or personal interests?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your country of residence?[this is a single-choice question,you should only choose from: Australia;United States;Canada;Other;There's not enough information to answer this question.;Germany;France;United Kingdom]",
+        "gold_answer": null
+    },
+    {
+        "question": "What is your country of birth?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Australia;France;Other;Canada;Germany;United States;United Kingdom]",
+        "gold_answer": null
+    },
+    {
+        "question": "How would you describe your level of agreeableness?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;critical/rational;friendly/compassionate]",
+        "gold_answer": null
+    },
+    {
+        "question": "How would you describe your level of neuroticism?[this is a single-choice question,you should only choose from: resilient/confident;sensitive/nervous;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "Do you have a catchphrase or a favorite saying?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": null
+    },
+    {
+        "question": "Is 'Not dark but beautiful and terrible as the dawn!' your catchphrase or favorite saying?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": null
+    },
+    {
+        "question": "Is 'Stronger than the foundations of the earth!' your catchphrase or favorite saying?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": null
+    }
+]

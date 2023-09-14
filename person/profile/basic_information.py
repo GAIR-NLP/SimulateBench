@@ -2,9 +2,9 @@ import json
 from dataclasses import dataclass
 from typing import List, Union
 from datetime import datetime
-from GPTMan.person.profile.base_data_class import Person, DescriptionAndExamples, Descriptions,  \
+from person.profile.base_data_class import Person, DescriptionAndExamples, Descriptions,  \
     load_description_and_examples, load_descriptions_variant, load_person_files
-from GPTMan.util.format_json import delete_none
+from util.format_json import delete_none
 
 
 @dataclass
@@ -80,6 +80,7 @@ def load_basic_information(person_name: str = "monica", pure_str: bool = True) -
     :return: the basic information objects
     """
     json_file = load_person_files(person_name)['basic_information_path']
+
     with open(json_file, 'r') as f:
         data_ = json.load(f)
 

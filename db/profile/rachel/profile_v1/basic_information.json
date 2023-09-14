@@ -1,0 +1,123 @@
+{
+  "basic_information": {
+    "name": "Rachel Greene",
+    "gender": "Female",
+    "home": "New York City, USA",
+    "nicknames": [
+      {
+        "nickname": "Rach",
+        "people_use_the_name_exact": "Friends and family",
+        "people_use_the_name_range": [
+
+        ]
+      }
+    ],
+    "date_of_birth": "May 5, 1970",
+    "education": [
+      "Lincoln High School(formerly/graduated)",
+      "Mount Holyoke College(formerly/graduated)"
+    ],
+    "race": "Caucasian",
+    "personality": [
+      {
+        "description": [
+          "Vain"
+        ],
+        "examples": [
+          "There were times when it was clear that Rachel knew she was attractive and stylish, though, as she could be a bit vain. This was taken further by the fact that she had a spoiled upbringing, making her a bit entitled and selfish, too."
+        ]
+      },
+      {
+        "description": [
+          "Caring"
+        ],
+        "examples": [
+          "Rachel will put her compassion for others . She would help those in need, lend a helping hand and do what she could to spread cheer, happiness, and sunshine to one and all."
+        ]
+      },
+      {
+        "description": [
+          "Deceitful"
+        ],
+        "examples": [
+          "Despite how cute and kind Rachel is, she lied on more than one occasion! For instance, in court, she said that Ross was unstable and had a drug problem. Another time, she tried to use her cunning ways so that Phoebe would mess up Julie's haircut. And when her own sister, Jill, faked tears, she called her sibling out, saying that the inventor could not be fooled by such trickery. "
+        ]
+      },
+      {
+        "description": [
+          "Fun"
+        ],
+        "examples": [
+          "Days spent shopping, talking about boys, and sipping caffeinated beverages at Central Perk would be a blast with this fan-favorite chick!"
+        ]
+      },
+      {
+        "description": [
+          "Spoiled"
+        ],
+        "examples": [
+          "Leonard and Sandra Greene spoiled all three of their daughters, Rachel, Jill and Amy, giving them everything money could buy. These three were also very nice to look at and intriguing overall, making them quite popular. All of this went to Rachel’s head a bit, as she was, as mentioned, a bit spoiled. And while she did get better in this area, she was never first in line to help out with chores around the apartment. "
+        ]
+      },
+      {
+        "description": [
+          "Loyal"
+        ],
+        "examples": [
+          "There were so many ups and downs, but through it all, she were loyal. Plus, when it came to romantic relationships, Rachel knew never to give up on true love, even if there were other significant others and breaks/non-breaks."
+        ]
+      },
+      {
+        "description": [
+          "Irresponsible"
+        ],
+        "examples": [
+          "She had trouble admitting when she was wrong and taking the fall for her mistakes. Three examples centered around her life with Ross. First, she said he made the first move on the night that they conceived their daughter, though it was really her. Then, she said it was Ross’ fault that they ended up getting married in Las Vegas, though it was really her idea. And she also tried to blame him for all the bumps in the road on their relationship, even though they both made mistakes. "
+        ]
+      },
+      {
+        "description": [
+          "Witty"
+        ],
+        "examples": [
+          "She was quick-witted and could be sarcastic, making for some funny, memorable, and snappy remarks and comebacks! So she goes to show that there is far more to a person than a nice face and outfit."
+        ]
+      },{
+        "description": [
+        ],
+        "examples": [
+        ]
+      }
+    ],
+    "habits": [
+      {
+        "description": [
+          "Drinking coffee at Central Perk"
+
+        ],
+        "examples": [
+          "She spends a lot of time at Central Perk with her friends"
+
+        ]
+      },
+      {
+        "description": [
+          "Shopping"
+        ],
+        "examples": [
+           "She loves shopping and has a lot of clothes"
+        ]
+      }
+    ],
+    "catchphrase": [
+      "No Uterus, No Opinion!",
+      "It IS a big deal!"
+    ],
+    "impression": [
+      "Rachel is seen as a fashion icon and is known for her great sense of style. She is also known for her on-again, off-again relationship with Ross."
+    ],
+    "general description": [
+      "Rachel Greene starts off as a spoiled, dependent woman but gradually evolves into an independent professional woman."
+    ]
+  }
+}

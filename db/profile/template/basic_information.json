@@ -1,0 +1,99 @@
+{
+  "basic_information": {
+    "name": null,
+    "gender": null,
+    "home": null,
+    "nicknames": [
+      {
+        "nickname": null,
+        "people_use_the_name_exact": null,
+        "people_use_the_name_range": [
+
+        ]
+      },
+      {
+        "nickname": null,
+        "people_use_the_name_exact": null,
+        "people_use_the_name_range": [
+
+        ]
+      },
+      {
+        "nickname": null,
+        "people_use_the_name_exact": [
+
+        ],
+        "people_use_the_name_range": null
+      },
+      {
+        "nickname": null,
+        "people_use_the_name_exact": [
+
+        ],
+        "people_use_the_name_range": null
+      }
+    ],
+    "date_of_birth":null,
+    "education": [
+
+    ],
+    "race": null,
+    "personality": [
+      {
+        "description": [
+
+        ],
+        "examples": [
+
+        ]
+      },
+      {
+        "description": [
+
+        ],
+        "examples": [
+
+        ]
+      },
+      {
+        "description": [
+
+        ],
+        "examples": [
+
+        ]
+      },
+      {
+        "description": [
+
+        ],
+        "examples": []
+      }
+    ],
+    "habits": [
+      {
+        "description": [
+
+        ],
+        "examples": []
+      },
+      {
+        "description": [
+
+        ],
+        "examples": [
+
+        ]
+      }
+    ],
+    "catchphrase": [
+
+    ],
+    "impression": [
+
+    ],
+    "general description": [
+      
+    ]
+  }
+}

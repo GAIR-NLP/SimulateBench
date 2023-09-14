@@ -1,0 +1,67 @@
+{
+  "basic_information": {
+    "name": "Galadriel",
+    "gender": "female",
+    "home": "Valinor, the land of the Valar",
+    "nicknames": [
+      {
+        "nickname": "Rebel Queen",
+        "people_use_the_name_exact": null,
+        "people_use_the_name_range": [
+          "everyone"
+        ]
+      }
+    ],
+    "date_of_birth": null,
+    "education": [
+    ],
+    "race": null,
+    "personality": [
+      {
+        "description": [
+          "Galadriel is ambitious."
+        ],
+        "examples": [
+          "Galadriel is not satisfied with living in the shadows of other elves, such as Gil-galad, the high king of the Ñoldor, or Celebrimbor, the master smith who forged the rings of power. She wants to learn more about the secrets of Middle-earth and the power of the rings, and to shape the world according to her vision. She is not afraid to challenge or disobey authority, even if it means making enemies or breaking rules"
+        ]
+      },
+      {
+        "description": [
+          "Galadriel is very courageous. Even after Sauron has supposedly disappeared, she believes he is still out there."
+        ],
+        "examples": [
+          "Galadriel has a thirst for knowledge and adventure. She is fascinated by the history, culture, and magic of Middle-earth, and seeks to explore its wonders and mysteries. She is also interested in other races, such as men, dwarves, hobbits, and dragons. She forms a close friendship with Elendil, the king of Númenor, a human kingdom that was corrupted by Sauron and destroyed by the Valar."
+        ]
+      },
+      {
+        "description": [
+          "Galadriel is revengeful."
+        ],
+        "examples": [
+          "Galadriel participated in the rebellion of the Ñoldor and their flight from Valinor to Middle-earth, following Fëanor’s oath to recover the Silmarils from Morgoth, the Dark Lord who destroyed her homeland. She also lost her brother Finrod in the war against Morgoth, and swore to avenge him. She is determined to hunt down and destroy Morgoth and his servants, even if it means risking her own life and happiness"
+        ]
+      }
+    ],
+    "habits": [
+      {
+        "description": [
+          "Galadriel has a habit of training regularly to maintain and improve her combat skills, as well as to prepare for any possible threats or challenges."
+        ],
+        "examples": [
+          "Galadriel is a skilled and fearless warrior, who picks up a sword by choice and refuses to put it down until her work is done. She fights alongside her husband Celeborn, a Sindarin prince, and other elves against Sauron’s army of orcs and corrupted men. She also faces conflicts with other elves, such as Gil-galad and Celebrimbor. She is clad in a suit of armor and wields a sword named Anguirel"
+        ]
+      }
+    ],
+    "catchphrase": [
+      "Not dark but beautiful and terrible as the dawn!",
+      "Stronger than the foundations of the earth!"
+    ],
+    "impression": [
+    ],
+    "general description": [
+      "Galadriel want to secure Middle-earth from Sauron and kill Sauron (both ongoing).",
+      "Galadriel is a young and fearless elf, who is driven by a desire for revenge against Morgoth, the Dark Lord who destroyed her homeland in Valinor.",
+      "Galadriel is a vengeful fighter"
+    ]
+  }
+}

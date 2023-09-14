@@ -1,9 +1,9 @@
 {
   "logging_path": "/home/yxiao2/pycharm/GPTMan/db/log/cost.log",
   "monica": {
-    "profile_path": "/home/yxiao2/pycharm/GPTMan/db/profile/monica/profile.json",
-    "basic_information_path": "/home/yxiao2/pycharm/GPTMan/db/profile/monica/basic_information.json",
-    "roles_path": "/home/yxiao2/pycharm/GPTMan/db/profile/monica/roles.json",
+    "profile_path": "/home/yxiao2/pycharm/GPTMan/db/profile/monica/profile_v1/profile.json",
+    "basic_information_path": "/home/yxiao2/pycharm/GPTMan/db/profile/monica/profile_v1/basic_information.json",
+    "roles_path": "/home/yxiao2/pycharm/GPTMan/db/profile/monica/profile_v1/roles.json",
     "examples_path": "/home/yxiao2/pycharm/GPTMan/db/template/monica/examples_and_requirements/anthropomorphize.json"
   }
 }

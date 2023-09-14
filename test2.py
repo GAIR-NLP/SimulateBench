@@ -1,5 +1,5 @@
 import openai
-from GPTMan.config.config import settings_system
+from config.config import settings_system
 openai.api_key = settings_system['OPENAI_API_KEY']  # supply your API key however you choose
 openai.api_base = "http://openai.plms.ai/v1"
 print('startssss')

@@ -1,6 +1,6 @@
 import json
 
-from GPTMan.config.config import settings_system
+from config.config import settings_system
 
 
 def delete_none(_dict):
@@ -48,4 +48,5 @@ def delete_():
 
 
 if __name__ == '__main__':
-    delete_()
+    #delete_()
+    pass

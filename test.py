@@ -20,14 +20,14 @@ print(type(t))'''
 
 print('te')"""
 
-import torch
+"""import torch
 import transformers
 
 "print(transformers.__version__)"
 # Use a pipeline as a high-level helper
 from transformers import pipeline
 
-from transformers import AutoTokenizer, LlamaForCausalLM
+from transformers import AutoTokenizer, LlamaForCausalLM"""
 
 """model = LlamaForCausalLM.from_pretrained(PATH_TO_CONVERTED_WEIGHTS)
 tokenizer = AutoTokenizer.from_pretrained(PATH_TO_CONVERTED_TOKENIZER)
@@ -48,5 +48,24 @@ classifier(
     candidate_labels=["urgent", "not urgent", "phone", "tablet", "computer"],
 )
 """
-user=input("what is your name?")
-print("hello"+user)
+"""user=input("what is your name?")
+print("hello"+user)"""
+""""import sys
+ 
+# importing sys.path
+print(sys.path)
+
+from benchmark.benchmark import Benchmark
+
+benchmark=Benchmark()"""
+"""from person.action.brain.system1.chat_template import generate_system_message, generate_human_message
+from config.config import settings_system
+
+from person.action.brain.system1.chat_template import generate_system_message, generate_human_message
+
+user = input("please input:")
+print(user)"""
+import sys
+
+print(sys.path)
+

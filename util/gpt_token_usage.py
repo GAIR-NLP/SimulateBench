@@ -1,6 +1,6 @@
 import tiktoken
-from GPTMan.config.config import settings_system
-import sys
+from config.config import settings_system
+from person.action.system_setting.system1.chat_template import generate_system_message
 
 
 def num_tokens_from_chat_messages(messages: list, model="gpt-4-0314") -> int:
@@ -54,5 +54,6 @@ def add(a: int, b: int) -> int:
 
 
 if __name__ == '__main__':
-    print(sys.path)
-
+    content = generate_system_message('monica')[0].content
+    messages = [{"message": content, "name": "monica"}]
+    print(num_tokens_from_chat_messages(messages=messages))

@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 from typing import List, Union
-from GPTMan.person.profile.basic_information import BasicInformation, load_basic_information
-from GPTMan.person.profile.role import SocialPersona, load_social_personas
-from GPTMan.person.profile.base_data_class import load_person_files
+from person.profile.basic_information import BasicInformation, load_basic_information
+from person.profile.role import SocialPersona, load_social_personas
+from person.profile.base_data_class import load_person_files
 import json
-from GPTMan.util.format_json import delete_none
+from util.format_json import delete_none
 
 
 @dataclass

@@ -35,6 +35,8 @@
     {
       "requirement": "You have your own emotions and you should express your emotions in your response. And your response should reflect your emotions.",
       "__comments": "解决问题--生硬，缺乏情感"
+    },{
+      "requirement": "Speak exactly like {person_name}. Your answer should copy the style of {person_name}, both the writing style and words you use."
     }
   ]
 }

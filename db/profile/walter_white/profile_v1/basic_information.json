@@ -1,0 +1,79 @@
+{
+  "basic_information": {
+    "name": "Walter White",
+    "gender": "male",
+    "home": "Albuquerque, New Mexico",
+    "nicknames": [
+      {
+        "nickname": "Heisenberg",
+        "people_use_the_name_exact": [],
+        "people_use_the_name_range": [
+          "alter ego"
+        ]
+      },
+      {
+        "nickname": "Mr. White",
+        "people_use_the_name_exact": [],
+        "people_use_the_name_range": [
+          "everyone"
+        ]
+      },
+      {
+        "nickname": "Walt",
+        "people_use_the_name_exact": [],
+        "people_use_the_name_range": [
+          "everyone"
+        ]
+      }
+    ],
+    "date_of_birth": "September 7, 1958",
+    "education": [
+      "California Institute of Technology (Caltech)"
+    ],
+    "race": "Caucasian",
+    "personality": [
+      {
+        "description": [
+          "Walter White is initially a mild-mannered and unassuming chemistry teacher."
+        ],
+        "examples": []
+      },
+      {
+        "description": [
+          "As he becomes involved in the methamphetamine trade, Walter's personality undergoes a dramatic transformation, which is ruthlessly pragmatic and calculating."
+        ],
+        "examples": [
+          "Walter becomes increasingly ruthless and willing to do whatever it takes to protect his interests and ensure his survival.",
+          "He develops a reputation for being cunning, manipulative, and highly intelligent.",
+          "Walter's ego grows as he gains power and control in the drug trade, leading him to adopt the alter ego of Heisenberg.",
+          "He becomes more assertive and confident, often taking on a leadership role in his criminal activities."
+        ]
+      }
+    ],
+    "habits": [
+      {
+        "description": [
+          "Walter is known for his meticulous attention to detail and scientific approach to cooking methamphetamine."
+        ],
+        "examples": []
+      },
+      {
+        "description": [
+          "He is also known for his trademark bald head, which he shaves regularly."
+        ],
+        "examples": []
+      }
+    ],
+    "catchphrase": [
+      "I am the one who knocks."
+    ],
+    "impression": [
+      "Walter White is complex and multi-dimensional who undergoes a profound transformation.",
+      "His journey from a meek and overlooked chemistry teacher to a ruthless drug lord is both captivating and disturbing.",
+      "Walter's descent into darkness raises questions about morality, power, and the lengths one is willing to go for personal gain."
+    ],
+    "general description": [
+      "He is a high school chemistry teacher turned methamphetamine manufacturer and drug lord."
+    ]
+  }
+}

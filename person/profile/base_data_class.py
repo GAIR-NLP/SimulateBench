@@ -1,7 +1,9 @@
 from dataclasses import dataclass
 from typing import List, Union
 from datetime import datetime
-from GPTMan.config.config import settings_system
+from config.config import settings_system
+
+ROOT_PATH = "/home/yxiao2/pycharm/GPTMan/db"
 
 
 def load_person_files(person_name: str):
@@ -10,12 +12,16 @@ def load_person_files(person_name: str):
     :param person_name:
     :return:
     """
+    # profile_path = f"{ROOT_PATH}/db/profile/{person_name}/profile_v1/profile.json",
+    basic_information_path = f"{ROOT_PATH}/profile/{person_name}/profile_v1/basic_information.json"
+    roles_path = f"{ROOT_PATH}/profile/{person_name}/profile_v1/roles.json"
+    examples_path = f"{ROOT_PATH}/template/{person_name}/examples_and_requirements/anthropomorphize.json"
 
     return {
-        'profile_path': settings_system[person_name]['profile_path'],
-        'basic_information_path': settings_system[person_name]['basic_information_path'],
-        'roles_path': settings_system[person_name]['roles_path'],
-        'examples_path': settings_system[person_name]['examples_path']
+
+        'basic_information_path': basic_information_path,
+        'roles_path': roles_path,
+        'examples_path': examples_path
     }
 
 

@@ -1,28 +1,46 @@
-from GPTMan.person.action.brain.template.chat_template import generate_system_message, generate_human_message
-from GPTMan.person.action.brain.chat_model import generate_open_ai_chat_model
-from GPTMan.person.profile.profile import load_name
-from GPTMan.person.action.brain.chat_model import MODEL_NAME
-from GPTMan.log.record_cost import record_cost_gpt
+from person.action.system_setting.system1.chat_template import generate_system_message, generate_human_message
+from person.action.brain.chat_model import generate_open_ai_chat_model
+from person.profile.profile import load_name
+from person.action.brain.chat_model import MODEL_NAME
+from log.record_cost import record_cost_gpt
 
 PERSON_NAME = "monica"
 CHAT_HISTORY = generate_system_message(person_name=PERSON_NAME)  # [system,example,human,ai,system,example]
 NAME = load_name(person_name=PERSON_NAME)
 
 
-class Agent:
-    def __init__(self, person_name, model_name=MODEL_NAME):
-        self.chat_model = generate_open_ai_chat_model(model_name=model_name)
-        self.chat_history = generate_system_message(person_name=person_name)  # [system,example,human,ai,system,example]
-
+class BaseAgent:
+    def __init__(self, person_name, model, model_name, profile_version, system_version):
+        self.chat_model = model
         self.person_name = person_name
         self.name = load_name(person_name=person_name)
+        self.model_name = model_name
+
+        # profile version and system version, in case of the profile and system change
+        self.profile_version = profile_version
+        self.system_version = system_version
+
+        self.chat_history = []
+
+    def run(self, user_input: str):
+        pass
+
+    def clear(self):
+        pass
+
+
+class Agent(BaseAgent):
+    def __init__(self, person_name, profile_version, system_version,model_name=MODEL_NAME):
+        model = generate_open_ai_chat_model(model_name=model_name)
+        super().__init__(person_name=person_name, model=model, model_name=model_name,
+                         profile_version=profile_version, system_version=system_version)
+
+        self.chat_history = generate_system_message(person_name=person_name)  # [system,example,human,ai,system,example]
 
         self.total_tokens_prompt = 0
         self.total_tokens_output = 0
 
-        self.model_name = model_name
-
-    def run(self, user_input):
+    def run(self, user_input: str):
         user_message = generate_human_message(user_input)
         self.chat_history.extend(user_message)
         results = self.chat_model.generate([self.chat_history])
@@ -34,7 +52,7 @@ class Agent:
 
         return results.generations[0][0].text
 
-    def clear_message(self):
+    def clear(self):
         self.chat_history = generate_system_message(person_name=self.person_name)
         record_cost_gpt(self.model_name, self.total_tokens_prompt, self.total_tokens_output)
         self.total_tokens_prompt = 0
@@ -44,14 +62,14 @@ class Agent:
 if __name__ == "__main__":
     agent = Agent(person_name=PERSON_NAME)
     print(f"hello, I am {NAME}, what can I do for you? If you want to quit, please input 'quit' or 'q'\n{'-' * 10}")
-    user_input = input("user:")
+    user_input_ = input("user:")
     try:
-        while user_input != 'quit' and user_input != 'q':
-            print(agent.run(user_input))
-            user_input = input("user:\n")
+        while user_input_ != 'quit' and user_input_ != 'q':
+            print(agent.run(user_input_))
+            user_input_ = input("user:\n")
 
     except KeyboardInterrupt:
         print("Program interrupted.")
     finally:
         print("bye")
-        agent.clear_message()
+        agent.clear()

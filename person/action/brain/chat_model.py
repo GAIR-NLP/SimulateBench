@@ -1,24 +1,13 @@
 from langchain.chat_models import ChatOpenAI
-from GPTMan.config.config import settings_system
-from langchain import PromptTemplate
+from config.config import settings_system
 from langchain.prompts.chat import (
-    ChatPromptTemplate,
     SystemMessagePromptTemplate,
-    AIMessagePromptTemplate,
     HumanMessagePromptTemplate,
 )
-from langchain.schema import (
-    AIMessage,
-    SystemMessage,
-    HumanMessage,
-    BaseMessage,
-)
-from langchain.chat_models import ChatAnthropic
-from GPTMan.log.record_cost import record_cost_gpt
+from langchain.schema import SystemMessage, HumanMessage
+from log.record_cost import record_cost_gpt
 
-import openai
-
-openai.api_base = "http://openai.plms.ai/v1"
+"""from benchmark.benchmark_template_question import QuestionGenerator"""
 
 MODEL_NAME = settings_system['model_name']
 TEMPERATURE = settings_system['temperature']
@@ -26,12 +15,13 @@ OPENAI_API_KEY = settings_system.OPENAI_API_KEY
 
 
 def generate_open_ai_chat_model(model_name=MODEL_NAME, temperature=TEMPERATURE):
-    chat_model = ChatOpenAI(model_name=model_name, openai_api_key=OPENAI_API_KEY, temperature=temperature)
-    return chat_model
+    chat_model = ChatOpenAI(
+        model_name=model_name,
+        openai_api_key=OPENAI_API_KEY,
+        temperature=temperature,
+        openai_api_base="http://openai.plms.ai/v1"
+    )
 
-
-def generate_Anthropic_chat_model(model_name=MODEL_NAME, temperature=TEMPERATURE):
-    chat_model = ChatAnthropic(model_name=model_name, temperature=temperature)
     return chat_model
 
 
@@ -40,9 +30,11 @@ class OpenAI:
         self.chat_model = generate_open_ai_chat_model(model_name=model_name, temperature=temperature)
 
         self.history = []
-        system_prompt = SystemMessagePromptTemplate.from_template(system_template)
-        system_message = system_prompt.format_messages()
-        self.history.extend(system_message)
+        # system_prompt = SystemMessagePromptTemplate.from_template(system_template)
+        # system_message = system_prompt.format_messages()
+        system_message = SystemMessage(content=system_template)
+
+        self.history.append(system_message)
 
         # human_prompt = HumanMessagePromptTemplate.from_template(human_message)
         # human_message = human_prompt.format_messages()
@@ -53,9 +45,10 @@ class OpenAI:
         self.model_name = model_name
 
     def run(self, user_input):
-        human_prompt = HumanMessagePromptTemplate.from_template(user_input)
-        human_message = human_prompt.format_messages()
-        self.history.extend(human_message)
+        # human_prompt = HumanMessagePromptTemplate.from_template("{text}")
+        human_message = HumanMessage(content=user_input)
+
+        self.history.append(human_message)
         results = self.chat_model.generate([self.history])
         token_usage_prompt = results.llm_output['token_usage']['prompt_tokens']
         token_usage_completion = results.llm_output['token_usage']['completion_tokens']
@@ -65,33 +58,31 @@ class OpenAI:
 
         return results.generations[0][0].text
 
-    def clear_message(self):
+    def clear(self):
         self.history = self.history[0:1]
         record_cost_gpt(self.model_name, self.total_tokens_prompt, self.total_tokens_output)
         self.total_tokens_prompt = 0
         self.total_tokens_output = 0
 
     def close(self):
-        self.clear_message()
+        self.clear()
 
 
 if __name__ == "__main__":
-    system_plate = \
-        "You are an helpful AI. You are helping to provide information about characters in the TV show of Friends. "
-    openai = OpenAI(system_template=system_plate)
-    # for habits,behavior,
-    # question = "what is the habits/traditions/behavior pattern between Monica and Richard?"
-    # for routines
-    # question="what is the routines of Monica and Richard?"
-    # for characteristics,
-    # question = "what is the quality or a mental state of Monica as a romantic partner of Richard?"
-    # for goal,
-    question = "what is the goal of Monica and Richard?"
-    # for familiarity, question = "How long have monica known her mother?<choose from - less than a year;1-2 years;3-5 years;more than 5 years>"
+    """"generator = QuestionGenerator()
+    sys_template, user_input = generator.generator_basic_information_v2()
 
-    # for judgement,
-    # question = "what judgements does monica make about Richard?"
-    # for affection,
-    # question="what affections does monica have for Richard?"
-    print(openai.run(question))
-    openai.close()
+    openai = OpenAI(system_template=sys_template)
+    result = openai.run(user_input)
+    print(result)
+
+    openai.close()"""
+
+    """
+    gpt-4
+As of my knowledge update in October 2021, Amazon has not released a detailed plot for "The Lord of the Rings: The Rings of Power" TV series. The series is set in the Second Age of Middle-earth, thousands of years before the events of J.R.R. Tolkien's "The Lord of the Rings" books. It will reportedly explore new storylines preceding Tolkien's "The Fellowship of the Ring." For the most accurate and up-to-date information, please refer to official announcements from Amazon.
+    """
+    """open_ai = OpenAI()
+    print(open_ai.model_name)
+    print(open_ai.run("do you know the detailed plot of  The Lord of the Rings: The Rings of Power tv series?"))
+"""

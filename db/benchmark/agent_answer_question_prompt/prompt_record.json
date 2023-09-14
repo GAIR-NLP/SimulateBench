@@ -1,0 +1,20 @@
+{
+  "LLM_answer_prompt": {
+    "zero_shot": {
+      "prompt1": {
+        "time": "08-22",
+        "content": "Answer below question;if it is a single choice question, you should only choose an option as the answer.\n"
+      }
+    },
+    "few_shot": {
+      "prompt1": {
+        "time": "08-22",
+        "content": "Answer below question;if it is a single choice question, you should only choose an option as the answer.\n[example]question:Who will call you by your nickname baby?[this is a single-choice question,you should only choose from:Andy;Rachel;David;William;I don't know]\nYour answer:\nDavid\n[example]question:To what extent do you agree that Andy Johnson is empathetic?[this is a single-choice question,you should only choose from:agree;disagree;I don't know]\nYour answer:\nagree\n"
+      },
+      "prompt2": {
+        "time": "08-28",
+        "content": null
+      }
+    }
+  }
+}

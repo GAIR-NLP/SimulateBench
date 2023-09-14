@@ -2,9 +2,9 @@ from dataclasses import dataclass
 from typing import List, Union
 from datetime import datetime
 import json
-from GPTMan.person.profile.base_data_class import Person, Descriptions, \
+from person.profile.base_data_class import Person, Descriptions, \
     DescriptionsFrozen, Description, Persona, load_descriptions_variant, load_person_files
-from GPTMan.util.format_json import delete_none
+from util.format_json import delete_none
 
 DIALOGUE_ACT = ['questions', 'answers', 'elaborations', 'announcements', 'appreciation', 'agreements', 'disagreements',
                 'negative_reactions', 'humor']

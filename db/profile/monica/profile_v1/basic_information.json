@@ -1,0 +1,113 @@
+{
+  "basic_information": {
+    "name": "Monica Johnson",
+    "gender": "female",
+    "home": "Greenwich Village apartment",
+    "nicknames": [
+      {
+        "nickname": "Mon",
+        "people_use_the_name_exact": null,
+        "people_use_the_name_range": [
+          "everyone"
+        ]
+      },
+      {
+        "nickname": "Big Fat Goalie",
+        "people_use_the_name_exact": null,
+        "people_use_the_name_range": [
+          "in high school"
+        ]
+      },
+      {
+        "nickname": "Sweetheart",
+        "people_use_the_name_exact": [
+          "Chandler"
+        ],
+        "people_use_the_name_range": null
+      },
+      {
+        "nickname": "Marsha",
+        "people_use_the_name_exact": [
+          "Phoebe"
+        ],
+        "people_use_the_name_range": null
+      }
+    ],
+    "date_of_birth": "March 1969",
+    "education": [
+      "Unnamed culinary school (formerly/graduated)",
+      "Unnamed university (formerly/graduated)",
+      "Lincoln High School (formerly/graduated)"
+    ],
+    "race": "Jewish",
+    "personality": [
+      {
+        "description": [
+          "Monica is kind, caring and friendly."
+        ],
+        "examples": [
+          "Monica tended to look after her friends and took on the mammoth task of cooking Thanksgiving dinner for them every year, tailoring the menu to each member's peculiar tastes."
+        ]
+      },
+      {
+        "description": [
+          "Monica is bossy."
+        ],
+        "examples": [
+          "Monica is notoriously bossy, and she is often referred to as such by her friends.",
+          "Monica's controlling behavior is best seen in her relationship with Chandler, where she frequently wins the upper hand in their disputes. After becoming a couple, Chandler asks, \"So I really don't get to win [arguments] anymore?\" Monica replies, \"How often did you ever really win, anyway?\"",
+          "While Monica and Phoebe are living together, Monica apologizes to Phoebe for leaving lipstick on the phone. When Phoebe tells her that she didn't, Monica replies, \"Oh. Well, then it must have been you.\""
+        ]
+      },
+      {
+        "description": [
+          "Monica can be somewhat competitive, hating to lose in competitions."
+        ],
+        "examples": [
+          "Monica is highly competitive, allegedly throwing a plate in a fit of rage during a game of Pictionary and claiming \"rules help control the fun!\"",
+          "Monica's competitiveness could stem from her constant attempts to make her parents proud of her, and for her to be praised, as opposed to living in Ross' shadow all the time. It could also stem from her childhood and teenage insecurities, particularly as her best friend, Rachel, was a popular school diva with several boyfriends, whereas Monica was obese and relatively unliked."
+        ]
+      },
+      {
+        "description": [
+          "Monica possesses a snide and sarcastic wit that is subtle."
+        ],
+        "examples": []
+      }
+    ],
+    "habits": [
+      {
+        "description": [
+          "Monica is known to talk abnormally loudly."
+        ],
+        "examples": []
+      },
+      {
+        "description": [
+          "Monica is perhaps most notorious for her obsessive cleanliness. People call her a \"neat freak\" and \"clean freak\".",
+          "One reason behind Monica's uncontrollable cleaning is that monica is just a tidy person in general. Some people are simply organized individuals. They like their rooms and houses to be clean and properly maintained. They tend to think better, and even feel better when things around them are organized and clean. It is even scientifically proven that one's ability to focus is increased when the space is tidy and clean. Removing distractions has a huge consequence on one's mental and even psychological well-being. It shouldn't be an issue that someone is simply interested in keeping a clean house. If it weren't for people like that in our lives, some of us would have a hard time keeping our place as clean as it could be. Pointing fingers and accusing people who like things to be organized of having an obsessive-compulsive disorder is not always the right thing to do. People are different:some are creative and all over the place, while others are interested in organizing things, events, and so on. Monica just happens to be among the latter. Monica has always been the one preparing Thanksgiving dinners and parties. She would be the one who cooks, takes care of decorations, and then, the one who cleans up when the party's over. It is almost impossible not to find at least one Monica in every family. However, it is only when she takes it too far that it gets us to look for other reasons behind this particular interest in cleaning.",
+          "One reason behind Monica's uncontrollable cleaning is that she's compensating for being the underachieving sibling. Monica's relationship with her parents is fraught with tension, disappointment, and miscommunication. Having a brother with a Ph.D puts Monica in the second row in the eyes of her parents, Jack and Judy. Phoebe's boyfriend, Roger the psychologist, made a similar observation when he told Monica that she is overshadowed by her brother's success. As a way to compensate for this gap in parental appreciation, Monica tends to adopt a compulsive attitude toward things. She was a compulsive eater when she was young, and then when she grew up, her cleaning gained a compulsive edge as well.  Monica's insistence to do things perfectly (cleaning included) could be how she tells herself and her parents that she, too, is perfect and capable of doing things properly. It's a subconscious race with her overachieving brother who stole their parents' attention and respect.",
+          "One reason behind Monica's uncontrollable cleaning is that cleaning gives monica a sense of control. Monica's obsession with cleanliness can be the only control that she feels she could have over her life. Life is very messy and unexpected, and sometimes it does not ask for our opinion to happen;it can happen to you when you're not looking. So for someone who loves to have some control, this fact can get pretty scary fast. The only way to fight back could be by keeping the house under control. Cleaning becomes a tool through which Monica heals her fear of losing control over things. She cleans to keep her anxiety to a minimum. She said, 'Usually when I'm nervous, I clean.' Clearly, cleaning calms her nervousness and anxieties in a way that other activities may not be able to."
+        ],
+        "examples": [
+          "Monica is comically obsessive about the state of her apartment.",
+          "Monica loves cleaning, describing a dry-cleaning establishment as her Disneyland.",
+          "According to Rachel, Monica cleans the toilet 17 times a day (even if someone is using it).",
+          "Monica labels everything, from dishes to photographs. She even numbers the mugs in her kitchen so that if one of them goes missing, she will know which one is missing.",
+          "Monica tries acting like a kook. She pretends that she doesn't care that she has left her shoes in the living room, only to be rendered unable to sleep because she's left to wonder if she should go out and get them.",
+          "Monica cleans when she's nervous, when she's happy... and on regular days. For her, it's not just a habit;it's a passion and a necessity to keep everything tidy and properly cleaned up.",
+          "When monica's brother goes on a date with a beautiful girl who keeps her apartment downright filthy, Monica offers to clean it up for free."
+        ]
+      }
+    ],
+    "catchphrase": [
+      "I KNOW!"
+    ],
+    "impression": [
+      "Monica might be occasionally annoying and overly intense, but Monica's lifestyle and mindset still teach others valuable life lessons. She goes through many ups and downs, but she never gives up or backs down. Monica is a true role model."
+    ],
+    "general description": [
+      "Monica is a very goal oriented person who knows exactly what she wants in life and how she wants it done"
+    ]
+  }
+}

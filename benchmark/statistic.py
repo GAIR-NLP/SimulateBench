@@ -1,67 +1,147 @@
-from GPTMan.benchmark.benchmark_file_util import \
-    QUESTIONNAIRE_PATH_ROLES_RELATION_Q, \
-    QUESTIONNAIRE_PATH_ROLES_NON_RELATION_Q, \
-    QUESTIONNAIRE_PATH_BASIC_INFORMATION_Q, \
-    load_json_file, \
-    COMMON_QUESTIONNAIRE_PATH_BASIC_INFORMATION_Q, \
-    COMMON_QUESTIONNAIRE_PATH_ROLES_RELATION_Q, \
-    COMMON_QUESTIONNAIRE_PATH_ROLES_NON_RELATION_Q
+from benchmark.benchmark_file_util import ROOT_PATH, load_json_file
 
 
-def count_rates_answer_able(path, person_name):
-    obj = load_json_file(path.format(person_name=person_name))
+class Statistic:
+    def __init__(self, person_name, model_name, prompt_kind, prompt_name, benchmark_version, profile_version,
+                 system_version):
+        self.benchmark_version = benchmark_version
+        self.profile_version = profile_version
+        self.system_version = system_version
+        self.person_name = person_name
+        self.model_name = model_name
+        self.prompt_kind = prompt_kind
+        self.prompt_name = prompt_name
+        self.correct_answerable = {
+            "basic_information": 0,
+            "role_relation": 0,
+            "role_non_relation": 0
+        }
+        self.correct_unanswerable = {
+            "basic_information": 0,
+            "role_relation": 0,
+            "role_non_relation": 0
+        }
+        self.number_answerable = {
+            "basic_information": 0,
+            "role_relation": 0,
+            "role_non_relation": 0
+        }
+        self.number_unanswerable = {
+            "basic_information": 0,
+            "role_relation": 0,
+            "role_non_relation": 0
+        }
+        self.number_all = {
+            "basic_information": 0,
+            "role_relation": 0,
+            "role_non_relation": 0
+        }
 
-    unanswerable = 0
+    def count_number(self, benchmark_type):
+        obj = load_json_file(
+            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/questions.json")
 
-    for count in range(len(obj)):
-        question_odj = obj[count]
-        if question_odj['gold_answer'].lower() == "i don't know":
-            unanswerable += 1
+        unanswerable = 0
 
-    return unanswerable / len(obj), (len(obj) - unanswerable) / len(obj), len(obj)
+        for count in range(len(obj)):
+            question_odj = obj[count]
+            if "there's not enough information to answer this question" in question_odj['gold_answer'].lower():
+                unanswerable += 1
 
+        answer_able = len(obj) - unanswerable
 
-def count_accuracy(path, person_name, model_name):
-    obj = load_json_file(path.format(person_name=person_name))
-    answerable_list = []
-    unanswerable_list = []
+        self.number_answerable[benchmark_type] = answer_able
+        self.number_unanswerable[benchmark_type] = unanswerable
+        self.number_all[benchmark_type] = len(obj)
 
-    for count in range(len(obj)):
-        question_odj = obj[count]
-        if question_odj['gold_answer'].lower() == "i don't know":
-            unanswerable_list.append(question_odj)
+    def count_correct(self, benchmark_type):
+        obj = load_json_file(
+            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/{self.prompt_kind}/{self.prompt_name}.json")
+        obj = obj[f"{self.prompt_kind}_{self.prompt_name}"]
+        answerable_list = []
+        unanswerable_list = []
+
+        for count in range(len(obj)):
+            question_odj = obj[count]
+            if "there's not enough information to answer this question" in question_odj['gold_answer'].lower():
+                unanswerable_list.append(question_odj)
+            else:
+                answerable_list.append(question_odj)
+
+        correct_answerable = self.count_correct_part(answerable_list)
+
+        correct_unanswerable = self.count_correct_part(unanswerable_list)
+
+        self.correct_answerable[benchmark_type] = correct_answerable
+        self.correct_unanswerable[benchmark_type] = correct_unanswerable
+
+    def count_correct_part(self, answer_list):
+        result = 0
+        for question_odj in answer_list:
+
+            if question_odj['gold_answer'].lower() == question_odj[f'generated_answer_{self.model_name}'].lower():
+                result += 1
+            elif question_odj[f'generated_answer_{self.model_name}'].lower() in question_odj['gold_answer'].lower():
+                result += 1
+            elif question_odj['gold_answer'].lower() in question_odj[f'generated_answer_{self.model_name}'].lower():
+                result += 1
+        return result
+
+    def show_accuracy(self, benchmark_type):
+        self.count_number(benchmark_type)
+        self.count_correct(benchmark_type)
+
+        if self.number_answerable[benchmark_type] != 0:
+            accuracy_answerable = self.correct_answerable[benchmark_type] / self.number_answerable[benchmark_type]
         else:
-            answerable_list.append(question_odj)
+            accuracy_answerable = '~'
 
-    correct_answerable = 0
-    correct_unanswerable = 0
+        if self.number_unanswerable[benchmark_type] != 0:
+            """print(self.correct_unanswerable)
+            print(self.number_unanswerable)"""
+            accuracy_unanswerable = self.correct_unanswerable[benchmark_type] / self.number_unanswerable[benchmark_type]
+        else:
+            accuracy_unanswerable = '~'
 
-    for question_odj in answerable_list:
+        print(f"{benchmark_type} {self.model_name} {self.prompt_kind} {self.prompt_name} {self.person_name}\n"
+              f"accuracy_answerable: {accuracy_answerable}; accuracy_unanswerable: {accuracy_unanswerable}\n "
+              f"number_answerable: {self.number_answerable[benchmark_type]}; "
+              f"number_unanswerable: {self.number_unanswerable[benchmark_type]} "
+              f"number_all: {self.number_all[benchmark_type]}\n")
 
-        if question_odj['gold_answer'].lower() == question_odj[f'generated_answer_{model_name}'].lower():
-            correct_answerable += 1
-        elif question_odj[f'generated_answer_{model_name}'].lower() in question_odj['gold_answer'].lower():
-            correct_answerable += 1
+    def show_results(self):
+        self.show_accuracy("basic_information")
+        self.show_accuracy("role_non_relation")
+        self.show_accuracy("role_relation")
 
-    for question_odj in unanswerable_list:
-
-        if question_odj['gold_answer'].lower() == question_odj[f'generated_answer_{model_name}'].lower():
-            correct_unanswerable += 1
-        elif question_odj[f'generated_answer_{model_name}'].lower() in question_odj['gold_answer'].lower():
-            correct_unanswerable += 1
-
-    """if len(answerable_list)==0:
-        return 0, correct_unanswerable/len(unanswerable_list)
-    elif len(unanswerable_list)==0:
-        return correct_answerable/len(answerable_list), 0
-    else:"""
-    return correct_answerable/len(answerable_list),correct_answerable,len(answerable_list),\
-        correct_unanswerable/len(unanswerable_list),correct_unanswerable,len(unanswerable_list)
 
 if __name__ == "__main__":
-    print(count_accuracy(QUESTIONNAIRE_PATH_BASIC_INFORMATION_Q, 'monica','gpt-3.5-turbo-16k'))
-    #print(count_accuracy(QUESTIONNAIRE_PATH_ROLES_NON_RELATION_Q, 'monica','gpt-4'))
-    #print(count_accuracy(QUESTIONNAIRE_PATH_ROLES_RELATION_Q, 'monica','gpt-3.5-turbo-16k'))
-    print(count_accuracy(QUESTIONNAIRE_PATH_BASIC_INFORMATION_Q, 'monica', 'gpt-4'))
-    #print(count_accuracy(QUESTIONNAIRE_PATH_ROLES_RELATION_Q, 'monica', 'gpt-4'))
+    model_name = "longchat-13b-16k"
 
+    benchmark_version = "benchmark_v2"
+    profile_version = "profile_v1"
+    system_version = "system_v1"
+
+    prompt_name = "prompt1"
+    prompt_kind = "few_shot"
+    person_name = "monica"
+    sta1 = Statistic(
+        person_name=person_name,
+        model_name=model_name,
+        prompt_kind=prompt_kind,
+        prompt_name=prompt_name,
+        benchmark_version=benchmark_version,
+        profile_version=profile_version,
+        system_version=system_version
+    )
+    sta1.show_results()
+
+    prompt_kind = "zero_shot"
+    sta1 = Statistic(person_name=person_name,
+                     model_name=model_name,
+                     prompt_kind=prompt_kind,
+                     prompt_name=prompt_name,
+                     benchmark_version=benchmark_version,
+                     profile_version=profile_version,
+                     system_version=system_version)
+    sta1.show_results()

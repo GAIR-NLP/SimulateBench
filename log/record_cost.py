@@ -1,5 +1,5 @@
-from GPTMan.config.config import settings_system
-from GPTMan.log.logger import logger
+from config.config import settings_system
+from log.logger import logger
 
 
 def record_cost_gpt(model_name, input_tokens, output_tokens):

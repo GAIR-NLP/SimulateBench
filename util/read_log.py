@@ -1,5 +1,5 @@
 import os
-from GPTMan.config.config import settings_system
+from config.config import settings_system
 
 
 def read_price(month_: int, day_: int):
