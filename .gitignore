@@ -10,5 +10,5 @@ __pycache__
 *.log.*
 .idea
 outer_dependcies/*
-outer_dependcies
+/outer_dependcies
 ```
