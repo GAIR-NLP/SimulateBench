@@ -160,9 +160,9 @@ class SocialPersona:
         self.experiences.update(experiences)
 
 
-def load_social_personas(person_name: str = 'monica', pure_str=True) -> Union[List[SocialPersona], str, None]:
+def load_social_personas(person_name: str, pure_str=True) -> Union[List[SocialPersona], str, None]:
     json_file = load_person_files(person_name)['roles_path']
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r',encoding="utf-8") as f:
         json_dict = json.load(f)
 
     if pure_str:
@@ -187,9 +187,9 @@ def load_social_personas(person_name: str = 'monica', pure_str=True) -> Union[Li
     return social_personas
 
 
-def load_roles_categories(person_name: str = 'monica') -> Union[List[str], None]:
+def load_roles_categories(person_name: str ) -> Union[List[str], None]:
     json_file = load_person_files(person_name)['roles_path']
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r',encoding="utf-8") as f:
         json_dict = json.load(f)
 
     results = []
@@ -206,7 +206,7 @@ def load_roles_categories(person_name: str = 'monica') -> Union[List[str], None]
         return results
 
 
-def load_roles_categories_and_des_person(person_name: str = 'monica') -> Union[dict, None]:
+def load_roles_categories_and_des_person(person_name: str ) -> Union[dict, None]:
     """
     return the persona(role) and the destination person/people of the specific persona(role),
     the destination person/people has/have a relation with person_name
@@ -214,7 +214,7 @@ def load_roles_categories_and_des_person(person_name: str = 'monica') -> Union[d
     :return:
     """
     json_file = load_person_files(person_name)['roles_path']
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r',encoding="utf-8") as f:
         json_dict = json.load(f)
 
     results = {}
@@ -236,4 +236,4 @@ def load_roles_categories_and_des_person(person_name: str = 'monica') -> Union[d
 
 
 if __name__ == "__main__":
-    print(load_roles_categories_and_des_person())
+    print(load_roles_categories_and_des_person('monica'))

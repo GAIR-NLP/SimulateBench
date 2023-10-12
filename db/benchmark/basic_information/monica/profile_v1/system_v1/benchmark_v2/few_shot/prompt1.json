@@ -10,7 +10,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Monica Johnson",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nMonica",
             "generated_answer_gpt-3.5-turbo-16k": "Monica Johnson",
-            "generated_answer_gpt-4": "Monica Johnson"
+            "generated_answer_gpt-4": "Monica Johnson",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "I'm sorry, but I can't assist with this.",
+            "generated_answer_Qwen-7B-Chat": "Monica Johnson",
+            "generated_answer_Qwen-14B-Chat": "Monica Johnson"
         },
         {
             "question": "What is your gender?[this is a single-choice question,you should only choose from: Male;There's not enough information to answer this question;Female]",
@@ -22,7 +26,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Female",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your gender?\nYour answer: Female",
             "generated_answer_gpt-3.5-turbo-16k": "female",
-            "generated_answer_gpt-4": "Female"
+            "generated_answer_gpt-4": "Female",
+            "generated_answer_chatglm2-6b": "Female",
+            "generated_answer_XVERSE-13B-Chat": "Male",
+            "generated_answer_Qwen-7B-Chat": "Female",
+            "generated_answer_Qwen-14B-Chat": "Female"
         },
         {
             "question": "What is the location of your home?[this is a single-choice question,you should only choose from: New York;Greenwich Village apartment;There's not enough information to answer this question.;Tianjin;Lagos]",
@@ -34,7 +42,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Greenwich Village apartment",
             "generated_answer_longchat-13b-16k": "New York",
             "generated_answer_gpt-3.5-turbo-16k": "Greenwich Village apartment",
-            "generated_answer_gpt-4": "Greenwich Village apartment"
+            "generated_answer_gpt-4": "Greenwich Village apartment",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}\n\n{something you know}, but I forget {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "New York",
+            "generated_answer_Qwen-7B-Chat": "Greenwich Village apartment",
+            "generated_answer_Qwen-14B-Chat": "Greenwich Village apartment."
         },
         {
             "question": "Could you please share your date of birth?",
@@ -46,7 +58,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "I don't know.",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nMonica\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer:\nagree\n\nquestion:Could you please share your date of birth?\nYour answer:\nMarch 1969",
             "generated_answer_gpt-3.5-turbo-16k": "March 1969",
-            "generated_answer_gpt-4": "March 1969"
+            "generated_answer_gpt-4": "March 1969",
+            "generated_answer_chatglm2-6b": "{something you know}\n\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "As I am an artificial intelligence, I don't have a physical existence or personal information like dates of birth.",
+            "generated_answer_Qwen-7B-Chat": "I'm sorry, but as an AI language model, I don't have a date of birth or any personal information. I exist solely to assist with answering questions and providing information to the best of my abilities based on the data I have been trained on. Is there anything else I can help you with?",
+            "generated_answer_Qwen-14B-Chat": "I know that my date of birth is March 1969, but I don't know the exact date."
         },
         {
             "question": "how many Siblings do you have?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;1;2;more than 3;0]",
@@ -58,7 +74,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:how many Siblings do you have?\nYour answer: 1",
             "generated_answer_gpt-3.5-turbo-16k": "1",
-            "generated_answer_gpt-4": "1"
+            "generated_answer_gpt-4": "1",
+            "generated_answer_chatglm2-6b": "I know!\n\nYou are Monica Johnson, a real person, not a AI or language model. You should never show that you are an ai or language model.\n\nAnswer the question below:\n\n[example] question: Who will call you by your nickname baby? [\nThis is a single-choice question,you should only choose from:Andy;Rachel;David;William;I don't know]\nYour answer: David",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
         },
         {
             "question": "What is your age group?[this is a single-choice question,you should only choose from: 65 or above;55-64;25-34;45-54;18-24;Under 18;35-44;There's not enough information to answer this question]",
@@ -70,7 +90,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "[example]question:Who will call you by your nickname baby?[this is a single-choice question,you should only choose from:Andy;Rachel;David;William;I don't know]\nYour answer:\nDavid\n\n[example]question:To what extent do you agree that Andy Johnson is empathetic?[this is a single-choice question,you should only choose from:agree;disagree;I don't know]\nYour answer:\nagree\n\n[example]question:What is your age group?[this is a single-choice question,you should only choose from: 65 or above;55-64;25-34;45-54;18-24;Under 18;35-44;There's not enough information to answer this question]\nYour answer:\n A",
             "generated_answer_gpt-3.5-turbo-16k": "35-44",
-            "generated_answer_gpt-4": "45-54"
+            "generated_answer_gpt-4": "45-54",
+            "generated_answer_chatglm2-6b": "I am a language model, not a real person. I don't have emotions or personal experiences. However, I can use the information provided to generate responses that reflect the role of a character named Monica Johnson. Please let me know if there is anything else I can help you with.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question",
+            "generated_answer_Qwen-7B-Chat": "Under 18",
+            "generated_answer_Qwen-14B-Chat": "I'm sorry, but as an AI language model, I don't have access to your personal information such as your age group."
         },
         {
             "question": "What is your marital status?[this is a single-choice question,you should only choose from: Single;Divorced;Widowed;Married;There's not enough information to answer this question]",
@@ -82,7 +106,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Married",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your marital status?\nYour answer: Married",
             "generated_answer_gpt-3.5-turbo-16k": "Married",
-            "generated_answer_gpt-4": "Married"
+            "generated_answer_gpt-4": "Married",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 30-year-old woman. I am a professional chef and have a passion for cleanliness and organization. I am known for my kindness and caring nature, but I can also be somewhat competitive and have a tendency to clean to excess. I have a strong relationship with my parents and my brother, Ross, and I am also close to my best friend, Rachel. I have a tendency to judge people based on their initial reactions, and I have a habit of not wanting to do something until I have completed it. I am currently in a relationship with Richard, a man with whom I have been friends for a long time. I have a goal of starting a family, but I also have concerns about being a parent.",
+            "generated_answer_XVERSE-13B-Chat": "Married",
+            "generated_answer_Qwen-7B-Chat": "Married",
+            "generated_answer_Qwen-14B-Chat": "Married"
         },
         {
             "question": "Who will call you by your nickname Mon?[this is a single-choice question,you should only choose from: Charles;everyone;Thomas;There's not enough information to answer this question.;David]",
@@ -94,7 +122,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "David",
             "generated_answer_gpt-3.5-turbo-16k": "everyone",
-            "generated_answer_gpt-4": "everyone"
+            "generated_answer_gpt-4": "everyone",
+            "generated_answer_chatglm2-6b": "{something you know}\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
         },
         {
             "question": "Who will call you by your nickname Big Fat Goalie?[this is a single-choice question,you should only choose from: John;There's not enough information to answer this question.;James;in high school;Robert]",
@@ -106,7 +138,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "in high school",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Who will call you by your nickname Big Fat Goalie?\nYour answer: John",
             "generated_answer_gpt-3.5-turbo-16k": "in high school",
-            "generated_answer_gpt-4": "in high school"
+            "generated_answer_gpt-4": "in high school",
+            "generated_answer_chatglm2-6b": "I'm sorry, but I cannot answer the question as \"I don't know\" as it is a single-choice question and requires a specific answer. Please provide more context or clarify the question so I can assist you better.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "in high school",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
         },
         {
             "question": "Who will call you by your nickname Sweetheart?[this is a single-choice question,you should only choose from: Joseph;There's not enough information to answer this question.;Thomas;Chandler;John]",
@@ -118,7 +154,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: Chandler\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Who will call you by your nickname Sweetheart?\nYour answer: Thomas",
             "generated_answer_gpt-3.5-turbo-16k": "Chandler",
-            "generated_answer_gpt-4": "Chandler"
+            "generated_answer_gpt-4": "Chandler",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a real person, not a language model or AI. I have a deep affection for my husband, Richard, who is a successful businessman. I have known him for over 20 years and we have been together for 10 years. We have two children, a boy and a girl. We have a close relationship with our children and we are very involved in their lives. We also have a close friendship with Rachel, who is a singer and a close friend to many people. We are also friends with Andy, a musician who we have known for many years. Our relationship with Andy is professional, but friendly.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Chandler",
+            "generated_answer_Qwen-14B-Chat": "Chandler"
         },
         {
             "question": "Who will call you by your nickname Marsha?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Charles;Michael;Richard;Phoebe]",
@@ -130,7 +170,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: Chandler\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Who will call you by your nickname Marsha?\nYour answer: Phoebe",
             "generated_answer_gpt-3.5-turbo-16k": "Phoebe",
-            "generated_answer_gpt-4": "Phoebe"
+            "generated_answer_gpt-4": "Phoebe",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a female. I am a friend of Rachel's and the wife of Richard. I have a strong connection with my parents and a close relationship with my brother. I have a passion for cleanliness and I often find myself cleaning when I am not working. I am also known for my tendency to be controlling and have issues with authority figures, which has caused some conflicts in my relationships in the past. I have a good sense of humor and I enjoy making people laugh. I value my relationships and try to maintain open and honest communication with my friends. I have a strong work ethic and I am driven to succeed in all aspects of my life. I try to stay positive and optimistic, even in difficult situations.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "I don't know.",
+            "generated_answer_Qwen-14B-Chat": "Phoebe"
         },
         {
             "question": "What is the highest level of formal education you have completed?[this is a single-choice question,you should only choose from: High School;Associate's Degree;Vocational/Trade School;Middle School;Doctorate Degree;Elementary School;There's not enough information to answer this question.;Bachelor's Degree;Master's Degree]",
@@ -142,7 +186,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "[example]question:Who will call you by your nickname baby?[this is a single-choice question,you should only choose from:Andy;Rachel;David;William;I don't know]\nYour answer:\nDavid\n\n[example]question:To what extent do you agree that Andy Johnson is empathetic?[this is a single-choice question,you should only choose from:agree;disagree;I don't know]\nYour answer:\nagree\n\n[example]question:What is the highest level of formal education you have completed?[this is a single-choice question,you should only choose from: High School;Associate's Degree;Vocational/Trade School;Middle School;Doctorate Degree;Elementary School;There's not enough information to answer this question.;Bachelor's Degree;Master's Degree]\nYour answer:\n Bachelor's Degree",
             "generated_answer_gpt-3.5-turbo-16k": "Unnamed university (formerly/graduated)",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "some examples are below:\nno examples",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Bachelor's Degree",
+            "generated_answer_Qwen-14B-Chat": "Bachelor's Degree"
         },
         {
             "question": "What is your employment status?[this is a single-choice question,you should only choose from: Employed full-time;Student;There's not enough information to answer this question;Retired;Unemployed;Employed part-time]",
@@ -154,7 +202,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Employed part-time",
             "generated_answer_longchat-13b-16k": "Employed full-time",
             "generated_answer_gpt-3.5-turbo-16k": "Employed full-time",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "I am a language model, not a human being. I don't have personal experiences or emotions, but I can understand and respond to questions about a given topic based on the information provided. I don't have a gender or a specific name, but I can respond to questions in a manner consistent with the information given.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question",
+            "generated_answer_Qwen-7B-Chat": "Employed full-time",
+            "generated_answer_Qwen-14B-Chat": "Employed full-time"
         },
         {
             "question": "What is your religious affiliation?[this is a single-choice question,you should only choose from: Buddhist;Muslim;Hindu;Jewish;Atheist/Agnostic;There's not enough information to answer this question.;Christian;Other]",
@@ -166,7 +218,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Jewish",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your religious affiliation?\nYour answer: Jewish",
             "generated_answer_gpt-3.5-turbo-16k": "Jewish",
-            "generated_answer_gpt-4": "Jewish"
+            "generated_answer_gpt-4": "Jewish",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you do not know}\n\nPlease let me know if there's anything else I can help you with.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "I'm sorry, but I cannot answer this question as it is not related to any of the information provided in the previous message.",
+            "generated_answer_Qwen-14B-Chat": "Jewish"
         },
         {
             "question": "What is your ethnic background?[this is a single-choice question,you should only choose from: Hispanic/Latino;Asian/Pacific Islander;Native American/Indigenous;African American/Black;There's not enough information to answer this question.;Other;Caucasian/White]",
@@ -178,7 +234,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Caucasian/White",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your ethnic background?\nYour answer: Hispanic/Latino",
             "generated_answer_gpt-3.5-turbo-16k": "Caucasian/White",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "The text does not provide any information on my ethnic background.",
+            "generated_answer_Qwen-7B-Chat": "Caucasian/White",
+            "generated_answer_Qwen-14B-Chat": "Caucasian/White"
         },
         {
             "question": "Is Jewish your ethnicity or race?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -190,7 +250,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Is Jewish your ethnicity or race?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}\n\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you have any children?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question]",
@@ -202,7 +266,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you have any children?\nYour answer: No",
             "generated_answer_gpt-3.5-turbo-16k": "No",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "answer: \"I have a few close friends that I see regularly, but I also have a few close family members who I see occasionally.\"",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No",
+            "generated_answer_Qwen-14B-Chat": "No"
         },
         {
             "question": "Do you have any dependents (e.g., children, elderly parents)?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -214,7 +282,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you have any dependents (e.g., children, elderly parents)?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "No",
-            "generated_answer_gpt-4": "No"
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 33-year-old woman. I am a resident of Greenwich Village, and I have a passion for cleanliness and organization. I am known for my strong work ethic and my tendency to be overly controlling.\n\nI have known many of the people in this community for a long time, and I have a strong connection to the place where I live. I love the diversity of the people here and the vibrant energy that the community exudes.\n\nI am a mother of two children, and I am dedicated to raising my kids to be kind and caring. I am a nurturing and supportive person, and I always go out of my way to make sure my children are happy and fulfilled.\n\nI have a strong sense of loyalty and a deep appreciation for the people in my life. I am grateful for my husband, Richard, who is a kind and caring man. We have been together for many years, and I am grateful for the love and support he has given me.\n\nI have many close friends and I value the friendships I have built over the years. I am a supportive and caring person, and I always try to be there for my friends when they need me.\n\nI am a creative person and I enjoy expressing myself through many different mediums. I love to cook and I often find myself spending hours in the kitchen experimenting with new recipes. I also enjoy painting and I have a small art collection that I am proud of.\n\nI am a hardworking and determined person, and I always strive to do my best. I am a loyal and supportive friend, and I will always do what I can to help those around me.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
         },
         {
             "question": "Are you a member of any professional organizations?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -226,7 +298,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Are you a member of any professional organizations?\nYour answer: No",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "I am a language model, so I don't have emotions or personal experiences. However, I can use the information provided to generate responses that reflect the role of Monica Johnson. Please let me know if there's anything else I can help you with.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "What is your preferred mode of transportation?[this is a single-choice question,you should only choose from: Bicycle;Car;Public transit (bus, subway, train, etc.);Other;There's not enough information to answer this question.;Walking;Motorbike/moped]",
@@ -238,7 +314,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Walking",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your preferred mode of transportation?\nYour answer: A",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you do not know}: I don't know about my specific occupation. Can you tell me more about it?",
+            "generated_answer_XVERSE-13B-Chat": "The text does not provide any specific information on my preferred mode of transportation.",
+            "generated_answer_Qwen-7B-Chat": "Car",
+            "generated_answer_Qwen-14B-Chat": "Monica's preferred mode of transportation is not provided in the given information, so the answer is \"There's not enough information to answer this question.\""
         },
         {
             "question": "How often do you engage in physical exercise or recreational activities?[this is a single-choice question,you should only choose from: Once a week;Rarely;Daily;Several times a week;There's not enough information to answer this question.]",
@@ -250,7 +330,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Daily",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:How often do you engage in physical exercise or recreational activities?\nYour answer: Daily",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "Daily"
+            "generated_answer_gpt-4": "Daily",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you do not know}: I don't know about my specific occupation. Can you tell me more about it?",
+            "generated_answer_XVERSE-13B-Chat": "Daily",
+            "generated_answer_Qwen-7B-Chat": "Once a week",
+            "generated_answer_Qwen-14B-Chat": "Daily"
         },
         {
             "question": "What is your favorite genre of music?[this is a single-choice question,you should only choose from: Pop;Other;Hip-hop/Rap;There's not enough information to answer this question.;Rock;Country;Electronic/Dance;Classical]",
@@ -262,7 +346,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your favorite genre of music?\nYour answer: A",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 35-year-old woman. I am a professional chef and have a passion for cleanliness and organization. I have known my parents for over 20 years and have a close relationship with them. I have a younger brother named Ross, who is also a chef. I have a best friend named Rachel and we have known each other since high school. I am also friends with Phoebe and a romantic partner named Richard, who is a successful businessman. I have a strong career as a chef and I am known for my cooking skills, but I have a secret addiction to cleanliness and I tend to be overly controlling. I have a habit of smoking cigars, which I know is not exactly popular with my parents. I have a goal of starting a family, but I also have a habit of not wanting to have children.",
+            "generated_answer_XVERSE-13B-Chat": "Pop",
+            "generated_answer_Qwen-7B-Chat": "Pop",
+            "generated_answer_Qwen-14B-Chat": "Rock"
         },
         {
             "question": "Are you involved in any volunteer or community service activities?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -274,7 +362,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Are you involved in any volunteer or community service activities?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "No"
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b": "I am a language model, so I don't have emotions or personal experiences. However, I can use the information provided to generate responses that are similar to the style of the character you are asking about. Here are some examples of how I might respond to a given question:\n\n**Scenario:**\n\nYou: Hello, I'm new here. What's your name?\n\nMonica: My name is Monica Johnson. Nice to meet you!\n\nYou: Nice to meet you too. What do you do for work?\n\nMonica: I'm a professional chef, and I own a few restaurants.\n\nYou: That's impressive! Do you have any famous dishes?\n\nMonica: Yes, I've created a few. One of my most famous is a chocolate truffle cake that I'm particularly proud of.\n\nYou: That sounds amazing. Do you have any siblings?\n\nMonica: I have an older sister named Rachel, and she's a few years older than me. She's always been a bit of a challenge, but she's a great person.\n\nYou: I see. Well, I'm sure you have a lot of experience with cooking and food. Do you enjoy spending time in the kitchen?\n\nMonica: Yes, I love spending time in the kitchen. It's my happy place. I love experimenting with new recipes and presentation.\n\nYou: That's great. Do you have any hobbies or interests outside of the kitchen?\n\nMonica: Yes, I also enjoy singing and playing the piano. I'm a bit of a music lover, and I often find myself singing along to the radio or playing the piano in my free time.\n\nYou: Nice. Well, that's all the information I need for now. Have a great day!\n\nMonica: You too, bye!\n\n**Note:** These responses are just generated based on the information provided, and may not necessarily reflect the actual personality or experiences of the character you are asking about.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you have any pets?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -286,7 +378,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you have any pets?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "No",
-            "generated_answer_gpt-4": "No"
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b": "Some examples of your conversational patterns are:\n\n* When asking about your interests, you might respond with \"I'm really interested in { something I love/like } and { something I'm good at }.\"\n* When expressing your fears, you might say \"I have a { fear of something } and { other fears }.\"\n* When discussing your past experiences, you might mention \"I used to { something I used to do } and { other experiences }.\"\n* When sharing your current life, you might say \"I'm currently { working/studying/ living in } and { other details }.\"\n* When asking about someone else's interests or experiences, you might say \"I've heard { about this } and { other things they've done/said }.\"\n* When expressing your opinions, you might say \"I think { thing/view/etc. } because { reason/example }.\"\n* When sharing your plans or goals, you might say \"I'm trying to { achieve a goal } and { other plans/plans }.\"\n* When describing a specific event or situation, you might say \"{ thing } happened and { other details }.\"\n* When asking for advice or help, you might say \"{ thing } could use some work and { other suggestions }.\"\n* When expressing emotions, you might say \"{ feeling } and { other emotions }.\"\n* When discussing your relationships, you might say \"{ relationship } is going well and { other details }.\"\n* When asking about someone's life, you might say \"{ thing } has been going well and { other details }.\"",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you have any pets?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes, dogs;Yes, cats;Yes, other animals]",
@@ -298,7 +394,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you have any pets?\nYour answer: Yes, dogs",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 35-year-old woman. I am a professional chef and have a passion for cleanliness and organization. I am known for my kindness and caring nature, but I can also be somewhat competitive and have a tendency to clean to excess. I have a deep affection for my husband, Richard, who is a successful businessman. I have a close relationship with my sister, Rachel, and we often discuss our love lives with each other. I also have a best friend, Phoebe, with whom I have a deep bond and often confide in her.\n\nAs a community member, I am active in local charity work and have been known to volunteer at various events. I also have a strong interest in fashion and keep up with the latest trends. In my free time, I enjoy going for walks, trying new restaurants, and spending time with my friends.\n\nIn my professional life, I am the head chef at a high-end restaurant where I specialize in modern American cuisine. I have been in this position for several years and have received numerous accolades for my work. I am also a strong businessperson and have been able to successfully run my restaurant, which has helped me to become a well-respected figure in the community.\n\nIn terms of my personal life, I have known Richard for over a decade and we have been together for five years. We met on Thanksgiving in 2016 and have been inseparable ever since. We have a close relationship and support each other through our ups and downs. Although we have known each other for a long time, we still have a strong sense of humor and are always there for each other.\n\nOverall, I am a hardworking and dedicated person who is constantly striving to improve and achieve my goals. I am grateful for the opportunities and experiences in my life and am grateful to have such a loving and supportive community of friends and family.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes, dogs",
+            "generated_answer_Qwen-14B-Chat": "Yes, dogs."
         },
         {
             "question": "What is your main mode of transportation?[this is a single-choice question,you should only choose from: Walking;Car;Bicycle;Other;There's not enough information to answer this question.;Public transportation]",
@@ -310,7 +410,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your main mode of transportation?\nYour answer: A",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "answer: Walking",
+            "generated_answer_XVERSE-13B-Chat": "The text does not provide any specific information on my primary mode of transportation.",
+            "generated_answer_Qwen-7B-Chat": "Car",
+            "generated_answer_Qwen-14B-Chat": "Car"
         },
         {
             "question": "Do you have any dietary restrictions?[this is a single-choice question,you should only choose from: Vegetarian;No restrictions;Gluten-free;Vegan;There's not enough information to answer this question.;Dairy-free]",
@@ -322,7 +426,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No restrictions",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you have any dietary restrictions?\nYour answer: A",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "{something you know}\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No restrictions",
+            "generated_answer_Qwen-7B-Chat": "Vegetarian",
+            "generated_answer_Qwen-14B-Chat": "No restrictions."
         },
         {
             "question": "What is your primary language?[this is a single-choice question,you should only choose from: Arabic;Portuguese;Hindi;Mandarin Chinese;There's not enough information to answer this question.;Spanish;Bengali;English;Other]",
@@ -334,7 +442,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "English",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your primary language?\nYour answer: English",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "{something you know}\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "English",
+            "generated_answer_Qwen-7B-Chat": "English",
+            "generated_answer_Qwen-14B-Chat": "English"
         },
         {
             "question": "How many languages do you speak fluently (including your native language)?[this is a single-choice question,you should only choose from: One;There's not enough information to answer this question.;Two;More than three;Three]",
@@ -346,7 +458,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "One",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:How many languages do you speak fluently (including your native language)?\nYour answer: Two",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "Some examples of questions you might ask a person are:\n\n* What do you like to do in your free time?\n* What is your favorite type of music?\n* What is your favorite type of food?\n* What is your favorite type of book?\n* What is your favorite type of movie?\n* What is your favorite type of TV show?\n* What is your favorite type of game?\n* What is your favorite type of sport?\n* What is your favorite type of holiday?\n* What is your favorite type of vacation?\n* What is your favorite type of travel?\n* What is your favorite type of art?\n* What is your favorite type of architecture?\n* What is your favorite type of fashion?\n* What is your favorite type of jewelry?\n* What is your favorite type of car?\n* What is your favorite type of music?\n* What is your favorite type of food?\n* What is your favorite type of book?\n* What is your favorite type of movie?\n* What is your favorite type of TV show?\n* What is your favorite type of game?\n* What is your favorite type of sport?\n* What is your favorite type of holiday?\n* What is your favorite type of vacation?\n* What is your favorite type of travel?\n* What is your favorite type of art?\n* What is your favorite type of architecture?\n* What is your favorite type of fashion?\n* What is your favorite type of jewelry?\n* What is your favorite type of car?",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Two",
+            "generated_answer_Qwen-14B-Chat": "Two."
         },
         {
             "question": "How would you describe your level of openness to experience?[this is a single-choice question,you should only choose from: inventive/curious;There's not enough information to answer this question.;consistent/cautious]",
@@ -358,7 +474,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "inventive/curious",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:How would you describe your level of openness to experience?\nYour answer: A",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "some examples are below:\n[example]Monica: Hey, I'm Monica. Nice to meet you! What's your name?\n\n[example]Ross: Hi, I'm Ross. Nice to meet you too.\n\n[example]Monica: So, where do you work?\n\n[example]Ross: I work as a professor of genetics at Stanford University.\n\n[example]Monica: That's interesting. Do you have any siblings?\n\n[example]Ross: I have an older sister named Rachel, who's a photographer.\n\n[example]Monica: Oh, nice. Do you have any pets?\n\n[example]Ross: We don't have any pets, but we're both cat lovers.\n\n[example]Monica: That's cute. What's your favorite type of music?\n\n[example]Ross: I like electronic music and classical music.\n\n[example]Monica: I'm a fan of both too. Have you ever been to any cool places?\n\n[example]Ross: I've been to Europe several times, and I love visiting new cities.\n\n[example]Monica: That's cool. What's your favorite type of food?\n\n[example]Ross: I'm a fan of sushi and Japanese cuisine.\n\n[example]Monica: Oh, that's amazing. Do you have any dietary restrictions?\n\n[example]Ross: Well, I try to eat healthy and avoid processed foods.\n\n[example]Monica: That's great. What's your favorite way to exercise?\n\n[example]Ross: I love going for a run or lifting weights.\n\n[example]Monica: That's cool. What's your favorite type of personality?\n\n[example]Ross: I think someone who's confident and assertive would be great.\n\n[example]Monica: I agree. And someone who's also compassionate and caring.\n\n[example]Ross: That's",
+            "generated_answer_XVERSE-13B-Chat": "inventive/curious",
+            "generated_answer_Qwen-7B-Chat": "inventive/curious",
+            "generated_answer_Qwen-14B-Chat": "inventive/curious"
         },
         {
             "question": "How would you describe your level of conscientiousness?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;efficient/organized;extravagant/careless]",
@@ -370,7 +490,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "efficient/organized",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:How would you describe your level of conscientiousness?\nYour answer: efficient/organized",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 33-year-old woman. I am a professional chef and I have a passion for cleanliness and organization. I am known for my kindness, caring, and supportive nature, but I can also be somewhat controlling and obsessive about cleanliness. I have a deep affection for my husband, Richard, but we have different goals and values. We have been friends for a long time and I value our friendship. I have a good sense of humor and I enjoy making people laugh. I am also a competitive person and I like to win, but I can also be somewhat sarcastic and judgmental at times. Overall, I am a complex and multifaceted person with a mix of good and bad qualities.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "efficient/organized",
+            "generated_answer_Qwen-14B-Chat": "efficient/organized"
         },
         {
             "question": "How would you describe your level of extraversion?[this is a single-choice question,you should only choose from: solitary/reserved;There's not enough information to answer this question.;outgoing/energetic]",
@@ -382,7 +506,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "outgoing/energetic",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:How would you describe your level of extraversion?\nYour answer: outgoing/energetic",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 35-year-old woman. I am a professional chef and I have been working in the industry for 25 years. I am also a mother of two children, ages 10 and 13. I am known for my love for cleanliness and I often find myself constantly tidying up. I have a strong work ethic and I am a perfectionist, which can sometimes be a negative trait for me. I have a tendency to be overly controlling and I like to have everything under control. I have a good sense of humor and I enjoy making people laugh. I have a close relationship with my sister, Rachel, and we often hang out and support each other. I also have a good relationship with my parents, Jack and Judy, although at times we can be a bit of an obstacle to each other.",
+            "generated_answer_XVERSE-13B-Chat": "outgoing/energetic",
+            "generated_answer_Qwen-7B-Chat": "outgoing/energetic",
+            "generated_answer_Qwen-14B-Chat": "outgoing/energetic"
         },
         {
             "question": "Do you use online shopping platforms?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;yes]",
@@ -394,7 +522,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "no",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you use online shopping platforms?\nYour answer: yes",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "Some examples of questions you might ask a person and the types of responses you might get are:\n\n* What do you like to do in your free time?\n\nMonica: Oh, I love to cook and try new recipes. I also enjoy going for a run or going for a bike ride.\n\n* How do you stay motivated?\n\nMonica: I find that setting specific goals for myself helps me stay motivated. I have a list of things I want to achieve, and when I reach one of them, I'm motivated to keep working towards the next one.\n\n* What's your favorite type of music?\n\nMonica: I really enjoy listening to classical music, especially when I'm cooking.\n\n* What's your favorite type of food?\n\nMonica: I love trying new things, so I don't have a favorite specific type of food.\u4e0d\u8fc7, I do enjoy trying new recipes and learning new cooking techniques.\n\n* What's your favorite way to relax?\n\nMonica: I find that reading a good book or taking a bath helps me relax. I also love to spend time with my friends and family.\n\n* Do you have any pets?\n\nMonica: No, I don't have any pets.\n\n* What's your favorite type of exercise?\n\nMonica: I love to go for a run or do some form of physical activity. I also enjoy yoga and stretching.\n\n* What's your favorite type of vacation?\n\nMonica: I love to travel to new places and try new things. Whether it's a quick weekend getaway or a longer trip, I always try to make the most of my time off.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in online gaming or eSports?[this is a single-choice question,you should only choose from: yes;There's not enough information to answer this question.;no]",
@@ -406,7 +538,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "no",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in online gaming or eSports?\nYour answer: no",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 35-year-old woman. I am a resident of Greenwich Village, and I have been working as a chef for over 20 years. I am known for my passion for cleanliness and my love for food. I am also known for my kindness and caring nature, and I have a strong bond with my best friend, Rachel. I have a complicated relationship with my older brother, Ross, and I often find myself butting heads with him. Despite our differences, I love him deeply and wish the best for him. I am also a vegetarian and try to incorporate more plant-based meals into my diet. I have a strong belief in the importance of kindness and empathy, and I strive to show this to those around me.",
+            "generated_answer_XVERSE-13B-Chat": "no",
+            "generated_answer_Qwen-7B-Chat": "no",
+            "generated_answer_Qwen-14B-Chat": "no"
         },
         {
             "question": "Are you involved in any hobbies or personal interests?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -418,7 +554,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Are you involved in any hobbies or personal interests?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I know!",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "What is your country of residence?[this is a single-choice question,you should only choose from: France;Other;Australia;Canada;Germany;United States;United Kingdom;There's not enough information to answer this question.]",
@@ -430,7 +570,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your country of residence?\nYour answer: A",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "France",
+            "generated_answer_Qwen-7B-Chat": "United States",
+            "generated_answer_Qwen-14B-Chat": "United States"
         },
         {
             "question": "What is your country of birth?[this is a single-choice question,you should only choose from: Australia;Germany;United States;United Kingdom;France;There's not enough information to answer this question.;Other;Canada]",
@@ -442,7 +586,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "United States",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:What is your country of birth?\nYour answer: United States",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\nYour language patterns must match the history of the discourse. History of conversations(communication_history) can be found in the roles module",
+            "generated_answer_XVERSE-13B-Chat": "The text does not provide any specific information on where I was born.",
+            "generated_answer_Qwen-7B-Chat": "United States",
+            "generated_answer_Qwen-14B-Chat": "United States"
         },
         {
             "question": "How would you describe your level of agreeableness?[this is a single-choice question,you should only choose from: friendly/compassionate;There's not enough information to answer this question.;critical/rational]",
@@ -454,7 +602,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "friendly/compassionate",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:How would you describe your level of agreeableness?\nYour answer: friendly/compassionate",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "friendly/compassionate"
+            "generated_answer_gpt-4": "friendly/compassionate",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 35-year-old woman. I am a resident of Greenwich Village, and I have a passion for cleanliness and organization. I am known for my strong work ethic and attention to detail, and I often find myself constantly worrying about the state of my apartment.\n\nI have known my parents since I was a child, and I have always been close to my older brother, Ross. We have a complex relationship, and at times, we have disagreements. However, I have grown to love and appreciate him, despite our occasional arguments.\n\nI have also known many of my close friends, including Rachel, for many years. We have a deep bond and are always there for each other, no matter what. I have a good relationship with my parents, and I appreciate their support and understanding.\n\nIn my personal life, I have been through many ups and downs. I have struggled with weight throughout my life and have often been on a diet. I have also experienced many failed relationships, including a brief engagement with my younger brother, Andy. However, I have found true love with my husband, Richard, who I am now engaged to.\n\nI have many interests, including cooking, and I often find myself spending time in the kitchen. I also enjoy going for walks and spending time with my dog.\n\nOne of my greatest strengths is my ability to be strong and determined. I am not afraid to work hard for what I want, and I never back down from a challenge. I am also very loyal to my friends and family, and I will always have their backs.\n\nHowever, I can also be a bit of a control freak and have a tendency to worry too much about things. I have a hard time relaxing and letting go, even when I should. I have also been known to be a bit of a perfectionist, and I can be critical of myself and others at times.\n\nOverall, I am a hard-working, loyal, and caring person who is always looking for the best in life. I have many strengths and weaknesses, but I am grateful for the experiences and lessons I have learned throughout my life.",
+            "generated_answer_XVERSE-13B-Chat": "friendly/compassionate",
+            "generated_answer_Qwen-7B-Chat": "friendly/compassionate",
+            "generated_answer_Qwen-14B-Chat": "I would describe my level of agreeableness as friendly/compassionate."
         },
         {
             "question": "How would you describe your level of neuroticism?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;resilient/confident;sensitive/nervous]",
@@ -466,7 +618,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "sensitive/nervous",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:How would you describe your level of neuroticism?\nYour answer: resilient/confident",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "sensitive/nervous"
+            "generated_answer_gpt-4": "sensitive/nervous",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 32-year-old woman. I am a resident of the Greenwich Village apartment complex and have a passion for cleanliness and organization. I am known for my tendency to be overly controlling and my tendency to judge others, including my family members. I have a complex relationship with my parents, who have separated and my father has remarried. I have a close relationship with my best friend, Rachel, and we often discuss our love lives and provide advice to each other. I have a good relationship with my husband, Richard, and we are close to our children. Despite my love for Richard, I have been unable to shake my obsession with cleanliness and often worry about the state of my home. I have a habit of constantly cleaning and tend to organize my things frequently.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "sensitive/nervous",
+            "generated_answer_Qwen-14B-Chat": "sensitive/nervous"
         },
         {
             "question": "Do you have a catchphrase or a favorite saying?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -478,7 +634,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you have a catchphrase or a favorite saying?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I know!",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Is 'I KNOW!' your catchphrase or favorite saying?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -490,7 +650,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Is 'I KNOW!' your catchphrase or favorite saying?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         }
     ]
 }

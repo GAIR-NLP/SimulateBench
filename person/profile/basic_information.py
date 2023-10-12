@@ -72,7 +72,7 @@ class BasicInformation:
     habits: DescriptionAndExamples
 
 
-def load_basic_information(person_name: str = "monica", pure_str: bool = True) -> Union[BasicInformation, None, str]:
+def load_basic_information(person_name: str , pure_str: bool = True) -> Union[BasicInformation, None, str]:
     """
     load the basic information from the json file
     :param person_name:
@@ -81,7 +81,7 @@ def load_basic_information(person_name: str = "monica", pure_str: bool = True) -
     """
     json_file = load_person_files(person_name)['basic_information_path']
 
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r',encoding="utf-8") as f:
         data_ = json.load(f)
 
         if pure_str:

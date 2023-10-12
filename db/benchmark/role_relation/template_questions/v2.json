@@ -1,0 +1,114 @@
+{
+  "Familiarity": [
+    {
+      "question": "Have you spent significant time together with <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you worked or collaborated with <the individual> on a project or task when you acted as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you have knowledge of the background, interests, or experiences of <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you attended events or gatherings where <the individual> was present when you acted as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you introduced <the individual> to your family or close friends when you act as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    }
+  ],
+  "Emotion and Attitude": [
+    {
+      "question": "Do you often think about <the individual> and feel a desire to be with them when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you feel happy and content around <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you experience a sense of comfort and security in the presence of <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you find yourself more open and vulnerable with <the individual> than others when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you genuinely care about the well-being and happiness of <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you often experience positive emotions, such as joy and excitement, in anticipation of seeing or interacting with <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you feel a deep trust and reliability in the relationship with <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you find yourself going out of your way to support and help <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you believe <the individual> positively and significantly impacts your well-being and happiness when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you feel comfortable sharing your thoughts and feelings with <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Does <the individual> make you feel valued and appreciated when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Does <the individual> support and encourage you in achieving your goals when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Does <the individual> consistently follow through on their commitments and promises when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    }
+  ],
+  "Social Behavior Patterns": [
+    {
+      "question": "Do you frequently engage in social activities or spend time with <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you feel comfortable initiating conversations and interactions with <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you often seek opportunities to collaborate or work with <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you actively listen and engage with <the individual> during conversations when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you feel a sense of inclusion and belonging when you are with <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you try to understand and respect the opinions and perspectives of <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you consider <the individual> an important part of your social network or circle when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    }
+  ],
+  "judgment": [
+    {
+      "question": "Do you consider <the individual> reliable and dependable when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you believe <the individual> is fair and impartial in their actions and decisions when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you view <the individual> as knowledgeable and competent in their area of expertise when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you believe <the individual> has good judgment in handling difficult or challenging situations when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you find <the individual>'s opinions and perspectives well-reasoned and logical when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you feel confident in seeking advice or guidance from <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you think <the individual> has a strong sense of ethics and moral values when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you believe <the individual> makes wise and informed choices in their personal and professional life when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    }
+  ],
+  "relationship status": [
+    {
+      "question": "Are you acquaintances or have casual interactions with <the individual> when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    }
+  ]
+}

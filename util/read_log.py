@@ -14,7 +14,7 @@ def read_price(month_: int, day_: int):
             time = line[time_start_index + 6:time_end_index]
             month = int(time.split(' ')[0][2:4])
             day = int(time.split(' ')[0][4:])
-            print(f'{month}:{day}')
+            #print(f'{month}:{day}')
             if month != month_:
                 continue
 
@@ -32,4 +32,4 @@ def read_price(month_: int, day_: int):
 
 
 if __name__ == '__main__':
-    print(read_price(8, 11))
+    print(read_price(9, 23))

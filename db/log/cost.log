@@ -1,522 +1,253 @@
-record_cost.py - 230824 11:17:14 - INFO: cost: 0.0213. prompt tokens:7073(0.003/1k tokens). completion tokens:25(0.004/1k tokens).
-benchmark_class.py - 230824 11:17:30 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 11:17:55 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 11:22:11 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 11:22:11 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-record_cost.py - 230824 11:22:13 - INFO: cost: 0.0221. prompt tokens:7357(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:22:16 - INFO: cost: 0.0223. prompt tokens:7429(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:22:17 - INFO: cost: 0.022. prompt tokens:7322(0.003/1k tokens). completion tokens:18(0.004/1k tokens).
-record_cost.py - 230824 11:22:19 - INFO: cost: 0.0221. prompt tokens:7345(0.003/1k tokens). completion tokens:18(0.004/1k tokens).
-record_cost.py - 230824 11:22:23 - INFO: cost: 0.0221. prompt tokens:7329(0.003/1k tokens). completion tokens:34(0.004/1k tokens).
-record_cost.py - 230824 11:22:25 - INFO: cost: 0.0227. prompt tokens:7543(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:22:27 - INFO: cost: 0.0221. prompt tokens:7343(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:22:29 - INFO: cost: 0.0221. prompt tokens:7334(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:22:31 - INFO: cost: 0.0229. prompt tokens:7626(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-benchmark_class.py - 230824 11:22:31 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-record_cost.py - 230824 11:22:34 - INFO: cost: 0.0219. prompt tokens:7243(0.003/1k tokens). completion tokens:36(0.004/1k tokens).
-record_cost.py - 230824 11:22:36 - INFO: cost: 0.0217. prompt tokens:7213(0.003/1k tokens). completion tokens:26(0.004/1k tokens).
-record_cost.py - 230824 11:22:39 - INFO: cost: 0.0219. prompt tokens:7258(0.003/1k tokens). completion tokens:26(0.004/1k tokens).
-record_cost.py - 230824 11:22:41 - INFO: cost: 0.0217. prompt tokens:7204(0.003/1k tokens). completion tokens:25(0.004/1k tokens).
-record_cost.py - 230824 11:22:43 - INFO: cost: 0.0217. prompt tokens:7198(0.003/1k tokens). completion tokens:24(0.004/1k tokens).
-record_cost.py - 230824 11:22:46 - INFO: cost: 0.0216. prompt tokens:7168(0.003/1k tokens). completion tokens:30(0.004/1k tokens).
-record_cost.py - 230824 11:22:48 - INFO: cost: 0.0217. prompt tokens:7204(0.003/1k tokens). completion tokens:25(0.004/1k tokens).
-record_cost.py - 230824 11:22:50 - INFO: cost: 0.0214. prompt tokens:7132(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:22:51 - INFO: cost: 0.0214. prompt tokens:7120(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:22:55 - INFO: cost: 0.0217. prompt tokens:7174(0.003/1k tokens). completion tokens:44(0.004/1k tokens).
-record_cost.py - 230824 11:22:57 - INFO: cost: 0.0217. prompt tokens:7210(0.003/1k tokens). completion tokens:24(0.004/1k tokens).
-record_cost.py - 230824 11:22:59 - INFO: cost: 0.0215. prompt tokens:7138(0.003/1k tokens). completion tokens:19(0.004/1k tokens).
-record_cost.py - 230824 11:23:03 - INFO: cost: 0.0217. prompt tokens:7144(0.003/1k tokens). completion tokens:66(0.004/1k tokens).
-record_cost.py - 230824 11:23:05 - INFO: cost: 0.0215. prompt tokens:7138(0.003/1k tokens). completion tokens:19(0.004/1k tokens).
-record_cost.py - 230824 11:23:07 - INFO: cost: 0.0215. prompt tokens:7138(0.003/1k tokens). completion tokens:20(0.004/1k tokens).
-record_cost.py - 230824 11:23:11 - INFO: cost: 0.0218. prompt tokens:7228(0.003/1k tokens). completion tokens:40(0.004/1k tokens).
-benchmark_class.py - 230824 11:25:49 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 11:28:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 11:28:29 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-record_cost.py - 230824 11:28:32 - INFO: cost: 0.0211. prompt tokens:6994(0.003/1k tokens). completion tokens:23(0.004/1k tokens).
-record_cost.py - 230824 11:28:34 - INFO: cost: 0.0214. prompt tokens:7084(0.003/1k tokens). completion tokens:27(0.004/1k tokens).
-record_cost.py - 230824 11:28:37 - INFO: cost: 0.0213. prompt tokens:7074(0.003/1k tokens). completion tokens:22(0.004/1k tokens).
-record_cost.py - 230824 11:28:41 - INFO: cost: 0.0215. prompt tokens:7071(0.003/1k tokens). completion tokens:66(0.004/1k tokens).
-record_cost.py - 230824 11:28:46 - INFO: cost: 0.0215. prompt tokens:7087(0.003/1k tokens). completion tokens:66(0.004/1k tokens).
-record_cost.py - 230824 11:28:48 - INFO: cost: 0.0212. prompt tokens:7049(0.003/1k tokens). completion tokens:20(0.004/1k tokens).
-record_cost.py - 230824 11:28:52 - INFO: cost: 0.0213. prompt tokens:7014(0.003/1k tokens). completion tokens:55(0.004/1k tokens).
-benchmark_class.py - 230824 11:28:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-record_cost.py - 230824 11:28:54 - INFO: cost: 0.0219. prompt tokens:7266(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:28:56 - INFO: cost: 0.0221. prompt tokens:7338(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:28:57 - INFO: cost: 0.0217. prompt tokens:7231(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:28:59 - INFO: cost: 0.0218. prompt tokens:7254(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:29:01 - INFO: cost: 0.0218. prompt tokens:7238(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:29:03 - INFO: cost: 0.0224. prompt tokens:7452(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:29:04 - INFO: cost: 0.0218. prompt tokens:7252(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:29:06 - INFO: cost: 0.0218. prompt tokens:7243(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:29:08 - INFO: cost: 0.0227. prompt tokens:7535(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-benchmark_class.py - 230824 11:29:08 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-record_cost.py - 230824 11:29:11 - INFO: cost: 0.0216. prompt tokens:7152(0.003/1k tokens). completion tokens:36(0.004/1k tokens).
-record_cost.py - 230824 11:29:14 - INFO: cost: 0.0215. prompt tokens:7122(0.003/1k tokens). completion tokens:23(0.004/1k tokens).
-record_cost.py - 230824 11:29:16 - INFO: cost: 0.0216. prompt tokens:7167(0.003/1k tokens). completion tokens:21(0.004/1k tokens).
-record_cost.py - 230824 11:29:18 - INFO: cost: 0.0214. prompt tokens:7113(0.003/1k tokens). completion tokens:25(0.004/1k tokens).
-record_cost.py - 230824 11:29:20 - INFO: cost: 0.0214. prompt tokens:7107(0.003/1k tokens). completion tokens:19(0.004/1k tokens).
-record_cost.py - 230824 11:29:22 - INFO: cost: 0.0213. prompt tokens:7077(0.003/1k tokens). completion tokens:25(0.004/1k tokens).
-record_cost.py - 230824 11:29:24 - INFO: cost: 0.0214. prompt tokens:7113(0.003/1k tokens). completion tokens:25(0.004/1k tokens).
-record_cost.py - 230824 11:29:26 - INFO: cost: 0.0212. prompt tokens:7041(0.003/1k tokens). completion tokens:21(0.004/1k tokens).
-record_cost.py - 230824 11:29:28 - INFO: cost: 0.0211. prompt tokens:7029(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-record_cost.py - 230824 11:29:31 - INFO: cost: 0.0214. prompt tokens:7083(0.003/1k tokens). completion tokens:44(0.004/1k tokens).
-record_cost.py - 230824 11:29:33 - INFO: cost: 0.0214. prompt tokens:7119(0.003/1k tokens). completion tokens:19(0.004/1k tokens).
-record_cost.py - 230824 11:29:35 - INFO: cost: 0.0212. prompt tokens:7047(0.003/1k tokens). completion tokens:15(0.004/1k tokens).
-record_cost.py - 230824 11:29:39 - INFO: cost: 0.0214. prompt tokens:7053(0.003/1k tokens). completion tokens:66(0.004/1k tokens).
-record_cost.py - 230824 11:29:43 - INFO: cost: 0.0214. prompt tokens:7047(0.003/1k tokens). completion tokens:66(0.004/1k tokens).
-record_cost.py - 230824 11:29:48 - INFO: cost: 0.0214. prompt tokens:7047(0.003/1k tokens). completion tokens:66(0.004/1k tokens).
-record_cost.py - 230824 11:29:51 - INFO: cost: 0.0216. prompt tokens:7137(0.003/1k tokens). completion tokens:40(0.004/1k tokens).
-benchmark_class.py - 230824 11:30:25 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-record_cost.py - 230824 11:30:31 - INFO: cost: 0.2119. prompt tokens:6994(0.03/1k tokens). completion tokens:34(0.06/1k tokens).
-record_cost.py - 230824 11:30:36 - INFO: cost: 0.2144. prompt tokens:7084(0.03/1k tokens). completion tokens:32(0.06/1k tokens).
-record_cost.py - 230824 11:30:43 - INFO: cost: 0.2153. prompt tokens:7074(0.03/1k tokens). completion tokens:51(0.06/1k tokens).
-record_cost.py - 230824 11:30:50 - INFO: cost: 0.2156. prompt tokens:7071(0.03/1k tokens). completion tokens:58(0.06/1k tokens).
-record_cost.py - 230824 11:30:59 - INFO: cost: 0.2166. prompt tokens:7087(0.03/1k tokens). completion tokens:66(0.06/1k tokens).
-record_cost.py - 230824 11:31:06 - INFO: cost: 0.2143. prompt tokens:7049(0.03/1k tokens). completion tokens:48(0.06/1k tokens).
-record_cost.py - 230824 11:31:11 - INFO: cost: 0.2122. prompt tokens:7014(0.03/1k tokens). completion tokens:30(0.06/1k tokens).
-benchmark_class.py - 230824 11:31:11 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-record_cost.py - 230824 11:31:14 - INFO: cost: 0.2191. prompt tokens:7266(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:31:27 - INFO: cost: 0.2212. prompt tokens:7338(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:31:39 - INFO: cost: 0.218. prompt tokens:7231(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:31:52 - INFO: cost: 0.2187. prompt tokens:7254(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:32:03 - INFO: cost: 0.2182. prompt tokens:7238(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:32:24 - INFO: cost: 0.2246. prompt tokens:7452(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:32:32 - INFO: cost: 0.2186. prompt tokens:7252(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:32:44 - INFO: cost: 0.2184. prompt tokens:7243(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:33:05 - INFO: cost: 0.2271. prompt tokens:7535(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-benchmark_class.py - 230824 11:33:05 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-record_cost.py - 230824 11:33:13 - INFO: cost: 0.2173. prompt tokens:7152(0.03/1k tokens). completion tokens:46(0.06/1k tokens).
-record_cost.py - 230824 11:33:25 - INFO: cost: 0.2152. prompt tokens:7122(0.03/1k tokens). completion tokens:26(0.06/1k tokens).
-record_cost.py - 230824 11:33:40 - INFO: cost: 0.2166. prompt tokens:7167(0.03/1k tokens). completion tokens:26(0.06/1k tokens).
-record_cost.py - 230824 11:33:57 - INFO: cost: 0.2173. prompt tokens:7113(0.03/1k tokens). completion tokens:66(0.06/1k tokens).
-record_cost.py - 230824 11:34:03 - INFO: cost: 0.2146. prompt tokens:7107(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230824 11:34:16 - INFO: cost: 0.2145. prompt tokens:7077(0.03/1k tokens). completion tokens:36(0.06/1k tokens).
-record_cost.py - 230824 11:34:29 - INFO: cost: 0.2154. prompt tokens:7113(0.03/1k tokens). completion tokens:34(0.06/1k tokens).
-record_cost.py - 230824 11:34:42 - INFO: cost: 0.2123. prompt tokens:7041(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:34:55 - INFO: cost: 0.2119. prompt tokens:7029(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:35:09 - INFO: cost: 0.215. prompt tokens:7083(0.03/1k tokens). completion tokens:42(0.06/1k tokens).
-record_cost.py - 230824 11:35:22 - INFO: cost: 0.215. prompt tokens:7119(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230824 11:35:33 - INFO: cost: 0.2125. prompt tokens:7047(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-record_cost.py - 230824 11:35:50 - INFO: cost: 0.2155. prompt tokens:7053(0.03/1k tokens). completion tokens:66(0.06/1k tokens).
-record_cost.py - 230824 11:36:04 - INFO: cost: 0.2154. prompt tokens:7047(0.03/1k tokens). completion tokens:66(0.06/1k tokens).
-record_cost.py - 230824 11:36:16 - INFO: cost: 0.2154. prompt tokens:7047(0.03/1k tokens). completion tokens:66(0.06/1k tokens).
-record_cost.py - 230824 11:36:26 - INFO: cost: 0.2168. prompt tokens:7137(0.03/1k tokens). completion tokens:45(0.06/1k tokens).
-benchmark_class.py - 230824 11:50:26 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 11:50:53 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 11:52:05 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 11:55:30 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 12:00:15 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 12:30:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 12:30:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 12:30:47 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 12:31:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 12:31:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 12:31:44 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230824 12:32:44 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 12:36:38 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 12:42:01 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 12:53:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 12:53:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 12:53:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 12:59:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 13:04:32 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230824 13:12:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 00:28:33 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 00:33:44 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 00:41:28 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 00:58:42 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 00:58:42 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 00:58:42 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 01:27:49 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 01:31:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 01:35:43 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 01:52:51 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 01:58:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 02:03:36 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 02:25:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 02:30:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 02:35:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 02:44:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 02:47:21 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 02:52:25 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 03:26:48 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 03:27:25 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 03:50:45 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 03:55:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 03:55:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 03:55:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 03:55:10 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 03:55:44 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 03:56:25 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 06:43:38 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 06:54:53 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 07:08:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 07:36:34 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 07:41:36 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 07:49:14 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 08:38:09 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 08:40:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 09:21:43 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 11:52:46 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 12:06:30 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 12:12:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 12:16:26 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 12:27:29 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/few_shot/prompt1.json
-benchmark_class.py - 230825 12:46:30 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 12:54:34 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230825 13:05:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 07:56:15 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 08:09:09 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 08:10:39 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 08:14:40 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 08:21:26 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 08:31:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 08:35:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 08:37:06 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 08:37:06 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 08:37:06 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 08:37:06 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 08:37:06 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 08:41:47 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 09:56:05 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 09:57:50 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 10:00:59 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 10:35:07 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 10:38:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 10:38:59 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 10:43:48 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 10:43:48 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 10:43:48 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 10:43:48 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 10:44:56 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 10:46:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 10:59:48 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:02:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:03:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:06:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:08:58 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:11:04 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:12:34 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:16:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:19:37 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:29:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:34:53 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:41:26 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 11:51:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 11:54:26 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 11:59:09 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 12:10:55 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 12:14:25 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 12:19:44 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 12:27:59 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 12:31:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 12:36:07 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230828 12:50:59 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 12:56:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230828 13:04:21 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230829 01:27:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230829 01:27:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230829 01:27:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230829 01:38:49 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230829 01:44:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230829 01:51:58 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230829 02:08:32 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230829 02:16:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230829 02:27:34 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230829 02:46:07 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230829 02:51:28 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-benchmark_class.py - 230829 02:59:09 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-record_cost.py - 230906 06:08:06 - INFO: cost: 0.0815. prompt tokens:1742(0.03/1k tokens). completion tokens:488(0.06/1k tokens).
-record_cost.py - 230906 06:18:02 - INFO: cost: 0.0861. prompt tokens:1742(0.03/1k tokens). completion tokens:564(0.06/1k tokens).
-record_cost.py - 230906 06:24:24 - INFO: cost: 0.0279. prompt tokens:259(0.03/1k tokens). completion tokens:335(0.06/1k tokens).
-record_cost.py - 230907 11:55:10 - INFO: cost: 0.0083. prompt tokens:2306(0.003/1k tokens). completion tokens:357(0.004/1k tokens).
-record_cost.py - 230907 12:37:19 - INFO: cost: 0.0071. prompt tokens:1743(0.003/1k tokens). completion tokens:473(0.004/1k tokens).
-record_cost.py - 230909 11:45:13 - INFO: cost: 0.0083. prompt tokens:1743(0.003/1k tokens). completion tokens:758(0.004/1k tokens).
-benchmark_class.py - 230911 07:15:28 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-record_cost.py - 230911 07:15:31 - INFO: cost: 0.0214. prompt tokens:7112(0.003/1k tokens). completion tokens:28(0.004/1k tokens).
-record_cost.py - 230911 07:15:35 - INFO: cost: 0.0218. prompt tokens:7229(0.003/1k tokens). completion tokens:37(0.004/1k tokens).
-record_cost.py - 230911 07:15:39 - INFO: cost: 0.0218. prompt tokens:7180(0.003/1k tokens). completion tokens:57(0.004/1k tokens).
-record_cost.py - 230911 07:15:44 - INFO: cost: 0.022. prompt tokens:7206(0.003/1k tokens). completion tokens:88(0.004/1k tokens).
-record_cost.py - 230911 07:15:50 - INFO: cost: 0.0218. prompt tokens:7164(0.003/1k tokens). completion tokens:88(0.004/1k tokens).
-benchmark_class.py - 230911 07:16:37 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230911 07:17:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-record_cost.py - 230911 07:17:18 - INFO: cost: 0.0205. prompt tokens:6835(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-benchmark_class.py - 230911 07:17:18 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-record_cost.py - 230911 07:17:20 - INFO: cost: 0.0206. prompt tokens:6863(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230911 07:17:22 - INFO: cost: 0.0206. prompt tokens:6862(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230911 07:17:23 - INFO: cost: 0.0206. prompt tokens:6850(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230911 07:17:24 - INFO: cost: 0.0206. prompt tokens:6853(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230911 07:17:25 - INFO: cost: 0.0207. prompt tokens:6904(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230911 07:17:27 - INFO: cost: 0.0207. prompt tokens:6910(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230911 07:17:28 - INFO: cost: 0.0207. prompt tokens:6900(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230911 07:17:30 - INFO: cost: 0.0207. prompt tokens:6903(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230911 07:17:31 - INFO: cost: 0.0207. prompt tokens:6893(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-benchmark_class.py - 230911 07:17:56 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-benchmark_class.py - 230911 07:17:56 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-record_cost.py - 230911 07:18:02 - INFO: cost: 0.0225. prompt tokens:7451(0.003/1k tokens). completion tokens:40(0.004/1k tokens).
-record_cost.py - 230911 07:18:04 - INFO: cost: 0.0224. prompt tokens:7420(0.003/1k tokens). completion tokens:24(0.004/1k tokens).
-record_cost.py - 230911 07:18:06 - INFO: cost: 0.023. prompt tokens:7637(0.003/1k tokens). completion tokens:17(0.004/1k tokens).
-record_cost.py - 230911 07:18:08 - INFO: cost: 0.0223. prompt tokens:7421(0.003/1k tokens). completion tokens:17(0.004/1k tokens).
-record_cost.py - 230911 07:18:10 - INFO: cost: 0.0223. prompt tokens:7423(0.003/1k tokens). completion tokens:17(0.004/1k tokens).
-record_cost.py - 230911 07:18:12 - INFO: cost: 0.0227. prompt tokens:7565(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-benchmark_class.py - 230911 07:18:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-record_cost.py - 230911 07:18:15 - INFO: cost: 0.022. prompt tokens:7288(0.003/1k tokens). completion tokens:45(0.004/1k tokens).
-record_cost.py - 230911 07:18:18 - INFO: cost: 0.022. prompt tokens:7291(0.003/1k tokens). completion tokens:27(0.004/1k tokens).
-record_cost.py - 230911 07:18:22 - INFO: cost: 0.0219. prompt tokens:7269(0.003/1k tokens). completion tokens:32(0.004/1k tokens).
-record_cost.py - 230911 07:18:24 - INFO: cost: 0.0218. prompt tokens:7232(0.003/1k tokens). completion tokens:27(0.004/1k tokens).
-record_cost.py - 230911 07:18:26 - INFO: cost: 0.0218. prompt tokens:7221(0.003/1k tokens). completion tokens:30(0.004/1k tokens).
-record_cost.py - 230911 07:18:31 - INFO: cost: 0.0216. prompt tokens:7175(0.003/1k tokens). completion tokens:28(0.004/1k tokens).
-record_cost.py - 230911 07:18:35 - INFO: cost: 0.0217. prompt tokens:7153(0.003/1k tokens). completion tokens:60(0.004/1k tokens).
-record_cost.py - 230911 07:18:38 - INFO: cost: 0.0219. prompt tokens:7236(0.003/1k tokens). completion tokens:46(0.004/1k tokens).
-record_cost.py - 230911 07:18:42 - INFO: cost: 0.0218. prompt tokens:7185(0.003/1k tokens). completion tokens:57(0.004/1k tokens).
-record_cost.py - 230911 07:18:47 - INFO: cost: 0.0218. prompt tokens:7161(0.003/1k tokens). completion tokens:88(0.004/1k tokens).
-record_cost.py - 230911 07:18:52 - INFO: cost: 0.0218. prompt tokens:7159(0.003/1k tokens). completion tokens:88(0.004/1k tokens).
-record_cost.py - 230911 07:18:56 - INFO: cost: 0.022. prompt tokens:7248(0.003/1k tokens). completion tokens:64(0.004/1k tokens).
-benchmark_class.py - 230911 07:18:56 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-record_cost.py - 230911 07:18:59 - INFO: cost: 0.0212. prompt tokens:7021(0.003/1k tokens). completion tokens:28(0.004/1k tokens).
-record_cost.py - 230911 07:19:02 - INFO: cost: 0.0216. prompt tokens:7138(0.003/1k tokens). completion tokens:39(0.004/1k tokens).
-record_cost.py - 230911 07:19:06 - INFO: cost: 0.0215. prompt tokens:7089(0.003/1k tokens). completion tokens:49(0.004/1k tokens).
-record_cost.py - 230911 07:19:11 - INFO: cost: 0.0217. prompt tokens:7115(0.003/1k tokens). completion tokens:88(0.004/1k tokens).
-record_cost.py - 230911 07:19:17 - INFO: cost: 0.0216. prompt tokens:7073(0.003/1k tokens). completion tokens:88(0.004/1k tokens).
-record_cost.py - 230911 07:19:19 - INFO: cost: 0.0203. prompt tokens:6771(0.003/1k tokens). completion tokens:3(0.004/1k tokens).
-benchmark_class.py - 230911 07:19:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-record_cost.py - 230911 07:19:20 - INFO: cost: 0.0223. prompt tokens:7416(0.003/1k tokens). completion tokens:17(0.004/1k tokens).
-record_cost.py - 230911 07:19:22 - INFO: cost: 0.0221. prompt tokens:7360(0.003/1k tokens). completion tokens:17(0.004/1k tokens).
-record_cost.py - 230911 07:19:24 - INFO: cost: 0.0221. prompt tokens:7329(0.003/1k tokens). completion tokens:17(0.004/1k tokens).
-record_cost.py - 230911 07:19:26 - INFO: cost: 0.0227. prompt tokens:7546(0.003/1k tokens). completion tokens:17(0.004/1k tokens).
-record_cost.py - 230911 07:19:28 - INFO: cost: 0.0221. prompt tokens:7330(0.003/1k tokens). completion tokens:17(0.004/1k tokens).
-record_cost.py - 230911 07:19:30 - INFO: cost: 0.0221. prompt tokens:7332(0.003/1k tokens). completion tokens:17(0.004/1k tokens).
-record_cost.py - 230911 07:19:32 - INFO: cost: 0.0225. prompt tokens:7474(0.003/1k tokens). completion tokens:13(0.004/1k tokens).
-benchmark_class.py - 230911 07:19:32 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-record_cost.py - 230911 07:19:36 - INFO: cost: 0.0218. prompt tokens:7197(0.003/1k tokens). completion tokens:45(0.004/1k tokens).
-record_cost.py - 230911 07:19:38 - INFO: cost: 0.0217. prompt tokens:7200(0.003/1k tokens). completion tokens:22(0.004/1k tokens).
-record_cost.py - 230911 07:19:40 - INFO: cost: 0.0217. prompt tokens:7178(0.003/1k tokens). completion tokens:32(0.004/1k tokens).
-record_cost.py - 230911 07:19:43 - INFO: cost: 0.0215. prompt tokens:7141(0.003/1k tokens). completion tokens:27(0.004/1k tokens).
-record_cost.py - 230911 07:19:46 - INFO: cost: 0.0215. prompt tokens:7130(0.003/1k tokens). completion tokens:34(0.004/1k tokens).
-record_cost.py - 230911 07:19:49 - INFO: cost: 0.0214. prompt tokens:7084(0.003/1k tokens). completion tokens:28(0.004/1k tokens).
-record_cost.py - 230911 07:19:54 - INFO: cost: 0.0215. prompt tokens:7062(0.003/1k tokens). completion tokens:68(0.004/1k tokens).
-record_cost.py - 230911 07:19:57 - INFO: cost: 0.0217. prompt tokens:7145(0.003/1k tokens). completion tokens:54(0.004/1k tokens).
-record_cost.py - 230911 07:20:02 - INFO: cost: 0.0215. prompt tokens:7094(0.003/1k tokens). completion tokens:53(0.004/1k tokens).
-record_cost.py - 230911 07:20:07 - INFO: cost: 0.0216. prompt tokens:7070(0.003/1k tokens). completion tokens:88(0.004/1k tokens).
-record_cost.py - 230911 07:20:10 - INFO: cost: 0.0214. prompt tokens:7068(0.003/1k tokens). completion tokens:48(0.004/1k tokens).
-record_cost.py - 230911 07:20:14 - INFO: cost: 0.0217. prompt tokens:7157(0.003/1k tokens). completion tokens:64(0.004/1k tokens).
-benchmark_class.py - 230911 07:21:06 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-record_cost.py - 230911 07:21:11 - INFO: cost: 0.2155. prompt tokens:7112(0.03/1k tokens). completion tokens:35(0.06/1k tokens).
-record_cost.py - 230911 07:21:18 - INFO: cost: 0.2201. prompt tokens:7229(0.03/1k tokens). completion tokens:54(0.06/1k tokens).
-record_cost.py - 230911 07:21:24 - INFO: cost: 0.2183. prompt tokens:7180(0.03/1k tokens). completion tokens:48(0.06/1k tokens).
-record_cost.py - 230911 07:21:33 - INFO: cost: 0.2215. prompt tokens:7206(0.03/1k tokens). completion tokens:88(0.06/1k tokens).
-record_cost.py - 230911 07:21:40 - INFO: cost: 0.2187. prompt tokens:7164(0.03/1k tokens). completion tokens:63(0.06/1k tokens).
-record_cost.py - 230911 07:21:41 - INFO: cost: 0.206. prompt tokens:6862(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
-benchmark_class.py - 230911 07:21:41 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-record_cost.py - 230911 07:21:46 - INFO: cost: 0.2266. prompt tokens:7507(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:21:57 - INFO: cost: 0.225. prompt tokens:7451(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:22:09 - INFO: cost: 0.224. prompt tokens:7420(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:22:23 - INFO: cost: 0.2305. prompt tokens:7637(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:22:44 - INFO: cost: 0.2241. prompt tokens:7421(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:22:50 - INFO: cost: 0.2251. prompt tokens:7423(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
-record_cost.py - 230911 07:23:04 - INFO: cost: 0.228. prompt tokens:7565(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-benchmark_class.py - 230911 07:23:04 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/few_shot/prompt1.json
-record_cost.py - 230911 07:23:19 - INFO: cost: 0.222. prompt tokens:7288(0.03/1k tokens). completion tokens:56(0.06/1k tokens).
-record_cost.py - 230911 07:23:35 - INFO: cost: 0.2209. prompt tokens:7291(0.03/1k tokens). completion tokens:37(0.06/1k tokens).
-record_cost.py - 230911 07:23:43 - INFO: cost: 0.2203. prompt tokens:7269(0.03/1k tokens). completion tokens:38(0.06/1k tokens).
-record_cost.py - 230911 07:23:55 - INFO: cost: 0.219. prompt tokens:7232(0.03/1k tokens). completion tokens:34(0.06/1k tokens).
-record_cost.py - 230911 07:24:18 - INFO: cost: 0.2199. prompt tokens:7221(0.03/1k tokens). completion tokens:54(0.06/1k tokens).
-record_cost.py - 230911 07:24:23 - INFO: cost: 0.2175. prompt tokens:7175(0.03/1k tokens). completion tokens:38(0.06/1k tokens).
-record_cost.py - 230911 07:24:35 - INFO: cost: 0.216. prompt tokens:7153(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:24:59 - INFO: cost: 0.22. prompt tokens:7236(0.03/1k tokens). completion tokens:48(0.06/1k tokens).
-record_cost.py - 230911 07:25:03 - INFO: cost: 0.2175. prompt tokens:7185(0.03/1k tokens). completion tokens:32(0.06/1k tokens).
-record_cost.py - 230911 07:25:14 - INFO: cost: 0.2163. prompt tokens:7161(0.03/1k tokens). completion tokens:25(0.06/1k tokens).
-record_cost.py - 230911 07:25:28 - INFO: cost: 0.2172. prompt tokens:7159(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
-record_cost.py - 230911 07:25:43 - INFO: cost: 0.221. prompt tokens:7248(0.03/1k tokens). completion tokens:59(0.06/1k tokens).
-benchmark_class.py - 230911 07:25:43 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-record_cost.py - 230911 07:25:57 - INFO: cost: 0.2127. prompt tokens:7021(0.03/1k tokens). completion tokens:35(0.06/1k tokens).
-record_cost.py - 230911 07:26:12 - INFO: cost: 0.2179. prompt tokens:7138(0.03/1k tokens). completion tokens:62(0.06/1k tokens).
-record_cost.py - 230911 07:26:23 - INFO: cost: 0.216. prompt tokens:7089(0.03/1k tokens). completion tokens:56(0.06/1k tokens).
-record_cost.py - 230911 07:26:40 - INFO: cost: 0.2184. prompt tokens:7115(0.03/1k tokens). completion tokens:82(0.06/1k tokens).
-record_cost.py - 230911 07:26:47 - INFO: cost: 0.216. prompt tokens:7073(0.03/1k tokens). completion tokens:63(0.06/1k tokens).
-record_cost.py - 230911 07:26:57 - INFO: cost: 0.2033. prompt tokens:6771(0.03/1k tokens). completion tokens:3(0.06/1k tokens).
-benchmark_class.py - 230911 07:26:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-record_cost.py - 230911 07:27:10 - INFO: cost: 0.2239. prompt tokens:7416(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:27:31 - INFO: cost: 0.2222. prompt tokens:7360(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:27:39 - INFO: cost: 0.2213. prompt tokens:7329(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:27:51 - INFO: cost: 0.2278. prompt tokens:7546(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:28:13 - INFO: cost: 0.2223. prompt tokens:7330(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
-record_cost.py - 230911 07:28:18 - INFO: cost: 0.2224. prompt tokens:7332(0.03/1k tokens). completion tokens:40(0.06/1k tokens).
-record_cost.py - 230911 07:28:30 - INFO: cost: 0.2253. prompt tokens:7474(0.03/1k tokens). completion tokens:18(0.06/1k tokens).
-benchmark_class.py - 230911 07:28:30 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/profile_v1/system_v1/benchmark_v2/monica/zero_shot/prompt1.json
-record_cost.py - 230911 07:28:53 - INFO: cost: 0.2191. prompt tokens:7197(0.03/1k tokens). completion tokens:54(0.06/1k tokens).
-record_cost.py - 230911 07:28:59 - INFO: cost: 0.2189. prompt tokens:7200(0.03/1k tokens). completion tokens:49(0.06/1k tokens).
-record_cost.py - 230911 07:29:13 - INFO: cost: 0.2177. prompt tokens:7178(0.03/1k tokens). completion tokens:39(0.06/1k tokens).
-record_cost.py - 230911 07:29:26 - INFO: cost: 0.2163. prompt tokens:7141(0.03/1k tokens). completion tokens:34(0.06/1k tokens).
-record_cost.py - 230911 07:29:42 - INFO: cost: 0.2179. prompt tokens:7130(0.03/1k tokens). completion tokens:66(0.06/1k tokens).
-record_cost.py - 230911 07:29:51 - INFO: cost: 0.2143. prompt tokens:7084(0.03/1k tokens). completion tokens:29(0.06/1k tokens).
-record_cost.py - 230911 07:30:03 - INFO: cost: 0.2133. prompt tokens:7062(0.03/1k tokens). completion tokens:24(0.06/1k tokens).
-record_cost.py - 230911 07:30:17 - INFO: cost: 0.217. prompt tokens:7145(0.03/1k tokens). completion tokens:45(0.06/1k tokens).
-record_cost.py - 230911 07:30:31 - INFO: cost: 0.2147. prompt tokens:7094(0.03/1k tokens). completion tokens:32(0.06/1k tokens).
-record_cost.py - 230911 07:30:46 - INFO: cost: 0.216. prompt tokens:7070(0.03/1k tokens). completion tokens:65(0.06/1k tokens).
-record_cost.py - 230911 07:30:56 - INFO: cost: 0.2159. prompt tokens:7068(0.03/1k tokens). completion tokens:64(0.06/1k tokens).
-record_cost.py - 230911 07:31:12 - INFO: cost: 0.2187. prompt tokens:7157(0.03/1k tokens). completion tokens:67(0.06/1k tokens).
-benchmark_class.py - 230911 11:48:28 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 11:53:19 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 11:53:19 - INFO: generating basic information questions finished
-benchmark_class.py - 230911 11:53:19 - INFO: generating roles non relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 11:54:45 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 11:54:45 - INFO: generating basic information questions finished
-benchmark_class.py - 230911 11:54:45 - INFO: generating roles non relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-record_cost.py - 230911 11:54:49 - INFO: cost: 0.0036. prompt tokens:61(0.03/1k tokens). completion tokens:29(0.06/1k tokens).
-record_cost.py - 230911 11:54:54 - INFO: cost: 0.0051. prompt tokens:69(0.03/1k tokens). completion tokens:50(0.06/1k tokens).
-record_cost.py - 230911 11:54:59 - INFO: cost: 0.0052. prompt tokens:72(0.03/1k tokens). completion tokens:51(0.06/1k tokens).
-record_cost.py - 230911 11:55:04 - INFO: cost: 0.0043. prompt tokens:69(0.03/1k tokens). completion tokens:38(0.06/1k tokens).
-record_cost.py - 230911 11:55:13 - INFO: cost: 0.0072. prompt tokens:87(0.03/1k tokens). completion tokens:77(0.06/1k tokens).
-record_cost.py - 230911 11:55:21 - INFO: cost: 0.0064. prompt tokens:81(0.03/1k tokens). completion tokens:66(0.06/1k tokens).
-record_cost.py - 230911 11:55:26 - INFO: cost: 0.0046. prompt tokens:71(0.03/1k tokens). completion tokens:42(0.06/1k tokens).
-benchmark_class.py - 230911 11:55:26 - INFO: generating roles non relation questions finished
-benchmark_class.py - 230911 11:55:26 - INFO: generating roles relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 11:56:52 - INFO: generating roles relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 11:57:39 - INFO: generating roles relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:11:48 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:11:48 - INFO: generating basic information questions finished
-benchmark_class.py - 230911 12:11:48 - INFO: generating roles non relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-record_cost.py - 230911 12:11:52 - INFO: cost: 0.0036. prompt tokens:61(0.03/1k tokens). completion tokens:29(0.06/1k tokens).
-record_cost.py - 230911 12:11:59 - INFO: cost: 0.005. prompt tokens:69(0.03/1k tokens). completion tokens:49(0.06/1k tokens).
-record_cost.py - 230911 12:12:04 - INFO: cost: 0.0052. prompt tokens:72(0.03/1k tokens). completion tokens:51(0.06/1k tokens).
-record_cost.py - 230911 12:12:09 - INFO: cost: 0.0043. prompt tokens:69(0.03/1k tokens). completion tokens:38(0.06/1k tokens).
-record_cost.py - 230911 12:12:19 - INFO: cost: 0.0073. prompt tokens:87(0.03/1k tokens). completion tokens:78(0.06/1k tokens).
-record_cost.py - 230911 12:12:27 - INFO: cost: 0.0064. prompt tokens:81(0.03/1k tokens). completion tokens:66(0.06/1k tokens).
-benchmark_class.py - 230911 12:13:14 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:13:14 - INFO: generating basic information questions finished
-benchmark_class.py - 230911 12:20:57 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:21:30 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:21:30 - INFO: generating basic information questions finished
-benchmark_class.py - 230911 12:21:30 - INFO: generating roles non relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/galadriel/profile_v1/system_v1/benchmark_v2/questions.json
-record_cost.py - 230911 12:21:36 - INFO: cost: 0.0036. prompt tokens:61(0.03/1k tokens). completion tokens:29(0.06/1k tokens).
-record_cost.py - 230911 12:21:42 - INFO: cost: 0.005. prompt tokens:69(0.03/1k tokens). completion tokens:49(0.06/1k tokens).
-record_cost.py - 230911 12:21:48 - INFO: cost: 0.0052. prompt tokens:72(0.03/1k tokens). completion tokens:51(0.06/1k tokens).
-record_cost.py - 230911 12:21:52 - INFO: cost: 0.0043. prompt tokens:69(0.03/1k tokens). completion tokens:38(0.06/1k tokens).
-record_cost.py - 230911 12:22:01 - INFO: cost: 0.0072. prompt tokens:87(0.03/1k tokens). completion tokens:77(0.06/1k tokens).
-record_cost.py - 230911 12:22:09 - INFO: cost: 0.0064. prompt tokens:81(0.03/1k tokens). completion tokens:66(0.06/1k tokens).
-record_cost.py - 230911 12:22:13 - INFO: cost: 0.0049. prompt tokens:71(0.03/1k tokens). completion tokens:46(0.06/1k tokens).
-benchmark_class.py - 230911 12:22:13 - INFO: generating roles non relation questions finished
-benchmark_class.py - 230911 12:24:53 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:32:17 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:33:29 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:33:29 - INFO: generating basic information questions finished
-benchmark_class.py - 230911 12:33:29 - INFO: generating roles non relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/questions.json
-record_cost.py - 230911 12:33:41 - INFO: cost: 0.0107. prompt tokens:109(0.03/1k tokens). completion tokens:124(0.06/1k tokens).
-record_cost.py - 230911 12:33:54 - INFO: cost: 0.0113. prompt tokens:111(0.03/1k tokens). completion tokens:133(0.06/1k tokens).
-record_cost.py - 230911 12:34:01 - INFO: cost: 0.0081. prompt tokens:97(0.03/1k tokens). completion tokens:87(0.06/1k tokens).
-record_cost.py - 230911 12:34:10 - INFO: cost: 0.0088. prompt tokens:99(0.03/1k tokens). completion tokens:97(0.06/1k tokens).
-record_cost.py - 230911 12:34:20 - INFO: cost: 0.0083. prompt tokens:91(0.03/1k tokens). completion tokens:92(0.06/1k tokens).
-record_cost.py - 230911 12:34:30 - INFO: cost: 0.009. prompt tokens:92(0.03/1k tokens). completion tokens:104(0.06/1k tokens).
-record_cost.py - 230911 12:34:43 - INFO: cost: 0.0109. prompt tokens:110(0.03/1k tokens). completion tokens:127(0.06/1k tokens).
-record_cost.py - 230911 12:34:55 - INFO: cost: 0.0095. prompt tokens:97(0.03/1k tokens). completion tokens:110(0.06/1k tokens).
-record_cost.py - 230911 12:35:06 - INFO: cost: 0.0096. prompt tokens:100(0.03/1k tokens). completion tokens:110(0.06/1k tokens).
-record_cost.py - 230911 12:35:15 - INFO: cost: 0.0082. prompt tokens:92(0.03/1k tokens). completion tokens:91(0.06/1k tokens).
-record_cost.py - 230911 12:35:25 - INFO: cost: 0.0088. prompt tokens:97(0.03/1k tokens). completion tokens:99(0.06/1k tokens).
-benchmark_class.py - 230911 12:35:25 - INFO: generating roles non relation questions finished
-benchmark_class.py - 230911 12:35:25 - INFO: generating roles relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:35:25 - INFO: generating roles relation questions finished
-benchmark_class.py - 230911 12:38:58 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:38:58 - INFO: generating basic information questions finished
-benchmark_class.py - 230911 12:42:25 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/rachel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:43:23 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/rachel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:43:23 - INFO: generating basic information questions finished
-benchmark_class.py - 230911 12:43:23 - INFO: generating roles non relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1/system_v1/benchmark_v2/questions.json
-record_cost.py - 230911 12:43:33 - INFO: cost: 0.0079. prompt tokens:88(0.03/1k tokens). completion tokens:88(0.06/1k tokens).
-record_cost.py - 230911 12:43:45 - INFO: cost: 0.0084. prompt tokens:90(0.03/1k tokens). completion tokens:95(0.06/1k tokens).
-record_cost.py - 230911 12:43:56 - INFO: cost: 0.0078. prompt tokens:91(0.03/1k tokens). completion tokens:85(0.06/1k tokens).
-record_cost.py - 230911 12:44:02 - INFO: cost: 0.0058. prompt tokens:87(0.03/1k tokens). completion tokens:54(0.06/1k tokens).
-record_cost.py - 230911 12:44:12 - INFO: cost: 0.0086. prompt tokens:103(0.03/1k tokens). completion tokens:92(0.06/1k tokens).
-record_cost.py - 230911 12:44:20 - INFO: cost: 0.0071. prompt tokens:84(0.03/1k tokens). completion tokens:77(0.06/1k tokens).
-record_cost.py - 230911 12:44:28 - INFO: cost: 0.0076. prompt tokens:87(0.03/1k tokens). completion tokens:83(0.06/1k tokens).
-record_cost.py - 230911 12:44:36 - INFO: cost: 0.0078. prompt tokens:88(0.03/1k tokens). completion tokens:86(0.06/1k tokens).
-record_cost.py - 230911 12:44:45 - INFO: cost: 0.0076. prompt tokens:88(0.03/1k tokens). completion tokens:83(0.06/1k tokens).
-record_cost.py - 230911 12:44:55 - INFO: cost: 0.0093. prompt tokens:101(0.03/1k tokens). completion tokens:105(0.06/1k tokens).
-record_cost.py - 230911 12:45:04 - INFO: cost: 0.0078. prompt tokens:89(0.03/1k tokens). completion tokens:86(0.06/1k tokens).
-record_cost.py - 230911 12:45:16 - INFO: cost: 0.0102. prompt tokens:101(0.03/1k tokens). completion tokens:119(0.06/1k tokens).
-record_cost.py - 230911 12:45:24 - INFO: cost: 0.0073. prompt tokens:93(0.03/1k tokens). completion tokens:76(0.06/1k tokens).
-record_cost.py - 230911 12:45:35 - INFO: cost: 0.0083. prompt tokens:94(0.03/1k tokens). completion tokens:92(0.06/1k tokens).
-record_cost.py - 230911 12:45:43 - INFO: cost: 0.0072. prompt tokens:95(0.03/1k tokens). completion tokens:72(0.06/1k tokens).
-record_cost.py - 230911 12:45:53 - INFO: cost: 0.0068. prompt tokens:96(0.03/1k tokens). completion tokens:65(0.06/1k tokens).
-record_cost.py - 230911 12:46:02 - INFO: cost: 0.008. prompt tokens:102(0.03/1k tokens). completion tokens:82(0.06/1k tokens).
-record_cost.py - 230911 12:46:11 - INFO: cost: 0.008. prompt tokens:93(0.03/1k tokens). completion tokens:86(0.06/1k tokens).
-record_cost.py - 230911 12:46:23 - INFO: cost: 0.0092. prompt tokens:98(0.03/1k tokens). completion tokens:105(0.06/1k tokens).
-record_cost.py - 230911 12:46:31 - INFO: cost: 0.007. prompt tokens:83(0.03/1k tokens). completion tokens:76(0.06/1k tokens).
-record_cost.py - 230911 12:46:40 - INFO: cost: 0.0082. prompt tokens:92(0.03/1k tokens). completion tokens:90(0.06/1k tokens).
-record_cost.py - 230911 12:46:53 - INFO: cost: 0.01. prompt tokens:104(0.03/1k tokens). completion tokens:114(0.06/1k tokens).
-benchmark_class.py - 230911 12:46:53 - INFO: generating roles non relation questions finished
-benchmark_class.py - 230911 12:46:53 - INFO: generating roles relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:49:06 - INFO: generating roles relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:49:06 - INFO: generating roles relation questions finished
-benchmark_class.py - 230911 12:50:08 - INFO: generating basic information questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/walter_white/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:50:08 - INFO: generating basic information questions finished
-benchmark_class.py - 230911 12:50:08 - INFO: generating roles non relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1/system_v1/benchmark_v2/questions.json
-record_cost.py - 230911 12:50:18 - INFO: cost: 0.0084. prompt tokens:97(0.03/1k tokens). completion tokens:91(0.06/1k tokens).
-record_cost.py - 230911 12:50:27 - INFO: cost: 0.0091. prompt tokens:98(0.03/1k tokens). completion tokens:103(0.06/1k tokens).
-record_cost.py - 230911 12:50:37 - INFO: cost: 0.0081. prompt tokens:97(0.03/1k tokens). completion tokens:86(0.06/1k tokens).
-record_cost.py - 230911 12:50:46 - INFO: cost: 0.009. prompt tokens:96(0.03/1k tokens). completion tokens:102(0.06/1k tokens).
-record_cost.py - 230911 12:50:56 - INFO: cost: 0.0097. prompt tokens:100(0.03/1k tokens). completion tokens:111(0.06/1k tokens).
-record_cost.py - 230911 12:51:03 - INFO: cost: 0.0079. prompt tokens:98(0.03/1k tokens). completion tokens:83(0.06/1k tokens).
-record_cost.py - 230911 12:51:12 - INFO: cost: 0.009. prompt tokens:104(0.03/1k tokens). completion tokens:98(0.06/1k tokens).
-record_cost.py - 230911 12:51:21 - INFO: cost: 0.0086. prompt tokens:98(0.03/1k tokens). completion tokens:95(0.06/1k tokens).
-record_cost.py - 230911 12:51:29 - INFO: cost: 0.008. prompt tokens:90(0.03/1k tokens). completion tokens:88(0.06/1k tokens).
-record_cost.py - 230911 12:51:40 - INFO: cost: 0.0095. prompt tokens:100(0.03/1k tokens). completion tokens:108(0.06/1k tokens).
-record_cost.py - 230911 12:51:48 - INFO: cost: 0.0082. prompt tokens:88(0.03/1k tokens). completion tokens:93(0.06/1k tokens).
-record_cost.py - 230911 12:52:00 - INFO: cost: 0.0097. prompt tokens:98(0.03/1k tokens). completion tokens:113(0.06/1k tokens).
-record_cost.py - 230911 12:52:06 - INFO: cost: 0.0057. prompt tokens:86(0.03/1k tokens). completion tokens:52(0.06/1k tokens).
-record_cost.py - 230911 12:52:18 - INFO: cost: 0.0095. prompt tokens:97(0.03/1k tokens). completion tokens:110(0.06/1k tokens).
-record_cost.py - 230911 12:52:23 - INFO: cost: 0.0041. prompt tokens:50(0.03/1k tokens). completion tokens:43(0.06/1k tokens).
-record_cost.py - 230911 12:52:34 - INFO: cost: 0.0088. prompt tokens:92(0.03/1k tokens). completion tokens:101(0.06/1k tokens).
-record_cost.py - 230911 12:52:43 - INFO: cost: 0.008. prompt tokens:93(0.03/1k tokens). completion tokens:87(0.06/1k tokens).
-record_cost.py - 230911 12:52:55 - INFO: cost: 0.009. prompt tokens:93(0.03/1k tokens). completion tokens:103(0.06/1k tokens).
-record_cost.py - 230911 12:53:09 - INFO: cost: 0.0108. prompt tokens:105(0.03/1k tokens). completion tokens:128(0.06/1k tokens).
-record_cost.py - 230911 12:53:18 - INFO: cost: 0.0096. prompt tokens:102(0.03/1k tokens). completion tokens:109(0.06/1k tokens).
-record_cost.py - 230911 12:53:32 - INFO: cost: 0.0103. prompt tokens:104(0.03/1k tokens). completion tokens:120(0.06/1k tokens).
-record_cost.py - 230911 12:53:45 - INFO: cost: 0.0101. prompt tokens:102(0.03/1k tokens). completion tokens:118(0.06/1k tokens).
-benchmark_class.py - 230911 12:53:45 - INFO: generating roles non relation questions finished
-benchmark_class.py - 230911 12:53:45 - INFO: generating roles relation questions into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1/system_v1/benchmark_v2/questions.json
-benchmark_class.py - 230911 12:53:45 - INFO: generating roles relation questions finished
-benchmark_class.py - 230912 01:56:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 01:56:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 01:56:51 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 01:56:51 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-record_cost.py - 230912 01:56:52 - INFO: cost: 0.0207. prompt tokens:6910(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230912 01:56:53 - INFO: cost: 0.0207. prompt tokens:6900(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230912 01:56:56 - INFO: cost: 0.0207. prompt tokens:6903(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-benchmark_class.py - 230912 01:56:56 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 01:56:56 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 01:56:56 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 01:56:56 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 01:59:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 01:59:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-record_cost.py - 230912 01:59:01 - INFO: cost: 0.0207. prompt tokens:6910(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230912 01:59:02 - INFO: cost: 0.0207. prompt tokens:6900(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230912 01:59:03 - INFO: cost: 0.0207. prompt tokens:6903(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-benchmark_class.py - 230912 01:59:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 01:59:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 01:59:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 01:59:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 01:59:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 01:59:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-record_cost.py - 230912 01:59:58 - INFO: cost: 0.0207. prompt tokens:6910(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230912 01:59:59 - INFO: cost: 0.0207. prompt tokens:6900(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230912 02:00:00 - INFO: cost: 0.0207. prompt tokens:6903(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-benchmark_class.py - 230912 02:00:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 02:00:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 02:00:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 02:00:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 02:01:53 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 02:01:53 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-record_cost.py - 230912 02:01:55 - INFO: cost: 0.0207. prompt tokens:6910(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230912 02:01:56 - INFO: cost: 0.0207. prompt tokens:6900(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-record_cost.py - 230912 02:01:57 - INFO: cost: 0.0207. prompt tokens:6903(0.003/1k tokens). completion tokens:1(0.004/1k tokens).
-benchmark_class.py - 230912 02:01:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 02:01:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 02:01:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 02:01:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 02:02:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 02:02:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 02:02:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/few_shot/prompt1.json
-benchmark_class.py - 230912 02:02:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 02:02:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
-benchmark_class.py - 230912 02:02:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 10:28:42 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 10:46:37 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 10:51:15 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 11:51:40 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 11:54:15 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 11:55:58 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 11:57:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 11:58:43 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:03:36 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:10:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:12:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:14:58 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:23:32 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:35:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:37:41 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:38:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 12:41:36 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 12:54:25 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 13:36:44 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 13:44:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 14:08:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 14:10:20 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 14:11:26 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 14:12:10 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 14:13:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 14:15:01 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 14:18:01 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 14:19:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 14:21:38 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 14:24:25 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 14:29:04 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 14:30:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 14:34:28 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 14:40:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 15:00:32 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 15:05:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 15:24:24 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 15:27:09 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 15:29:32 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 15:30:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 15:30:59 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 15:34:34 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 15:40:22 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 15:41:54 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 15:44:30 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 15:49:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 15:53:47 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 15:56:18 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 16:00:35 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 16:08:32 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231004 16:32:41 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231004 16:37:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 01:28:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 02:31:43 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 02:33:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 02:34:47 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 02:35:01 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:35:45 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:36:18 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 02:36:36 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:37:35 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 02:38:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 02:38:22 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 02:39:22 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 02:40:28 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 02:41:09 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 02:41:53 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 02:42:34 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 02:42:50 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:43:14 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:43:40 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:44:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 02:44:39 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 02:45:07 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 02:45:46 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 02:46:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 02:47:07 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 02:48:09 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 02:51:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:51:42 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:52:19 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 02:56:01 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:56:01 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:56:25 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 02:58:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 02:58:26 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 02:58:51 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 02:59:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:00:16 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:00:32 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:01:45 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:02:08 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:28:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 03:28:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 03:28:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 03:29:01 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 03:29:20 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 03:29:27 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:29:43 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 03:29:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:30:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 03:30:28 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:30:33 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 03:30:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 03:31:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:31:22 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 03:31:47 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:32:41 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:33:58 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:34:49 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 03:35:02 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:37:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:38:05 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 03:38:07 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:39:44 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:40:39 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 03:40:55 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:42:48 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:43:43 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 03:44:39 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 03:48:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 03:50:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 03:50:58 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 03:51:13 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 03:52:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 03:53:04 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:00:23 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:00:40 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:00:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:01:22 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:01:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:02:21 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:03:01 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:03:40 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:04:38 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:05:15 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:06:08 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:06:54 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:08:03 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:09:01 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:12:36 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:13:49 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:23:10 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:23:26 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:23:40 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:23:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 04:23:53 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:24:15 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 04:24:15 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:24:34 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt2.json
+benchmark_class.py - 231005 04:24:39 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:25:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:25:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 04:25:35 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:25:37 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 04:25:52 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/few_shot/prompt3.json
+benchmark_class.py - 231005 04:26:17 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:26:28 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/basic_information/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 04:26:49 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:27:34 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:28:05 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:29:28 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 04:30:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:30:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:30:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:30:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:30:21 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:30:21 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:30:21 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:30:21 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:30:29 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:30:29 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:30:29 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:30:29 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:30:38 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:31:26 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:33:11 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1/system_v1/benchmark_v2/zero_shot/prompt2.json
+benchmark_class.py - 231005 04:34:22 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:35:09 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:38:15 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:38:54 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:39:20 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:40:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/homer/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:40:34 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:42:45 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:44:00 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:45:12 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/rachel/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:46:29 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:48:32 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:50:38 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:52:29 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/walter_white/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 04:53:57 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 04:59:14 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/few_shot/prompt1.json
+benchmark_class.py - 231005 05:31:22 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_non_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json
+benchmark_class.py - 231005 05:35:25 - INFO: generating answer into file /home/yxiao2/pycharm/GPTMan/db/benchmark/role_relation/monica/profile_v1_only_roles/system_v1/benchmark_v2/zero_shot/prompt1.json

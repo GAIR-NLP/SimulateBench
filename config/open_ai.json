@@ -22,5 +22,5 @@
     "gpt-4"
   ],
   "model_name": "gpt-4",
-  "temperature": 0
+  "temperature": 0.0001
 }

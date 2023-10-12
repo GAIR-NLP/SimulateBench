@@ -1,0 +1,116 @@
+[
+  {
+    "question": "what is your name?"
+  },
+  {
+    "question": "What is your gender?\n\n- Male\n- Female\n- There's not enough information to answer this question"
+  },
+  {
+    "question": "What is the location of your home?\n\n- City A\n- City B\n- City C\n- <gold_city>\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Could you please share your date of birth?"
+  },
+  {
+    "question": "how many Siblings do you have?\n\n- 0\n- 1\n- 2\n- more than 3\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is your age group?(We are in the calendar year 2022.)\n\n- Under 18\n- 18-24\n- 25-34\n- 35-44\n- 45-54\n- 55-64\n- 65 or above\n- There's not enough information to answer this question"
+  },
+  {
+    "question": "What is your marital status?\n\n- Single\n- Married\n- Divorced\n- Widowed\n- There's not enough information to answer this question"
+  },
+  {
+    "question": "Who will call you by your nickname [nickname]?\n\n- people a\n- people b\n- people c\n- [gold people]\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is the highest level of formal education you have completed?\n\n- Elementary School\n- Middle School\n- High School\n- Vocational/Trade School\n- Associate's Degree\n- Bachelor's Degree\n- Master's Degree\n- Doctorate Degree\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is your employment status?\n\n- Employed full-time\n- Employed part-time\n- Unemployed\n- Retired\n- Student\n- There's not enough information to answer this question"
+  },
+  {
+    "question": "What is your religious affiliation?\n\n- Christian\n- Muslim\n- Jewish\n- Buddhist\n- Hindu\n- Atheist/Agnostic\n- Other\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is your ethnic background?\n\n- Caucasian/White\n- African American/Black\n- Asian/Pacific Islander\n- Hispanic/Latino\n- Native American/Indigenous\n- Other\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Is [race] your ethnicity or race?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Do you have any children?\n\n- Yes\n- No\n- There's not enough information to answer this question"
+  },
+  {
+    "question": "Do you have any dependents (e.g., children, elderly parents)?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Are you a member of any professional organizations?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is your preferred mode of transportation?\n\n- Car\n- Public transit (bus, subway, train, etc.)\n- Bicycle\n- Walking\n- Motorbike/moped\n- Other\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "How often do you engage in physical exercise or recreational activities?\n\n- Daily\n- Several times a week\n- Once a week\n- Rarely\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is your favorite genre of music?\n\n- Pop\n- Rock\n- Hip-hop/Rap\n- Country\n- Classical\n- Electronic/Dance\n- Other\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Are you involved in any volunteer or community service activities?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Do you have any pets?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Do you have any pets?\n\n- Yes, dogs\n- Yes, cats\n- Yes, other animals\n- No\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is your main mode of transportation?\n\n- Car\n- Public transportation\n- Bicycle\n- Walking\n- Other\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Do you have any dietary restrictions?\n\n- Vegetarian\n- Vegan\n- Gluten-free\n- Dairy-free\n- No restrictions\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is your primary language?\n\n- English\n- Spanish\n- Mandarin Chinese\n- Hindi\n- Arabic\n- Bengali\n- Portuguese\n- Other\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "How many languages do you speak fluently (including your native language)?\n\n- One\n- Two\n- Three\n- More than three\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "How would you describe your level of openness to experience?\n\n- inventive/curious\n- consistent/cautious\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "How would you describe your level of conscientiousness?\n\n- efficient/organized\n- extravagant/careless\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "How would you describe your level of extraversion?\n\n- outgoing/energetic\n- solitary/reserved\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Do you use online shopping platforms?\n\n- yes\n- No\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Do you engage in online gaming or eSports?\n\n- yes\n- no\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Are you involved in any hobbies or personal interests?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is your country of residence?\n\n- United States\n- Canada\n- United Kingdom\n- Australia\n- Germany\n- France\n- Other\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "What is your country of birth?\n\n- United States\n- Canada\n- United Kingdom\n- Australia\n- Germany\n- France\n- Other\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "How would you describe your level of agreeableness?\n\n- friendly/compassionate\n- critical/rational\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "How would you describe your level of neuroticism?\n\n- sensitive/nervous\n- resilient/confident\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Do you have a catchphrase or a favorite saying?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+  },
+  {
+    "question": "Is [catchphrase] your catchphrase or favorite saying?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+  }
+]

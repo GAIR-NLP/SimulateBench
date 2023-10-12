@@ -3,10 +3,9 @@ from person.action.brain.chat_model import generate_open_ai_chat_model
 from person.profile.profile import load_name
 from person.action.brain.chat_model import MODEL_NAME
 from log.record_cost import record_cost_gpt
-
-PERSON_NAME = "monica"
-CHAT_HISTORY = generate_system_message(person_name=PERSON_NAME)  # [system,example,human,ai,system,example]
-NAME = load_name(person_name=PERSON_NAME)
+from person.action.system_setting.profile_for_agent import ProfileSystem
+from langchain.schema import SystemMessage, BaseMessage
+from typing import List
 
 
 class BaseAgent:
@@ -20,6 +19,10 @@ class BaseAgent:
         self.profile_version = profile_version
         self.system_version = system_version
 
+        profile_system_obj = ProfileSystem(person_name=person_name, profile_version=profile_version,
+                                           system_version=system_version)
+        self.system_message = profile_system_obj.generate_system_message()[0].content
+        self.system_message_langchain = SystemMessage(content=self.system_message)
         self.chat_history = []
 
     def run(self, user_input: str):
@@ -30,12 +33,13 @@ class BaseAgent:
 
 
 class Agent(BaseAgent):
-    def __init__(self, person_name, profile_version, system_version,model_name=MODEL_NAME):
+    def __init__(self, person_name, profile_version, system_version, model_name=MODEL_NAME):
         model = generate_open_ai_chat_model(model_name=model_name)
         super().__init__(person_name=person_name, model=model, model_name=model_name,
                          profile_version=profile_version, system_version=system_version)
 
-        self.chat_history = generate_system_message(person_name=person_name)  # [system,example,human,ai,system,example]
+        self.chat_history: List[BaseMessage] = [
+            self.system_message_langchain]  # [system,example,human,ai,system,example]
 
         self.total_tokens_prompt = 0
         self.total_tokens_output = 0
@@ -53,14 +57,16 @@ class Agent(BaseAgent):
         return results.generations[0][0].text
 
     def clear(self):
-        self.chat_history = generate_system_message(person_name=self.person_name)
+        self.chat_history = [self.system_message_langchain]
         record_cost_gpt(self.model_name, self.total_tokens_prompt, self.total_tokens_output)
         self.total_tokens_prompt = 0
         self.total_tokens_output = 0
 
 
 if __name__ == "__main__":
-    agent = Agent(person_name=PERSON_NAME)
+    PERSON_NAME = "monica"
+    NAME = load_name(person_name=PERSON_NAME)
+    agent = Agent(person_name=PERSON_NAME, profile_version="profile_v1", system_version="system_v1")
     print(f"hello, I am {NAME}, what can I do for you? If you want to quit, please input 'quit' or 'q'\n{'-' * 10}")
     user_input_ = input("user:")
     try:

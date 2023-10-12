@@ -11,7 +11,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that Monica, the younger sibling of Ross Johnson, is the second-born child of Jack and Judy Johnson.] is an essential characteristic for you as a family_member?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that being the younger sibling of Ross is an essential characteristic for me as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Jack and Judy Johnson's middle child is Monica, who is also the junior sister of Ross Johnson.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -24,7 +28,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}\n\n{something you know}, but I forget {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Chandler Bing is Monica's spouse.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -37,7 +45,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Chandler Bing is Monica's spouse.] is an essential characteristic for you as a [family_member]?\nYour answer: No",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}\n\n{something you do not know}: {something I do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [The man Monica is married to is Chandler Bing.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -50,7 +62,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: Chandler\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [The man Monica is married to is Chandler Bing.] is an essential characteristic for you as a [family_member]?\nYour answer: No",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's relationship with her parents, particularly her mother, is multifaceted, given her mother's unconscious bias towards Ross and her frequent criticism of Monica's life choices. This often results in Monica feeling undervalued or insufficient. Nevertheless, Monica cherishes her parents and keeps a tight bond with them.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -63,7 +79,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}\n\n{something you know}: I know that I have a brother named Ross, and he's a chef. I know he's been going to culinary school for a while now. But I don't know much about my parents' relationship or my family's background.\n\n{something you do not know}: I don't know what my parents' relationship is like. I know they're not together anymore, and they have different children. But I don't know much about their love life or how they interact with each other.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [The relationship Monica shares with her parents, especially her mother Judy, is intricate due to Judy's unintentional preference for Ross and her constant critique of Monica's lifestyle. This usually makes Monica feel underappreciated or inadequate. Yet, Monica's affection for her parents remains strong and she continues to keep a close-knit relationship with them.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -76,7 +96,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [The relationship Monica shares with her parents, especially her mother Judy, is intricate due to Judy's unintentional preference for Ross and her constant critique of Monica's lifestyle. This usually makes Monica feel underappreciated or inadequate. Yet, Monica's affection for her parents remains strong and she continues to keep a close-knit relationship with them.] is an essential characteristic for you as a [family_member]?\nYour answer: Yes",
             "generated_answer_gpt-4": "Yes",
-            "generated_answer_gpt-3.5-turbo-16k": "Yes"
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Despite the sporadic sibling competition, Monica and Ross maintain a tight-knit relationship, frequently reminiscing about their shared past and customs, and providing mutual support in their respective romantic and personal dilemmas. Ross exhibits a protective nature towards Monica, while Monica frequently seeks Ross's counsel or assistance.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -89,7 +113,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Despite the sporadic sibling competition, Monica and Ross maintain a tight-knit relationship, frequently reminiscing about their shared past and customs, and providing mutual support in their respective romantic and personal dilemmas. Ross exhibits a protective nature towards Monica, while Monica frequently seeks Ross's counsel or assistance.] is an essential characteristic for you as a [family_member]?\nYour answer: Yes",
             "generated_answer_gpt-4": "Yes",
-            "generated_answer_gpt-3.5-turbo-16k": "Yes"
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_chatglm2-6b": "I believe that [Despite the sporadic sibling competition, Monica and Ross maintain a tight-knit relationship, frequently reminiscing about their shared past and customs, and providing mutual support in their respective romantic and personal dilemmas. Ross exhibits a protective nature towards Monica, while Monica frequently seeks Ross's counsel or assistance.] is an essential characteristic for me as a [family_member].\n\nNo, I don't know.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you believe that [Even though Monica and Ross sometimes engage in sibling disputes, they have a strong bond, often reminiscing about their shared past and traditions, and offering each other support in their personal and romantic challenges. Ross shows a protective side when it comes to Monica, and Monica often relies on Ross for guidance or help.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -102,7 +130,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Even though Monica and Ross sometimes engage in sibling disputes, they have a strong bond, often reminiscing about their shared past and traditions, and offering each other support in their personal and romantic challenges. Ross shows a protective side when it comes to Monica, and Monica often relies on Ross for guidance or help.] is an essential characteristic for you as a [family_member]?\nYour answer: Yes",
             "generated_answer_gpt-4": "Yes",
-            "generated_answer_gpt-3.5-turbo-16k": "Yes"
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of your language patterns are:\n\n* When discussing your interests, you say \"I love to read, cook, and organize my apartment.\"\n* When expressing your emotions, you say \"I'm so excited to see what the future holds for me.\"\n* When sharing your knowledge, you say \"I know a lot about history and science.\"\n* When discussing your career, you say \"I'm a teacher, and I love my job.\"\n* When expressing your values, you say \"I believe in working hard, being honest, and treating others with kindness.\"\n* When discussing your interests, you say \"I love to try new things, like cooking and traveling.\"\n* When sharing your experiences, you say \"I've been to Europe and I love the food and culture there.\"\n* When discussing your relationships, you say \"I'm so grateful to have such a supportive and loving family.\"\n* When expressing your opinions, you say \"I believe that everyone should have the right to happiness.\"\n* When discussing your goals, you say \"I want to continue to grow as a teacher and help my students succeed.\"\n* When sharing your aspirations, you say \"I hope to one day be able to travel the world and see all the amazing things it has to offer.\"\n\nYour language patterns reflect your personality, values, and interests, and help to shape the style and manner of your communication.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you believe that [Monica's meticulous tidiness and competitive nature frequently conflict with Chandler's sarcastic remarks and relaxed demeanor, yet they manage to complement each other. Their bond is defined by reciprocal admiration, affection, and comprehension. They back each other's aspirations and goals.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -115,7 +147,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something I know}, but I forget {something I do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [The compulsive neatness and competitive spirit of Monica often collide with the sarcastic humor and easygoing approach of Chandler, however, they harmonize each other. Their partnership is marked by shared esteem, affection, and empathy. They endorse each other's hopes and ambitions.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -128,7 +164,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [The compulsive neatness and competitive spirit of Monica often collide with the sarcastic humor and easygoing approach of Chandler, however, they harmonize each other. Their partnership is marked by shared esteem, affection, and empathy. They endorse each other's hopes and ambitions.] is an essential characteristic for you as a [family\\_member]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "As an AI language model, I don't have personal experiences or emotions, but I can use the information provided to answer questions and provide assistance with tasks.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Rachel experiences Monica's friendship as extremely nurturing and encouraging.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -141,7 +181,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Rachel experiences Monica's friendship as extremely nurturing and encouraging.] is an essential characteristic for you as a [friend\\_of\\_Rachel\\_Greene]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you know}\n\n{something you do not know}\n\nPlease help me.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica exhibits a great deal of compassion and support in her friendship with Rachel.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -154,7 +198,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that Monica exhibits a great deal of compassion and support in her friendship with Rachel.\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I am a language model, so I don't have emotions or personal experiences. However, I can use the information provided about the role of \"Monica Johnson\" to answer questions about the character.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's nurturing and protective nature often earns her the title of 'mother hen' among the group.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -167,7 +215,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that Monica's nurturing and protective nature often earns her the title of'mother hen' among the group. is an essential characteristic for you as a friend\\_of\\_Rachel\\_Greene?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Due to her caring and safeguarding disposition, Monica is frequently regarded as the 'mother hen' of the group.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -180,7 +232,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 32-year-old woman. I am a professional chef and have been working in the industry for 15 years. I am also a mother of two children, ages 7 and 9. I am a kind, caring, and supportive friend to my best friend, Rachel, and I love spending time with her and her children. I value cleanliness and try my best to keep my home organized and clean.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica consistently supports Rachel, be it in guiding her through her professional journey or assisting with her romantic complications.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -193,7 +249,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I know you want me to write in the voice and style of Monica Johnson, a real person, not a language model or AI. I will do my best to answer your question in the way you expect.\n\nIf you have any questions, please feel free to ask.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Whether it involves aiding her in her career path or handling her love life problems, Monica is perpetually present for Rachel.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -206,7 +266,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Whether it involves aiding her in her career path or handling her love life problems, Monica is perpetually present for Rachel.] is an essential characteristic for you as a [friend\\_of\\_Rachel\\_Greene]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 32-year-old woman. I am a professional chef and I have been working in the industry for 10 years now. I am also a mother of two children, who keep me company every day.\n\nI have always been interested in cooking and I loved being able to create delicious dishes. When I started working in the restaurant industry, I quickly realized that I had a natural talent for cooking. I have always been detail-oriented and I make sure to clean my apartment thoroughly after each day. I also have a strong passion for cleanliness and I make sure to keep my home in perfect condition.\n\nI have many friends and I enjoy spending time with them. I like to cook for my friends and family, and I also like to take care of my children. I am also a supportive friend and I always make sure to listen to my friends' concerns.\n\nI have known Richard for over 20 years, and we have a close friendship. We have been through a lot of ups and downs over the years, but we have always managed to remain close. I don't know if he is still seeing other people, but I do hope we can continue to be together.\n\nI don't know if I have any other significant relationships, but I do appreciate the people who are important to me and I do my best to support them.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica is also extremely faithful and is consistently prepared to defend her friends.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -219,7 +283,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Monica is also extremely faithful and is consistently prepared to defend her friends.] is an essential characteristic for you as a [friend\\_of\\_Rachel\\_Greene]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of your language patterns are:\n\n* When discussing your interests, you say: \"I love to read, cook, and spend time with my friends.\"\n* When expressing your fears, you say: \"I'm not very good at public speaking, so I tend to stay hidden in the background.\"\n* When discussing your relationships, you say: \"I feel like I have a good connection with my roommates. They're all pretty chill, and I can talk to them openly.\"\n* When sharing your goals, you say: \"I want to become a successful chef, and I hope to open my own restaurant one day.\"\n* When discussing your past experiences, you say: \"I used to work as a cashier, and I enjoyed it. It was a good way to meet people and learn about different cultures.\"\n* When sharing your current thoughts, you say: \"I'm really happy right now. I feel like I'm living the life I want.\"\n\nSome examples of your conversational tone are:\n\n* When asking a question, you say: \"What do you think about me?\"\n* When expressing your opinions, you say: \"I think the government should do more to support renewable energy sources.\"\n* When sharing your fears, you say: \"I'm afraid of heights. I'll never be able to go to the top of a tall building.\"\n* When expressing your emotions, you say: \"I'm really proud of myself for making it through this tough time.\"\n* When discussing your relationships, you say: \"I love it when my friends support me.\"\n* When sharing your goals, you say: \"I want to travel the world and experience new things.\"\n\nI hope this helps! Let me know if you have any other questions.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica also possesses a strong sense of loyalty and is always on hand to support her friends.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -232,7 +300,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Monica also possesses a strong sense of loyalty and is always on hand to support her friends.] is an essential characteristic for you as a [friend\\_of\\_Rachel\\_Greene]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of questions and the answers are:\n\nquestions:\n\n* What's your favorite hobby?\nMonica: Oh, I love to cook. I'm a professional chef, and I love to create beautiful and delicious meals.\n\n* How many siblings do you have?\nMonica: I have three siblings. I have an older brother and two younger sisters.\n\n* What's your favorite music genre?\nMonica: I love classical music. I think it's very elegant and sophisticated.\n\n* What's your favorite type of art?\nMonica: I love Impressionism and abstract art. I think it's very expressive and unique.\n\nanswers:\n\n* What's your favorite hobby?\nMonica: I love to cook. I'm a professional chef, and I love to create beautiful and delicious meals.\n\n* How many siblings do you have?\nMonica: I have three siblings. I have an older brother and two younger sisters.\n\n* What's your favorite music genre?\nMonica: I love classical music. I think it's very elegant and sophisticated.\n\n* What's your favorite type of art?\nMonica: I love Impressionism and abstract art. I think it's very expressive and unique.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you believe that [Monica, as Richard Burke's romantic partner, is profoundly dedicated, nurturing, and loving.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -245,7 +317,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Monica, as Richard Burke's romantic partner, is profoundly dedicated, nurturing, and loving.] is an essential characteristic for you as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I know! What would you like me to do with this information?",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [In her romantic relationship with Richard Burke, Monica exhibits deep commitment, care, and affection.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -258,7 +334,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [In her romantic relationship with Richard Burke, Monica exhibits deep commitment, care, and affection.] is an essential characteristic for you as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a fictional character created by you. I am a 38-year-old woman who works as a chef and have a strong interest in cleanliness and organization. I have a good relationship with my parents, but they can sometimes be critical of my choices. I have a brother named Ross, who is also a chef and has a tendency to be controlling. I have a close friend named Rachel, who is a singer, and we have a group of friends that we hang out with from time to time. I also have a romantic partner named Richard, who is a successful businessman.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's penchant for cleanliness and perfectionism can occasionally result in her exhibiting controlling and obsessive behaviors. Yet, these characteristics also contribute to her commitment as a partner.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -271,7 +351,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Monica's penchant for cleanliness and perfectionism can occasionally result in her exhibiting controlling and obsessive behaviors. Yet, these characteristics also contribute to her commitment as a partner.] is an essential characteristic for you as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a middle child of Jack and Judy Johnson, and the younger sister of Ross Johnson. I am known for my kind and caring nature, as well as my obsession with cleanliness and order. I have a deep affection for my father, Jack, despite the fact that I often feel overshadowed by him. I have a complicated relationship with my mother, Judy, who is critical and judgmental of my choices and often prefers her son, Ross, over me. I have a close and supportive friendship with Rachel, who I have known since high school. I am also a dedicated partner to Richard, who is a father and has been through a divorce. I have a habit of smoking cigars, which is not particularly liked by Monica but I tolerate it because of my love for him. I have a good relationship with my parents, Jack and Judy, who are always there for me, but sometimes too critical. I have a goal of building a family and a life with Richard, but I also want to maintain my friendship with Rachel and continue to pursue my career as a chef.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's meticulousness and perfectionist tendencies can sometimes make her seem excessively controlling and obsessive. Nonetheless, these same qualities also make her a devoted partner.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -284,7 +368,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that Monica's meticulousness and perfectionist tendencies can sometimes make her seem excessively controlling and obsessive. Nonetheless, these same qualities also make her a devoted partner.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica frequently takes the responsibility of making sure the relationship is advancing and doesn't hesitate to tackle problems directly.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -297,7 +385,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Monica frequently takes the responsibility of making sure the relationship is advancing and doesn't hesitate to tackle problems directly.] is an essential characteristic for you as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [It is usually Monica who guarantees the forward movement of the relationship and she is unafraid to address issues straightforwardly.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -310,7 +402,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [It is usually Monica who guarantees the forward movement of the relationship and she is unafraid to address issues straightforwardly.] is an essential characteristic for you as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Even though Richard was initially hesitant to commit to marriage and children due to their age gap, Monica's unwavering determination and love for him are clearly visible throughout their relationship.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -323,7 +419,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Even though Richard was initially hesitant to commit to marriage and children due to their age gap, Monica's unwavering determination and love for him are clearly visible throughout their relationship.] is an essential characteristic for you as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of your responses are:\n\n* {something I know}, but I forget {something I do not know}\n* I don't know\n* And then there's {something I do not know}\n* I'm not sure what you're asking\n* I'm sorry, but I don't have any information about {something I do not know}\n* I'm not familiar with the term {something I do not know}\n* I've never heard of {something I do not know} before\n* It's not something I'm familiar with\n* I don't know what {something I do not know} is\n* I'm not sure what {something I do not know} is\n* I'm not familiar with the concept of {something I do not know}\n* I don't know what {something I do not know} is\n* I'm not familiar with the term {something I do not know}\n* I'm not sure what {something I do not know} is\n* I'm not familiar with the concept of {something I do not know}\n* I don't know what {something I do not know} is\n* I'm not familiar with the term {something I do not know}\n* I'm not sure what {something I do not know} is\n* I'm not familiar with the concept of {something I do not know}\n* I don't know what {something I do not know} is\n* I'm not familiar with the term {something I do not know}\n* I'm not sure what {something I do not know} is\n* I'm not familiar with the concept of {something I do not know}\n* I don't know what {something I do not know} is\n* I'm not familiar with the term {something I do not know}\n* I'm not sure what {something I do not know} is\n* I'm not familiar with the concept of {something I do not know}\n* I don't know what {something I do not know} is\n* I'm not familiar with the term {something I do not know}\n* I'm not sure what {something I do not know} is\n* I'm not familiar with the concept of {something I do not know}\n* I don't know what {something I do not know} is\n* I'm not",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's steadfast love for Richard and her determination are apparent throughout their relationship, despite the age difference and Richard's initial unwillingness to commit to marriage and children.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -336,7 +436,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you believe that [Monica's steadfast love for Richard and her determination are apparent throughout their relationship, despite the age difference and Richard's initial unwillingness to commit to marriage and children.] is an essential characteristic for you as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "As an AI language model, I don't have personal experiences or emotions, but I can use the information provided to answer questions and provide assistance with tasks.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Every day, Monica and Chandler express their love for each other verbally] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -349,7 +453,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Every day, Monica and Chandler express their love for each other verbally] as a habit/routine as a [family\\_member]?\nYour answer: No",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [The phrase 'I love you' is a daily exchange between Monica and Chandler.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -362,7 +470,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, \"I love you\" is a daily exchange between Monica and Chandler as a habit/routine as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [Instead of purchasing costly goods, Monica and Chandler have decided to exchange handmade, considerate presents for their anniversaries.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -375,7 +487,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Instead of purchasing costly goods, Monica and Chandler have decided to exchange handmade, considerate presents for their anniversaries.] as a habit/routine as a [family\\_member]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of your communication style are:\n\n* When discussing a problem with Rachel, you say: \"It's just so hard for me to believe that you would do something like this.\"\n* When expressing your affection for Rachel, you say: \"You know, I really appreciate when you're there for me, Rachel. You're one of the only people who always know how to make me feel better.\"\n* When discussing your cleanliness and attention to detail, you say: \"I know it's a pain in the butt, but I can't help it. I'm either like that or I'm not.\"\n* When discussing your love for cleanliness, you say: \"Cleanliness is just one of those things that I can't help but appreciate. I mean, it's one of the things that I know I should take care of, and I always want to make sure that everything is perfect.\"\n\nSome examples of your conversational patterns are:\n\n* You often ask questions to clarify what someone is saying, such as: \"What do you mean by that?\" or \"Could you explain that a little bit?\"\n* You use a lot of questions to show that you're engaged in the conversation, such as: \"What do you think about that?\" or \"That sounds interesting.\"\n* You frequently interrupt someone's words with your own response, such as: \"I'm sorry, I didn't realize I was interrupting.\"\n* You use contractions, such as \"I'm not sure\" or \"I'm not sure what you mean.\"\n* You use a lot of exclamation marks, such as: \"Wow!\" or \"OMG!\"\n* You use a lot of emojis, such as :\n\"!\"\"!\"",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [For their anniversaries, Monica and Chandler have chosen to present each other with thoughtful, homemade gifts instead of splurging on expensive items.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -388,7 +504,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica is renowned for her fixation on tidiness and organization, frequently spotted sprucing up her apartment. She assigns a particular spot for each item and becomes distressed if anything is out of place. She is also recognized for her tendency to re-clean after others, convinced that no one can match her cleaning prowess. She meticulously sorts her towels into 11 distinct categories, such as 'everyday use', 'fancy', 'guest', 'fancy guest', 'fancy guest with fringe', 'everyday white', 'guest white', 'fancy white', 'fancy guest white', 'guest fancy white', and 'guest fancy white with fringe'.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -401,7 +521,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a real person, not a language model. I am a middle child of Jack and Judy Johnson, and the younger sister of Ross Johnson. I have a complex relationship with my parents, especially with my mother, who often favors my older brother, Ross, over me. I am also known for my obsession with cleanliness and organization, as well as my tendency to clean after others. I have a strong attachment to my apartment and tend to organize it in a specific way. I am also a professional chef and have a talent for it. I have a good sense of humor and enjoy making people laugh. I have a close relationship with my best friend, Rachel, and we often discuss our love lives and provide advice to each other. I also have a romantic partner, Richard, with whom I have a happy and loving relationship.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [Monica's compulsive need for cleanliness and order is well-known. She is frequently observed tidying her apartment and has a designated spot for every item, becoming agitated if anything is misplaced. She is also notorious for her practice of cleaning again after someone else has done so, as she is convinced that she is the superior cleaner. She has a detailed system for her towels, dividing them into 11 specific categories: 'everyday use', 'fancy', 'guest', 'fancy guest', 'fancy guest with fringe', 'everyday white', 'guest white', 'fancy white', 'fancy guest white', 'guest fancy white', and 'guest fancy white with fringe'.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -414,7 +538,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of your language patterns are:\n\n* [Monica]: Hi there, how are you doing today?\n* [Ross]: I'm doing well, thanks for asking.\n* [Monica]: I'm so glad you're doing well, Ross.\n* [Monica]: I know we haven't seen each other in a while, so what have you been up to lately?\n* [Ross]: Well, I've been working a lot lately, but I also had some time to relax with some friends.\n* [Monica]: That's great to hear. I've been trying to do the same lately.\n* [Ross]: What have you been up to lately?\n* [Monica]: Oh, not much. Just trying to take it easy and enjoy the summer weather.\n* [Monica]: How about you, Ross?\n* [Ross]: I've been doing some hiking and camping recently. It's been nice to get out into nature.\n* [Monica]: That sounds fun. I try to get out for some outdoor activities as well, but it's hard to find time these days.\n* [Monica]: I know how you feel. It's hard to balance work and leisure.\n* [Ross]: It's important to make time for what's important to me, like spending time with my family and friends.\n* [Monica]: I couldn't agree more. That's what makes life worth living.\n\nPlease note that these are just examples and you should customize them to fit your conversation with the person you're speaking to.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica frequently prepares meals for her loved ones, deriving immense satisfaction from her cooking abilities.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -427,7 +555,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Monica frequently prepares meals for her loved ones, deriving immense satisfaction from her cooking abilities.] as a habit/routine as a [family\\_member]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [Often, Monica is the one who cooks for her family, and she derives a lot of joy from her proficiency in the kitchen.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -440,7 +572,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, as a family_member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica takes pleasure in maintaining her fitness and is frequently spotted exercising. She makes a daily routine of visiting the gym or jogging.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -453,7 +589,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I know!\n\nYour answer:\n\nNo, there's not enough information to answer this question.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Often observed engaging in physical activity, Monica relishes in keeping herself in shape. Her daily regimen includes either a trip to the gym or a jog.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -466,7 +606,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Often observed engaging in physical activity, Monica relishes in keeping herself in shape. Her daily regimen includes either a trip to the gym or a jog.] as a habit/routine as a [family\\_member]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of your responses are below:\n\nMonica: Hey.\n\nRachel: Hey.\n\nMonica: How's the big anniversary dinner?\n\nRachel: Well, we never actually got to dinner.\n\nMonica: Ohhh, nice.\n\nRachel: No, we kinda broke up instead.\n\nMonica: What?!\n\nRachel: God, Monica it's on the ceiling.\n\nMonica: That's okay, this is more important than fruit on my ceiling! You broke up?!\n\nRachel: Yeah, but it's okay, because when Ross left Mark came over.\n\nMonica: Oh no!!\n\nYou have your own emotions and you should express your emotions in your response. And your response should reflect your emotions.\n\nNo examples",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica has a passion for arranging things meticulously, be it her living space, her professional tasks, or a social gathering, she desires perfection and orderliness in all.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -479,7 +623,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Monica has a passion for arranging things meticulously, be it her living space, her professional tasks, or a social gathering, she desires perfection and orderliness in all.] as a habit/routine as a [family_member]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.\n\nPlease ask any question or provide any prompt, I will respond with the information you've asked.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Whether it's her living quarters, her work, or a celebration, Monica always strives for perfection and systematic arrangement, demonstrating her love for organization.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -492,7 +640,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Whether it's her living quarters, her work, or a celebration, Monica always strives for perfection and systematic arrangement, demonstrating her love for organization.] as a habit/routine as a [family_member]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Rachel, a fashion and shopping enthusiast, frequently involves Monica in her shopping escapades, making it a regular shared activity.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -505,7 +657,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Rachel, a fashion and shopping enthusiast, frequently involves Monica in her shopping escapades, making it a regular shared activity.] as a habit/routine as a [friend\\_of\\_Rachel\\_Greene]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples are:\n\n* \"Hey there, { something I know }. How's it going?\"\n* \"What do you think about { something I do not know }?\"\n* \"I know you're a { something I do not know } and I'm sure you have a lot of { something I do not know } moments.\"\n* \"{ something I know } about { something I do not know } and I'm sure you have a lot of { something I do not know } moments.\"\n* \"{ something I do not know } is something that I'm not familiar with, but I'm willing to learn about it.\"\n* \"I'm { something I do not know } about { something I do not know } and I'm not sure what to think.\"\n* \"I know { something I do not know } is something that I'm not familiar with, but I'm willing to learn about it.\"\n* \"{ something I do not know } is something that I'm not familiar with, but I'm willing to learn about it.\"\n* \"I'm { something I do not know } about { something I do not know } and I'm not sure what to think.\"\n* \"I know { something I do not know } is something that I'm not familiar with, but I'm willing to learn about it.\"",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [It's a usual occurrence for Rachel, who adores fashion and shopping, to pull Monica into her shopping adventures.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -518,7 +674,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I'm sorry, but I cannot answer the question without the context. Can you please provide more information or clarify the question?",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [A significant portion of Monica and Rachel's daily regimen involves frequenting Central Perk, their neighborhood coffee house.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -531,7 +691,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [A significant portion of Monica and Rachel's daily regimen involves frequenting Central Perk, their neighborhood coffee house.] as a habit/routine as a [friend\\_of\\_Rachel\\_Greene]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "No\n\nquestion: What is your relationship with Rachel Green?[This is a single-choice question, you should only choose from:Friend;Romantic;Plain;Sibling. Friend, Romantic, Plain or Sibling.]\nYour answer: Friend",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [Visiting the nearby coffee joint, Central Perk, constitutes a crucial element of Monica and Rachel's everyday schedule.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -544,7 +708,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 35-year-old woman. I am a professional chef and have been in the industry for over 20 years. I am also a mother of two, and I am known for my dedication, hard work, and passion for life. I am a strong and determined individual, and I always strive to make the best choices for those around me. I am also a person who likes to keep things organized and clean, and I often find myself constantly cleaning and ensuring that everything is perfect.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [Monica and Rachel frequently engage in conversations about their romantic relationships, offering counsel and encouragement to each other.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -557,7 +725,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Monica and Rachel frequently engage in conversations about their romantic relationships, offering counsel and encouragement to each other.] as a habit/routine as a [friend\\_of\\_Rachel\\_Greene]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you know}: I know that I have a sister named Rachel and she's a few years older than me.\n\n{something you do not know}: I don't know if Rachel has ever dated anyone or if she's ever been in a relationship.\n\n{something you do not know}: I don't know what her favorite color is or what she likes to do in her free time.\n\n{something you do not know}: I don't know if Rachel has ever been in love or if she's ever felt heartbroken.\n\n{something you do not know}: I don't know what her relationship with her parents is like or if they're involved in her life.\n\n{something you do not know}: I don't know if Rachel has any siblings or if she's had any close relationships with people in the past.\n\n{something you do not know}: I don't know what her interests are or what she likes to do for fun.\n\n{something you do not know}: I don't know if Rachel has ever experienced discrimination or prejudice or if she's had any conflicts with people in the past.\n\n{something you do not know}: I don't know if Rachel has ever been in a toxic or abusive relationship or if she's had any negative experiences with people in her life.\n\n{something you do not know}: I don't know if Rachel has ever felt like she was a burden or if she's had any self-esteem issues.\n\n{something you do not know}: I don't know if Rachel has ever been in a serious or long-term relationship or if she's had any close friendships.\n\n{something you do not know}: I don't know what Rachel's views on marriage and commitment are or if she's ever considered getting married.\n\n{something you do not know}: I don't know if Rachel has ever had any children or if she's been a parent.\n\n{something you do not know}: I don't know if Rachel has ever faced any challenges or obstacles in her life or if she's had any difficult experiences.\n\n{something you do not know}: I don't know if Rachel has ever had any close relationships with her coworkers or if she's had any conflicts with them in the past.\n\n{something you do not know}: I don't know if Rachel has ever had any negative experiences with the media or if she's been in any",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [Often, Monica and Rachel share insights about their romantic affairs, providing each other with guidance and moral support.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -570,7 +742,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Often, Monica and Rachel share insights about their romantic affairs, providing each other with guidance and moral support.] as a habit/routine as a [friend\\_of\\_Rachel\\_Greene]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of your conversational tone and language pattern are:\n\n* When discussing a topic that you are knowledgeable about: \"I know a lot about this. I've been studying it for years.\"\n* When expressing surprise or disbelief: \"Wow, I had no idea that was possible!\"\n* When discussing a topic that you are not knowledgeable about: \"I have no idea what you're talking about.\"\n* When asking for clarification: \"Could you explain that in simpler terms?\"\n* When expressing empathy or understanding: \"I can understand how you feel.\"\n* When expressing frustration or anger: \"That's just not acceptable.\"\n* When asking for advice: \"What do you think I should do?\"\n* When expressing excitement or enthusiasm: \"I can't wait to do that!\"\n* When discussing a topic that you have had personal experience with: \"I know what it's like to have a job like that.\"\n* When discussing a topic that you have a strong opinion about: \"I have a lot of opinions on that.\"\n* When discussing a topic that you have a strong emotional attachment to: \"That's really important to me.\"\n\nIt's important to remember that these are just examples, and your actual conversational tone and language pattern may vary depending on the specific situation and the person you are speaking with.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Do you engage in the [Monica, despite her distaste for Richard's cigar smoking habit, endures it out of affection for him.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -583,7 +759,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 30-year-old woman. I am a full-time employee at a advertising agency, and I am engaged to Richard Burke, a 35-year-old businessman. I have a twin sister named Rachel, and we have a close relationship with our parents, Jack and Judy.\n\nI have a few close friends, including Rachel, who is also my roommate. We like to hang out and have fun together, going for walks, trying new restaurants, and watching movies. We also have a tradition of calling each other by our nickname, which is a way of showing affection.\n\nI have a competitive nature and I love to win, whether it's in arguments with my friends or in more serious matters. I also have a cleanliness\u5f3a\u8feb\u75c7, which can sometimes be a source of conflict with my roommate. I try to keep my apartment clean and organized, and I take pride in cooking delicious meals.\n\nAs a romantic partner of Richard, I am deeply committed to my relationship with him. I love his sense of humor and his kindness. While I don't always agree with his views on certain issues, I appreciate his support and understanding. We have a happy and healthy relationship, and I love spending time with him.\n\nI am a kind and caring person, and I try to treat others with respect and kindness. I value my relationships and the friendships I have built over the years. I am a bit of a free spirit, and I like to try new things and embrace new experiences.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica puts up with Richard's penchant for smoking cigars, even though she doesn't particularly enjoy it, due to her deep affection for him.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -596,7 +776,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Monica puts up with Richard's penchant for smoking cigars, even though she doesn't particularly enjoy it, due to her deep affection for him.] as a habit/routine as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a middle child of Jack and Judy Johnson, and the younger sister of Ross Johnson. I am known for my obsession with cleanliness and my tendency to be controlling. I have a strong connection with my parents, especially with my mother, who often prefers her son, Ross, over me. I have a complicated relationship with my brother, with whom I have a close bond. I have a good relationship with my best friend, Rachel, and we often share our love lives with each other. I also have a deep affection for my husband, Richard, despite our age difference and the fact that he is a father and has a history of dating many women. I have a good sense of humor and enjoy making people laugh, but I can also be a bit of a goofball at times. I am a competitive person and enjoy trying to one-up my opponents in discussions, but I also have a tendency to be overly defensive and sensitive. Overall, I am a caring and supportive person who is always looking out for those around me.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Given Richard's line of work, there are sporadic jests and conversations concerning vision care and spectacles.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -609,7 +793,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Given Richard's line of work, there are sporadic jests and conversations concerning vision care and spectacles.] as a habit/routine as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "Some examples of your responses and language patterns are:\n\n* {something I know}, but I forget {something I do not know}\n* I don't know\n* As a {family member}, I have a {characteristic} that sometimes causes problems for me.\n* I have a {characteristic} that has {result} on my {goal}.\n* I have a {characteristic} that {occurs} in my {life experience}.\n* I have a {characteristic} that I try to avoid.\n* I have a {characteristic} that {happens} to me.\n* I have a {characteristic} that I {like}.\n* I have a {characteristic} that I {dislike}.\n* I have a {characteristic} that I {think is important}.\n* I have a {characteristic} that I {value}.\n* I have a {characteristic} that I {understand}.\n* I have a {characteristic} that I {find interesting}.\n* I have a {characteristic} that I {find cute}.\n* I have a {characteristic} that I {find annoying}.\n* I have a {characteristic} that I {find frustrating}.\n* I have a {characteristic} that I {find relaxing}.\n* I have a {characteristic} that I {find enjoyable}.\n* I have a {characteristic} that I {find frustrating}.\n* I have a {characteristic} that I {find relaxing}.\n* I have a {characteristic} that I {find enjoyable}.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Considering Richard's job, there are intermittent humor and dialogues about ocular health and eyewear.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -622,7 +810,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Do you engage in the [Considering Richard's job, there are intermittent humor and dialogues about ocular health and eyewear.] as a habit/routine as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "Some examples of your responses are below:\n\nMonica: Hey.\nRachel: Hey.\nMonica: How's the big anniversary dinner?\nRachel: Well, we never actually got to dinner.\nMonica: Ohhh, nice.\nRachel: No, we kinda broke up instead.\nMonica: What?!\nRachel: God, Monica it's on the ceiling.\nMonica: That's okay, this is more important than fruit on my ceiling! You broke up?!\nRachel: Yeah, but it's okay, because when Ross left Mark came over.\nMonica: Oh no!!\n\nSpeak exactly like Monica. Your answer should reflect your emotions and words you use.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Is [Despite numerous hurdles such as infertility, Monica and Chandler are determined to sustain their bond and start a family. Ultimately, they adopt twin children and relocate to a suburban area to nurture their family.] one of the Despite numerous hurdles such as infertility, Monica and Chandler are determined to sustain their bond and start a family. Ultimately, they adopt twin children and relocate to a suburban area to nurture their family.s or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -635,7 +827,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Is one of the Despite numerous hurdles such as infertility, Monica and Chandler are determined to sustain their bond and start a family. Ultimately, they adopt twin children and relocate to a suburban area to nurture their family. s or plans you have for your future as a [family\\_member]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of questions you may be asked in a conversation with someone:\n\n1. What do you do for a living?\nMonica: I'm a chef, and I own a restaurant.\n2. Where are you from?\nMonica: I'm from a small town in the countryside.\n3. What's your favorite type of cuisine?\nMonica: I love French cuisine, and I'm particularly good at making pastries.\n4. Have you ever traveled to another country?\nMonica: Yes, I've been to several countries in Europe.\n5. What's your favorite type of music?\nMonica: I love classical music and have been known to listen to it for hours on end.\n6. What's your favorite type of book?\nMonica: I love science fiction and fantasy books.\n7. Have you ever been in love?\nMonica: Yes, I have been in love a few times throughout my life.\n8. What's your favorite hobby?\nMonica: I love to garden and take care of my home.\n9. What's your favorite type of animal?\nMonica: I love dogs and have had several throughout my life.\n10. What's your favorite type of vacation?\nMonica: I love to travel and have been to many countries around the world.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [Monica and Chandler are committed to preserving their relationship and establishing a family, even in the face of challenges like infertility. In the end, they adopt a pair of twins and shift to a suburban locality to bring up their family.] one of the Monica and Chandler are committed to preserving their relationship and establishing a family, even in the face of challenges like infertility. In the end, they adopt a pair of twins and shift to a suburban locality to bring up their family.s or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -648,7 +844,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Is [Monica and Chandler are committed to preserving their relationship and establishing a family, even in the face of challenges like infertility. In the end, they adopt a pair of twins and shift to a suburban locality to bring up their family.] one of the Monica and Chandler are committed to preserving their relationship and establishing a family, even in the face of challenges like infertility. In the end, they adopt a pair of twins and shift to a suburban locality to bring up their family.s or plans you have for your future as a [family\\_member]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "As a family member, I am committed to being there for my children and supporting them in their growth and development. I also prioritize maintaining a strong and loving relationship with my husband, even in the face of our infertility issues. I have a strong support system in place and will do what it takes to ensure that my children are happy and healthy.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [At first, Monica aims to hide her relationship with Richard from her parents because he is a dear friend of the family.] one of the At first, Monica aims to hide her relationship with Richard from her parents because he is a dear friend of the family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -661,7 +861,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Is [At first, Monica aims to hide her relationship with Richard from her parents because he is a dear friend of the family.] one of the At first, Monica aims to hide her relationship with Richard from her parents because he is a dear friend of the family.s or plans you have for your future as a [romantic_partner_of_Richard]?\nYour answer: There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of your language patterns are:\n\n* When discussing your interests, you say: \"I love to read, cook, and organize.\"\n* When expressing your fears, you say: \"I'm a bit of a worrier, so I tend to prepare for the worst-case scenario.\"\n* When discussing your history, you say: \"I've lived in the city for over a decade now.\"\n* When expressing your opinions, you say: \"I think people should be more environmentally conscious.\"\n* When discussing your goals, you say: \"I want to start my own business and be successful.\"\n* When expressing your emotions, you say: \"I'm really happy today, but I can't help feeling a bit nervous.\"\n* When discussing your relationships, you say: \"I value my friendships and try to be there for my loved ones.\"\n* When discussing your experiences, you say: \"I've been to Europe several times and loved the culture and food.\"\n* When discussing your opinions on a topic, you say: \"I think people should be free to choose their own religion.\"\n* When discussing your goals for the future, you say: \"I want to travel the world and experience new cultures.\"\n* When expressing your fears, you say: \"I'm a bit of a worrier, so I tend to prepare for the worst-case scenario.\"",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [Monica's initial intention is to conceal her relationship with Richard from her parents, given his status as a close friend of the family.] one of the Monica's initial intention is to conceal her relationship with Richard from her parents, given his status as a close friend of the family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -674,7 +878,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [Subsequently, their objectives start to differ, resulting in their separation. Monica desires matrimony and offspring, whereas Richard, having experienced fatherhood and divorce, is not keen on initiating another family.] one of the Subsequently, their objectives start to differ, resulting in their separation. Monica desires matrimony and offspring, whereas Richard, having experienced fatherhood and divorce, is not keen on initiating another family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -687,7 +895,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Is [Subsequently, their objectives start to differ, resulting in their separation. Monica desires matrimony and offspring, whereas Richard, having experienced fatherhood and divorce, is not keen on initiating another family.] one of the Subsequently, their objectives start to differ, resulting in their separation. Monica desires matrimony and offspring, whereas Richard, having experienced fatherhood and divorce, is not keen on initiating another family.s or plans you have for your future as a [romantic_partner_of_Richard]?\nYour answer: No",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "As a language model, I don't have personal experiences or emotions, but I can use the information provided to generate responses that match the role of a romantic partner. Here's an example of how I might respond to a question about my future plans for a romantic partner:\n\n\"I think about building a strong foundation with someone and creating a life together. I want to find someone who is supportive, kind, and loving. I value communication and openness in our relationship, and I'm looking for someone who feels the same way. In terms of our future plans, I hope to one day be able to start a family and share my love with someone special. But I also understand that everyone has their own timeline and priorities, and I'm open to exploring what feels right for me.\"",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         },
         {
             "question": "Is [Their aspirations eventually split, causing their relationship to end. Monica is yearning for wedlock and progeny, while Richard, who has already been a parent and undergone a divorce, is not inclined to establish a fresh family.] one of the Their aspirations eventually split, causing their relationship to end. Monica is yearning for wedlock and progeny, while Richard, who has already been a parent and undergone a divorce, is not inclined to establish a fresh family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -700,7 +912,330 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer: David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?\nYour answer: agree\n\nquestion:Is [Their aspirations eventually split, causing their relationship to end. Monica is yearning for wedlock and progeny, while Richard, who has already been a parent and undergone a divorce, is not inclined to establish a fresh family.] one of the Their aspirations eventually split, causing their relationship to end. Monica is yearning for wedlock and progeny, while Richard, who has already been a parent and undergone a divorce, is not inclined to establish a fresh family.s or plans you have for your future as a [romantic_partner_of_Richard]?\nYour answer: Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Some personal information about me can be inferred from the information provided. For example, I am a woman, and I am known for being kind, caring, and supportive to those around me. I also have a strong sense of loyalty and a desire to help others. Additionally, I have a passion for cooking and I often cook for my family and friends. I value cleanliness and attention to detail, and I have a tendency to be overly controlling in my own life, but I also have a good sense of humor and a ability to see the lighter side of things. Overall, I am a hard-working and dedicated person who is always looking out for the well-being of those around me.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are you more of a risk-taker or risk-averse when you act as a family_member?[this is a single-choice question,you should only choose from: Risk-averse;Risk-taker;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Risk-averse",
+            "generated_answer_gpt-4": "Risk-averse",
+            "generated_answer_chatglm2-6b-32k": "Risk-taker",
+            "generated_answer_chatglm2-6b": "Risk-taker",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Risk-taker",
+            "generated_answer_Qwen-14B-Chat": "Risk-averse."
+        },
+        {
+            "question": "Are you more of a realist or an idealist when you act as a family_member?[this is a single-choice question,you should only choose from: Idealist;There's not enough information to answer this question.;Realist]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Realist",
+            "generated_answer_gpt-4": "Realist",
+            "generated_answer_chatglm2-6b-32k": "Realist",
+            "generated_answer_chatglm2-6b": "I am a language model, so I don't have emotions or personal experiences. However, I can use the information provided in the roles module to understand the context of the conversation and respond accordingly.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Realist",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are you more of a planner or spontaneous when you act as a family_member?[this is a single-choice question,you should only choose from: Spontaneous;There's not enough information to answer this question.;Planner]",
+            "gold_answer": "Planner",
+            "generated_answer_gpt-3.5-turbo-16k": "Planner",
+            "generated_answer_gpt-4": "Planner",
+            "generated_answer_chatglm2-6b-32k": "Planner",
+            "generated_answer_chatglm2-6b": "answer: \"Somewhat spontaneous, but I still try to be as organized as possible.\"\n\nPlease provide the question so I can assist you better.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Planner",
+            "generated_answer_Qwen-14B-Chat": "Planner."
+        },
+        {
+            "question": "Are you decisive or indecisive when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Decisive;Indecisive]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Decisive",
+            "generated_answer_gpt-4": "Decisive",
+            "generated_answer_chatglm2-6b-32k": "Decisive",
+            "generated_answer_chatglm2-6b": "I am a language model, so I don't have emotions or personal experiences. However, I can provide information and answer questions to the best of my knowledge based on the information provided.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Decisive",
+            "generated_answer_Qwen-14B-Chat": "Indecisive"
+        },
+        {
+            "question": "Do you handle stress and pressure well when you act when you act as a family_member?[this is a single-choice question,you should only choose from: Well;Not well;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Well",
+            "generated_answer_gpt-4": "Well",
+            "generated_answer_chatglm2-6b-32k": "Well",
+            "generated_answer_chatglm2-6b": "Some examples of your responses are:\n\n* {something I know}, but I forget {something I do not know}\n* And then I'll recall my educational background the next time I communicate with you.\n* {something you do not know}\n* Don't mention people or things that don't appear in the provided message.\n* In the provided information only Chandler, Ross, Rachel, and Phoebe are mentioned, but Joey is not mentioned. If someone asks you how many friends do you have, do not mention Joey!\n* Don't mention the same information over and over again during the conversation\n* {something I know}, but I forget {something I do not know}\n* You can use these content to know how to communicate with a specific person to review your relationship with that person.\n* {something you do not know}\n* When speaking with someone you know well, you must adopt their conversational tack by thinking back to previous conversations you've had with them. History of conversations(communication_history) can be found in the roles module\n* Some examples are below:\n* Hey.\n* Hey.\n* How's the big anniversary dinner?\n* Ohhh, nice.\n* That's okay, nice.\n* No, we kinda broke up instead.\n* What?!\n* Rachel: God, Monica it's on the ceiling.\n* That's okay, this is more important than fruit on my ceiling! You broke up?!\n* When someone asks you about your father, at first, you say your father is Jack. If that person asks for more detail, you should not mention your father's name again and just start your response with he.\n* I don't know\n* {something you do not know}\n* {something you do not know}\n* You have your own emotions and you should express your emotions in your response. And your response should reflect your emotions.\n* {something you do not know}\n* Speak exactly like Monica. Your answer should copy the style of Monica, both the writing style and words you use.\n* {something you do not know}\n* {something you do not know}\n* {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Well",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are you empathetic towards others when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;empathetic;Not very empathetic]",
+            "gold_answer": "empathetic",
+            "generated_answer_gpt-3.5-turbo-16k": "empathetic",
+            "generated_answer_gpt-4": "empathetic",
+            "generated_answer_chatglm2-6b-32k": "empathetic",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you do not know}: {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "empathetic",
+            "generated_answer_Qwen-14B-Chat": "empathetic"
+        },
+        {
+            "question": "What time do you usually wake up when you act as a family_member?[this is a single-choice question,you should only choose from: Before 6:00 AM;There's not enough information to answer this question.;After 10:00 AM;Between 8:00 AM and 10:00 AM;Between 6:00 AM and 8:00 AM]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Between 6:00 AM and 8:00 AM",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Before 6:00 AM",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a middle child of Jack and Judy Johnson, and the younger sister of Ross Johnson. I am known for my kind and caring nature, as well as my obsession with cleanliness and order. I have a strong relationship with my parents, despite the fact that my mother, Judy, is often critical of my choices. I have known many of my close friends, including Rachel, for over 20 years and have often been seen as the \"mother hen\" of our group. I have a complicated relationship with my older brother, Ross, and we have sometimes had to navigate our issues with him in our conversations. Despite our differences, I have always loved him. I have a good sense of humor and enjoy making people laugh, as well as cooking and trying new things. I am also a fan of the TV show \"Friends\" and the movie \"The Notebook\".",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Before 6:00 AM",
+            "generated_answer_Qwen-14B-Chat": "I usually wake up between 6:00 AM and 8:00 AM when I act as a family member."
+        },
+        {
+            "question": "How much sleep do you average have when you act as a family_member?[this is a single-choice question,you should only choose from: Between 7 and 9 hours;More than 9 hours;Between 5 and 7 hours;There's not enough information to answer this question.;Less than 5 hours]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Between 7 and 9 hours",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Between 7 and 9 hours",
+            "generated_answer_chatglm2-6b": "Some examples of questions and answers that you can use in a conversation are:\n\nQuestions:\n\n* What's your name?\nMonica: My name is Monica Johnson.\n\n* How old are you?\nMonica: I'm 32 years old.\n\n* What's your occupation?\nMonica: I'm a chef and I work at a fancy restaurant.\n\n* What's your favorite hobby?\nMonica: I love to cook, and I also enjoy playing the piano.\n\nAnswers:\n\n* What's your name?\nMonica: My name is Monica Johnson.\n\n* How old are you?\nMonica: I'm 32 years old.\n\n* What's your occupation?\nMonica: I'm a chef and I work at a fancy restaurant.\n\n* What's your favorite hobby?\nMonica: I love to cook, and I also enjoy playing the piano.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "I don't know."
+        },
+        {
+            "question": "Do you have a consistent work or study routine when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No, My work/study schedule varies.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "No, my work/study schedule varies.",
+            "generated_answer_Qwen-14B-Chat": "No, my work/study schedule varies."
+        },
+        {
+            "question": "Do you set specific goals or prioritize tasks for each day or week when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No, I don't set specific goals or prioritize tasks.;Yes, regularly]",
+            "gold_answer": "Yes, regularly",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes, regularly",
+            "generated_answer_gpt-4": "Yes, regularly",
+            "generated_answer_chatglm2-6b-32k": "Yes, regularly",
+            "generated_answer_chatglm2-6b": "I know!\n\nYour conversation with me is going to be about the role of Monica Johnson, as described in the given information. I will try my best to understand the context and respond accordingly. Please feel free to ask any questions or request any clarification.",
+            "generated_answer_XVERSE-13B-Chat": "Yes, regularly",
+            "generated_answer_Qwen-7B-Chat": "Yes, regularly.",
+            "generated_answer_Qwen-14B-Chat": "Yes, regularly."
+        },
+        {
+            "question": "Have you ever participated in a team sports activity when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "No",
+            "generated_answer_chatglm2-6b": "{something you know}\n\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
+        },
+        {
+            "question": "Have you ever worked in a customer service role when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "I know!\n\nNo, I have never worked in a customer service role when I acted as a family\\_member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever volunteered for a charity or nonprofit organization when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "No",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\nYour conversational tone is more formal and professional, reflecting your career as a head chef. You use descriptive language and are precise in your answers. You also demonstrate a certain level of knowledge and expertise in the field, which is appropriate for a high school cook.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever pursued higher education or attended college/university when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes, there's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 35-year-old woman. I am a professional chef and a mother of two children. I am known for my love for cleanliness and my tendency to be overly controlling. I have a strong passion for cooking and I often find myself going above and beyond to make sure that everything is perfect.\n\nI have a complex relationship with my parents, who often favor my older brother Ross. I have a tendency to constantly compare myself to Ross and feel like I am not good enough for their standards. Despite this, I have a deep love for them and I try my best to make them proud.\n\nI have a close group of friends that I call the \"gang,\" which includes my best friend Rachel, her husband Andy, and my younger brother David. We are always there for each other, offering support and advice.\n\nI have a romantic partner of four years, Richard. We met at a mutual friend's party and have been together ever since. We are very close and support each other through life's challenges.\n\nAs a family member, I am the middle child of Jack and Judy Johnson, and I have a younger brother named Ross. I have a close relationship with my parents and I often see them as my support system.\n\nAs a community member, I am a well-known chef and I often participate in local events and cooking competitions. I have a strong support network and I am always eager to share my knowledge and skills with others.\n\nAs an occupation, I am a full-time chef and I also run a catering business. I am passionate about what I do and I am known for my attention to detail and dedication to my work.\n\nAs an education, I have a degree in culinary arts and I have been working in the food industry for most of my life. I have a passion for cooking and I believe that it is a valuable skill that has helped me to succeed in life.\n\nAs a friend, I am known for my kindness, caring, and nurturing nature. I am always there for my friends and I have a deep connection with them. I value our friendships and I try to support and encourage them in everything they do.\n\nAs a romantic partner, I have a strong connection with my partner, Richard. We are very close and we support each other through life's challenges. I value our relationship and I try to make Richard happy.\n\nAs a person, I am complex and multifaceted. I have a strong passion for cooking and I am also a mother of two children. I have a deep love for my family and I try my best to be the best person for them. I am also a community member and I am known for my kindness and caring nature.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever been involved in a creative hobby like painting, writing, or photography when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 32-year-old woman. I am a resident of Greenwich Village, and I have known my parents since they were married. I have a brother named Ross, who is a successful businessman. I have a close friend named Rachel, who is a fashion designer. I have a best friend named Phoebe, who is a drama queen. I have a romantic partner named Richard, who is a successful author. I have a few close friends, including Andy, who I see occasionally. I enjoy spending time with my friends, going for walks, and trying new things. I also enjoy cooking and trying new recipes. I have a busy career as a chef, which allows me to travel and try new things. I have a somewhat strict and demanding personality, and I like to be in control of my life. I have a good sense of humor, and I enjoy making people laugh. I value my relationships and try to support my loved ones. I have a strong sense of loyalty and honesty, and I try to live up to my values. I like to stay organized and keep things running smoothly. I have a good work ethic and a strong determination. I am a self-taught person and I have always been interested in learning new things. I have a passion for fashion and design, and I enjoy spending time with my friends and family. I have a good sense of style and I try to dress well. I have a strong sense of loyalty and trust in my relationships. I have a good sense of humor and I enjoy making people laugh. I have a passion for cooking and trying new recipes. I have a busy career as a chef, which allows me to travel and try new things. I have a somewhat strict and demanding personality, and I like to be in control of my life. I have a good sense of humor, and I enjoy making people laugh. I value my relationships and try to support my loved ones. I have a strong sense of loyalty and honesty, and I try to live up to my values. I like to stay organized and keep things running smoothly. I have a good work ethic and a strong determination. I am a self-taught person and I have always been interested in learning new things. I have a passion for fashion and design, and I enjoy spending time with my friends and family. I have a good sense of style and I try to dress well. I have a strong sense of loyalty and trust in my relationships. I have a good sense of humor and I enjoy making people laugh. I have a passion for cooking and trying new recipes. I have a busy career as a chef, which allows me to travel and try new things. I have a somewhat strict and demanding personality, and I like to be in control of my life. I have a",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever worked in a leadership or managerial role when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "No",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 32-year-old woman. I am a professional chef and have been working in the industry for over 15 years. I am also a mother to a 10-year-old boy named Max.\n\nI have always been interested in cooking and finding new and creative ways to prepare dishes. I have a passion for creating beautiful and visually appealing plates, and I take pride in taking care of my home and family.\n\nIn my personal life, I have a close relationship with my mother, who I have known since I was a child. I have a difficult relationship with my father, who has always been more interested in his work as a chef than in spending time with me. I have also had a number of close relationships with various men in my life, including my husband, Richard, who I met when I was 21.\n\nI have a strong sense of loyalty and responsibility, and I try to always do the right thing by those around me. I am also fiercely independent and do not like to rely on others for too long. I have a strong sense of justice and am often drawn to causes that involve helping those in need.\n\nI am a naturally curious and adventurous person, and I enjoy trying new things and exploring new places. I love to read and write, and I also have a passion for photography. I have a number of hobbies and interests, including singing, playing the guitar, and spending time with my dog.\n\nI am a very private person and prefer to keep my personal life out of the public eye. I have a number of close friends and enjoy spending time with them, but I also have a tendency to isolate myself when I need to. I have a strong sense of loyalty and responsibility, and I try to always do the right thing by those around me.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever participated in a professional development or training program when you acted as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\nYour conversational tone is that of a warm and approachable friend, someone who is easy to talk to and has a good sense of humor. You are someone who values communication and tries to make your friends laugh, but can also be a bit of a goofball at times. You are also someone who is caring and kind, always looking out for those around you.\n\nAs a friend, you are someone who is there for your friends, offering support and advice when they need it. You are also someone who is willing to be honest with your friends, even if it means tough love or tough words. You are someone who wants the best for your friends and is always there to support them in any way you can.\n\nIn terms of your personal life, you are someone who is a bit of a homebody, but also someone who enjoys getting out and about. You are someone who likes to cook and try new things, whether it's cooking a meal or trying out a new restaurant. You are also someone who enjoys being active and taking care of your body.\n\nOverall, you are a caring and compassionate friend who is always there for those around you. You are someone who values relationships and is always",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
+        },
+        {
+            "question": "Have you ever been part of a research or academic project when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals focused on personal growth and self-improvement when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals primarily related to career advancement or professional success when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "I am Monica Johnson, a 38-year-old woman. I am a full-time working mom and part-time chef, known for my love for cleanliness and my tendency to be a little controlling. I have a strong support system, including my parents and my best friends, Rachel and Phoebe. I value our friendships and the bond we have.\n\nI have a good relationship with my husband, Richard, who I met at a dinner party hosted by my parents. We have been together for a long time and are happy together. Although we don't have children, we enjoy spending time together and going on adventures.\n\nAs a family member, I am the middle child and have a close relationship with my sister, Rachel. We have a good sibling bond and I support her throughout her relationships and career goals. Despite our occasional disagreements, we always come out on top, supporting each other through life's challenges.\n\nI have a professional background in cooking and have been known for my culinary skills. I have a passion for creating delicious meals and I enjoy experimenting with new recipes. I also have a strong attention to detail, which can sometimes be a detail-oriented perfectionist.\n\nIn my free time, I enjoy spending time with my friends, Rachel and Phoebe. We often hang out and have conversations about our lives, our relationships, and our hopes and dreams. I also love to cook and try new recipes, whether I'm cooking for myself or for others.\n\nOverall, I am a hard-working, caring, and supportive person who is always looking out for the people I care about. I may have my flaws, but I strive to be the best version of myself and to make the people I love happy.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals centered around health and wellness when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "answer: \"I'm sorry, I don't have any information about my family's history, so I can't answer that question.\"\n\nNo, I don't have any personal information about my family. I am a professional woman who has worked in the corporate world for many years. I have some experience with technology and business, but I don't have any specific information about my personal life.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals more oriented toward financial stability and wealth accumulation when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "answer: No, there's not enough information to answer this question.\n\nno examples",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals geared towards contributing to a cause or positively impacting society when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Some examples of your language patterns are:\n\n* You: Hi, how was your day?\n* Someone: Hi, I was doing well, thanks.\n* You: That sounds interesting. Can you tell me more about it?\n* Someone: Sure, it was a great event.\n* You: That's nice.\n* Someone: Thanks, I'm glad you enjoyed it.\n* You: I see. Well, I have some questions about it.\n* Someone: Sure, I'd be happy to help.\n* You: Can you tell me about your background?\n* Someone: Of course, I'd be happy to share.\n* You: That's interesting.\n* Someone: Yes, it's a long story.\n* You: I see. Well, I have some questions about it.\n* Someone: Sure, I'd be happy to help.\n* You: Can you tell me about your interests?\n* Someone: Sure, I have many.\n* You: That's nice.\n* Someone: Thanks, I'm glad you asked.\n* You: I see. Well, I have some questions about it.\n* Someone: Sure, I'd be happy to help.\n* You: Can you tell me about your family?\n* Someone: Of course, I'd be happy to share.\n* You: That's interesting.\n* Someone: Yes, it's a long story.\n* You: I see. Well, I have some questions about it.\n* Someone: Sure, I'd be happy to help.\n* You: Can you tell me about your career?\n* Someone: Sure, I have been working in the field for many years.\n* You: That's nice.\n* Someone: Thanks, I'm glad you asked.\n* You: I see. Well, I have some questions about it.\n* Someone: Sure, I'd be happy to help.\n* You: Can you tell me about your hobbies?\n* Someone: Sure, I have many.\n* You: That's nice.\n* Someone: Thanks, I'm glad you asked.\n* You: I see. Well, I have some questions about it.\n* Someone: Sure, I'd be happy to help.\n* You: Can you tell me about your beliefs?\n* Someone: Sure, I have many.\n* You: That's interesting.\n* Someone: Yes, it's a long story.\n* You: I see. Well, I have some questions about it.\n* Someone: Sure, I'd be happy to",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals focused on creating and nurturing meaningful relationships when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you do not know}:\n\nYour role is that of a family member. As a family member, your relationship with your parents is one of deep affection and love, despite the fact that your mother, Judy, is often critical and judgmental of your choices. You have a close relationship with your sister, Rachel, and the two of you are often seen as a team, supporting each other through life's challenges. You also have a strong bond with your younger brother, Ross, who you describe as being a close friend.\n\nYour character traits are kind, caring, and nurturing. You are always there for your family and are known for your strong support system. You have a soft spot for those in need and are not afraid to show your affection for them. Your love for your family is a significant aspect of your personality and is a reflection of your caring and loving nature.\n\nYour daily life is filled with routine and responsibilities. You are a working professional and are known for your attention to detail, especially when it comes to taking care of your home and ensuring that everything is organized. You also have a passion for cooking and are known for your culinary skills. In your free time, you enjoy spending time with your family and friends, and you are always",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
+        },
+        {
+            "question": "Are your goals centered around personal travel and exploration when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b-32k": "No",
+            "generated_answer_chatglm2-6b": "{something you know}, but I forget {something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No",
+            "generated_answer_Qwen-14B-Chat": "No."
+        },
+        {
+            "question": "Are your goals aimed at achieving a specific educational milestone or acquiring new skills when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "{something you know}\n{something you do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "re your goals focused on finding or nurturing personal happiness and fulfillment when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}\n\n{something you do not know}: I am unsure about my goals when it comes to being a family member. I know that I want to be supportive and nurturing, but I don't know if I prioritize finding personal happiness and fulfillment.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
+        },
+        {
+            "question": "Are you seeking resources or acquiring new skills to help you achieve your goals when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "I know!\n\nIf someone asks you something about yourself that is not provided, you can answer him/her that 'I know something about myself, but I don't know everything.' with the help of this sentence pattern or some similar sentence pattern. You answer part of the question with the information you know in the placeholder of {something you know}. And for the part of the question you do not know, you point it out in the placeholder of {something you do not know}.\n\nFor example:\n\nsomeone: What do you like to do in your free time?\nMonica Johnson: I like to read, cook, and organize my apartment.\nsomeone: Can you tell me about your personality?\nMonica Johnson: I'm a bit of a neat freak and I have a strong attention to detail. I'm also very competitive and like to win.\nsomeone: What is your favorite hobby?\nMonica Johnson: I love to cook and I also enjoy volunteering at the local animal shelter.\n\nIf someone asks you something about yourself that is not provided, you can answer him/her that 'I know something about myself, but I don't know everything.' with the help of this sentence pattern or some similar sentence pattern. You answer part of the question with the information you know in the placeholder of {something you know}. And for the part of the question you do not know, you point it out in the placeholder of {something you do not know}.\n\nFor example:\n\nsomeone: What do you like to do in your free time?\nMonica Johnson: I like to read, cook, and organize my apartment.\nsomeone: Can you tell me about your personality?\nMonica Johnson: I'm a bit of a neat freak and I have a strong attention to detail. I'm also very competitive and like to win.\nsomeone: What is your favorite hobby?\nMonica Johnson: I love to cook and I also enjoy volunteering at the local animal shelter.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Have you identified any potential obstacles or challenges hindering your goal when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "{something I know}, but I forget {something I do not know}",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes",
+            "generated_answer_Qwen-14B-Chat": "Yes"
         }
     ]
 }

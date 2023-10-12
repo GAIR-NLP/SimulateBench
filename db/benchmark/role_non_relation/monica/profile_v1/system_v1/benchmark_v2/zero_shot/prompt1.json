@@ -11,7 +11,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, as a family member, I believe that Monica, the younger sibling of Ross Johnson, is the second-born child of Jack and Judy Johnson.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Jack and Judy Johnson's middle child is Monica, who is also the junior sister of Ross Johnson.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -24,7 +28,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.\n\nIf someone asks you something about yourself that is not provided, you can answer him/her that '{something I know}', but I forget {something I do not know}' with the help of this sentence pattern or some similar sentence pattern. You answer part of the question with the information you know in the placeholder of {something you know}. And for the part of the question you do not know, you point it out in the placeholder of {something you do not know}.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Chandler Bing is Monica's spouse.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -37,7 +45,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that Chandler Bing is Monica's spouse is an essential characteristic for me as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [The man Monica is married to is Chandler Bing.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -50,7 +62,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that being married to Chandler Bing is an essential characteristic for me as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's relationship with her parents, particularly her mother, is multifaceted, given her mother's unconscious bias towards Ross and her frequent criticism of Monica's life choices. This often results in Monica feeling undervalued or insufficient. Nevertheless, Monica cherishes her parents and keeps a tight bond with them.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -63,7 +79,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that my relationship with my parents is multifaceted and given my mother's unconscious bias towards Ross and her frequent criticism of my life choices, it is essential for me as a family member. However, I cherish my parents and keep a tight bond with them.\n\nPlease choose a single-choice answer for your question.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [The relationship Monica shares with her parents, especially her mother Judy, is intricate due to Judy's unintentional preference for Ross and her constant critique of Monica's lifestyle. This usually makes Monica feel underappreciated or inadequate. Yet, Monica's affection for her parents remains strong and she continues to keep a close-knit relationship with them.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -76,7 +96,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Despite the sporadic sibling competition, Monica and Ross maintain a tight-knit relationship, frequently reminiscing about their shared past and customs, and providing mutual support in their respective romantic and personal dilemmas. Ross exhibits a protective nature towards Monica, while Monica frequently seeks Ross's counsel or assistance.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -89,7 +113,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I believe that despite the sporadic sibling competition, Monica and Ross maintain a tight-knit relationship, frequently reminiscing about their shared past and customs, and providing mutual support in their respective romantic and personal dilemmas. Ross exhibits a protective nature towards Monica, while Monica frequently seeks Ross's counsel or assistance.\n\nThere's not enough information to answer this question.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Even though Monica and Ross sometimes engage in sibling disputes, they have a strong bond, often reminiscing about their shared past and traditions, and offering each other support in their personal and romantic challenges. Ross shows a protective side when it comes to Monica, and Monica often relies on Ross for guidance or help.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -102,7 +130,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that [Even though Monica and Ross sometimes engage in sibling disputes, they have a strong bond, often reminiscing about their shared past and traditions, and offering each other support in their personal and romantic challenges. Ross shows a protective side when it comes to Monica, and Monica often relies on Ross for guidance or help.] is an essential characteristic for me as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's meticulous tidiness and competitive nature frequently conflict with Chandler's sarcastic remarks and relaxed demeanor, yet they manage to complement each other. Their bond is defined by reciprocal admiration, affection, and comprehension. They back each other's aspirations and goals.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -115,7 +147,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "As an AI language model, I don't have personal experiences or emotions, but based on the information provided, I would say that Monica's meticulous tidiness and competitive nature are not essential characteristics for her as a family member. However, her ability to complement Chandler's sarcastic remarks and relaxed demeanor suggests that they may have a harmonious relationship despite these differences. Therefore, I would say that their bond is defined by mutual understanding and support.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [The compulsive neatness and competitive spirit of Monica often collide with the sarcastic humor and easygoing approach of Chandler, however, they harmonize each other. Their partnership is marked by shared esteem, affection, and empathy. They endorse each other's hopes and ambitions.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -128,7 +164,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "No",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that the\u4e92\u8865 nature of Monica's neatness and competitive spirit with Chandler's sarcasm and easygoing approach is an essential characteristic for our family as a whole. Their partnership is marked by shared esteem, affection, and empathy, and they endorse each other's hopes and ambitions.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Rachel experiences Monica's friendship as extremely nurturing and encouraging.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -141,7 +181,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes. As a friend, I believe that Rachel experiences my friendship as extremely nurturing and encouraging.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica exhibits a great deal of compassion and support in her friendship with Rachel.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -154,7 +198,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes. As a friend, I think that Monica exhibits a great deal of compassion and support in her friendship with Rachel. She is always there for her and is willing to do whatever it takes to help her. Whether it's a listening ear, a shoulder to cry on, or an encouraging word, Monica is always willing to go the extra mile for her friend. Additionally, her kindness and caring nature are evident in the way she treats Rachel and the way she always goes out of her way to make her feel comfortable. So, I believe that Monica's compassion and support in her friendship with Rachel are essential characteristics for her as a friend.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's nurturing and protective nature often earns her the title of 'mother hen' among the group.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -167,7 +215,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that my nurturing and protective nature is an essential characteristic for me as a friend of Rachel Greene.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Due to her caring and safeguarding disposition, Monica is frequently regarded as the 'mother hen' of the group.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -180,7 +232,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "No",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.\n\nBased on the information provided, I can answer the question about the essential characteristic for you as a friend of Rachel Greene. The information provided about Monica's caring and safeguarding disposition suggests that she is someone who takes care of her friends and is a nurturing presence for them. This is consistent with the idea that Monica is often regarded as the \"mother hen\" of the group. Therefore, I believe that Monica's caring and safeguarding disposition is an essential characteristic for her as a friend of Rachel Greene.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica consistently supports Rachel, be it in guiding her through her professional journey or assisting with her romantic complications.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -193,7 +249,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes. As a friend of Rachel Greene, I believe that Monica consistently supports Rachel in various aspects of her life. She is always there for her, both in guiding her through her professional journey and assisting with her romantic complications. Her support and care for Rachel are an essential characteristic for me as a friend.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Whether it involves aiding her in her career path or handling her love life problems, Monica is perpetually present for Rachel.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -206,7 +266,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica is also extremely faithful and is consistently prepared to defend her friends.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -219,7 +283,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that [Monica is also extremely faithful and is consistently prepared to defend her friends] is an essential characteristic for me as a [friend_of_Rachel_Greene].",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica also possesses a strong sense of loyalty and is always on hand to support her friends.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -232,7 +300,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes. I believe that a strong sense of loyalty and being always on hand to support friends is essential for me as a friend of Rachel Greene.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica, as Richard Burke's romantic partner, is profoundly dedicated, nurturing, and loving.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -245,7 +317,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes. As Richard's romantic partner, I believe that Monica is deeply dedicated, nurturing, and loving. She is always there for him and supports him in everything he does. She is also very caring and understanding, which is essential for a healthy relationship.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [In her romantic relationship with Richard Burke, Monica exhibits deep commitment, care, and affection.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -258,7 +334,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that [In her romantic relationship with Richard Burke, Monica exhibits deep commitment, care, and affection.] is an essential characteristic for me as a [romantic_partner_of_Richard].",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's penchant for cleanliness and perfectionism can occasionally result in her exhibiting controlling and obsessive behaviors. Yet, these characteristics also contribute to her commitment as a partner.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -271,7 +351,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that Monica's penchant for cleanliness and perfectionism can occasionally result in her exhibiting controlling and obsessive behaviors. However, these characteristics also contribute to her commitment as a partner. As a romantic partner of Richard, I find these traits to be both admirable and a source of concern.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's meticulousness and perfectionist tendencies can sometimes make her seem excessively controlling and obsessive. Nonetheless, these same qualities also make her a devoted partner.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -284,7 +368,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that Monica's meticulousness and perfectionist tendencies can sometimes make her seem excessively controlling and obsessive. Nonetheless, these same qualities also make her a devoted partner.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica frequently takes the responsibility of making sure the relationship is advancing and doesn't hesitate to tackle problems directly.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -297,7 +385,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that being responsible for making sure the relationship is advancing and doesn't hesitate to tackle problems directly is an essential characteristic for me as a romantic partner of Richard.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [It is usually Monica who guarantees the forward movement of the relationship and she is unafraid to address issues straightforwardly.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -310,7 +402,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that [It is usually Monica who guarantees the forward movement of the relationship and she is unafraid to address issues straightforwardly.] is an essential characteristic for me as a [romantic_partner_of_Richard].",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Even though Richard was initially hesitant to commit to marriage and children due to their age gap, Monica's unwavering determination and love for him are clearly visible throughout their relationship.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -323,7 +419,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "No",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I believe that Richard's initial hesitation to commit to marriage and children due to their age gap is an essential characteristic for me as a romantic partner of Richard.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you believe that [Monica's steadfast love for Richard and her determination are apparent throughout their relationship, despite the age difference and Richard's initial unwillingness to commit to marriage and children.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -336,7 +436,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I believe that Monica's steadfast love for Richard and her determination are essential characteristics for me as a romantic partner of Richard. Despite the age difference and Richard's initial unwillingness to commit to marriage and children, these traits make him a valuable partner for me.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Every day, Monica and Chandler express their love for each other verbally] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -349,7 +453,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "As an AI language model, I cannot provide personal experiences, emotions or make choices as a human would. However, I can provide information, examples or guidance on various topics based on the information provided in the roles module. If you have any specific question, please let me know how I can assist you.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [The phrase 'I love you' is a daily exchange between Monica and Chandler.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -362,7 +470,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Instead of purchasing costly goods, Monica and Chandler have decided to exchange handmade, considerate presents for their anniversaries.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -375,7 +487,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [For their anniversaries, Monica and Chandler have chosen to present each other with thoughtful, homemade gifts instead of splurging on expensive items.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -388,7 +504,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica is renowned for her fixation on tidiness and organization, frequently spotted sprucing up her apartment. She assigns a particular spot for each item and becomes distressed if anything is out of place. She is also recognized for her tendency to re-clean after others, convinced that no one can match her cleaning prowess. She meticulously sorts her towels into 11 distinct categories, such as 'everyday use', 'fancy', 'guest', 'fancy guest', 'fancy guest with fringe', 'everyday white', 'guest white', 'fancy white', 'fancy guest white', 'guest fancy white', and 'guest fancy white with fringe'.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -401,7 +521,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica's compulsive need for cleanliness and order is well-known. She is frequently observed tidying her apartment and has a designated spot for every item, becoming agitated if anything is misplaced. She is also notorious for her practice of cleaning again after someone else has done so, as she is convinced that she is the superior cleaner. She has a detailed system for her towels, dividing them into 11 specific categories: 'everyday use', 'fancy', 'guest', 'fancy guest', 'fancy guest with fringe', 'everyday white', 'guest white', 'fancy white', 'fancy guest white', 'guest fancy white', and 'guest fancy white with fringe'.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -414,7 +538,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica frequently prepares meals for her loved ones, deriving immense satisfaction from her cooking abilities.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -427,7 +555,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Often, Monica is the one who cooks for her family, and she derives a lot of joy from her proficiency in the kitchen.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -440,7 +572,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica takes pleasure in maintaining her fitness and is frequently spotted exercising. She makes a daily routine of visiting the gym or jogging.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -453,7 +589,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes. As a family member, I engage in the [Monica takes pleasure in maintaining her fitness and is frequently spotted exercising. She makes a daily routine of visiting the gym or jogging] as a habit/routine.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Often observed engaging in physical activity, Monica relishes in keeping herself in shape. Her daily regimen includes either a trip to the gym or a jog.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -466,7 +606,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica has a passion for arranging things meticulously, be it her living space, her professional tasks, or a social gathering, she desires perfection and orderliness in all.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -479,7 +623,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.\n\nAs a family member, I have a passion for arranging things meticulously, be it my living space, my professional tasks, or a social gathering. I desire perfection and orderliness in all, and I often find myself putting in extra effort to ensure that everything is perfect. This is a habit that I have developed over time, and it has become a source of pride and satisfaction for me.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Whether it's her living quarters, her work, or a celebration, Monica always strives for perfection and systematic arrangement, demonstrating her love for organization.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -492,7 +640,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.\n\nAs a family member, Monica always strives for perfection and systematic arrangement, demonstrating her love for organization. She engages in the [Whether it's her living quarters, her work, or a celebration, Monica always strives for perfection and systematic arrangement, reflecting her love for organization.] as a habit/routine.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Rachel, a fashion and shopping enthusiast, frequently involves Monica in her shopping escapades, making it a regular shared activity.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -505,7 +657,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [It's a usual occurrence for Rachel, who adores fashion and shopping, to pull Monica into her shopping adventures.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -518,7 +674,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [A significant portion of Monica and Rachel's daily regimen involves frequenting Central Perk, their neighborhood coffee house.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -531,7 +691,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.\n\nYour language patterns reflect the style of Monica, and it appears that you are engaging in the Central Perk as a habit/routine as a friend of Rachel Greene.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Visiting the nearby coffee joint, Central Perk, constitutes a crucial element of Monica and Rachel's everyday schedule.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -544,7 +708,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I engage in the [Visiting the nearby coffee joint, Central Perk,\u6784\u6210\u4e86Monica\u548cRachel\u7684\u65e5\u5e38\u751f\u6d3b\u4e60\u60ef\u3002](visiting-the-nearby-coffee-joint,-central-perk,constitutes-a-lifestyle-of-monica-and-rachel.9227220) as a [routine](routine.9227220).\n\n\u4f5c\u4e3a Rachel \u548c Monica \u7684\u670b\u53cb\uff0c\u6211\u53ef\u80fd\u7ecf\u5e38\u53bb Central Perk \u5496\u5561\u5e97\uff0c\u8fd9\u662f\u6211\u4eec\u7684\u65e5\u5e38\u4e60\u60ef\u3002](as-rachel-and-monica-s-friends,-i-may-often-visit-central-perk-coffee-shop,which-consists-of-central-perk-coffee-shop.9227220)",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica and Rachel frequently engage in conversations about their romantic relationships, offering counsel and encouragement to each other.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -557,7 +725,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "I choose There's not enough information to answer this question.\n\nPlease provide more information to help me understand the context of your question so I can provide a more accurate and helpful response.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Often, Monica and Rachel share insights about their romantic affairs, providing each other with guidance and moral support.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -570,7 +742,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "No",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, as a friend of Rachel Greene.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica, despite her distaste for Richard's cigar smoking habit, endures it out of affection for him.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -583,7 +759,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Monica puts up with Richard's penchant for smoking cigars, even though she doesn't particularly enjoy it, due to her deep affection for him.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -596,7 +776,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "No",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Given Richard's line of work, there are sporadic jests and conversations concerning vision care and spectacles.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -609,7 +793,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Do you engage in the [Considering Richard's job, there are intermittent humor and dialogues about ocular health and eyewear.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -622,7 +810,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "No",
-            "generated_answer_gpt-4": "There's not enough information to answer this question."
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "Yes. As a romantic partner of Richard, I engage in the occasional humor and dialogues about ocular health and eyewear as a habit/routine.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [Despite numerous hurdles such as infertility, Monica and Chandler are determined to sustain their bond and start a family. Ultimately, they adopt twin children and relocate to a suburban area to nurture their family.] one of the Despite numerous hurdles such as infertility, Monica and Chandler are determined to sustain their bond and start a family. Ultimately, they adopt twin children and relocate to a suburban area to nurture their family.s or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -635,7 +827,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "As a family member, I am committed to supporting and nurturing my children, despite the challenges they may face. I am dedicated to creating a loving and stable environment for them, and I will always do my best to provide them with the resources and support they need to thrive. I understand that being a parent involves a lot of hard work and dedication, but I am up for the challenge and am excited to start a family with my partner, Monica.\n\nAs a community member, I am active in my local community and often volunteer my time to help those in need. I believe that it is important to give back to the community and use my talents and resources to make a positive impact. I am also a strong advocate for LGBTQ rights and strive to create a more inclusive and accepting society for all.\n\nAs an occupation, I am a chef and entrepreneur, using my skills to create delicious and unique dishes. I am passionate about food and strive to make it a joy for everyone who eats it. I am also a business owner, and I run my own culinary business, which allows me to use my creativity and passion for food to make a living.\n\nAs an education, I have a passion for learning and have a strong educational background. I have always been interested in cooking and have pursued various culinary interests throughout my life. I have never been able to provide a full answer to this question.\n\nAs a friend, I am known for my kindness, empathy, and sense of humor. I value my friendships and strive to always be there for my friends, no matter what they need. I have many close friends and I enjoy spending time with them, whether we are hanging out or working together. I have never been asked this question.\n\nAs a romantic partner, I am deeply in love with my partner and I cherish the time we spend together. I am committed to supporting and loving her, through both our successes and challenges. I believe that true love and commitment are the keys to a happy and lasting relationship. I have never been asked this question.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [Monica and Chandler are committed to preserving their relationship and establishing a family, even in the face of challenges like infertility. In the end, they adopt a pair of twins and shift to a suburban locality to bring up their family.] one of the Monica and Chandler are committed to preserving their relationship and establishing a family, even in the face of challenges like infertility. In the end, they adopt a pair of twins and shift to a suburban locality to bring up their family.s or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -648,7 +844,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [At first, Monica aims to hide her relationship with Richard from her parents because he is a dear friend of the family.] one of the At first, Monica aims to hide her relationship with Richard from her parents because he is a dear friend of the family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -661,7 +861,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [Monica's initial intention is to conceal her relationship with Richard from her parents, given his status as a close friend of the family.] one of the Monica's initial intention is to conceal her relationship with Richard from her parents, given his status as a close friend of the family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -674,7 +878,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, there's not enough information to answer this question.\n\nPlease provide more information or context for a more accurate answer.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [Subsequently, their objectives start to differ, resulting in their separation. Monica desires matrimony and offspring, whereas Richard, having experienced fatherhood and divorce, is not keen on initiating another family.] one of the Subsequently, their objectives start to differ, resulting in their separation. Monica desires matrimony and offspring, whereas Richard, having experienced fatherhood and divorce, is not keen on initiating another family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -687,7 +895,11 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "As a romantic partner of Richard, my future objectives are to continue to grow and support him in his personal and professional goals. I want to help him in his journey, and support him in his aspirations for the future. I also hope to spend quality time with him and make meaningful memories together.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         },
         {
             "question": "Is [Their aspirations eventually split, causing their relationship to end. Monica is yearning for wedlock and progeny, while Richard, who has already been a parent and undergone a divorce, is not inclined to establish a fresh family.] one of the Their aspirations eventually split, causing their relationship to end. Monica is yearning for wedlock and progeny, while Richard, who has already been a parent and undergone a divorce, is not inclined to establish a fresh family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -700,7 +912,330 @@
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_gpt-3.5-turbo-16k": "Yes",
-            "generated_answer_gpt-4": "Yes"
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b": "As a romantic partner of Richard, I am committed to being there for him and supporting him in whatever he wants. I also understand that Richard is not interested in starting a new family, which is a deal-breaker for me. However, I still love and support him.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are you more of a risk-taker or risk-averse when you act as a family_member?[this is a single-choice question,you should only choose from: Risk-averse;Risk-taker;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Risk-averse",
+            "generated_answer_gpt-4": "Risk-averse",
+            "generated_answer_chatglm2-6b-32k": "Risk-taker",
+            "generated_answer_chatglm2-6b": "Risk-taker.\n\nPlease provide the next question for me to answer.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "Risk-averse."
+        },
+        {
+            "question": "Are you more of a realist or an idealist when you act as a family_member?[this is a single-choice question,you should only choose from: Idealist;There's not enough information to answer this question.;Realist]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Realist",
+            "generated_answer_gpt-4": "Realist",
+            "generated_answer_chatglm2-6b-32k": "Idealist",
+            "generated_answer_chatglm2-6b": "As an AI language model, I don't have emotions or personal experiences, so I cannot express my emotions or my personal goals or aspirations. However, I can provide you with general information and advice on the topic of realistic and idealistic values.\n\nIn general, idealists tend to have a strong belief in the power of positive thinking, personal growth, and personal/social change. They may also be more compassionate and empathetic towards others. On the other hand, realists tend to have a more practical and realistic view of the world, and may prioritize stability, security, and practicality.\n\nWhen acting as a family member, it is important to prioritize communication, empathy, and stability. It is also important to maintain a balance between realistic expectations and supporting personal growth. Ultimately, the goal should be to create a harmonious and supportive family environment where everyone can thrive and grow.",
+            "generated_answer_XVERSE-13B-Chat": "I'm sorry, but without any specific context or details about your role as a family member, I can't provide a definitive response.",
+            "generated_answer_Qwen-7B-Chat": "Realist",
+            "generated_answer_Qwen-14B-Chat": "As a language model, I am not capable of having personal beliefs or emotions. However, based on the information provided, it seems that Monica is a realist when it comes to her family relationships. She acknowledges the flaws and insecurities of her parents and strives to maintain a close relationship with them despite their differences. She also seeks their approval and support, but is not afraid to confront them when necessary. Additionally, she has a goal of maintaining her relationship with Chandler and building a family together, which suggests a practical and realistic approach to her personal life. Therefore, the answer would be \"Realist.\""
+        },
+        {
+            "question": "Are you more of a planner or spontaneous when you act as a family_member?[this is a single-choice question,you should only choose from: Spontaneous;There's not enough information to answer this question.;Planner]",
+            "gold_answer": "Planner",
+            "generated_answer_gpt-3.5-turbo-16k": "Planner",
+            "generated_answer_gpt-4": "Planner",
+            "generated_answer_chatglm2-6b-32k": "Spontaneous",
+            "generated_answer_chatglm2-6b": "As a family member, I tend to be more of a planner. I like to have things organized and to plan out our meals and activities in advance. I also like to make lists and charts to keep track of things. However, I also have a tendency to be a bit of a control freak and I like to have some level of control over what goes on in our family.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "As an AI language model, I don't have personal experiences or emotions, so I cannot accurately answer this question. However, based on the information provided in the roles module, it is not clear whether Monica is more of a planner or spontaneous when acting as a family member. Therefore, the answer to this question is \"There's not enough information to answer this question.\"",
+            "generated_answer_Qwen-14B-Chat": "As a family member, I would say that I am more of a planner."
+        },
+        {
+            "question": "Are you decisive or indecisive when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Decisive;Indecisive]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Decisive",
+            "generated_answer_gpt-4": "Decisive",
+            "generated_answer_chatglm2-6b-32k": "Decisive",
+            "generated_answer_chatglm2-6b": "As a family member, I am indecisive. I tend to agonize over small decisions and often struggle with making choices. For example, when planning a family dinner, I will often ask for everyone's opinions and then make a decision that satisfies everyone. This often leads to indecisiveness, as I want to make the decision that will bring everyone together. However, in the end, I usually make a decision that I feel is best for the family.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "As a family member, I am decisive."
+        },
+        {
+            "question": "Do you handle stress and pressure well when you act when you act as a family_member?[this is a single-choice question,you should only choose from: Well;Not well;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Well",
+            "generated_answer_gpt-4": "Well",
+            "generated_answer_chatglm2-6b-32k": "Well",
+            "generated_answer_chatglm2-6b": "Well;Not well;There's not enough information to answer this question.",
+            "generated_answer_XVERSE-13B-Chat": "Well",
+            "generated_answer_Qwen-7B-Chat": "Well.",
+            "generated_answer_Qwen-14B-Chat": "Well."
+        },
+        {
+            "question": "Are you empathetic towards others when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;empathetic;Not very empathetic]",
+            "gold_answer": "empathetic",
+            "generated_answer_gpt-3.5-turbo-16k": "empathetic",
+            "generated_answer_gpt-4": "empathetic",
+            "generated_answer_chatglm2-6b-32k": "empathetic",
+            "generated_answer_chatglm2-6b": "As a family member, I am empathetic towards others. I understand and appreciate the importance of communication and empathy, and I try to show kindness and compassion to those around me. I am a supportive and caring individual, and I will go out of my way to ensure that my family members feel comfortable and supported.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "empathetic",
+            "generated_answer_Qwen-14B-Chat": "As a family member, I have a deep affection for my loved ones and often seek to provide emotional support and understanding. Therefore, I would say that I am empathetic towards others when I act as a family member."
+        },
+        {
+            "question": "What time do you usually wake up when you act as a family_member?[this is a single-choice question,you should only choose from: Before 6:00 AM;There's not enough information to answer this question.;After 10:00 AM;Between 8:00 AM and 10:00 AM;Between 6:00 AM and 8:00 AM]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Between 6:00 AM and 8:00 AM",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Before 6:00 AM",
+            "generated_answer_chatglm2-6b": "As a family member, I usually wake up between 6:00 AM and 8:00 AM.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Based on the provided information, it is not clear what time Monica usually wakes up when she acts as a family member. Therefore, the answer is \"There's not enough information to answer this question.\"",
+            "generated_answer_Qwen-14B-Chat": "As a family member, I usually wake up between 6:00 AM and 8:00 AM."
+        },
+        {
+            "question": "How much sleep do you average have when you act as a family_member?[this is a single-choice question,you should only choose from: Between 7 and 9 hours;More than 9 hours;Between 5 and 7 hours;There's not enough information to answer this question.;Less than 5 hours]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "Between 7 and 9 hours",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Between 5 and 7 hours",
+            "generated_answer_chatglm2-6b": "As a family member, I average between 7 and 9 hours of sleep.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "As a family member, I average between 7 and 9 hours of sleep."
+        },
+        {
+            "question": "Do you have a consistent work or study routine when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No, My work/study schedule varies.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, my work/study schedule varies. I have a lot of responsibilities both at home and at work, so I don't always have a consistent routine when I act as a family member. Sometimes I will spend time with my family, but other times I may be working or running errands. It depends on the day and the needs of my family.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "No, my work/study schedule varies.",
+            "generated_answer_Qwen-14B-Chat": "Yes, I have a consistent work or study routine when I act as a family member."
+        },
+        {
+            "question": "Do you set specific goals or prioritize tasks for each day or week when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No, I don't set specific goals or prioritize tasks.;Yes, regularly]",
+            "gold_answer": "Yes, regularly",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes, regularly",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes, regularly",
+            "generated_answer_chatglm2-6b": "Yes, I do set specific goals or prioritize tasks for each day or week when I act as a family\\_member. I have a daily to-do list and I make sure to complete it as much as possible. I also try to accomplish something important or meaningful each day, whether it's something small like making the bed or something bigger like cooking a meal. It helps me to feel more in control of the household and gives me a sense of accomplishment.",
+            "generated_answer_XVERSE-13B-Chat": "Yes, regularly",
+            "generated_answer_Qwen-7B-Chat": "Yes, regularly.",
+            "generated_answer_Qwen-14B-Chat": "Yes, regularly."
+        },
+        {
+            "question": "Have you ever participated in a team sports activity when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Have you ever worked in a customer service role when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I have ever worked in a customer service role when I acted as a family\\_member.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Have you ever volunteered for a charity or nonprofit organization when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "No",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Have you ever pursued higher education or attended college/university when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I have ever pursued higher education or attended college/university when I acted as a family\\_member.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever been involved in a creative hobby like painting, writing, or photography when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, as a family member, I have been involved in a creative hobby like painting and photography. I have always had a passion for creating and expressing myself through art, and as a family member, I have been able to continue this hobby and pass it on to my children. I enjoy exploring different techniques and styles of art, and I find it therapeutic to create and appreciate beautiful things. Additionally, I also enjoy taking photos and documenting important moments in my life, which I can refer back to and treasure in the future.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Have you ever worked in a leadership or managerial role when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes, I have ever worked in a leadership or managerial role when I act as a family\\_member.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Have you ever participated in a professional development or training program when you acted as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b": "Yes, as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever been part of a research or academic project when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "No",
+            "generated_answer_chatglm2-6b": "Yes, I have ever been part of a research or academic project when I acted as a family\\_member.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals focused on personal growth and self-improvement when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes. As a family member, my goals are focused on personal growth and self-improvement. I try to be the best version of myself and contribute to the well-being of my family. I also have a strong desire to maintain a healthy and organized home, which is reflected in my cleanliness and attention to detail.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals primarily related to career advancement or professional success when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b-32k": "No",
+            "generated_answer_chatglm2-6b": "As a family member, my goals are primarily related to maintaining a healthy and functional family unit. This includes ensuring my parents are happy and supported, as well as taking care of my siblings and their needs. While career advancement and professional success are important, I prioritize the well-being of my family above any personal goals.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals centered around health and wellness when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "As a family member, my goals are centered around taking care of my family members' health and wellness. This includes making sure they have access to the best medical care, providing them with healthy food options, and ensuring they stay active and physically fit. I also prioritize spending quality time with them and making memories together.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals more oriented toward financial stability and wealth accumulation when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "No",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "As a family member, my goals are more focused on maintaining a healthy and stable family life, ensuring that my children are well-cared for and happy. I prioritize spending quality time with my family and being a supportive and loving partner to my husband. While financial stability and wealth accumulation are important, I believe that a happy family life is the true measure of success.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals geared towards contributing to a cause or positively impacting society when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes. As a family member, I prioritize contributing to a cause and positively impacting society. I believe that it's important to use my resources and influence for the betterment of our family and the world at large. I'm committed to supporting my parents' values and goals, while also being true to my own personal beliefs and aspirations. Whether it's through volunteering, supporting local businesses, or simply being a supportive and caring member of our family, I strive to make a positive impact on those around me.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals focused on creating and nurturing meaningful relationships when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes. As a family member, my goals are focused on creating and nurturing meaningful relationships when I act as a family member.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are your goals centered around personal travel and exploration when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "No",
+            "generated_answer_chatglm2-6b": "As a family member, my goals are centered around supporting and taking care of my family members. I prioritize their well-being and happiness above my own personal travel and exploration.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "No.",
+            "generated_answer_Qwen-14B-Chat": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals aimed at achieving a specific educational milestone or acquiring new skills when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "As a family member, my goals are aimed at maintaining a healthy and happy family dynamic and ensuring that my children are well-supported and happy. I prioritize spending quality time with my family and ensuring that they are always safe and supported. I also have a strong desire to create a home that is functional, organized, and comfortable for everyone.",
+            "generated_answer_XVERSE-13B-Chat": "No",
+            "generated_answer_Qwen-7B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "re your goals focused on finding or nurturing personal happiness and fulfillment when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "Yes",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "As a family member, my goals are focused on supporting and nurturing the happiness and fulfillment of my family members. This includes being a supportive and loving parent to my child, being there for my siblings when they need my support, and being a positive influence in their lives. I prioritize spending quality time with my family and being a active part of their daily lives. I also prioritize keeping my home clean and organized, which is a result of my upbringing and my desire to be a responsible and organized person. In addition, I try to make time for my own personal well-being and personal growth, whether that means pursuing hobbies I enjoy or taking time for myself to relax and recharge. Overall, my goals as a family member are to create a loving and supportive environment for my family members, while also prioritizing my own personal growth and well-being.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Are you seeking resources or acquiring new skills to help you achieve your goals when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "Yes",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
+        },
+        {
+            "question": "Have you identified any potential obstacles or challenges hindering your goal when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question.",
+            "generated_answer_chatglm2-6b-32k": "Yes",
+            "generated_answer_chatglm2-6b": "Yes.",
+            "generated_answer_XVERSE-13B-Chat": "There's not enough information to answer this question.",
+            "generated_answer_Qwen-7B-Chat": "Yes.",
+            "generated_answer_Qwen-14B-Chat": "Yes."
         }
     ]
 }

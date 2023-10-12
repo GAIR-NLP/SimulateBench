@@ -26,7 +26,7 @@ class MPT(BaseAgent):
 
         super().__init__(person_name=person_name, model=model, model_name=model_name, profile_version=profile_version, system_version=system_version)
 
-        self.system_message = F"[INST] <<SYS>>\n{generate_system_message(person_name)[0].content}\n<</SYS>>\n"
+        self.system_message = F"[INST] <<SYS>>\n{self.system_message}\n<</SYS>>\n"
 
     def run(self, user_input):
         user_input = self.system_message + user_input + "\n[/INST]\n"

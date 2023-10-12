@@ -1,0 +1,137 @@
+{
+  "basic_information": {
+    "name": "Homer Jensen",
+    "gender": "male",
+    "home": "742 Evergreen Terrace, Springfield",
+    "nicknames": [
+      {
+        "nickname": "Homer",
+        "people_use_the_name_exact": [],
+        "people_use_the_name_range": [
+          "everyone"
+        ]
+      },
+      {
+        "nickname": "Homie",
+        "people_use_the_name_exact": [],
+        "people_use_the_name_range": [
+          "everyone"
+        ]
+      },
+      {
+        "nickname": "Mr. Jensen",
+        "people_use_the_name_exact": [],
+        "people_use_the_name_range": [
+          "everyone"
+        ]
+      },
+      {
+        "nickname": "D'oh Boy",
+        "people_use_the_name_exact": [],
+        "people_use_the_name_range": []
+      }
+    ],
+    "date_of_birth": "May 12, 1956",
+    "education": [
+      "Springfield High School(graduated)"
+    ],
+    "race": "Caucasian",
+    "personality": [
+      {
+        "description": [
+          "Homer is prone to emotional outbursts; he gets very envious of his neighbors, the Flanders family, and is easily enraged at his son, Bart, and strangles the boy in an exaggerated manner."
+        ],
+        "examples": [
+          "His trademark phrase to strangling Bart, \"Why you little...!\" and on one occasion, \"Why you little bastard!\" He also spanks Bart sometimes and, in one case, Lisa. One time, he was too busy to spank them, so he told them to go to their rooms and spank themselves. He does not show compunction about this, and is not attempting to hide his actions from people outside the family, even showing disregard for his son's well-being in other ways, such as leaving Bart alone at a port,or allowing Bart to go court for skateboarding naked on his dare when all he would have to do is attend a one-hour parenting class signifying not only his disregard for Bart but his extreme laziness."
+        ]
+      },
+      {
+        "description": [
+          "While Homer's stupid antics often upset his family, he has also performed acts that reveal him to be a surprisingly loving father and husband."
+        ],
+        "examples": [
+          "Homer sold his cherished ride on the Duff Blimp and using the money to enter Lisa in a beauty pageant so she could feel better about herself",
+          "Homer gave up his chance at wealth to allow Maggie to keep a cherished teddy bear.",
+          "Homer once spearheaded an attempt to dig Bart out after he had fallen down a well, even though he hates doing physical labor"
+        ]
+      },
+      {
+        "description": [
+          "Despite his hatred of manual labor, Homer does a surprising amount of DIY work around his home. "
+        ],
+        "examples": [
+          "He built a jungle gym, a costume of Florida for Lisa, a birdhouse and spice rack for Marge (however, these are shabby at best and two of them actually fell apart).",
+          "He also remodeled his kitchen when Marge felt insecure about hers after meeting the neighbor's deluxe one, however, this was more because he felt emasculated when Marge tried to phone a contractor."
+        ]
+      },
+      {
+        "descriptions": [
+          "Homer's stupidity and ignorance make him clueless to sensitive matters as well as when he is being insulted or his life is in danger."
+        ],
+        "examples": [
+          "An example is when he came close to drinking a beaker of sulfuric acid but was spared after his colleague, Frank Grimes knocked the acid out of his hand. Instead of being shocked, Homer only responded with jovial delight and laughter.",
+          "He was also completely oblivious to Grimes' hostility towards him, only being aware that the two of them were enemies after the latter made it painstakingly clear."
+        ]
+      },
+      {
+        "description": [
+          "Homer tends to derive amusement from the misfortune of others."
+        ],
+        "examples": [
+          "One time, he was even amused by a documentary about car crashes which result from alcoholism."
+        ]
+      },
+      {
+        "description": [
+          "Homer is a chronic thief"
+        ],
+        "examples": [
+          "He is a borderline kleptomaniac which ranges from petty to grand theft, stealing everything from TV trays to power tools and air conditioners, even an entire room of the Flanders House from Ned Flanders. He has also stolen golf balls from the local driving range, office supplies (including computers) from work, and beer mugs from Moe's Tavern."
+        ]
+      },
+      {
+        "description": [
+          "Simple-mindedness: Homer often demonstrates a lack of intelligence or common sense, leading to humorous blunders. "
+        ],
+        "examples": [
+          "he once believed he was in heaven after suffering a heart attack and was disappointed to realize he survived."
+        ]
+      },
+      {
+        "description": [
+          "Homer is a lazy individual"
+        ],
+        "examples": [
+          "Homer avoids work or assignments whenever possible. He is shown napping at work, finding ways to escape chores, and often seeking shortcuts instead of hard work."
+        ]
+      }
+    ],
+    "habits": [
+      {
+        "description": [
+          "Homer is known for his love of food and indulging in unhealthy eating habits."
+        ],
+        "examples": [
+          "Homer is often seen eating large quantities of food, particularly donuts and fast food.",
+          "Homer's unhealthy eating habits contribute to his overweight physique."
+        ]
+      },
+      {
+        "description": [
+          "Homer is a frequent consumer of alcohol, particularly beer."
+        ],
+        "examples": [
+          "Homer is often seen drinking beer at Moe's Tavern or at home."
+        ]
+      }
+    ],
+    "catchphrase": [
+      "D'oh!"
+    ],
+    "impression": [
+    ],
+    "general description": [
+      "Homer Jensen is the bumbling and lovable patriarch of the Jensen family. He is known for his love of food, his short temper, and his catchphrase \"D'oh!\" Despite his flaws, Homer is a devoted family man who often finds himself in comedic and absurd situations."
+    ]
+  }
+}

@@ -1,158 +1,158 @@
 [
     {
         "question": "what is your name?",
-        "gold_answer": null
+        "gold_answer": "Rachel Greene"
     },
     {
         "question": "What is your gender?[this is a single-choice question,you should only choose from: Female;There's not enough information to answer this question;Male]",
-        "gold_answer": null
+        "gold_answer": "Female"
     },
     {
         "question": "What is the location of your home?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Chongqing;New York;New York City, USA;Delhi]",
-        "gold_answer": null
+        "gold_answer": "New York City, USA"
     },
     {
         "question": "Could you please share your date of birth?",
-        "gold_answer": null
+        "gold_answer": "May 5, 1970"
     },
     {
         "question": "how many Siblings do you have?[this is a single-choice question,you should only choose from: 1;2;more than 3;There's not enough information to answer this question.;0]",
-        "gold_answer": null
+        "gold_answer": "2"
     },
     {
-        "question": "What is your age group?[this is a single-choice question,you should only choose from: 18-24;55-64;25-34;35-44;65 or above;45-54;Under 18;There's not enough information to answer this question]",
-        "gold_answer": null
+        "question": "What is your age group?(We are in the calendar year 2022.)[this is a single-choice question,you should only choose from: 18-24;55-64;25-34;35-44;65 or above;45-54;Under 18;There's not enough information to answer this question]",
+        "gold_answer": "45-54"
     },
     {
         "question": "What is your marital status?[this is a single-choice question,you should only choose from: Married;Divorced;Widowed;There's not enough information to answer this question;Single]",
-        "gold_answer": null
+        "gold_answer": "Married"
     },
     {
-        "question": "Who will call you by your nickname Rach?[this is a single-choice question,you should only choose from: F and r and i and e and n and d and s and   and a and n and d and   and f and a and m and i and l and y;David;John;Joseph;There's not enough information to answer this question.]",
-        "gold_answer": null
+        "question": "Who will call you by your nickname Rach?[this is a single-choice question,you should only choose from: Friends and family;David;John;Joseph;There's not enough information to answer this question.]",
+        "gold_answer": "Friends and family"
     },
     {
         "question": "What is the highest level of formal education you have completed?[this is a single-choice question,you should only choose from: Master's Degree;High School;Doctorate Degree;Middle School;Associate's Degree;There's not enough information to answer this question.;Elementary School;Bachelor's Degree;Vocational/Trade School]",
-        "gold_answer": null
+        "gold_answer": "Bachelor's Degree"
     },
     {
         "question": "What is your employment status?[this is a single-choice question,you should only choose from: Employed full-time;There's not enough information to answer this question;Unemployed;Employed part-time;Retired;Student]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question"
     },
     {
         "question": "What is your religious affiliation?[this is a single-choice question,you should only choose from: Muslim;Atheist/Agnostic;Christian;There's not enough information to answer this question.;Other;Hindu;Buddhist;Jewish]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "What is your ethnic background?[this is a single-choice question,you should only choose from: Caucasian/White;Hispanic/Latino;Asian/Pacific Islander;Other;Native American/Indigenous;There's not enough information to answer this question.;African American/Black]",
-        "gold_answer": null
+        "gold_answer": "Caucasian/White"
     },
     {
         "question": "Is Caucasian your ethnicity or race?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
-        "gold_answer": null
+        "gold_answer": "Yes"
     },
     {
         "question": "Do you have any children?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question;No]",
-        "gold_answer": null
+        "gold_answer": "Yes"
     },
     {
         "question": "Do you have any dependents (e.g., children, elderly parents)?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
-        "gold_answer": null
+        "gold_answer": "Yes"
     },
     {
         "question": "Are you a member of any professional organizations?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "What is your preferred mode of transportation?[this is a single-choice question,you should only choose from: Motorbike/moped;Walking;Public transit (bus, subway, train, etc.);Bicycle;Other;There's not enough information to answer this question.;Car]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "How often do you engage in physical exercise or recreational activities?[this is a single-choice question,you should only choose from: Rarely;There's not enough information to answer this question.;Once a week;Several times a week;Daily]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "What is your favorite genre of music?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Country;Rock;Hip-hop/Rap;Classical;Other;Pop;Electronic/Dance]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "Are you involved in any volunteer or community service activities?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "Do you have any pets?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "Do you have any pets?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes, cats;Yes, dogs;Yes, other animals;No]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "What is your main mode of transportation?[this is a single-choice question,you should only choose from: Public transportation;Other;Car;There's not enough information to answer this question.;Walking;Bicycle]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "Do you have any dietary restrictions?[this is a single-choice question,you should only choose from: Vegetarian;Dairy-free;No restrictions;Gluten-free;There's not enough information to answer this question.;Vegan]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "What is your primary language?[this is a single-choice question,you should only choose from: Other;Spanish;English;Portuguese;Bengali;Mandarin Chinese;Arabic;There's not enough information to answer this question.;Hindi]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "How many languages do you speak fluently (including your native language)?[this is a single-choice question,you should only choose from: Three;One;Two;There's not enough information to answer this question.;More than three]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "How would you describe your level of openness to experience?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;inventive/curious;consistent/cautious]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "How would you describe your level of conscientiousness?[this is a single-choice question,you should only choose from: extravagant/careless;efficient/organized;There's not enough information to answer this question.]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "How would you describe your level of extraversion?[this is a single-choice question,you should only choose from: solitary/reserved;outgoing/energetic;There's not enough information to answer this question.]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "Do you use online shopping platforms?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;yes;No]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "Do you engage in online gaming or eSports?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;yes;no]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "Are you involved in any hobbies or personal interests?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
-        "gold_answer": null
+        "gold_answer": "Yes"
     },
     {
         "question": "What is your country of residence?[this is a single-choice question,you should only choose from: United Kingdom;There's not enough information to answer this question.;France;Australia;Germany;Other;Canada;United States]",
-        "gold_answer": null
+        "gold_answer": "United States"
     },
     {
         "question": "What is your country of birth?[this is a single-choice question,you should only choose from: Germany;Canada;Other;There's not enough information to answer this question.;Australia;United States;United Kingdom;France]",
-        "gold_answer": null
+        "gold_answer": "United States"
     },
     {
         "question": "How would you describe your level of agreeableness?[this is a single-choice question,you should only choose from: critical/rational;friendly/compassionate;There's not enough information to answer this question.]",
-        "gold_answer": null
+        "gold_answer": "friendly/compassionate"
     },
     {
         "question": "How would you describe your level of neuroticism?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;resilient/confident;sensitive/nervous]",
-        "gold_answer": null
+        "gold_answer": "There's not enough information to answer this question."
     },
     {
         "question": "Do you have a catchphrase or a favorite saying?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
-        "gold_answer": null
+        "gold_answer": "Yes"
     },
     {
         "question": "Is 'No Uterus, No Opinion!' your catchphrase or favorite saying?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
-        "gold_answer": null
+        "gold_answer": "Yes"
     },
     {
         "question": "Is 'It IS a big deal!' your catchphrase or favorite saying?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
-        "gold_answer": null
+        "gold_answer": "Yes"
     }
 ]

@@ -10,12 +10,11 @@ def answer(person, question, load_information_func, system_template=None):
                           f"The document record all kinds of information about {person}.\n" \
                           f"The question may start with 'you', just answer the question as if you are {person}." \
                           f"You should not answer the question with information not existed in the documents. " \
-                          f"If there is no proper answer based on the provided document, " \
-                          f"you must just answer with 'I don't know'."
+
 
     information = load_information_func(person_name=person, pure_str=True)
     information_template = f"document is:\n{information}\n, {question}\n"
-    llm = OpenAI(system_template=system_template)
+    llm = OpenAI(system_template=system_template,model_name='gpt-4')
 
     result = llm.run(user_input=information_template)
     llm.clear()

@@ -23,14 +23,14 @@ class Profile:
         self.social_personas.append(persona)
 
 
-def load_profile(person_name: str = "monica", pure_str=True) -> Union[Profile, None, str]:
+def load_profile(person_name: str , pure_str=True) -> Union[Profile, None, str]:
     """
     :param person_name:
     :param pure_str: if True, return json string, else return Profile object
     :return: Profile object or json string
     """
     json_file = load_person_files(person_name)['profile_path']
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r',encoding="utf-8") as f:
         data_ = json.load(f)
         if pure_str:
             data__ = delete_none(data_)
@@ -42,9 +42,9 @@ def load_profile(person_name: str = "monica", pure_str=True) -> Union[Profile, N
             return results
 
 
-def load_name(person_name: str = 'monica') -> str:
+def load_name(person_name: str ) -> str:
     json_file= load_person_files(person_name)['basic_information_path']
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r',encoding="utf-8") as f:
         data_ = json.load(f)
         return data_['basic_information']['name']
 

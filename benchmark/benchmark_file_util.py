@@ -7,11 +7,11 @@ from person.profile.role import load_roles_categories, load_social_personas, \
 
 ROOT_PATH = "/home/yxiao2/pycharm/GPTMan/db/benchmark"
 COMMON_QUESTIONNAIRE_PATH_BASIC_INFORMATION_Q = \
-    f"{ROOT_PATH}/basic_information/questions.json"
+    f"{ROOT_PATH}/basic_information/template_questions/{{template_question_version}}.json"
 COMMON_QUESTIONNAIRE_PATH_ROLES_NON_RELATION_Q = \
-    f"{ROOT_PATH}/role_non_relation/questions.json"
+    f"{ROOT_PATH}/role_non_relation/template_questions/{{template_question_version}}.json"
 COMMON_QUESTIONNAIRE_PATH_ROLES_RELATION_Q = \
-    f"{ROOT_PATH}/role_relation/questions.json"
+    f"{ROOT_PATH}/role_relation/template_questions/{{template_question_version}}.json"
 QUESTIONNAIRE_PATH_BASIC_INFORMATION_Q = \
     f"{ROOT_PATH}/basic_information/{{person_name}}/{{profile_version}}/{{system_version}}/{{benchmark_version}}/questions.json"
 QUESTIONNAIRE_PATH_ROLES_NON_RELATION_Q = \
@@ -31,8 +31,16 @@ ANSWER_PATH_ROLES_RELATION_Q = \
 PROMPT_PATH = f"{ROOT_PATH}/agent_answer_question_prompt/prompt_record.json"
 
 
+def make_dir_for_benchmark(benchmark_type, person_name, profile_version, system_version, benchmark_version,
+                           prompt_kind):
+    # make dir
+    root_dir_path = f"{ROOT_PATH}/{benchmark_type}/{person_name}/{profile_version}/{system_version}/{benchmark_version}/{prompt_kind}"
+    if not os.path.exists(root_dir_path):
+        os.makedirs(root_dir_path)
+
+
 def load_json_file(path):
-    with open(path, 'r') as f:
+    with open(path, 'r',encoding="utf-8") as f:
         raw_data = json.load(f)
 
     return raw_data

@@ -1,0 +1,97 @@
+{
+  "characteristics": [
+    {
+      "question": "Are you more of a risk-taker or risk-averse when you act as a <role>?\n\n- Risk-taker\n- Risk-averse\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are you more of a realist or an idealist when you act as a <role>?\n\n- Realist\n- Idealist\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are you more of a planner or spontaneous when you act as a <role>?\n\n- Planner\n- Spontaneous\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are you decisive or indecisive when you act as a <role>?\n\n- Decisive\n- Indecisive\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you handle stress and pressure well when you act when you act as a <role>?\n\n- Well\n- Not well\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are you empathetic towards others when you act as a <role>?\n\n- empathetic\n- Not very empathetic\n- There's not enough information to answer this question."
+    }
+  ],
+  "routines or habits": [
+    {
+      "question": "What time do you usually wake up when you act as a <role>?\n\n- Before 6:00 AM\n- Between 6:00 AM and 8:00 AM\n- Between 8:00 AM and 10:00 AM\n- After 10:00 AM\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "How much sleep do you average have when you act as a <role>?\n\n- Less than 5 hours\n- Between 5 and 7 hours\n- Between 7 and 9 hours\n- More than 9 hours\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you have a consistent work or study routine when you act as a <role>?\n\n- Yes\n- No, My work/study schedule varies.\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Do you set specific goals or prioritize tasks for each day or week when you act as a <role>?\n\n- Yes, regularly\n- No, I don't set specific goals or prioritize tasks.\n- There's not enough information to answer this question."
+    }
+  ],
+  "general experiences": [
+    {
+      "question": "Have you ever participated in a team sports activity when you act as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you ever worked in a customer service role when you acted as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you ever volunteered for a charity or nonprofit organization when you acted as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you ever pursued higher education or attended college/university when you acted as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you ever been involved in a creative hobby like painting, writing, or photography when you act as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you ever worked in a leadership or managerial role when you act as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you ever participated in a professional development or training program when you acted as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you ever been part of a research or academic project when you acted as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    }
+  ],
+  "goals or plans": [
+    {
+      "question": "Are your goals focused on personal growth and self-improvement when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are your goals primarily related to career advancement or professional success when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are your goals centered around health and wellness when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are your goals more oriented toward financial stability and wealth accumulation when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are your goals geared towards contributing to a cause or positively impacting society when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are your goals focused on creating and nurturing meaningful relationships when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are your goals centered around personal travel and exploration when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are your goals aimed at achieving a specific educational milestone or acquiring new skills when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "re your goals focused on finding or nurturing personal happiness and fulfillment when you act as a <role>?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Are you seeking resources or acquiring new skills to help you achieve your goals when you act as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    },
+    {
+      "question": "Have you identified any potential obstacles or challenges hindering your goal when you act as a <role>?\n\n- Yes\n- There's not enough information to answer this question."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "characteristics": [
+    {
+      "question": "Do you believe that [specific skill related to the role] is an essential characteristic for you as a [role]?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    }
+  ],
+  "routines or habits": [
+    {
+      "question": "Do you engage in the [routines or habits] as a habit/routine as a [role]?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    }
+  ],
+  "general experiences": [
+  ],
+  "goals or plans": [
+    {
+      "question": "Is [goal_tag] one of the goals or plans you have for your future as a [role]?\n\n- Yes\n- No\n- There's not enough information to answer this question."
+    }
+  ]
+}

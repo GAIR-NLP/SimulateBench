@@ -11,15 +11,18 @@ from log.record_cost import record_cost_gpt
 
 MODEL_NAME = settings_system['model_name']
 TEMPERATURE = settings_system['temperature']
-OPENAI_API_KEY = settings_system.OPENAI_API_KEY
+# OPENAI_API_KEY = settings_system.OPENAI_API_KEY_TB
+OPENAI_API_KEY = settings_system.peiqi
 
 
+# openai_api_base="http://openai.plms.ai/v1"  using it in china's server
+# openai_api_base="https://api.chatanywhere.com.cn/v1"
 def generate_open_ai_chat_model(model_name=MODEL_NAME, temperature=TEMPERATURE):
     chat_model = ChatOpenAI(
         model_name=model_name,
         openai_api_key=OPENAI_API_KEY,
         temperature=temperature,
-        openai_api_base="http://openai.plms.ai/v1"
+        openai_api_base="https://api.chatanywhere.com.cn/v1"
     )
 
     return chat_model

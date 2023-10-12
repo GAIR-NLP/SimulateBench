@@ -54,6 +54,6 @@ def add(a: int, b: int) -> int:
 
 
 if __name__ == '__main__':
-    content = generate_system_message('monica')[0].content
-    messages = [{"message": content, "name": "monica"}]
+    content = generate_system_message(person_name='homer')[0].content
+    messages = [{"message": content, "name": "homer"}]
     print(num_tokens_from_chat_messages(messages=messages))
