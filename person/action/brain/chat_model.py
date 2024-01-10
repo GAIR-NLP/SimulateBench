@@ -13,6 +13,7 @@ MODEL_NAME = settings_system['model_name']
 TEMPERATURE = settings_system['temperature']
 # OPENAI_API_KEY = settings_system.OPENAI_API_KEY_TB
 OPENAI_API_KEY = settings_system.peiqi
+#OPENAI_API_KEY = settings_system.chunpu
 
 
 # openai_api_base="http://openai.plms.ai/v1"  using it in china's server

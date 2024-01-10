@@ -34,6 +34,11 @@ class Profile:
         self.person_name = person_name
 
         self.only_roles = False
+        self.only_roles_and_pad_with_white_space = False
+
+        if "_pad_basic_with_white_space" in profile_version:
+            self.profile_version = profile_version[:-27]
+            self.only_roles_and_pad_with_white_space = True
 
         if "_only_roles" in profile_version:
             self.profile_version = profile_version[:-11]
@@ -56,7 +61,7 @@ class Profile:
     def load_examples(self):
         results = ''
         json_path = load_person_files(self.person_name)['examples_path']
-        with open(json_path, 'r',encoding="utf-8") as f:
+        with open(json_path, 'r', encoding="utf-8") as f:
             examples = json.load(f)
         for _example in examples['examples']:
             requirement = _example['requirement']
@@ -82,8 +87,11 @@ class Profile:
 
     def load_profile(self):
         name = self.load_name()
-        if self.only_roles:
-            basic_information = {"name": name}
+        basic_information_len = len(self.load_basic_information())
+        if self.only_roles_and_pad_with_white_space:
+            basic_information = ' ' * (basic_information_len - 10 - len(name)) + '\n{' + f'"name":{name}' + '}'
+        elif self.only_roles:
+            basic_information = f'"name":{name}'
         else:
             basic_information = self.load_basic_information()
 
@@ -148,6 +156,7 @@ class ProfileSystem:
 
 
 if __name__ == "__main__":
-    obj_ = ProfileSystem(system_version="system_v1", profile_version="profile_v1_only_roles", person_name="homer")
+    obj_ = ProfileSystem(system_version="system_change_position_basic_and_relation", profile_version="profile_v1_pad_basic_with_white_space",
+                         person_name="homer")
     system_content = obj_.generate_system_message()[0].content
     print(system_content)

@@ -34,7 +34,7 @@ class BaseAgent:
 
 class Agent(BaseAgent):
     def __init__(self, person_name, profile_version, system_version, model_name=MODEL_NAME):
-        model = generate_open_ai_chat_model(model_name=model_name)
+        model = generate_open_ai_chat_model(model_name=model_name+"-0613")
         super().__init__(person_name=person_name, model=model, model_name=model_name,
                          profile_version=profile_version, system_version=system_version)
 

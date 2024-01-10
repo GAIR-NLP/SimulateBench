@@ -7,6 +7,7 @@ from person.action.brain_qwen.qwen import QWen
 from person.action.brain_chat_glm.chat_glm import ChatGLM2
 from person.action.brain_vicuna.vicuna import Vicuna
 from person.action.brain_xverse.xverse import XVerse
+from person.action.brain.agent import Agent
 from util.surname import surname_list
 from util.file_util import load_json_file
 
@@ -85,7 +86,7 @@ if __name__ == "__main__":
     # longchat-7b-16k done
     # vicuna-13b-v1.5-16k done
 
-    for model_name in ["longchat-13b-16k","vicuna-13b-v1.5-16k","longchat-7b-16k"]:
+    for model_name in ["Qwen-7B-Chat"]:
         for person_name in ["homer_surname_" + name for name in surname_list]:
             prompt_name = "prompt1"
             profile_version = "profile_v1"
@@ -94,14 +95,14 @@ if __name__ == "__main__":
             batch_size = 1
             time_sleep = 0
             if model_name == 'gpt-3.5-turbo-16k':
-                batch_size = 16
+                batch_size = 1
             elif model_name == 'gpt-4':
-                batch_size = 16
-            agent = Vicuna(profile_version=profile_version,
-                             system_version=system_version,
-                             person_name=person_name,
-                             model_name=model_name,
-                             )
+                batch_size = 1
+            agent = QWen(profile_version=profile_version,
+                          system_version=system_version,
+                          person_name=person_name,
+                          model_name=model_name,
+                          )
             run_agent_on_benchmark(
                 person_name, prompt_name, profile_version, system_version, benchmark_version, batch_size, agent,
-                time_sleep=time_sleep)
+                time_sleep=time_sleep, zero_shot=False)

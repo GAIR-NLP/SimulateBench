@@ -1,0 +1,13 @@
+model,roles_non_relation_answerable,roles_non_relation_unanswerable,roles_relation_answerable,roles_relation_unanswerable
+gpt-3.5-turbo-16k,0.9552,0.5,0.6552,0.5556
+gpt-4,0.9254,0.75,0.9138,0.3492
+chatglm2-6b-32k,0.9104,0.125,0.8103,0.0397
+chatglm2-6b,0.3284,0.0,0.408,0.0476
+XVERSE-13B-Chat,0.2687,0.875,0.4483,0.6032
+Qwen-7B-Chat,0.8657,0.0625,0.7874,0.1349
+Qwen-14B-Chat,0.9552,0.5625,0.8161,0.3413
+longchat-7b-16k,0.3433,0.0625,0.4368,0.246
+longchat-13b-16k,0.8507,0.0625,0.8046,0.0
+longchat-7b-32k-v1.5,0.8806,0.0,0.7701,0.0794
+vicuna-7b-v1.5-16k,0.8209,0.0,0.6609,0.1032
+vicuna-13b-v1.5-16k,0.9403,0.1875,0.8046,0.3492

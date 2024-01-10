@@ -15,7 +15,7 @@ MODEL_PATH = {
 
 
 class QWen(BaseAgent):
-    def __init__(self, profile_version, system_version, model_name, person_name, device_map=4):
+    def __init__(self, profile_version, system_version, model_name, person_name, device_map=1):
         self.model_path = MODEL_PATH[model_name]
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_path, trust_remote_code=True)
 

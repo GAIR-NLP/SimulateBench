@@ -1,4 +1,4 @@
-from benchmark_stat.statistic import make_csv_file_models_single_person, make_csv_file_models_all_people_ablation
+from benchmark_stat.statistic import make_csv_file_models_single_person_ablation, make_csv_file_models_all_people_ablation
 
 age_list = ["1985", "2000", "2010", "2015", "2020"]
 full_name_list = [f"homer_{year}" for year in age_list] + ["homer"]
@@ -15,16 +15,18 @@ if __name__ == "__main__":
                   "vicuna-13b-v1.5-16k"]
     prompt_kind = ["zero_shot", "few_shot"]
     for prompt in prompt_kind:
-        param = {
-            "prompt_name": prompt_name,
-            "prompt_kind": prompt,
-            "model_name_list": model_list,
-            "benchmark_version": benchmark_version,
-            "profile_version": profile_version,
-            "system_version": system_version,
-            "full_name_list": full_name_list,
-            "ablation_kind": "age",
-            "calculate_mean_fun_name": "answerable_9"
-        }
-        make_csv_file_models_all_people_ablation(**param)
-        make_csv_file_models_single_person(**param)
+        for calculate_fun_name in ["answerable_9", "ration_of_number"]:
+            param = {
+                "prompt_name": prompt_name,
+                "prompt_kind": prompt,
+                "model_name_list": model_list,
+                "benchmark_version": benchmark_version,
+                "profile_version": profile_version,
+                "system_version": system_version,
+                "full_name_list": full_name_list,
+                "ablation_kind": "age",
+                "calculate_mean_fun_name": calculate_fun_name
+            }
+            make_csv_file_models_all_people_ablation(**param)
+            make_csv_file_models_single_person_ablation(**param)
+

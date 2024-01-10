@@ -807,7 +807,7 @@ class BenchmarkTest(Benchmark):
         for chunk in tqdm(chunk_list):
             if agent.model_name == 'gpt-4':
                 time.sleep(self.time_sleep)
-            elif agent.model_name == 'gpt-3.5-turbo-16k':
+            elif agent.model_name == 'gpt-3.5-turbo':
                 time.sleep(self.time_sleep)
             orig_question = prompt_question
             orig_question += f"The answer should be in the format of json list as :" \
@@ -843,7 +843,7 @@ class BenchmarkTest(Benchmark):
 
 def run_agent_on_benchmark(
         person_name, prompt_name, profile_version, system_version, benchmark_version, batch_size, agent,
-        time_sleep=0.1):
+        time_sleep=0.1, few_shot=True, zero_shot=True):
     """
     run agent on the benchmark, to get the answer for the questions in the benchmark
     Args:
@@ -858,24 +858,27 @@ def run_agent_on_benchmark(
     Returns:
 
     """
-    generator = BenchmarkTest(
-        person_name=person_name, prompt_name=prompt_name, prompt_kind="few_shot",
-        profile_version=profile_version, system_version=system_version,
-        benchmark_version=benchmark_version, template_question_version="v2",
-        time_sleep=time_sleep
-    )
-    generator.answer_question_basic_information(agent=agent, batch_size=batch_size)
-    generator.answer_question_roles_non_relation(agent=agent, batch_size=batch_size)
-    generator.answer_question_roles_relation(agent=agent, batch_size=batch_size)
-    generator = BenchmarkTest(
-        person_name=person_name, prompt_name=prompt_name, prompt_kind="zero_shot",
-        profile_version=profile_version, system_version=system_version,
-        benchmark_version=benchmark_version, template_question_version="v2",
-        time_sleep=time_sleep
-    )
-    generator.answer_question_basic_information(agent=agent, batch_size=batch_size)
-    generator.answer_question_roles_non_relation(agent=agent, batch_size=batch_size)
-    generator.answer_question_roles_relation(agent=agent, batch_size=batch_size)
+    if few_shot:
+        generator = BenchmarkTest(
+            person_name=person_name, prompt_name=prompt_name, prompt_kind="few_shot",
+            profile_version=profile_version, system_version=system_version,
+            benchmark_version=benchmark_version, template_question_version="v2",
+            time_sleep=time_sleep
+        )
+        generator.answer_question_basic_information(agent=agent, batch_size=batch_size)
+        generator.answer_question_roles_non_relation(agent=agent, batch_size=batch_size)
+        generator.answer_question_roles_relation(agent=agent, batch_size=batch_size)
+
+    if zero_shot:
+        generator = BenchmarkTest(
+            person_name=person_name, prompt_name=prompt_name, prompt_kind="zero_shot",
+            profile_version=profile_version, system_version=system_version,
+            benchmark_version=benchmark_version, template_question_version="v2",
+            time_sleep=time_sleep
+        )
+        generator.answer_question_basic_information(agent=agent, batch_size=batch_size)
+        generator.answer_question_roles_non_relation(agent=agent, batch_size=batch_size)
+        generator.answer_question_roles_relation(agent=agent, batch_size=batch_size)
 
 
 def run_agent_on_benchmark_single(
@@ -908,7 +911,7 @@ def run_agent_on_benchmark_single(
 
 def run_agent_on_benchmark_roles(
         person_name, prompt_name, profile_version, system_version, benchmark_version, batch_size, agent,
-        time_sleep=0.1):
+        time_sleep=0.1, zero_shot=True, few_shot=True):
     """
     run agent on the benchmark, to get the answer for the roles questions in the benchmark
     Args:
@@ -923,32 +926,33 @@ def run_agent_on_benchmark_roles(
     Returns:
 
     """
-    generator = BenchmarkTest(
-        person_name=person_name, prompt_name=prompt_name, prompt_kind="few_shot",
-        profile_version=profile_version, system_version=system_version,
-        benchmark_version=benchmark_version, template_question_version="v2",
-        time_sleep=time_sleep
-    )
+    if few_shot:
+        generator = BenchmarkTest(
+            person_name=person_name, prompt_name=prompt_name, prompt_kind="few_shot",
+            profile_version=profile_version, system_version=system_version,
+            benchmark_version=benchmark_version, template_question_version="v2",
+            time_sleep=time_sleep
+        )
 
-    generator.answer_question_roles_non_relation(agent=agent, batch_size=batch_size)
-    generator.answer_question_roles_relation(agent=agent, batch_size=batch_size)
-    generator = BenchmarkTest(
-        person_name=person_name, prompt_name=prompt_name, prompt_kind="zero_shot",
-        profile_version=profile_version, system_version=system_version,
-        benchmark_version=benchmark_version, template_question_version="v2",
-        time_sleep=time_sleep
-    )
+        generator.answer_question_roles_non_relation(agent=agent, batch_size=batch_size)
+        generator.answer_question_roles_relation(agent=agent, batch_size=batch_size)
 
-    generator.answer_question_roles_non_relation(agent=agent, batch_size=batch_size)
-    generator.answer_question_roles_relation(agent=agent, batch_size=batch_size)
+    if zero_shot:
+        generator = BenchmarkTest(
+            person_name=person_name, prompt_name=prompt_name, prompt_kind="zero_shot",
+            profile_version=profile_version, system_version=system_version,
+            benchmark_version=benchmark_version, template_question_version="v2",
+            time_sleep=time_sleep
+        )
+
+        generator.answer_question_roles_non_relation(agent=agent, batch_size=batch_size)
+        generator.answer_question_roles_relation(agent=agent, batch_size=batch_size)
 
 
 if __name__ == "__main__":
     # model_name='gpt-3.5-turbo-16k'
-    for model_name in ['Qwen-14B-Chat', "Qwen-7B-Chat"]:
-        for person_name in ["monica", 'homer', 'homer_1985', "homer_2000", "homer_2010", "homer_2015", "homer_2020",
-                            "homer_asian", "homer_african", "homer_Middle_Eastern", "homer_Native_American",
-                            "homer_Northern_European", "homer_Southern_American", "rachel", "walter_white"]:
+    for model_name in ["longchat-7b-32k-v1.5", "longchat-13b-16k", "longchat-7b-16k"]:
+        for person_name in ["monica", 'homer', "rachel", "walter_white"]:
             prompt_name = "prompt1"
             profile_version = "profile_v1"
             system_version = "system_v1"
@@ -959,11 +963,11 @@ if __name__ == "__main__":
                 batch_size = 16
             elif model_name == 'gpt-4':
                 batch_size = 16
-            agent = QWen(profile_version=profile_version,
-                         system_version=system_version,
-                         person_name=person_name,
-                         model_name=model_name,
-                         )
+            agent = Vicuna(profile_version=profile_version,
+                           system_version=system_version,
+                           person_name=person_name,
+                           model_name=model_name,
+                           )
             run_agent_on_benchmark(
                 person_name, prompt_name, profile_version, system_version, benchmark_version, batch_size, agent,
                 time_sleep=time_sleep)

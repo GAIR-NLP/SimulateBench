@@ -1,0 +1,1202 @@
+[
+    {
+        "question": "How long have you known Ross Johnson as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;less than a year;more than 5 years;1-2 years;3-5 years]",
+        "gold_answer": "more than 5 years"
+    },
+    {
+        "question": "How long have you known Jack Johnson as a family_member?[this is a single-choice question,you should only choose from: less than a year;3-5 years;more than 5 years;1-2 years;There's not enough information to answer this question.]",
+        "gold_answer": "more than 5 years"
+    },
+    {
+        "question": "How long have you known Judy Johnson as a family_member?[this is a single-choice question,you should only choose from: more than 5 years;1-2 years;3-5 years;There's not enough information to answer this question.;less than a year]",
+        "gold_answer": "more than 5 years"
+    },
+    {
+        "question": "How long have you known Chandler Bing as a family_member?[this is a single-choice question,you should only choose from: 1-2 years;more than 5 years;3-5 years;There's not enough information to answer this question.;less than a year]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How long have you known Rachel Greene as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: less than a year;There's not enough information to answer this question.;more than 5 years;3-5 years;1-2 years]",
+        "gold_answer": "more than 5 years"
+    },
+    {
+        "question": "How long have you known Richard Brown as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;1-2 years;less than a year;3-5 years;more than 5 years]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "During your period as a family_member, how often do you interact with Ross Johnson?[this is a single-choice question,you should only choose from: Never or Rarely;Sometimes;Often or Always;There's not enough information to answer this question.]",
+        "gold_answer": "Often or Always"
+    },
+    {
+        "question": "During your period as a family_member, how often do you interact with Jack Johnson?[this is a single-choice question,you should only choose from: Often or Always;Sometimes;There's not enough information to answer this question.;Never or Rarely]",
+        "gold_answer": "Often or Always"
+    },
+    {
+        "question": "During your period as a family_member, how often do you interact with Judy Johnson?[this is a single-choice question,you should only choose from: Often or Always;There's not enough information to answer this question.;Never or Rarely;Sometimes]",
+        "gold_answer": "Often or Always"
+    },
+    {
+        "question": "During your period as a family_member, how often do you interact with Chandler Bing?[this is a single-choice question,you should only choose from: Often or Always;Sometimes;There's not enough information to answer this question.;Never or Rarely]",
+        "gold_answer": "Often or Always"
+    },
+    {
+        "question": "During your period as a friend_of_Rachel_Greene, how often do you interact with Rachel Greene?[this is a single-choice question,you should only choose from: Sometimes;There's not enough information to answer this question.;Never or Rarely;Often or Always]",
+        "gold_answer": "Often or Always"
+    },
+    {
+        "question": "During your period as a romantic_partner_of_Richard, how often do you interact with Richard Brown?[this is a single-choice question,you should only choose from: Never or Rarely;Often or Always;Sometimes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How would you describe the nature of your relationship with Ross Johnson? [this is a single-choice question,you should only choose from: Other;Friendships;Romantic relationships;There's not enough information to answer this question.;Acquaintances;Stranger;Family relationships;Work relationships]",
+        "gold_answer": "Family relationships"
+    },
+    {
+        "question": "How would you describe the nature of your relationship with Jack Johnson? [this is a single-choice question,you should only choose from: Other;Work relationships;Family relationships;Romantic relationships;Stranger;There's not enough information to answer this question.;Friendships;Acquaintances]",
+        "gold_answer": "Family relationships"
+    },
+    {
+        "question": "How would you describe the nature of your relationship with Judy Johnson? [this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Family relationships;Acquaintances;Romantic relationships;Friendships;Other;Stranger;Work relationships]",
+        "gold_answer": "Family relationships"
+    },
+    {
+        "question": "How would you describe the nature of your relationship with Chandler Bing? [this is a single-choice question,you should only choose from: Romantic relationships;Friendships;There's not enough information to answer this question.;Stranger;Work relationships;Family relationships;Other;Acquaintances]",
+        "gold_answer": "Family relationships"
+    },
+    {
+        "question": "How would you describe the nature of your relationship with Rachel Greene? [this is a single-choice question,you should only choose from: Work relationships;Friendships;Stranger;There's not enough information to answer this question.;Romantic relationships;Family relationships;Acquaintances;Other]",
+        "gold_answer": "Friendships"
+    },
+    {
+        "question": "How would you describe the nature of your relationship with Richard Brown? [this is a single-choice question,you should only choose from: Friendships;Stranger;Family relationships;Acquaintances;There's not enough information to answer this question.;Work relationships;Romantic relationships;Other]",
+        "gold_answer": "Romantic relationships"
+    },
+    {
+        "question": "When Ross Johnson disagrees with your opinion, how do you typically react?[this is a single-choice question,you should only choose from: get upset;feel indifferent;defensively;open to discussion;Other;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "When Jack Johnson disagrees with your opinion, how do you typically react?[this is a single-choice question,you should only choose from: get upset;defensively;There's not enough information to answer this question.;open to discussion;Other;feel indifferent]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "When Judy Johnson disagrees with your opinion, how do you typically react?[this is a single-choice question,you should only choose from: get upset;open to discussion;defensively;Other;There's not enough information to answer this question.;feel indifferent]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "When Chandler Bing disagrees with your opinion, how do you typically react?[this is a single-choice question,you should only choose from: defensively;open to discussion;There's not enough information to answer this question.;feel indifferent;get upset;Other]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "When Rachel Greene disagrees with your opinion, how do you typically react?[this is a single-choice question,you should only choose from: defensively;There's not enough information to answer this question.;Other;feel indifferent;get upset;open to discussion]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "When Richard Brown disagrees with your opinion, how do you typically react?[this is a single-choice question,you should only choose from: Other;get upset;There's not enough information to answer this question.;defensively;open to discussion;feel indifferent]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you agree with the statement: \"I am willing to help Ross Johnson without expecting anything in return\"?[this is a single-choice question,you should only choose from: Agree;Disagree;There's not enough information to answer this question.]",
+        "gold_answer": "Agree"
+    },
+    {
+        "question": "Do you agree with the statement: \"I am willing to help Jack Johnson without expecting anything in return\"?[this is a single-choice question,you should only choose from: Agree;Disagree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you agree with the statement: \"I am willing to help Judy Johnson without expecting anything in return\"?[this is a single-choice question,you should only choose from: Agree;There's not enough information to answer this question.;Disagree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you agree with the statement: \"I am willing to help Chandler Bing without expecting anything in return\"?[this is a single-choice question,you should only choose from: Agree;There's not enough information to answer this question.;Disagree]",
+        "gold_answer": "Agree"
+    },
+    {
+        "question": "Do you agree with the statement: \"I am willing to help Rachel Greene without expecting anything in return\"?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Agree;Disagree]",
+        "gold_answer": "Agree"
+    },
+    {
+        "question": "Do you agree with the statement: \"I am willing to help Richard Brown without expecting anything in return\"?[this is a single-choice question,you should only choose from: Agree;Disagree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How do you handle criticism from Ross Johnson? [this is a single-choice question,you should only choose from: Ignore;Defend yourself;Others;There's not enough information to answer this question.;Accept and learn]",
+        "gold_answer": "Defend yourself"
+    },
+    {
+        "question": "How do you handle criticism from Jack Johnson? [this is a single-choice question,you should only choose from: Ignore;Defend yourself;Others;There's not enough information to answer this question.;Accept and learn]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How do you handle criticism from Judy Johnson? [this is a single-choice question,you should only choose from: Defend yourself;Ignore;There's not enough information to answer this question.;Accept and learn;Others]",
+        "gold_answer": "Defend yourself"
+    },
+    {
+        "question": "How do you handle criticism from Chandler Bing? [this is a single-choice question,you should only choose from: Ignore;Defend yourself;Accept and learn;There's not enough information to answer this question.;Others]",
+        "gold_answer": "Accept and learn"
+    },
+    {
+        "question": "How do you handle criticism from Rachel Greene? [this is a single-choice question,you should only choose from: Others;Ignore;There's not enough information to answer this question.;Defend yourself;Accept and learn]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How do you handle criticism from Richard Brown? [this is a single-choice question,you should only choose from: Defend yourself;There's not enough information to answer this question.;Ignore;Others;Accept and learn]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How do you typically handle conflicts with Ross Johnson? [this is a single-choice question,you should only choose from: discuss them calmly;avoid them;There's not enough information to answer this question.;confront them;get angry;other]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "How do you typically handle conflicts with Jack Johnson? [this is a single-choice question,you should only choose from: get angry;confront them;other;There's not enough information to answer this question.;avoid them;discuss them calmly]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How do you typically handle conflicts with Judy Johnson? [this is a single-choice question,you should only choose from: avoid them;There's not enough information to answer this question.;discuss them calmly;other;get angry;confront them]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How do you typically handle conflicts with Chandler Bing? [this is a single-choice question,you should only choose from: There's not enough information to answer this question.;avoid them;discuss them calmly;other;get angry;confront them]",
+        "gold_answer": "Discuss them calmly"
+    },
+    {
+        "question": "How do you typically handle conflicts with Rachel Greene? [this is a single-choice question,you should only choose from: other;avoid them;discuss them calmly;get angry;confront them;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How do you typically handle conflicts with Richard Brown? [this is a single-choice question,you should only choose from: discuss them calmly;There's not enough information to answer this question.;avoid them;get angry;confront them;other]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you feel comfortable sharing personal problems with Ross Johnson? [this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you feel comfortable sharing personal problems with Jack Johnson? [this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you feel comfortable sharing personal problems with Judy Johnson? [this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you feel comfortable sharing personal problems with Chandler Bing? [this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable sharing personal problems with Rachel Greene? [this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable sharing personal problems with Richard Brown? [this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are you willing to seek help from Ross Johnson?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are you willing to seek help from Jack Johnson?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are you willing to seek help from Judy Johnson?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are you willing to seek help from Chandler Bing?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are you willing to seek help from Rachel Greene?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are you willing to seek help from Richard Brown?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are you comfortable sharing your achievements with Ross Johnson?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No, I am not comfortable;Yes, I am comfortable]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "Are you comfortable sharing your achievements with Jack Johnson?[this is a single-choice question,you should only choose from: Yes, I am comfortable;No, I am not comfortable;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "Are you comfortable sharing your achievements with Judy Johnson?[this is a single-choice question,you should only choose from: No, I am not comfortable;There's not enough information to answer this question.;Yes, I am comfortable]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "Are you comfortable sharing your achievements with Chandler Bing?[this is a single-choice question,you should only choose from: Yes, I am comfortable;No, I am not comfortable;There's not enough information to answer this question.]",
+        "gold_answer": "Yes, I am comfortable"
+    },
+    {
+        "question": "Are you comfortable sharing your achievements with Rachel Greene?[this is a single-choice question,you should only choose from: Yes, I am comfortable;No, I am not comfortable;There's not enough information to answer this question.]",
+        "gold_answer": "Yes, I am comfortable"
+    },
+    {
+        "question": "Are you comfortable sharing your achievements with Richard Brown?[this is a single-choice question,you should only choose from: No, I am not comfortable;Yes, I am comfortable;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree with the statement: \"I am willing to express my personal emotions to Ross Johnson\"?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Agree;Disagree]",
+        "gold_answer": "Agree"
+    },
+    {
+        "question": "To what extent do you agree with the statement: \"I am willing to express my personal emotions to Jack Johnson\"?[this is a single-choice question,you should only choose from: Agree;There's not enough information to answer this question.;Disagree]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "To what extent do you agree with the statement: \"I am willing to express my personal emotions to Judy Johnson\"?[this is a single-choice question,you should only choose from: Agree;Disagree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "To what extent do you agree with the statement: \"I am willing to express my personal emotions to Chandler Bing\"?[this is a single-choice question,you should only choose from: Agree;Disagree;There's not enough information to answer this question.]",
+        "gold_answer": "Agree"
+    },
+    {
+        "question": "To what extent do you agree with the statement: \"I am willing to express my personal emotions to Rachel Greene\"?[this is a single-choice question,you should only choose from: Agree;Disagree;There's not enough information to answer this question.]",
+        "gold_answer": "Agree"
+    },
+    {
+        "question": "To what extent do you agree with the statement: \"I am willing to express my personal emotions to Richard Brown\"?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Agree;Disagree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Ross Johnson is trustworthy?[this is a single-choice question,you should only choose from: agree;disagree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "To what extent do you agree that Jack Johnson is trustworthy?[this is a single-choice question,you should only choose from: agree;disagree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "To what extent do you agree that Judy Johnson is trustworthy?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;agree;disagree]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "To what extent do you agree that Chandler Bing is trustworthy?[this is a single-choice question,you should only choose from: disagree;There's not enough information to answer this question.;agree]",
+        "gold_answer": "Agree"
+    },
+    {
+        "question": "To what extent do you agree that Rachel Greene is trustworthy?[this is a single-choice question,you should only choose from: disagree;agree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "To what extent do you agree that Richard Brown is trustworthy?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;disagree;agree]",
+        "gold_answer": "There's not enough information to answer this question"
+    },
+    {
+        "question": "To what extent do you agree that Ross Johnson is empathetic?[this is a single-choice question,you should only choose from: disagree;There's not enough information to answer this question.;agree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Jack Johnson is empathetic?[this is a single-choice question,you should only choose from: disagree;There's not enough information to answer this question.;agree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Judy Johnson is empathetic?[this is a single-choice question,you should only choose from: agree;There's not enough information to answer this question.;disagree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Chandler Bing is empathetic?[this is a single-choice question,you should only choose from: disagree;There's not enough information to answer this question.;agree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Rachel Greene is empathetic?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;agree;disagree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Richard Brown is empathetic?[this is a single-choice question,you should only choose from: agree;disagree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Ross Johnson is respectful?[this is a single-choice question,you should only choose from: disagree;There's not enough information to answer this question.;agree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Jack Johnson is respectful?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;agree;disagree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Judy Johnson is respectful?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;disagree;agree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Chandler Bing is respectful?[this is a single-choice question,you should only choose from: agree;There's not enough information to answer this question.;disagree]",
+        "gold_answer": "Agree"
+    },
+    {
+        "question": "To what extent do you agree that Rachel Greene is respectful?[this is a single-choice question,you should only choose from: agree;disagree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Richard Brown is respectful?[this is a single-choice question,you should only choose from: disagree;There's not enough information to answer this question.;agree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Ross Johnson is responsible?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;agree;disagree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Jack Johnson is responsible?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;disagree;agree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Judy Johnson is responsible?[this is a single-choice question,you should only choose from: agree;disagree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Chandler Bing is responsible?[this is a single-choice question,you should only choose from: agree;There's not enough information to answer this question.;disagree]",
+        "gold_answer": "Agree"
+    },
+    {
+        "question": "To what extent do you agree that Rachel Greene is responsible?[this is a single-choice question,you should only choose from: disagree;agree;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "To what extent do you agree that Richard Brown is responsible?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;agree;disagree]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "What is the current status of your relationship with Ross Johnson?[this is a single-choice question,you should only choose from: We are still in contact;There's not enough information to answer this question.;The relationship has ended in some other way;We have lost touch]",
+        "gold_answer": "We are still in contact"
+    },
+    {
+        "question": "What is the current status of your relationship with Jack Johnson?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;The relationship has ended in some other way;We are still in contact;We have lost touch]",
+        "gold_answer": "We are still in contact"
+    },
+    {
+        "question": "What is the current status of your relationship with Judy Johnson?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;We have lost touch;The relationship has ended in some other way;We are still in contact]",
+        "gold_answer": "We are still in contact"
+    },
+    {
+        "question": "What is the current status of your relationship with Chandler Bing?[this is a single-choice question,you should only choose from: We are still in contact;There's not enough information to answer this question.;The relationship has ended in some other way;We have lost touch]",
+        "gold_answer": "We are still in contact"
+    },
+    {
+        "question": "What is the current status of your relationship with Rachel Greene?[this is a single-choice question,you should only choose from: We are still in contact;There's not enough information to answer this question.;The relationship has ended in some other way;We have lost touch]",
+        "gold_answer": "We are still in contact"
+    },
+    {
+        "question": "What is the current status of your relationship with Richard Brown?[this is a single-choice question,you should only choose from: We have lost touch;There's not enough information to answer this question.;The relationship has ended in some other way;We are still in contact]",
+        "gold_answer": "The relationship has ended in some other way"
+    },
+    {
+        "question": "Have you spent significant time together with Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you spent significant time together with Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you spent significant time together with Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you spent significant time together with Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you spent significant time together with Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you spent significant time together with Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you worked or collaborated with Ross Johnson on a project or task when you acted as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you worked or collaborated with Jack Johnson on a project or task when you acted as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you worked or collaborated with Judy Johnson on a project or task when you acted as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you worked or collaborated with Chandler Bing on a project or task when you acted as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you worked or collaborated with Rachel Greene on a project or task when you acted as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you worked or collaborated with Richard Brown on a project or task when you acted as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you have knowledge of the background, interests, or experiences of Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you have knowledge of the background, interests, or experiences of Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you have knowledge of the background, interests, or experiences of Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you have knowledge of the background, interests, or experiences of Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you have knowledge of the background, interests, or experiences of Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you have knowledge of the background, interests, or experiences of Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you attended events or gatherings where Ross Johnson was present when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you attended events or gatherings where Jack Johnson was present when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you attended events or gatherings where Judy Johnson was present when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you attended events or gatherings where Chandler Bing was present when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you attended events or gatherings where Rachel Greene was present when you acted as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you attended events or gatherings where Richard Brown was present when you acted as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you introduced Ross Johnson to your family or close friends when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you introduced Jack Johnson to your family or close friends when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you introduced Judy Johnson to your family or close friends when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you introduced Chandler Bing to your family or close friends when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you introduced Rachel Greene to your family or close friends when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Have you introduced Richard Brown to your family or close friends when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often think about Ross Johnson and feel a desire to be with them when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you often think about Jack Johnson and feel a desire to be with them when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you often think about Judy Johnson and feel a desire to be with them when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you often think about Chandler Bing and feel a desire to be with them when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often think about Rachel Greene and feel a desire to be with them when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often think about Richard Brown and feel a desire to be with them when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you feel happy and content around Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel happy and content around Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel happy and content around Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you feel happy and content around Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel happy and content around Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel happy and content around Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you experience a sense of comfort and security in the presence of Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you experience a sense of comfort and security in the presence of Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you experience a sense of comfort and security in the presence of Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you experience a sense of comfort and security in the presence of Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you experience a sense of comfort and security in the presence of Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you experience a sense of comfort and security in the presence of Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you find yourself more open and vulnerable with Ross Johnson than others when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you find yourself more open and vulnerable with Jack Johnson than others when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you find yourself more open and vulnerable with Judy Johnson than others when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you find yourself more open and vulnerable with Chandler Bing than others when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you find yourself more open and vulnerable with Rachel Greene than others when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you find yourself more open and vulnerable with Richard Brown than others when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you genuinely care about the well-being and happiness of Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you genuinely care about the well-being and happiness of Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you genuinely care about the well-being and happiness of Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you genuinely care about the well-being and happiness of Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you genuinely care about the well-being and happiness of Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you genuinely care about the well-being and happiness of Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often experience positive emotions, such as joy and excitement, in anticipation of seeing or interacting with Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often experience positive emotions, such as joy and excitement, in anticipation of seeing or interacting with Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you often experience positive emotions, such as joy and excitement, in anticipation of seeing or interacting with Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you often experience positive emotions, such as joy and excitement, in anticipation of seeing or interacting with Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often experience positive emotions, such as joy and excitement, in anticipation of seeing or interacting with Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often experience positive emotions, such as joy and excitement, in anticipation of seeing or interacting with Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you feel a deep trust and reliability in the relationship with Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you feel a deep trust and reliability in the relationship with Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you feel a deep trust and reliability in the relationship with Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you feel a deep trust and reliability in the relationship with Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel a deep trust and reliability in the relationship with Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel a deep trust and reliability in the relationship with Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you find yourself going out of your way to support and help Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you find yourself going out of your way to support and help Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you find yourself going out of your way to support and help Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you find yourself going out of your way to support and help Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you find yourself going out of your way to support and help Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you find yourself going out of your way to support and help Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you believe Ross Johnson positively and significantly impacts your well-being and happiness when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you believe Jack Johnson positively and significantly impacts your well-being and happiness when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you believe Judy Johnson positively and significantly impacts your well-being and happiness when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you believe Chandler Bing positively and significantly impacts your well-being and happiness when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you believe Rachel Greene positively and significantly impacts your well-being and happiness when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you believe Richard Brown positively and significantly impacts your well-being and happiness when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable sharing your thoughts and feelings with Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable sharing your thoughts and feelings with Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable sharing your thoughts and feelings with Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you feel comfortable sharing your thoughts and feelings with Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable sharing your thoughts and feelings with Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable sharing your thoughts and feelings with Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Does Ross Johnson make you feel valued and appreciated when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Does Jack Johnson make you feel valued and appreciated when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Does Judy Johnson make you feel valued and appreciated when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Does Chandler Bing make you feel valued and appreciated when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Does Rachel Greene make you feel valued and appreciated when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Does Richard Brown make you feel valued and appreciated when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Does Ross Johnson support and encourage you in achieving your goals when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Does Jack Johnson support and encourage you in achieving your goals when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Does Judy Johnson support and encourage you in achieving your goals when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Does Chandler Bing support and encourage you in achieving your goals when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Does Rachel Greene support and encourage you in achieving your goals when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Does Richard Brown support and encourage you in achieving your goals when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Does Ross Johnson consistently follow through on their commitments and promises when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Does Jack Johnson consistently follow through on their commitments and promises when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Does Judy Johnson consistently follow through on their commitments and promises when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Does Chandler Bing consistently follow through on their commitments and promises when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Does Rachel Greene consistently follow through on their commitments and promises when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Does Richard Brown consistently follow through on their commitments and promises when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you frequently engage in social activities or spend time with Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you frequently engage in social activities or spend time with Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you frequently engage in social activities or spend time with Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you frequently engage in social activities or spend time with Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you frequently engage in social activities or spend time with Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you frequently engage in social activities or spend time with Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you feel comfortable initiating conversations and interactions with Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable initiating conversations and interactions with Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable initiating conversations and interactions with Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable initiating conversations and interactions with Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable initiating conversations and interactions with Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel comfortable initiating conversations and interactions with Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often seek opportunities to collaborate or work with Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you often seek opportunities to collaborate or work with Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you often seek opportunities to collaborate or work with Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you often seek opportunities to collaborate or work with Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often seek opportunities to collaborate or work with Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you often seek opportunities to collaborate or work with Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you actively listen and engage with Ross Johnson during conversations when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you actively listen and engage with Jack Johnson during conversations when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you actively listen and engage with Judy Johnson during conversations when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you actively listen and engage with Chandler Bing during conversations when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you actively listen and engage with Rachel Greene during conversations when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you actively listen and engage with Richard Brown during conversations when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel a sense of inclusion and belonging when you are with Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel a sense of inclusion and belonging when you are with Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel a sense of inclusion and belonging when you are with Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you feel a sense of inclusion and belonging when you are with Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel a sense of inclusion and belonging when you are with Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel a sense of inclusion and belonging when you are with Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you try to understand and respect the opinions and perspectives of Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you try to understand and respect the opinions and perspectives of Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you try to understand and respect the opinions and perspectives of Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you try to understand and respect the opinions and perspectives of Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you try to understand and respect the opinions and perspectives of Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you try to understand and respect the opinions and perspectives of Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you consider Ross Johnson an important part of your social network or circle when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you consider Jack Johnson an important part of your social network or circle when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you consider Judy Johnson an important part of your social network or circle when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you consider Chandler Bing an important part of your social network or circle when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you consider Rachel Greene an important part of your social network or circle when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you consider Richard Brown an important part of your social network or circle when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you consider Ross Johnson reliable and dependable when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you consider Jack Johnson reliable and dependable when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you consider Judy Johnson reliable and dependable when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you consider Chandler Bing reliable and dependable when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you consider Rachel Greene reliable and dependable when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you consider Richard Brown reliable and dependable when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you believe Ross Johnson is fair and impartial in their actions and decisions when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you believe Jack Johnson is fair and impartial in their actions and decisions when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Judy Johnson is fair and impartial in their actions and decisions when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you believe Chandler Bing is fair and impartial in their actions and decisions when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you believe Rachel Greene is fair and impartial in their actions and decisions when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Richard Brown is fair and impartial in their actions and decisions when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you view Ross Johnson as knowledgeable and competent in their area of expertise when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you view Jack Johnson as knowledgeable and competent in their area of expertise when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you view Judy Johnson as knowledgeable and competent in their area of expertise when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you view Chandler Bing as knowledgeable and competent in their area of expertise when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you view Rachel Greene as knowledgeable and competent in their area of expertise when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you view Richard Brown as knowledgeable and competent in their area of expertise when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you believe Ross Johnson has good judgment in handling difficult or challenging situations when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Jack Johnson has good judgment in handling difficult or challenging situations when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Judy Johnson has good judgment in handling difficult or challenging situations when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Chandler Bing has good judgment in handling difficult or challenging situations when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Rachel Greene has good judgment in handling difficult or challenging situations when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Richard Brown has good judgment in handling difficult or challenging situations when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you find Ross Johnson's opinions and perspectives well-reasoned and logical when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you find Jack Johnson's opinions and perspectives well-reasoned and logical when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you find Judy Johnson's opinions and perspectives well-reasoned and logical when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you find Chandler Bing's opinions and perspectives well-reasoned and logical when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you find Rachel Greene's opinions and perspectives well-reasoned and logical when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you find Richard Brown's opinions and perspectives well-reasoned and logical when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel confident in seeking advice or guidance from Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel confident in seeking advice or guidance from Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel confident in seeking advice or guidance from Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Do you feel confident in seeking advice or guidance from Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you feel confident in seeking advice or guidance from Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you feel confident in seeking advice or guidance from Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you think Ross Johnson has a strong sense of ethics and moral values when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you think Jack Johnson has a strong sense of ethics and moral values when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you think Judy Johnson has a strong sense of ethics and moral values when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you think Chandler Bing has a strong sense of ethics and moral values when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you think Rachel Greene has a strong sense of ethics and moral values when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you think Richard Brown has a strong sense of ethics and moral values when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Ross Johnson makes wise and informed choices in their personal and professional life when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Jack Johnson makes wise and informed choices in their personal and professional life when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Judy Johnson makes wise and informed choices in their personal and professional life when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Chandler Bing makes wise and informed choices in their personal and professional life when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you believe Rachel Greene makes wise and informed choices in their personal and professional life when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you believe Richard Brown makes wise and informed choices in their personal and professional life when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are you acquaintances or have casual interactions with Ross Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are you acquaintances or have casual interactions with Jack Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are you acquaintances or have casual interactions with Judy Johnson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are you acquaintances or have casual interactions with Chandler Bing when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are you acquaintances or have casual interactions with Rachel Greene when you act as a friend_of_Rachel_Greene?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are you acquaintances or have casual interactions with Richard Brown when you act as a romantic_partner_of_Richard?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    }
+]

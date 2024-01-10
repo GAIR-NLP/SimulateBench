@@ -2,6 +2,7 @@ from person.action.brain_xverse.xverse import XVerse
 from person.action.brain_chat_glm.chat_glm import ChatGLM2
 from person.action.brain_qwen.qwen import QWen
 from person.action.brain_vicuna.vicuna import Vicuna
+from person.action.brain.agent import Agent
 from benchmark.benchmark_class import run_agent_on_benchmark_single
 
 prompt_strategy_list = [
@@ -30,7 +31,7 @@ if __name__ == "__main__":
     # longchat-13b-16k done
     # longchat-7b-32k-v1.5 done
     # vicuna-13b-v1.5-16k done
-    for model_name in ["XVERSE-13B-Chat"]:
+    for model_name in ["gpt-3.5-turbo-16k", "gpt-4",]:
         for person_name in ["homer"]:
             for prompt_strategy in prompt_strategy_list:
                 profile_version = "profile_v1"
@@ -39,10 +40,10 @@ if __name__ == "__main__":
                 batch_size = 1
                 time_sleep = 0
                 if model_name == 'gpt-3.5-turbo-16k':
-                    batch_size = 16
+                    batch_size = 1
                 elif model_name == 'gpt-4':
-                    batch_size = 16
-                agent = XVerse(profile_version=profile_version,
+                    batch_size = 1
+                agent = Agent(profile_version=profile_version,
                                system_version=system_version,
                                person_name=person_name,
                                model_name=model_name,

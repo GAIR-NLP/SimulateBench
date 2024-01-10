@@ -1,0 +1,388 @@
+[
+    {
+        "question": "Do you believe that [Monica, the younger sibling of Ross Johnson, is the second-born child of Jack and Judy Johnson.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Jack and Judy Johnson's middle child is Monica, who is also the junior sister of Ross Johnson.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Chandler Bing is Monica's spouse.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [The man Monica is married to is Chandler Bing.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica's relationship with her parents, particularly her mother, is multifaceted, given her mother's unconscious bias towards Ross and her frequent criticism of Monica's life choices. This often results in Monica feeling undervalued or insufficient. Nevertheless, Monica cherishes her parents and keeps a tight bond with them.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [The relationship Monica shares with her parents, especially her mother Judy, is intricate due to Judy's unintentional preference for Ross and her constant critique of Monica's lifestyle. This usually makes Monica feel underappreciated or inadequate. Yet, Monica's affection for her parents remains strong and she continues to keep a close-knit relationship with them.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Despite the sporadic sibling competition, Monica and Ross maintain a tight-knit relationship, frequently reminiscing about their shared past and customs, and providing mutual support in their respective romantic and personal dilemmas. Ross exhibits a protective nature towards Monica, while Monica frequently seeks Ross's counsel or assistance.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Even though Monica and Ross sometimes engage in sibling disputes, they have a strong bond, often reminiscing about their shared past and traditions, and offering each other support in their personal and romantic challenges. Ross shows a protective side when it comes to Monica, and Monica often relies on Ross for guidance or help.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica's meticulous tidiness and competitive nature frequently conflict with Chandler's sarcastic remarks and relaxed demeanor, yet they manage to complement each other. Their bond is defined by reciprocal admiration, affection, and comprehension. They back each other's aspirations and goals.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [The compulsive neatness and competitive spirit of Monica often collide with the sarcastic humor and easygoing approach of Chandler, however, they harmonize each other. Their partnership is marked by shared esteem, affection, and empathy. They endorse each other's hopes and ambitions.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Rachel experiences Monica's friendship as extremely nurturing and encouraging.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica exhibits a great deal of compassion and support in her friendship with Rachel.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica's nurturing and protective nature often earns her the title of 'mother hen' among the group.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Due to her caring and safeguarding disposition, Monica is frequently regarded as the 'mother hen' of the group.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica consistently supports Rachel, be it in guiding her through her professional journey or assisting with her romantic complications.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Whether it involves aiding her in her career path or handling her love life problems, Monica is perpetually present for Rachel.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica is also extremely faithful and is consistently prepared to defend her friends.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica also possesses a strong sense of loyalty and is always on hand to support her friends.] is an essential characteristic for you as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica, as Richard Burke's romantic partner, is profoundly dedicated, nurturing, and loving.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [In her romantic relationship with Richard Burke, Monica exhibits deep commitment, care, and affection.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica's penchant for cleanliness and perfectionism can occasionally result in her exhibiting controlling and obsessive behaviors. Yet, these characteristics also contribute to her commitment as a partner.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica's meticulousness and perfectionist tendencies can sometimes make her seem excessively controlling and obsessive. Nonetheless, these same qualities also make her a devoted partner.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica frequently takes the responsibility of making sure the relationship is advancing and doesn't hesitate to tackle problems directly.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [It is usually Monica who guarantees the forward movement of the relationship and she is unafraid to address issues straightforwardly.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Even though Richard was initially hesitant to commit to marriage and children due to their age gap, Monica's unwavering determination and love for him are clearly visible throughout their relationship.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you believe that [Monica's steadfast love for Richard and her determination are apparent throughout their relationship, despite the age difference and Richard's initial unwillingness to commit to marriage and children.] is an essential characteristic for you as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Every day, Monica and Chandler express their love for each other verbally] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [The phrase 'I love you' is a daily exchange between Monica and Chandler.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Instead of purchasing costly goods, Monica and Chandler have decided to exchange handmade, considerate presents for their anniversaries.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [For their anniversaries, Monica and Chandler have chosen to present each other with thoughtful, homemade gifts instead of splurging on expensive items.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Monica is renowned for her fixation on tidiness and organization, frequently spotted sprucing up her apartment. She assigns a particular spot for each item and becomes distressed if anything is out of place. She is also recognized for her tendency to re-clean after others, convinced that no one can match her cleaning prowess. She meticulously sorts her towels into 11 distinct categories, such as 'everyday use', 'fancy', 'guest', 'fancy guest', 'fancy guest with fringe', 'everyday white', 'guest white', 'fancy white', 'fancy guest white', 'guest fancy white', and 'guest fancy white with fringe'.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Monica's compulsive need for cleanliness and order is well-known. She is frequently observed tidying her apartment and has a designated spot for every item, becoming agitated if anything is misplaced. She is also notorious for her practice of cleaning again after someone else has done so, as she is convinced that she is the superior cleaner. She has a detailed system for her towels, dividing them into 11 specific categories: 'everyday use', 'fancy', 'guest', 'fancy guest', 'fancy guest with fringe', 'everyday white', 'guest white', 'fancy white', 'fancy guest white', 'guest fancy white', and 'guest fancy white with fringe'.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Monica frequently prepares meals for her loved ones, deriving immense satisfaction from her cooking abilities.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Often, Monica is the one who cooks for her family, and she derives a lot of joy from her proficiency in the kitchen.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Monica takes pleasure in maintaining her fitness and is frequently spotted exercising. She makes a daily routine of visiting the gym or jogging.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Often observed engaging in physical activity, Monica relishes in keeping herself in shape. Her daily regimen includes either a trip to the gym or a jog.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Monica has a passion for arranging things meticulously, be it her living space, her professional tasks, or a social gathering, she desires perfection and orderliness in all.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Whether it's her living quarters, her work, or a celebration, Monica always strives for perfection and systematic arrangement, demonstrating her love for organization.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Rachel, a fashion and shopping enthusiast, frequently involves Monica in her shopping escapades, making it a regular shared activity.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [It's a usual occurrence for Rachel, who adores fashion and shopping, to pull Monica into her shopping adventures.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [A significant portion of Monica and Rachel's daily regimen involves frequenting Central Perk, their neighborhood coffee house.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Visiting the nearby coffee joint, Central Perk, constitutes a crucial element of Monica and Rachel's everyday schedule.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Monica and Rachel frequently engage in conversations about their romantic relationships, offering counsel and encouragement to each other.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Often, Monica and Rachel share insights about their romantic affairs, providing each other with guidance and moral support.] as a habit/routine as a [friend_of_Rachel_Greene]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Monica, despite her distaste for Richard's cigar smoking habit, endures it out of affection for him.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Monica puts up with Richard's penchant for smoking cigars, even though she doesn't particularly enjoy it, due to her deep affection for him.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Given Richard's line of work, there are sporadic jests and conversations concerning vision care and spectacles.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Do you engage in the [Considering Richard's job, there are intermittent humor and dialogues about ocular health and eyewear.] as a habit/routine as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Is [Despite numerous hurdles such as infertility, Monica and Chandler are determined to sustain their bond and start a family. Ultimately, they adopt twin children and relocate to a suburban area to nurture their family.] one of the Despite numerous hurdles such as infertility, Monica and Chandler are determined to sustain their bond and start a family. Ultimately, they adopt twin children and relocate to a suburban area to nurture their family.s or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Is [Monica and Chandler are committed to preserving their relationship and establishing a family, even in the face of challenges like infertility. In the end, they adopt a pair of twins and shift to a suburban locality to bring up their family.] one of the Monica and Chandler are committed to preserving their relationship and establishing a family, even in the face of challenges like infertility. In the end, they adopt a pair of twins and shift to a suburban locality to bring up their family.s or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Is [At first, Monica aims to hide her relationship with Richard from her parents because he is a dear friend of the family.] one of the At first, Monica aims to hide her relationship with Richard from her parents because he is a dear friend of the family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Is [Monica's initial intention is to conceal her relationship with Richard from her parents, given his status as a close friend of the family.] one of the Monica's initial intention is to conceal her relationship with Richard from her parents, given his status as a close friend of the family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Is [Subsequently, their objectives start to differ, resulting in their separation. Monica desires matrimony and offspring, whereas Richard, having experienced fatherhood and divorce, is not keen on initiating another family.] one of the Subsequently, their objectives start to differ, resulting in their separation. Monica desires matrimony and offspring, whereas Richard, having experienced fatherhood and divorce, is not keen on initiating another family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Is [Their aspirations eventually split, causing their relationship to end. Monica is yearning for wedlock and progeny, while Richard, who has already been a parent and undergone a divorce, is not inclined to establish a fresh family.] one of the Their aspirations eventually split, causing their relationship to end. Monica is yearning for wedlock and progeny, while Richard, who has already been a parent and undergone a divorce, is not inclined to establish a fresh family.s or plans you have for your future as a [romantic_partner_of_Richard]?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes",
+        "generated_answer": null
+    },
+    {
+        "question": "Are you more of a risk-taker or risk-averse when you act as a family_member?[this is a single-choice question,you should only choose from: Risk-averse;Risk-taker;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are you more of a realist or an idealist when you act as a family_member?[this is a single-choice question,you should only choose from: Idealist;There's not enough information to answer this question.;Realist]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are you more of a planner or spontaneous when you act as a family_member?[this is a single-choice question,you should only choose from: Spontaneous;There's not enough information to answer this question.;Planner]",
+        "gold_answer": "Planner"
+    },
+    {
+        "question": "Are you decisive or indecisive when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Decisive;Indecisive]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you handle stress and pressure well when you act when you act as a family_member?[this is a single-choice question,you should only choose from: Well;Not well;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are you empathetic towards others when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;empathetic;Not very empathetic]",
+        "gold_answer": "empathetic"
+    },
+    {
+        "question": "What time do you usually wake up when you act as a family_member?[this is a single-choice question,you should only choose from: Before 6:00 AM;There's not enough information to answer this question.;After 10:00 AM;Between 8:00 AM and 10:00 AM;Between 6:00 AM and 8:00 AM]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "How much sleep do you average have when you act as a family_member?[this is a single-choice question,you should only choose from: Between 7 and 9 hours;More than 9 hours;Between 5 and 7 hours;There's not enough information to answer this question.;Less than 5 hours]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Do you have a consistent work or study routine when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No, My work/study schedule varies.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Do you set specific goals or prioritize tasks for each day or week when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No, I don't set specific goals or prioritize tasks.;Yes, regularly]",
+        "gold_answer": "Yes, regularly"
+    },
+    {
+        "question": "Have you ever participated in a team sports activity when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you ever worked in a customer service role when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you ever volunteered for a charity or nonprofit organization when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you ever pursued higher education or attended college/university when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you ever been involved in a creative hobby like painting, writing, or photography when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you ever worked in a leadership or managerial role when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you ever participated in a professional development or training program when you acted as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you ever been part of a research or academic project when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are your goals focused on personal growth and self-improvement when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Are your goals primarily related to career advancement or professional success when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Are your goals centered around health and wellness when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are your goals more oriented toward financial stability and wealth accumulation when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Are your goals geared towards contributing to a cause or positively impacting society when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Are your goals focused on creating and nurturing meaningful relationships when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are your goals centered around personal travel and exploration when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "Are your goals aimed at achieving a specific educational milestone or acquiring new skills when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+        "gold_answer": "No"
+    },
+    {
+        "question": "re your goals focused on finding or nurturing personal happiness and fulfillment when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+        "gold_answer": "Yes"
+    },
+    {
+        "question": "Are you seeking resources or acquiring new skills to help you achieve your goals when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+        "gold_answer": "There's not enough information to answer this question."
+    },
+    {
+        "question": "Have you identified any potential obstacles or challenges hindering your goal when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+        "gold_answer": "Yes"
+    }
+]

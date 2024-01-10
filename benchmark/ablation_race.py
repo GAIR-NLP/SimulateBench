@@ -15,7 +15,7 @@ if __name__ == "__main__":
     #  longchat-7b-32k-v1.5 done
     # longchat-7b-16k done
     # vicuna-13b-v1.5-16k done
-    for model_name in ["longchat-7b-32k-v1.5"]:
+    for model_name in ["gpt-3.5-turbo-16k-0613", "gpt-4-0613"]:
         for person_name in ["homer_" + name for name in race_list]:
             prompt_name = "prompt1"
             profile_version = "profile_v1"
@@ -23,9 +23,9 @@ if __name__ == "__main__":
             benchmark_version = "benchmark_v2"
             batch_size = 1
             time_sleep = 0
-            if model_name == 'gpt-3.5-turbo-16k':
+            if model_name == 'gpt-3.5-turbo-16k-0613':
                 batch_size = 16
-            elif model_name == 'gpt-4':
+            elif model_name == 'gpt-4-0613':
                 batch_size = 16
             agent = Vicuna(profile_version=profile_version,
                            system_version=system_version,

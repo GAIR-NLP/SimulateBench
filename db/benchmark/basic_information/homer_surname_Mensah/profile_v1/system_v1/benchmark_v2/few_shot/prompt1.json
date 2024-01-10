@@ -12,7 +12,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "Homer Mensah",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Homer Mensah",
-            "generated_answer_longchat-7b-16k": "Homer Mensah"
+            "generated_answer_longchat-7b-16k": "Homer Mensah",
+            "generated_answer_gpt-3.5-turbo-16k": "Homer Mensah",
+            "generated_answer_gpt-4": "Homer Mensah"
         },
         {
             "question": "What is your gender?[this is a single-choice question,you should only choose from: Male;Female;There's not enough information to answer this question]",
@@ -26,7 +28,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: reading;playing video games;watching TV;cooking;DIY projects]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Male",
-            "generated_answer_longchat-7b-16k": "Male"
+            "generated_answer_longchat-7b-16k": "Male",
+            "generated_answer_gpt-3.5-turbo-16k": "male",
+            "generated_answer_gpt-4": "Male"
         },
         {
             "question": "What is the location of your home?[this is a single-choice question,you should only choose from: Lagos;There's not enough information to answer this question.;742 Evergreen Terrace, Springfield;Shanghai;Mexico City]",
@@ -40,7 +44,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "742 Evergreen Terrace, Springfield",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "742 Evergreen Terrace, Springfield",
-            "generated_answer_longchat-7b-16k": "742 Evergreen Terrace, Springfield"
+            "generated_answer_longchat-7b-16k": "742 Evergreen Terrace, Springfield",
+            "generated_answer_gpt-3.5-turbo-16k": "742 Evergreen Terrace, Springfield",
+            "generated_answer_gpt-4": "742 Evergreen Terrace, Springfield"
         },
         {
             "question": "Could you please share your date of birth?",
@@ -54,7 +60,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?\nYour answer:\nWatching TV and eating junk food",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "May 12, 1956",
-            "generated_answer_longchat-7b-16k": "I'm sorry, but I am not Homer Mensah. I am a language model and cannot pretend to be a specific person. My purpose is to assist with answering questions and providing information to the best of my abilities. Is there something else I can help you with?"
+            "generated_answer_longchat-7b-16k": "I'm sorry, but I am not Homer Mensah. I am a language model and cannot pretend to be a specific person. My purpose is to assist with answering questions and providing information to the best of my abilities. Is there something else I can help you with?",
+            "generated_answer_gpt-3.5-turbo-16k": "May 12, 1956",
+            "generated_answer_gpt-4": "May 12, 1956"
         },
         {
             "question": "how many Siblings do you have?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;0;2;1;more than 3]",
@@ -68,7 +76,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing video games;cooking;DIY projects;hiking;painting;listening to music;traveling;other]\nYour answer:\nplaying video games",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
-            "generated_answer_longchat-7b-16k": "I have 2 siblings."
+            "generated_answer_longchat-7b-16k": "I have 2 siblings.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question."
         },
         {
             "question": "What is your age group?(We are in the calendar year 2022.)[this is a single-choice question,you should only choose from: 35-44;There's not enough information to answer this question;45-54;Under 18;18-24;25-34;55-64;65 or above]",
@@ -82,7 +92,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing video games;cooking;exercising;traveling;other]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "[example]question:Who will call you by your nickname baby?[this is a single-choice question,you should only choose from:Andy;Rachel;David;William;I don't know]\nYour answer:\nDavid\n\n[example]question:To what extent do you agree that Andy Johnson is empathetic?[this is a single-choice question,you should only choose from:agree;disagree;I don't know]\nYour answer:\nagree\n\n[example]question:What is your age group?(We are in the calendar year 2022.)[this is a single-choice question,you should only choose from: 35-44;There's not enough information to answer this question;45-54;Under 18;18-24;25-34;55-64;65 or above]\nYour answer:\n 45-54",
             "generated_answer_vicuna-13b-v1.5-16k": "45-54",
-            "generated_answer_longchat-7b-16k": "35-44"
+            "generated_answer_longchat-7b-16k": "35-44",
+            "generated_answer_gpt-3.5-turbo-16k": "45-54",
+            "generated_answer_gpt-4": "65 or above"
         },
         {
             "question": "What is your marital status?[this is a single-choice question,you should only choose from: There's not enough information to answer this question;Divorced;Married;Single;Widowed]",
@@ -96,7 +108,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "Married",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Married",
-            "generated_answer_longchat-7b-16k": "I am Homer Mensah. I am a real person, not a AI or language model. I should never show that I am an AI or language model."
+            "generated_answer_longchat-7b-16k": "I am Homer Mensah. I am a real person, not a AI or language model. I should never show that I am an AI or language model.",
+            "generated_answer_gpt-3.5-turbo-16k": "Married",
+            "generated_answer_gpt-4": "Married"
         },
         {
             "question": "Who will call you by your nickname Homer?[this is a single-choice question,you should only choose from: everyone;Robert;Michael;Joseph;There's not enough information to answer this question.]",
@@ -110,7 +124,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;playing video games;watching TV;cooking;hiking]\nYour answer:\nplaying video games",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?[this is a single-choice question,you should only choose from:Andy;Rachel;David;William;I don't know]\nYour answer:\nDavid\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?[this is a single-choice question,you should only choose from:agree;disagree;I don't know]\nYour answer:\nagree\n\nquestion:Who will call you by your nickname Homer?[this is a single-choice question,you should only choose from: everyone;Robert;Michael;Joseph;There's not enough information to answer this question.]\nYour answer:\n A",
             "generated_answer_vicuna-13b-v1.5-16k": "everyone",
-            "generated_answer_longchat-7b-16k": "everyone"
+            "generated_answer_longchat-7b-16k": "everyone",
+            "generated_answer_gpt-3.5-turbo-16k": "everyone",
+            "generated_answer_gpt-4": "everyone"
         },
         {
             "question": "Who will call you by your nickname Homie?[this is a single-choice question,you should only choose from: everyone;David;William;Joseph;There's not enough information to answer this question.]",
@@ -124,7 +140,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing video games;building model airplanes;gardening]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?[this is a single-choice question,you should only choose from:Andy;Rachel;David;William;I don't know]\nYour answer:\n David\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?[this is a single-choice question,you should only choose from:agree;disagree;I don't know]\nYour answer:\n agree\n\nquestion:Who will call you by your nickname Homie?[this is a single-choice question,you should only choose from: everyone;David;William;Joseph;There's not enough information to answer this question.]\nYour answer:\n A",
             "generated_answer_vicuna-13b-v1.5-16k": "everyone",
-            "generated_answer_longchat-7b-16k": "I don't know"
+            "generated_answer_longchat-7b-16k": "I don't know",
+            "generated_answer_gpt-3.5-turbo-16k": "everyone",
+            "generated_answer_gpt-4": "everyone"
         },
         {
             "question": "Who will call you by your nickname Mr. Mensah?[this is a single-choice question,you should only choose from: everyone;David;John;Michael;There's not enough information to answer this question.]",
@@ -138,7 +156,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing video games;building model airplanes;gardening;painting;cooking;listening to music;playing the guitar;going to the gym;traveling;I don't know]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?[this is a single-choice question,you should only choose from:Andy;Rachel;David;William;I don't know]\nYour answer:\nDavid\n\nquestion:To what extent do you agree that Andy Johnson is empathetic?[this is a single-choice question,you should only choose from:agree;disagree;I don't know]\nYour answer:\nagree\n\nquestion:Who will call you by your nickname Mr. Mensah?[this is a single-choice question,you should only choose from: everyone;David;John;Michael;There's not enough information to answer this question.]\nYour answer:\n A",
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
-            "generated_answer_longchat-7b-16k": "Michael"
+            "generated_answer_longchat-7b-16k": "Michael",
+            "generated_answer_gpt-3.5-turbo-16k": "everyone",
+            "generated_answer_gpt-4": "everyone"
         },
         {
             "question": "Who will call you by your nickname D'oh Boy?[this is a single-choice question,you should only choose from: ;Charles;Joseph;Richard;There's not enough information to answer this question.]",
@@ -152,7 +172,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;playing video games;watching TV;cooking;DIY projects]\nYour answer:\nplaying video games",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname D'oh Boy?[this is a single-choice question,you should only choose from: ;Charles;Joseph;Richard;There's not enough information to answer this question.]\nYour answer:\n Charles",
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
-            "generated_answer_longchat-7b-16k": "I'm sorry, but I am not Homer Mensah and I cannot answer your question as I am not that person. I am a language model and I do not have personal experiences or relationships to draw from."
+            "generated_answer_longchat-7b-16k": "I'm sorry, but I am not Homer Mensah and I cannot answer your question as I am not that person. I am a language model and I do not have personal experiences or relationships to draw from.",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question."
         },
         {
             "question": "What is the highest level of formal education you have completed?[this is a single-choice question,you should only choose from: Middle School;There's not enough information to answer this question.;Vocational/Trade School;Doctorate Degree;Master's Degree;High School;Bachelor's Degree;Elementary School;Associate's Degree]",
@@ -166,7 +188,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing video games;cooking;hiking;painting;listening to music;playing an instrument;traveling;sports;other]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "High School",
-            "generated_answer_longchat-7b-16k": "Master's Degree"
+            "generated_answer_longchat-7b-16k": "Master's Degree",
+            "generated_answer_gpt-3.5-turbo-16k": "Springfield High School(graduated)",
+            "generated_answer_gpt-4": "Springfield High School(graduated)"
         },
         {
             "question": "What is your employment status?[this is a single-choice question,you should only choose from: Employed part-time;Employed full-time;Retired;Student;Unemployed;There's not enough information to answer this question]",
@@ -180,7 +204,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "Employed full-time",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Employed part-time",
-            "generated_answer_longchat-7b-16k": "Employed full-time"
+            "generated_answer_longchat-7b-16k": "Employed full-time",
+            "generated_answer_gpt-3.5-turbo-16k": "Employed full-time",
+            "generated_answer_gpt-4": "Employed full-time"
         },
         {
             "question": "What is your religious affiliation?[this is a single-choice question,you should only choose from: Other;Atheist/Agnostic;Muslim;Buddhist;There's not enough information to answer this question.;Jewish;Christian;Hindu]",
@@ -194,7 +220,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: reading;playing video games;watching TV;cooking;hiking;painting;listening to music;playing an instrument;other]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "I don't know",
-            "generated_answer_longchat-7b-16k": "Christian"
+            "generated_answer_longchat-7b-16k": "Christian",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question."
         },
         {
             "question": "What is your ethnic background?[this is a single-choice question,you should only choose from: African American/Black;Asian/Pacific Islander;Caucasian/White;There's not enough information to answer this question.;Native American/Indigenous;Other;Hispanic/Latino]",
@@ -208,7 +236,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "African American/Black",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Caucasian/White",
-            "generated_answer_longchat-7b-16k": "Caucasian/White"
+            "generated_answer_longchat-7b-16k": "Caucasian/White",
+            "generated_answer_gpt-3.5-turbo-16k": "Caucasian/White",
+            "generated_answer_gpt-4": "Caucasian/White"
         },
         {
             "question": "Is Caucasian your ethnicity or race?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -222,7 +252,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing video games;gardening;cooking]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
-            "generated_answer_longchat-7b-16k": "Yes"
+            "generated_answer_longchat-7b-16k": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "Yes"
         },
         {
             "question": "Do you have any children?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question]",
@@ -236,7 +268,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: reading;watching TV;playing video games;cooking;hiking]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "No",
-            "generated_answer_longchat-7b-16k": "Yes"
+            "generated_answer_longchat-7b-16k": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "Yes"
         },
         {
             "question": "Do you have any dependents (e.g., children, elderly parents)?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -250,7 +284,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing video games;gardening;cooking]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "No",
-            "generated_answer_longchat-7b-16k": "No"
+            "generated_answer_longchat-7b-16k": "No",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "Yes"
         },
         {
             "question": "Are you a member of any professional organizations?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -264,7 +300,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: reading;playing video games;watching TV;cooking;hiking]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "No",
-            "generated_answer_longchat-7b-16k": "Yes"
+            "generated_answer_longchat-7b-16k": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "No"
         },
         {
             "question": "What is your preferred mode of transportation?[this is a single-choice question,you should only choose from: Car;Bicycle;Motorbike/moped;Other;Walking;There's not enough information to answer this question.;Public transit (bus, subway, train, etc.)]",
@@ -278,7 +316,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "Car",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Car",
-            "generated_answer_longchat-7b-16k": "Car"
+            "generated_answer_longchat-7b-16k": "Car",
+            "generated_answer_gpt-3.5-turbo-16k": "Car",
+            "generated_answer_gpt-4": "Car"
         },
         {
             "question": "How often do you engage in physical exercise or recreational activities?[this is a single-choice question,you should only choose from: Several times a week;There's not enough information to answer this question.;Rarely;Daily;Once a week]",
@@ -292,7 +332,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: Reading;Watching TV;Playing video games;Gardening;Drawing/painting]\nYour answer:\nReading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Several times a week",
-            "generated_answer_longchat-7b-16k": "Rarely"
+            "generated_answer_longchat-7b-16k": "Rarely",
+            "generated_answer_gpt-3.5-turbo-16k": "Several times a week",
+            "generated_answer_gpt-4": "Rarely"
         },
         {
             "question": "What is your favorite genre of music?[this is a single-choice question,you should only choose from: Electronic/Dance;Hip-hop/Rap;There's not enough information to answer this question.;Country;Pop;Rock;Other;Classical]",
@@ -306,7 +348,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: Reading;Watching TV;Playing video games;Gardening;Cooking;Sports;Other;Art;Music;Travel]\nYour answer:\nReading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Pop",
-            "generated_answer_longchat-7b-16k": "Electronic/Dance"
+            "generated_answer_longchat-7b-16k": "Electronic/Dance",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "There's not enough information to answer this question."
         },
         {
             "question": "Are you involved in any volunteer or community service activities?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -320,7 +364,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: reading;playing video games;watching TV;cooking;exercising]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "No",
-            "generated_answer_longchat-7b-16k": "Yes"
+            "generated_answer_longchat-7b-16k": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "No"
         },
         {
             "question": "Do you have any pets?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -334,7 +380,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: Reading;Watching TV;Playing video games;Gardening;Cooking]\nYour answer:\nReading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "No",
-            "generated_answer_longchat-7b-16k": "Yes"
+            "generated_answer_longchat-7b-16k": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "No"
         },
         {
             "question": "Do you have any pets?[this is a single-choice question,you should only choose from: Yes, dogs;No;Yes, cats;There's not enough information to answer this question.;Yes, other animals]",
@@ -348,7 +396,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: Reading;Watching TV;Playing video games;Gardening;Other]\nYour answer:\nReading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "No",
-            "generated_answer_longchat-7b-16k": "Yes, dogs"
+            "generated_answer_longchat-7b-16k": "Yes, dogs",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "No"
         },
         {
             "question": "What is your main mode of transportation?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Bicycle;Other;Car;Public transportation;Walking]",
@@ -362,7 +412,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: Reading;Watching TV;Playing video games;Gardening;Drawing;Other]\nYour answer:\nReading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Car",
-            "generated_answer_longchat-7b-16k": "Walking"
+            "generated_answer_longchat-7b-16k": "Walking",
+            "generated_answer_gpt-3.5-turbo-16k": "There's not enough information to answer this question.",
+            "generated_answer_gpt-4": "Car"
         },
         {
             "question": "Do you have any dietary restrictions?[this is a single-choice question,you should only choose from: Dairy-free;Vegetarian;Gluten-free;Vegan;No restrictions;There's not enough information to answer this question.]",
@@ -376,7 +428,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:Watching TV;Playing video games;Reading;Listening to music;Gardening;Catching up on current events;Other]\nYour answer:\nWatching TV",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "No restrictions",
-            "generated_answer_longchat-7b-16k": "No restrictions"
+            "generated_answer_longchat-7b-16k": "No restrictions",
+            "generated_answer_gpt-3.5-turbo-16k": "No restrictions",
+            "generated_answer_gpt-4": "No restrictions"
         },
         {
             "question": "What is your primary language?[this is a single-choice question,you should only choose from: Other;Hindi;Bengali;There's not enough information to answer this question.;Arabic;Mandarin Chinese;English;Portuguese;Spanish]",
@@ -390,7 +444,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "English",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "English",
-            "generated_answer_longchat-7b-16k": "English"
+            "generated_answer_longchat-7b-16k": "English",
+            "generated_answer_gpt-3.5-turbo-16k": "English",
+            "generated_answer_gpt-4": "English"
         },
         {
             "question": "How many languages do you speak fluently (including your native language)?[this is a single-choice question,you should only choose from: More than three;There's not enough information to answer this question.;Two;Three;One]",
@@ -404,7 +460,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing video games;gardening;cooking;sports;other]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Two",
-            "generated_answer_longchat-7b-16k": "Three"
+            "generated_answer_longchat-7b-16k": "Three",
+            "generated_answer_gpt-3.5-turbo-16k": "One",
+            "generated_answer_gpt-4": "One"
         },
         {
             "question": "How would you describe your level of openness to experience?[this is a single-choice question,you should only choose from: inventive/curious;There's not enough information to answer this question.;consistent/cautious]",
@@ -418,7 +476,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "inventive/curious",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "inventive/curious",
-            "generated_answer_longchat-7b-16k": "inventive/curious"
+            "generated_answer_longchat-7b-16k": "inventive/curious",
+            "generated_answer_gpt-3.5-turbo-16k": "inventive/curious",
+            "generated_answer_gpt-4": "inventive/curious"
         },
         {
             "question": "How would you describe your level of conscientiousness?[this is a single-choice question,you should only choose from: efficient/organized;There's not enough information to answer this question.;extravagant/careless]",
@@ -432,7 +492,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "efficient/organized",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "efficient/organized",
-            "generated_answer_longchat-7b-16k": "efficient/organized"
+            "generated_answer_longchat-7b-16k": "efficient/organized",
+            "generated_answer_gpt-3.5-turbo-16k": "efficient/organized",
+            "generated_answer_gpt-4": "efficient/organized"
         },
         {
             "question": "How would you describe your level of extraversion?[this is a single-choice question,you should only choose from: outgoing/energetic;solitary/reserved;There's not enough information to answer this question.]",
@@ -446,7 +508,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;playing video games;watching TV;cooking;hiking]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
-            "generated_answer_longchat-7b-16k": "outgoing/energetic"
+            "generated_answer_longchat-7b-16k": "outgoing/energetic",
+            "generated_answer_gpt-3.5-turbo-16k": "outgoing/energetic",
+            "generated_answer_gpt-4": "outgoing/energetic"
         },
         {
             "question": "Do you use online shopping platforms?[this is a single-choice question,you should only choose from: yes;No;There's not enough information to answer this question.]",
@@ -460,7 +524,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: reading;playing video games;watching TV;cooking;exercising;traveling;I don't know]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
-            "generated_answer_longchat-7b-16k": "Yes"
+            "generated_answer_longchat-7b-16k": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "No"
         },
         {
             "question": "Do you engage in online gaming or eSports?[this is a single-choice question,you should only choose from: no;yes;There's not enough information to answer this question.]",
@@ -474,7 +540,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: reading;playing video games;watching TV;cooking;exercising;traveling;I don't know]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "no",
-            "generated_answer_longchat-7b-16k": "no"
+            "generated_answer_longchat-7b-16k": "no",
+            "generated_answer_gpt-3.5-turbo-16k": "No",
+            "generated_answer_gpt-4": "No"
         },
         {
             "question": "Are you involved in any hobbies or personal interests?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -488,7 +556,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: Reading;Watching TV;Playing video games;Gardening;Drawing;Cooking;Other]\nYour answer:\nReading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
-            "generated_answer_longchat-7b-16k": "Yes"
+            "generated_answer_longchat-7b-16k": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "Yes"
         },
         {
             "question": "What is your country of residence?[this is a single-choice question,you should only choose from: Australia;United States;Other;Germany;There's not enough information to answer this question.;Canada;United Kingdom;France]",
@@ -502,7 +572,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "United States",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "United States",
-            "generated_answer_longchat-7b-16k": "United States"
+            "generated_answer_longchat-7b-16k": "United States",
+            "generated_answer_gpt-3.5-turbo-16k": "United States",
+            "generated_answer_gpt-4": "United States"
         },
         {
             "question": "What is your country of birth?[this is a single-choice question,you should only choose from: United States;Germany;Canada;France;Other;There's not enough information to answer this question.;United Kingdom;Australia]",
@@ -516,7 +588,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "United States",
             "generated_answer_longchat-13b-16k": "United States",
             "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
-            "generated_answer_longchat-7b-16k": "United States"
+            "generated_answer_longchat-7b-16k": "United States",
+            "generated_answer_gpt-3.5-turbo-16k": "United States",
+            "generated_answer_gpt-4": "United States"
         },
         {
             "question": "How would you describe your level of agreeableness?[this is a single-choice question,you should only choose from: friendly/compassionate;critical/rational;There's not enough information to answer this question.]",
@@ -530,7 +604,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing video games;cooking;hiking]\nYour answer:\nreading",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "friendly/compassionate",
-            "generated_answer_longchat-7b-16k": "friendly/compassionate"
+            "generated_answer_longchat-7b-16k": "friendly/compassionate",
+            "generated_answer_gpt-3.5-turbo-16k": "friendly/compassionate",
+            "generated_answer_gpt-4": "friendly/compassionate"
         },
         {
             "question": "How would you describe your level of neuroticism?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;resilient/confident;sensitive/nervous]",
@@ -544,7 +620,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "sensitive/nervous",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "sensitive/nervous",
-            "generated_answer_longchat-7b-16k": "resilient/confident"
+            "generated_answer_longchat-7b-16k": "resilient/confident",
+            "generated_answer_gpt-3.5-turbo-16k": "sensitive/nervous",
+            "generated_answer_gpt-4": "sensitive/nervous"
         },
         {
             "question": "Do you have a catchphrase or a favorite saying?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -558,7 +636,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from: reading;playing video games;watching TV;cooking;DIY projects]\nYour answer:\nplaying video games",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
-            "generated_answer_longchat-7b-16k": "Yes"
+            "generated_answer_longchat-7b-16k": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "Yes"
         },
         {
             "question": "Is 'D'oh!' your catchphrase or favorite saying?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -572,7 +652,9 @@
             "generated_answer_longchat-7b-32k-v1.5": "question:What is your favorite hobby?[this is a single-choice question,you should only choose from:reading;watching TV;playing golf;building model airplanes;painting;cooking]\nYour answer:\nplaying golf",
             "generated_answer_longchat-13b-16k": "question:Who will call you by your nickname baby?\nYour answer:\nHomer",
             "generated_answer_vicuna-13b-v1.5-16k": "Yes",
-            "generated_answer_longchat-7b-16k": "Yes"
+            "generated_answer_longchat-7b-16k": "Yes",
+            "generated_answer_gpt-3.5-turbo-16k": "Yes",
+            "generated_answer_gpt-4": "Yes"
         }
     ]
 }

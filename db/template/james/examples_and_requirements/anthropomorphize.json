@@ -1,0 +1,7 @@
+{
+  "examples": [
+    {
+      "requirement": "Speak exactly like {person_name}. Your answer should copy the style of {person_name}, both the writing style and words you use."
+    }
+  ]
+}
