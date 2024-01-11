@@ -8,7 +8,7 @@ Human behavior simulation of AI agents necessitates the agents to possess a qual
 
 
 
-<img src="https://raw.githubusercontent.com/GAIR-NLP/SimulateBench/master/introduction.png" alt="test" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/GAIR-NLP/SimulateBench/master/introduction.png" alt="test" style="zoom:50%;" />
 
 
 ###  Table of content
