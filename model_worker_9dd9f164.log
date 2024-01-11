@@ -1,0 +1,6 @@
+2023-10-02 02:33:35 | ERROR | stderr | usage: model_worker.py [-h] [--host HOST] [--port PORT] [--worker-address WORKER_ADDRESS] [--controller-address CONTROLLER_ADDRESS] [--model-path MODEL_PATH]
+2023-10-02 02:33:35 | ERROR | stderr |                        [--revision REVISION] [--device {cpu,cuda,mps,xpu}] [--gpus GPUS] [--num-gpus NUM_GPUS] [--max-gpu-memory MAX_GPU_MEMORY] [--load-8bit]
+2023-10-02 02:33:35 | ERROR | stderr |                        [--cpu-offloading] [--gptq-ckpt GPTQ_CKPT] [--gptq-wbits {2,3,4,8,16}] [--gptq-groupsize GPTQ_GROUPSIZE] [--gptq-act-order]
+2023-10-02 02:33:35 | ERROR | stderr |                        [--awq-ckpt AWQ_CKPT] [--awq-wbits {4,16}] [--awq-groupsize AWQ_GROUPSIZE] [--model-names MODEL_NAMES] [--conv-template CONV_TEMPLATE]
+2023-10-02 02:33:35 | ERROR | stderr |                        [--limit-worker-concurrency LIMIT_WORKER_CONCURRENCY] [--stream-interval STREAM_INTERVAL] [--no-register]
+2023-10-02 02:33:35 | ERROR | stderr | model_worker.py: error: argument --device: invalid choice: '3' (choose from 'cpu', 'cuda', 'mps', 'xpu')

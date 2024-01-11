@@ -1,0 +1,38 @@
+2023-08-28 10:00:36 | INFO | model_worker | args: Namespace(host='localhost', port=21002, worker_address='http://localhost:21002', controller_address='http://localhost:21001', model_path='lmsys/longchat-7b-32k-v1.5', revision='main', device='cuda', gpus=None, num_gpus=4, max_gpu_memory=None, load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, model_names=['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-08-28 10:00:36 | INFO | model_worker | Loading the model ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'] on worker 3de4b16e ...
+2023-08-28 10:00:39 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                 | 0/2 [00:00<?, ?it/s]
+2023-08-28 10:00:47 | ERROR | stderr | Loading checkpoint shards:  50%|████████████████████████████████████████████████████▌                                                    | 1/2 [00:08<00:08,  8.02s/it]
+2023-08-28 10:00:49 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:10<00:00,  4.54s/it]
+2023-08-28 10:00:49 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:10<00:00,  5.06s/it]
+2023-08-28 10:00:49 | ERROR | stderr | 
+2023-08-28 10:00:50 | INFO | model_worker | Register to controller
+2023-08-28 10:00:50 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1031721[0m]
+2023-08-28 10:00:50 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-08-28 10:00:50 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-08-28 10:00:50 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:21002[0m (Press CTRL+C to quit)
+2023-08-28 10:00:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50034 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:00:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50034 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50038 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49942 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49942 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49958 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49960 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49960 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49976 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49986 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49986 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49988 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 10:01:35 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: 3de4b16e. 
+2023-08-28 10:02:20 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: 3de4b16e. 
+2023-08-28 10:03:05 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: 3de4b16e. 
+2023-08-28 10:03:50 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: 3de4b16e. 
+2023-08-28 10:04:35 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: 3de4b16e. 
+2023-08-28 10:05:20 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: 3de4b16e. 
+2023-08-28 10:06:05 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: 3de4b16e. 
+2023-08-28 10:06:50 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: 3de4b16e. 
+2023-08-28 10:07:35 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 4. worker_id: 3de4b16e. 
+2023-08-28 10:07:35 | ERROR | model_worker | heart beat error: HTTPConnectionPool(host='localhost', port=21001): Max retries exceeded with url: /receive_heart_beat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f12601a84c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-08-28 10:07:35 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2023-08-28 10:07:36 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2023-08-28 10:07:36 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2023-08-28 10:07:36 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m1031721[0m]

@@ -1,0 +1,26 @@
+2023-10-01 08:56:35 | INFO | model_worker | args: Namespace(host='localhost', port=21004, worker_address='http://localhost:21002', controller_address='http://localhost:21003', model_path='/data/ckpts/huggingface/models/models--lmsys--vicuna-7b-v1.5-16k/snapshots', revision='main', device='cuda', gpus=None, num_gpus=1, max_gpu_memory=None, load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, model_names=['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-10-01 08:56:35 | INFO | model_worker | Loading the model ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'] on worker dcf48450 ...
+2023-10-01 08:56:35 | ERROR | stderr | Traceback (most recent call last):
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+2023-10-01 08:56:35 | ERROR | stderr |     return _run_code(code, main_globals, None,
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/runpy.py", line 87, in _run_code
+2023-10-01 08:56:35 | ERROR | stderr |     exec(code, run_globals)
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 467, in <module>
+2023-10-01 08:56:35 | ERROR | stderr |     worker = ModelWorker(
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 207, in __init__
+2023-10-01 08:56:35 | ERROR | stderr |     self.model, self.tokenizer = load_model(
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/model/model_adapter.py", line 268, in load_model
+2023-10-01 08:56:35 | ERROR | stderr |     model, tokenizer = adapter.load_model(model_path, kwargs)
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/model/model_adapter.py", line 515, in load_model
+2023-10-01 08:56:35 | ERROR | stderr |     tokenizer = AutoTokenizer.from_pretrained(
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 667, in from_pretrained
+2023-10-01 08:56:35 | ERROR | stderr |     config = AutoConfig.from_pretrained(
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/models/auto/configuration_auto.py", line 983, in from_pretrained
+2023-10-01 08:56:35 | ERROR | stderr |     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/configuration_utils.py", line 617, in get_config_dict
+2023-10-01 08:56:35 | ERROR | stderr |     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/configuration_utils.py", line 672, in _get_config_dict
+2023-10-01 08:56:35 | ERROR | stderr |     resolved_config_file = cached_file(
+2023-10-01 08:56:35 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/utils/hub.py", line 388, in cached_file
+2023-10-01 08:56:35 | ERROR | stderr |     raise EnvironmentError(
+2023-10-01 08:56:35 | ERROR | stderr | OSError: /data/ckpts/huggingface/models/models--lmsys--vicuna-7b-v1.5-16k/snapshots does not appear to have a file named config.json. Checkout 'https://huggingface.co//data/ckpts/huggingface/models/models--lmsys--vicuna-7b-v1.5-16k/snapshots/main' for available files.

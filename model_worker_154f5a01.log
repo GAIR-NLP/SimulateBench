@@ -1,0 +1,35 @@
+2023-10-02 02:31:00 | INFO | model_worker | args: Namespace(host='localhost', port=21008, worker_address='http://localhost:21008', controller_address='http://localhost:21007', model_path='/data/ckpts/huggingface/models/models--lmsys--longchat-13b-16k/snapshots/70e2e38b82f1e25d8b90b50fbfc2361123bef45f', revision='main', device='cuda', gpus='3,4', num_gpus=1, max_gpu_memory=None, load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, model_names=['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-10-02 02:31:00 | INFO | model_worker | Loading the model ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'] on worker 154f5a01 ...
+2023-10-02 02:31:00 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                 | 0/3 [00:00<?, ?it/s]
+2023-10-02 02:31:04 | ERROR | stderr | Loading checkpoint shards:  33%|███████████████████████████████████                                                                      | 1/3 [00:04<00:09,  4.56s/it]
+2023-10-02 02:31:09 | ERROR | stderr | Loading checkpoint shards:  67%|██████████████████████████████████████████████████████████████████████                                   | 2/3 [00:09<00:04,  4.71s/it]
+2023-10-02 02:31:12 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:12<00:00,  4.05s/it]
+2023-10-02 02:31:12 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:12<00:00,  4.21s/it]
+2023-10-02 02:31:12 | ERROR | stderr | 
+2023-10-02 02:31:18 | ERROR | stderr | Traceback (most recent call last):
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+2023-10-02 02:31:18 | ERROR | stderr |     return _run_code(code, main_globals, None,
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/runpy.py", line 87, in _run_code
+2023-10-02 02:31:18 | ERROR | stderr |     exec(code, run_globals)
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 467, in <module>
+2023-10-02 02:31:18 | ERROR | stderr |     worker = ModelWorker(
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 207, in __init__
+2023-10-02 02:31:18 | ERROR | stderr |     self.model, self.tokenizer = load_model(
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/model/model_adapter.py", line 274, in load_model
+2023-10-02 02:31:18 | ERROR | stderr |     model.to(device)
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/modeling_utils.py", line 1900, in to
+2023-10-02 02:31:18 | ERROR | stderr |     return super().to(*args, **kwargs)
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1145, in to
+2023-10-02 02:31:18 | ERROR | stderr |     return self._apply(convert)
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/torch/nn/modules/module.py", line 797, in _apply
+2023-10-02 02:31:18 | ERROR | stderr |     module._apply(fn)
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/torch/nn/modules/module.py", line 797, in _apply
+2023-10-02 02:31:18 | ERROR | stderr |     module._apply(fn)
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/torch/nn/modules/module.py", line 797, in _apply
+2023-10-02 02:31:18 | ERROR | stderr |     module._apply(fn)
+2023-10-02 02:31:18 | ERROR | stderr |   [Previous line repeated 2 more times]
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/torch/nn/modules/module.py", line 820, in _apply
+2023-10-02 02:31:18 | ERROR | stderr |     param_applied = fn(param)
+2023-10-02 02:31:18 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1143, in convert
+2023-10-02 02:31:18 | ERROR | stderr |     return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+2023-10-02 02:31:18 | ERROR | stderr | torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 136.00 MiB (GPU 0; 79.21 GiB total capacity; 10.61 GiB already allocated; 10.62 MiB free; 10.62 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

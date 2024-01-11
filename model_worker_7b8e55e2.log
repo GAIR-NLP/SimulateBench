@@ -1,0 +1,40 @@
+2023-08-28 11:10:39 | INFO | model_worker | args: Namespace(host='localhost', port=21002, worker_address='http://localhost:21002', controller_address='http://localhost:21001', model_path='lmsys/longchat-7b-32k-v1.5', revision='main', device='cuda', gpus='1,2,6,5', num_gpus=1, max_gpu_memory='10GiB', load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, model_names=['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-08-28 11:10:39 | INFO | model_worker | Loading the model ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'] on worker 7b8e55e2 ...
+2023-08-28 11:10:40 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                 | 0/2 [00:00<?, ?it/s]
+2023-08-28 11:10:45 | ERROR | stderr | Loading checkpoint shards:  50%|████████████████████████████████████████████████████▌                                                    | 1/2 [00:04<00:04,  4.37s/it]
+2023-08-28 11:10:46 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:05<00:00,  2.70s/it]
+2023-08-28 11:10:46 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:05<00:00,  2.95s/it]
+2023-08-28 11:10:46 | ERROR | stderr | 
+2023-08-28 11:10:55 | INFO | model_worker | Register to controller
+2023-08-28 11:10:55 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1044691[0m]
+2023-08-28 11:10:55 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-08-28 11:10:55 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-08-28 11:10:55 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:21002[0m (Press CTRL+C to quit)
+2023-08-28 11:11:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51304 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51304 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51310 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51324 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51324 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51338 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51350 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51350 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51354 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36838 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36838 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36848 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45010 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45010 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45012 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43966 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43966 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43972 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 11:11:40 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 6. worker_id: 7b8e55e2. 
+2023-08-28 11:11:45 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2023-08-28 11:11:45 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2023-08-28 11:11:45 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2023-08-28 11:11:45 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m1044691[0m]
+2023-08-28 11:11:49 | ERROR | stderr | Exception ignored in: <module 'threading' from '/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/threading.py'>
+2023-08-28 11:11:49 | ERROR | stderr | Traceback (most recent call last):
+2023-08-28 11:11:49 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/threading.py", line 1477, in _shutdown
+2023-08-28 11:11:49 | ERROR | stderr |     lock.acquire()
+2023-08-28 11:11:49 | ERROR | stderr | KeyboardInterrupt:

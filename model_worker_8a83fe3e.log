@@ -1,0 +1,1314 @@
+2023-08-28 08:08:11 | INFO | model_worker | args: Namespace(host='localhost', port=21002, worker_address='http://localhost:21002', controller_address='http://localhost:21001', model_path='lmsys/vicuna-7b-v1.5-16k', revision='main', device='cuda', gpus=None, num_gpus=1, max_gpu_memory=None, load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, model_names=['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-08-28 08:08:11 | INFO | model_worker | Loading the model ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'] on worker 8a83fe3e ...
+2023-08-28 08:08:13 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                 | 0/2 [00:00<?, ?it/s]
+2023-08-28 08:08:17 | ERROR | stderr | Loading checkpoint shards:  50%|████████████████████████████████████████████████████▌                                                    | 1/2 [00:04<00:04,  4.29s/it]
+2023-08-28 08:08:19 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:05<00:00,  2.64s/it]
+2023-08-28 08:08:19 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:05<00:00,  2.89s/it]
+2023-08-28 08:08:19 | ERROR | stderr | 
+2023-08-28 08:08:22 | INFO | model_worker | Register to controller
+2023-08-28 08:08:22 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1003803[0m]
+2023-08-28 08:08:22 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-08-28 08:08:22 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-08-28 08:08:22 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:21002[0m (Press CTRL+C to quit)
+2023-08-28 08:09:07 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: 8a83fe3e. 
+2023-08-28 08:09:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35494 - "[1mPOST /worker_get_conv_template HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:09:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35508 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:09:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35508 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:09:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35514 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:09:53 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: 8a83fe3e. 
+2023-08-28 08:10:38 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: 8a83fe3e. 
+2023-08-28 08:10:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49346 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49346 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49354 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34146 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34146 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34158 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34174 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34174 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34188 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34194 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34194 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34198 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58772 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58772 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58774 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58788 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:10:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58788 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58802 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50094 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50094 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50110 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50120 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50120 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50132 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48278 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48278 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:23 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 10. worker_id: 8a83fe3e. 
+2023-08-28 08:11:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48290 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36478 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36478 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36494 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36508 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36508 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36518 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35586 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35586 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35588 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35594 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35594 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35596 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56934 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56934 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56948 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41510 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:11:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41510 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41518 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41524 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41524 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41538 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46286 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46286 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:08 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 18. worker_id: 8a83fe3e. 
+2023-08-28 08:12:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46290 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35340 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35340 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35352 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35362 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35362 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35376 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34138 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34138 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34144 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34152 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34152 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34162 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40062 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40062 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40074 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57058 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57058 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57070 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57086 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57086 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:53 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 25. worker_id: 8a83fe3e. 
+2023-08-28 08:12:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57100 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49806 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49806 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:12:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49812 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49828 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49828 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49842 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37414 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37414 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37416 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35074 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35074 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35080 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35088 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35088 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47326 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47338 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47338 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47350 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41598 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41598 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:38 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 32. worker_id: 8a83fe3e. 
+2023-08-28 08:13:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41610 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41620 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41620 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41632 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60124 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60124 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60134 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43868 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43868 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43872 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43886 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:13:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43886 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43894 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32810 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32810 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32824 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32834 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32834 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32850 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52168 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52168 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52170 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52224 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52224 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:23 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 40. worker_id: 8a83fe3e. 
+2023-08-28 08:14:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52228 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52232 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52232 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52238 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57162 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57162 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57174 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57176 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57176 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57192 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52030 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52030 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52032 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60842 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:14:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60842 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60856 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60872 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60872 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60878 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46762 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46762 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46770 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:08 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 47. worker_id: 8a83fe3e. 
+2023-08-28 08:15:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46778 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46778 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46790 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53410 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53410 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53420 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53428 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53428 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53438 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54892 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54892 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54906 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35212 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35212 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35222 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35232 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35232 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35236 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39528 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39528 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39536 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53424 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53424 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:53 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 55. worker_id: 8a83fe3e. 
+2023-08-28 08:15:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53436 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53450 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:15:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53450 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53466 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57202 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57202 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57216 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51102 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51102 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51110 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51120 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51120 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54524 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54530 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54530 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54542 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33816 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33816 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33826 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33836 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33836 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:38 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 62. worker_id: 8a83fe3e. 
+2023-08-28 08:16:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33838 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42336 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42336 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42346 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42352 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42352 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42358 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53068 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:16:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53068 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53082 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43304 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43304 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43314 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54214 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54214 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:23 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 67. worker_id: 8a83fe3e. 
+2023-08-28 08:17:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54224 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57434 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57434 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57438 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56468 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56468 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56482 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56496 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56496 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56500 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40256 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40256 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40270 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40286 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40286 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40294 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38716 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:17:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38716 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38726 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:08 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 73. worker_id: 8a83fe3e. 
+2023-08-28 08:18:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46414 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46414 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46430 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42500 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42500 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42502 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43492 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43492 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43504 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43514 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43514 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43530 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43540 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43540 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:41 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43550 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:41 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48818 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:41 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48818 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48820 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47564 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47564 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:18:53 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 80. worker_id: 8a83fe3e. 
+2023-08-28 08:19:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47566 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40552 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40552 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40566 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40572 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40572 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40588 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48846 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48846 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48862 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55378 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55378 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55386 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55394 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55394 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55396 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60142 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60142 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:38 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 86. worker_id: 8a83fe3e. 
+2023-08-28 08:19:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60158 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52666 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52666 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52672 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38588 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:19:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38588 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38592 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43060 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43060 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:23 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 89. worker_id: 8a83fe3e. 
+2023-08-28 08:20:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43066 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41316 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41316 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41324 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50692 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50692 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50706 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50708 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50708 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50722 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35966 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:20:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35966 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35974 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49452 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49452 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:08 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 94. worker_id: 8a83fe3e. 
+2023-08-28 08:21:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49458 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36256 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36256 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36264 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35590 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35590 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35592 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35606 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35606 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35612 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57284 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57284 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57296 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45872 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45872 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45878 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45888 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45888 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:53 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 100. worker_id: 8a83fe3e. 
+2023-08-28 08:21:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45890 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51212 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:21:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51212 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51218 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44784 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44784 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44788 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44798 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44798 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44802 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53282 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53282 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53290 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53302 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53302 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53308 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46416 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46416 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46432 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46434 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46434 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46446 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56836 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56836 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:38 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 108. worker_id: 8a83fe3e. 
+2023-08-28 08:22:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56846 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44120 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44120 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44132 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47610 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:22:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47610 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47624 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47630 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47630 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47632 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53752 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53752 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53754 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54810 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54810 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54812 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37074 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37074 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:23 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 114. worker_id: 8a83fe3e. 
+2023-08-28 08:23:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37076 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37078 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37078 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37092 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51084 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51084 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51086 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44892 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44892 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44898 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44914 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44914 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44916 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41552 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:23:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41552 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41554 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41560 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41560 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:08 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 120. worker_id: 8a83fe3e. 
+2023-08-28 08:24:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41570 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46452 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46452 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46464 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45448 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45448 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45462 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38426 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38426 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38428 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38436 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38436 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38440 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33374 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33374 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33376 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33388 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33388 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33396 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37922 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37922 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37926 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35800 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35800 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:53 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 128. worker_id: 8a83fe3e. 
+2023-08-28 08:24:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35814 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35828 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:24:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35828 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35844 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35850 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35850 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35862 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49482 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49482 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49486 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39008 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39008 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39016 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51100 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51100 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51104 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46076 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46076 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:39 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 134. worker_id: 8a83fe3e. 
+2023-08-28 08:25:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46080 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46090 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46090 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46096 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40508 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40508 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40518 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42552 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42552 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42554 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42564 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:25:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42564 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42566 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40598 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40598 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40614 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40626 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40626 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40628 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50108 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50108 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50112 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49380 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49380 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:24 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 142. worker_id: 8a83fe3e. 
+2023-08-28 08:26:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49382 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49386 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49386 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49396 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56238 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56238 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56252 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56256 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56256 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56266 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52362 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52362 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52374 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54634 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54634 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54650 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:26:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54666 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54666 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54682 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41670 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41670 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:09 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 149. worker_id: 8a83fe3e. 
+2023-08-28 08:27:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41684 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41686 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41686 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41694 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34464 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34464 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34478 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53384 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53384 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53400 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59410 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59410 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59424 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59430 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59430 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59434 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54152 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54152 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54168 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54172 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54172 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:54 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 156. worker_id: 8a83fe3e. 
+2023-08-28 08:27:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34508 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:27:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34522 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34522 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34524 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52458 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52458 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52466 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52474 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52474 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52480 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55490 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55490 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55504 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45286 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45286 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45290 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45298 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45298 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45306 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45322 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45322 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45334 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44746 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44746 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:39 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 164. worker_id: 8a83fe3e. 
+2023-08-28 08:28:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44758 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36814 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36814 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36828 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57716 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:28:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57716 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57726 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54532 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54532 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54546 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54556 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54556 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54568 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35918 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35918 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35930 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32930 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32930 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:24 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 170. worker_id: 8a83fe3e. 
+2023-08-28 08:29:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32940 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32948 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32948 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32964 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59422 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59422 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59426 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51420 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51420 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51434 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38144 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:29:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38144 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38150 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36436 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36436 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36438 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36452 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36452 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:09 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 176. worker_id: 8a83fe3e. 
+2023-08-28 08:30:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36460 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32904 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32904 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32906 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52004 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52004 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52012 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52014 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52014 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52022 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59404 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59404 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59408 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59412 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59412 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59424 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41546 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41546 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41550 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41562 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41562 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41564 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41566 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41566 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:54 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 184. worker_id: 8a83fe3e. 
+2023-08-28 08:30:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41582 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39670 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:30:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39670 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39680 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34332 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34332 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34348 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34362 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34362 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34376 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43838 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43838 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43844 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38900 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38900 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38908 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38912 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38912 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38922 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32978 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32978 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:39 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 191. worker_id: 8a83fe3e. 
+2023-08-28 08:31:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32994 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55114 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55114 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55120 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47026 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47026 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47036 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47048 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47048 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47054 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47056 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:31:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47056 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47072 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40384 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40384 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40392 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40402 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40402 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40416 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40422 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40422 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40432 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32796 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32796 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32800 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32816 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32816 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:24 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 200. worker_id: 8a83fe3e. 
+2023-08-28 08:32:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32822 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47052 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47052 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47058 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59858 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59858 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59874 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59880 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59880 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59892 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32960 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32960 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32972 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32980 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32980 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32992 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33000 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33000 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57164 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57172 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:32:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57172 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57178 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47832 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47832 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47842 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47846 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47846 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:09 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 209. worker_id: 8a83fe3e. 
+2023-08-28 08:33:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47856 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38052 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38052 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38062 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38068 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38068 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38070 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38074 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38074 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38082 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47132 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47132 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47142 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37626 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37626 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37634 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37642 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37642 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37656 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46610 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46610 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46622 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46634 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46634 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46638 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58434 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58434 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:54 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 218. worker_id: 8a83fe3e. 
+2023-08-28 08:33:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58450 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58454 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:33:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58454 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58466 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44468 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44468 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44470 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37594 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37594 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37598 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37610 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37610 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37622 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48572 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48572 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48582 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48586 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48586 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48592 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48602 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48602 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48614 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53156 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53156 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53162 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53178 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53178 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:39 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 227. worker_id: 8a83fe3e. 
+2023-08-28 08:34:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53190 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40366 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40366 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40370 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40384 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40384 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40398 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43632 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:34:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43632 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43636 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43650 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43650 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43654 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60952 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60952 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60964 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44890 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44890 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44906 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:35:24 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 233. worker_id: 8a83fe3e. 
+2023-08-28 08:36:09 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 233. worker_id: 8a83fe3e. 
+2023-08-28 08:36:54 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 233. worker_id: 8a83fe3e. 
+2023-08-28 08:37:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54768 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54768 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54780 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54790 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54790 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54798 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52642 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52642 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52648 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58928 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58928 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58938 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58950 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58950 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58966 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58974 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58974 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58980 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45814 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45814 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45820 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45822 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45822 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:39 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 241. worker_id: 8a83fe3e. 
+2023-08-28 08:37:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45834 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51814 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51814 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51830 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54650 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54650 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54654 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54656 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:37:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54656 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54668 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33654 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33654 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33668 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33684 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33684 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:11 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33692 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:11 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33706 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:11 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33706 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33708 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47186 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47186 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47190 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:24 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 248. worker_id: 8a83fe3e. 
+2023-08-28 08:38:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37244 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37244 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37258 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37262 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37262 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37270 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37902 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37902 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:41 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37918 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:41 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37932 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:41 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37932 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37936 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45394 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45394 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45406 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45422 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45422 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45436 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49812 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49812 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49814 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49818 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:38:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49818 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49824 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48398 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48398 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:09 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 257. worker_id: 8a83fe3e. 
+2023-08-28 08:39:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48414 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48416 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48416 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48418 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48824 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48824 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48836 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49600 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49600 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49602 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49616 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49616 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:33 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49622 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:33 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37818 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:33 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37818 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37822 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37826 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37826 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37834 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44630 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44630 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44636 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44644 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44644 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44656 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48474 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48474 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:55 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 266. worker_id: 8a83fe3e. 
+2023-08-28 08:39:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48490 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48506 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:39:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48506 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48516 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45748 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45748 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45764 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45766 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45766 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45780 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42958 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42958 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42968 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:19 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42984 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:19 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42984 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43000 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55378 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55378 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55390 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55400 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55400 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55402 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55046 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55046 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55048 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55052 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55052 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:40 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 275. worker_id: 8a83fe3e. 
+2023-08-28 08:40:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55056 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33280 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33280 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33286 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33302 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33302 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33312 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43430 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43430 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43440 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43452 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:40:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43452 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43454 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46294 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46294 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:11 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46304 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54238 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54238 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54244 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54250 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54250 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54256 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54268 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54268 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54278 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49830 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49830 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:25 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 284. worker_id: 8a83fe3e. 
+2023-08-28 08:41:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49832 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49846 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49846 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49860 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33788 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33788 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33796 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42780 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42780 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42782 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42790 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:48 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42790 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42800 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52190 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:41:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52190 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52202 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52040 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52040 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52056 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52072 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52072 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:10 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 291. worker_id: 8a83fe3e. 
+2023-08-28 08:42:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52076 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52886 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52886 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52900 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52906 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52906 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:19 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52914 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:19 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52916 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:19 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52916 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52932 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42726 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42726 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42740 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42754 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42754 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42756 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:33 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32894 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:33 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32894 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32904 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32914 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32914 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32930 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51276 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51276 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51284 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51288 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51288 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:55 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 300. worker_id: 8a83fe3e. 
+2023-08-28 08:42:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51302 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44568 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:42:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44568 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44584 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56436 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56436 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56446 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56456 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56456 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56468 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35496 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35496 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35508 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41730 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41730 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41736 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41738 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:29 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41738 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41742 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59908 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59908 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:40 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 307. worker_id: 8a83fe3e. 
+2023-08-28 08:43:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59914 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50618 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50618 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50628 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50634 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50634 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50644 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49658 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:43:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49658 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49662 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60796 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:07 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60796 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60802 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56922 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56922 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56936 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56952 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56952 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:25 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 313. worker_id: 8a83fe3e. 
+2023-08-28 08:44:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56966 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55286 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55286 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55290 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55300 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55300 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:33 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55316 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37020 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37020 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37030 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37034 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37034 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37040 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50110 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50110 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50124 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:53 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37524 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:44:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37524 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37538 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40108 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40108 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40122 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40132 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40132 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:10 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 321. worker_id: 8a83fe3e. 
+2023-08-28 08:45:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40138 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37168 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37168 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37172 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60362 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60362 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60370 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38332 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38332 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:38334 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55842 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55842 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55854 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55870 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:51 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55870 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55884 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33956 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:45:55 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 326. worker_id: 8a83fe3e. 
+2023-08-28 08:45:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33956 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33966 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50646 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50646 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50652 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50656 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50656 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:50658 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34982 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34982 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:19 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34996 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:19 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35010 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:19 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35010 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35024 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44996 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:22 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44996 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45006 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45018 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45018 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45024 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48320 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48320 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48330 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48344 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48344 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:40 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 335. worker_id: 8a83fe3e. 
+2023-08-28 08:46:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48358 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44942 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44942 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44946 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44952 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44952 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44962 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43724 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43724 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43732 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43742 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:46:59 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43742 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43746 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34592 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34592 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34600 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60432 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60432 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60444 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60454 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60454 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:25 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 342. worker_id: 8a83fe3e. 
+2023-08-28 08:47:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60464 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44942 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44942 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44948 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35954 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35954 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:35970 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34444 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:43 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34444 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34458 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34464 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34464 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34478 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39104 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:47:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39104 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39116 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41218 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41218 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41220 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:09 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41234 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:10 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41234 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:10 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 349. worker_id: 8a83fe3e. 
+2023-08-28 08:48:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41236 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54748 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54748 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54750 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34788 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:23 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34788 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34796 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58300 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58300 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58310 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58322 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:36 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58322 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58334 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58346 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58346 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:58352 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34490 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:52 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34490 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:48:55 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 355. worker_id: 8a83fe3e. 
+2023-08-28 08:49:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34496 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40292 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:06 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40292 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40306 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59534 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:20 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59534 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:59538 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46160 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46160 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46176 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41420 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41420 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41424 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41440 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41440 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:40 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 360. worker_id: 8a83fe3e. 
+2023-08-28 08:49:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41452 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48110 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:49:50 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48110 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48126 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51966 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51966 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51978 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37268 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37268 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37284 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37670 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:17 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37670 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37684 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41222 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:25 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41222 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:25 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 365. worker_id: 8a83fe3e. 
+2023-08-28 08:50:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41226 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34544 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34544 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34556 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34896 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:44 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34896 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34900 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33062 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:50:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33062 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:02 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33076 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53554 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53554 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:10 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 369. worker_id: 8a83fe3e. 
+2023-08-28 08:51:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53568 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52524 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:14 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52524 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52528 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52532 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52532 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:52544 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54916 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54916 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54930 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60892 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60892 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60904 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54202 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54202 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54212 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54228 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54228 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:55 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 375. worker_id: 8a83fe3e. 
+2023-08-28 08:51:56 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54232 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41416 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:51:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41416 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41418 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34948 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:08 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34948 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34950 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57530 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57530 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57542 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37142 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:21 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37142 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37154 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37164 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37164 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37176 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46930 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46930 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:39 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46936 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46950 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46950 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:40 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 382. worker_id: 8a83fe3e. 
+2023-08-28 08:52:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46958 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33890 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33890 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:52:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33906 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-08-28 08:53:25 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 08:54:10 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 08:54:56 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 08:55:41 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 08:56:26 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 08:57:11 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 08:57:56 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 08:58:41 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 08:59:26 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:00:11 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:00:56 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:01:41 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:02:26 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:03:11 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:03:56 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:04:41 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:05:26 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:06:11 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:06:56 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:07:41 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:08:26 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:09:11 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:09:57 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:10:42 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:11:27 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:12:12 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:12:57 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:13:42 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:14:27 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:15:12 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:15:57 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:16:42 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:17:27 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:18:12 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:18:57 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:19:42 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:20:27 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:21:12 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:21:57 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:22:42 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:23:27 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:24:12 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:24:58 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:25:43 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:26:28 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:27:13 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:27:58 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:28:43 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:29:28 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:30:13 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:30:58 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:31:43 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:32:28 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:33:13 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:33:58 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:34:43 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:35:28 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:36:13 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:36:58 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:37:43 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:38:28 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:39:13 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:39:58 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:40:44 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:41:29 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:42:14 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:42:59 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:43:44 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:44:29 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:45:14 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:45:59 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:46:44 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:47:29 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:48:14 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:48:59 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:49:44 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:50:29 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:51:14 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:51:59 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:52:44 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:53:29 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=5, locked=False). call_ct: 383. worker_id: 8a83fe3e. 
+2023-08-28 09:53:29 | ERROR | model_worker | heart beat error: HTTPConnectionPool(host='localhost', port=21001): Max retries exceeded with url: /receive_heart_beat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbdc1bd970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-08-28 09:53:34 | ERROR | model_worker | heart beat error: HTTPConnectionPool(host='localhost', port=21001): Max retries exceeded with url: /receive_heart_beat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbdc1df880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-08-28 09:53:39 | ERROR | model_worker | heart beat error: HTTPConnectionPool(host='localhost', port=21001): Max retries exceeded with url: /receive_heart_beat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbdc192580>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-08-28 09:53:44 | ERROR | model_worker | heart beat error: HTTPConnectionPool(host='localhost', port=21001): Max retries exceeded with url: /receive_heart_beat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbdc192ee0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-08-28 09:53:49 | ERROR | model_worker | heart beat error: HTTPConnectionPool(host='localhost', port=21001): Max retries exceeded with url: /receive_heart_beat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbdc192850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-08-28 09:53:54 | ERROR | model_worker | heart beat error: HTTPConnectionPool(host='localhost', port=21001): Max retries exceeded with url: /receive_heart_beat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbdc1df280>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-08-28 09:53:59 | ERROR | model_worker | heart beat error: HTTPConnectionPool(host='localhost', port=21001): Max retries exceeded with url: /receive_heart_beat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbdc1df4f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-08-28 09:54:04 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2023-08-28 09:54:04 | ERROR | model_worker | heart beat error: HTTPConnectionPool(host='localhost', port=21001): Max retries exceeded with url: /receive_heart_beat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efbdc1bda90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-08-28 09:54:04 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2023-08-28 09:54:04 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2023-08-28 09:54:04 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m1003803[0m]

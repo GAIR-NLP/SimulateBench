@@ -1,0 +1,33 @@
+2023-10-01 12:56:41 | INFO | model_worker | args: Namespace(host='localhost', port=21004, worker_address='http://localhost:21004', controller_address='http://localhost:21003', model_path='/data/ckpts/huggingface/models/models--lmsys--vicuna-7b-v1.5-16k/snapshots/9a93d7d11fac7f3f9074510b80092b53bc1a5bec', revision='main', device='cuda', gpus=None, num_gpus=1, max_gpu_memory=None, load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, model_names=['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-10-01 12:56:41 | INFO | model_worker | Loading the model ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'] on worker 62c88b61 ...
+2023-10-01 12:56:42 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                 | 0/2 [00:00<?, ?it/s]
+2023-10-01 12:56:46 | ERROR | stderr | Loading checkpoint shards:  50%|████████████████████████████████████████████████████▌                                                    | 1/2 [00:04<00:04,  4.51s/it]
+2023-10-01 12:56:48 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:06<00:00,  2.79s/it]
+2023-10-01 12:56:48 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:06<00:00,  3.04s/it]
+2023-10-01 12:56:48 | ERROR | stderr | 
+2023-10-01 12:56:54 | INFO | model_worker | Register to controller
+2023-10-01 12:56:55 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m3021427[0m]
+2023-10-01 12:56:55 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-01 12:56:55 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-01 12:56:55 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:21004[0m (Press CTRL+C to quit)
+2023-10-01 12:57:40 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: 62c88b61. 
+2023-10-01 12:58:25 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: 62c88b61. 
+2023-10-01 12:59:10 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: 62c88b61. 
+2023-10-01 12:59:55 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: 62c88b61. 
+2023-10-01 13:00:40 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: None. call_ct: 0. worker_id: 62c88b61. 
+2023-10-01 13:01:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49314 - "[1mPOST /worker_get_conv_template HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49328 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:24 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49328 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:25 | INFO | model_worker | Send heart beat. Models: ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002']. Semaphore: Semaphore(value=4, locked=False). call_ct: 1. worker_id: 62c88b61. 
+2023-10-01 13:01:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49332 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36130 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:28 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36130 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36144 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36156 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36156 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:34 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36160 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36168 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:35 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36168 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:37 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36172 - "[1mPOST /worker_generate HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36934 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-01 13:01:38 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36934 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m

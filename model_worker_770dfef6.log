@@ -1,0 +1,9 @@
+2023-08-28 11:18:36 | INFO | model_worker | args: Namespace(host='localhost', port=21002, worker_address='http://localhost:21002', controller_address='http://localhost:21001', model_path='lmsys/longchat-7b-32k-v1.5', revision='main', device='cuda', gpus='0,1,2,3,5,6,7', num_gpus=8, max_gpu_memory='3GiB', load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, model_names=['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-08-28 11:18:36 | ERROR | stderr | Traceback (most recent call last):
+2023-08-28 11:18:36 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+2023-08-28 11:18:36 | ERROR | stderr |     return _run_code(code, main_globals, None,
+2023-08-28 11:18:36 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/runpy.py", line 87, in _run_code
+2023-08-28 11:18:36 | ERROR | stderr |     exec(code, run_globals)
+2023-08-28 11:18:36 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 450, in <module>
+2023-08-28 11:18:36 | ERROR | stderr |     raise ValueError(
+2023-08-28 11:18:36 | ERROR | stderr | ValueError: Larger --num-gpus (8) than --gpus 0,1,2,3,5,6,7!

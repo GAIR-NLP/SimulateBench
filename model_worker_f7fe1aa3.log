@@ -1,0 +1,17 @@
+2023-08-25 01:25:32 | INFO | model_worker | args: Namespace(host='localhost', port=21002, worker_address='http://localhost:21002', controller_address='http://localhost:21001', model_path='lmsys/longchat-7b-32k-v1.5', revision='main', device='cuda', gpus=None, num_gpus=1, max_gpu_memory=None, load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, model_names=['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-08-25 01:25:32 | INFO | model_worker | Loading the model ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'] on worker f7fe1aa3 ...
+2023-08-25 01:25:35 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                 | 0/2 [00:00<?, ?it/s]
+2023-08-25 01:25:43 | ERROR | stderr | Loading checkpoint shards:  50%|████████████████████████████████████████████████████▌                                                    | 1/2 [00:08<00:08,  8.27s/it]
+2023-08-25 01:25:46 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.16s/it]
+2023-08-25 01:25:46 | ERROR | stderr | Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.62s/it]
+2023-08-25 01:25:46 | ERROR | stderr | 
+2023-08-25 01:25:48 | ERROR | stderr | Downloading (…)neration_config.json:   0%|                                                                                                   | 0.00/174 [00:00<?, ?B/s]
+2023-08-25 01:25:48 | ERROR | stderr | Downloading (…)neration_config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 174/174 [00:00<00:00, 32.0kB/s]
+2023-08-25 01:25:48 | ERROR | stderr | 
+2023-08-25 01:25:51 | INFO | model_worker | Register to controller
+2023-08-25 01:25:51 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m693680[0m]
+2023-08-25 01:25:51 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-08-25 01:25:51 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-08-25 01:25:51 | ERROR | stderr | [31mERROR[0m:    [Errno 98] error while attempting to bind on address ('127.0.0.1', 21002): address already in use
+2023-08-25 01:25:51 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2023-08-25 01:25:51 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.

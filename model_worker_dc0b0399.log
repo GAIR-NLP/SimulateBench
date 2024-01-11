@@ -1,0 +1,54 @@
+2023-08-21 08:27:58 | INFO | model_worker | args: Namespace(host='localhost', port=21002, worker_address='http://localhost:21002', controller_address='http://localhost:21001', model_path='vicuna-7b-v1.5-16k', revision='main', device='cuda', gpus=None, num_gpus=2, max_gpu_memory=None, load_8bit=False, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, model_names=['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'], conv_template=None, limit_worker_concurrency=5, stream_interval=2, no_register=False)
+2023-08-21 08:27:58 | INFO | model_worker | Loading the model ['gpt-3.5-turbo', 'text-davinci-003', 'text-embedding-ada-002'] on worker dc0b0399 ...
+2023-08-21 08:27:59 | ERROR | stderr | Traceback (most recent call last):
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 261, in hf_raise_for_status
+2023-08-21 08:27:59 | ERROR | stderr |     response.raise_for_status()
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+2023-08-21 08:27:59 | ERROR | stderr |     raise HTTPError(http_error_msg, response=self)
+2023-08-21 08:27:59 | ERROR | stderr | requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/vicuna-7b-v1.5-16k/resolve/main/tokenizer_config.json
+2023-08-21 08:27:59 | ERROR | stderr | 
+2023-08-21 08:27:59 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2023-08-21 08:27:59 | ERROR | stderr | 
+2023-08-21 08:27:59 | ERROR | stderr | Traceback (most recent call last):
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/utils/hub.py", line 417, in cached_file
+2023-08-21 08:27:59 | ERROR | stderr |     resolved_file = hf_hub_download(
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+2023-08-21 08:27:59 | ERROR | stderr |     return fn(*args, **kwargs)
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1195, in hf_hub_download
+2023-08-21 08:27:59 | ERROR | stderr |     metadata = get_hf_file_metadata(
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+2023-08-21 08:27:59 | ERROR | stderr |     return fn(*args, **kwargs)
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1541, in get_hf_file_metadata
+2023-08-21 08:27:59 | ERROR | stderr |     hf_raise_for_status(r)
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/huggingface_hub/utils/_errors.py", line 293, in hf_raise_for_status
+2023-08-21 08:27:59 | ERROR | stderr |     raise RepositoryNotFoundError(message, response) from e
+2023-08-21 08:27:59 | ERROR | stderr | huggingface_hub.utils._errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-64e3200f-52150a7b16564a490fb0d3b6;c1e83ab3-10a0-4041-9471-d1da84566296)
+2023-08-21 08:27:59 | ERROR | stderr | 
+2023-08-21 08:27:59 | ERROR | stderr | Repository Not Found for url: https://huggingface.co/vicuna-7b-v1.5-16k/resolve/main/tokenizer_config.json.
+2023-08-21 08:27:59 | ERROR | stderr | Please make sure you specified the correct `repo_id` and `repo_type`.
+2023-08-21 08:27:59 | ERROR | stderr | If you are trying to access a private or gated repo, make sure you are authenticated.
+2023-08-21 08:27:59 | ERROR | stderr | Invalid username or password.
+2023-08-21 08:27:59 | ERROR | stderr | 
+2023-08-21 08:27:59 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2023-08-21 08:27:59 | ERROR | stderr | 
+2023-08-21 08:27:59 | ERROR | stderr | Traceback (most recent call last):
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+2023-08-21 08:27:59 | ERROR | stderr |     return _run_code(code, main_globals, None,
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/runpy.py", line 87, in _run_code
+2023-08-21 08:27:59 | ERROR | stderr |     exec(code, run_globals)
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 467, in <module>
+2023-08-21 08:27:59 | ERROR | stderr |     worker = ModelWorker(
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/serve/model_worker.py", line 207, in __init__
+2023-08-21 08:27:59 | ERROR | stderr |     self.model, self.tokenizer = load_model(
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/model/model_adapter.py", line 268, in load_model
+2023-08-21 08:27:59 | ERROR | stderr |     model, tokenizer = adapter.load_model(model_path, kwargs)
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/fastchat/model/model_adapter.py", line 515, in load_model
+2023-08-21 08:27:59 | ERROR | stderr |     tokenizer = AutoTokenizer.from_pretrained(
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 652, in from_pretrained
+2023-08-21 08:27:59 | ERROR | stderr |     tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 496, in get_tokenizer_config
+2023-08-21 08:27:59 | ERROR | stderr |     resolved_config_file = cached_file(
+2023-08-21 08:27:59 | ERROR | stderr |   File "/home/yxiao2/miniconda3/envs/GPTMan3-9/lib/python3.9/site-packages/transformers/utils/hub.py", line 433, in cached_file
+2023-08-21 08:27:59 | ERROR | stderr |     raise EnvironmentError(
+2023-08-21 08:27:59 | ERROR | stderr | OSError: vicuna-7b-v1.5-16k is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+2023-08-21 08:27:59 | ERROR | stderr | If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.
