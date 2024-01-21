@@ -1,15 +1,20 @@
 import csv
 import os
-
 import numpy as np
 
 from benchmark.benchmark_file_util import ROOT_PATH, load_json_file
 from log.logger import logger
 
-csv_head_row_models_single_name = ["model", "mean", "basic_information_answerable",
-                                   "basic_information_unanswerable",
-                                   "roles_non_relation_answerable", "roles_non_relation_unanswerable",
-                                   "roles_relation_answerable", "roles_relation_unanswerable"]
+csv_head_row_models_single_name = [
+    "model",
+    "mean",
+    "basic_information_answerable",
+    "basic_information_unanswerable",
+    "roles_non_relation_answerable",
+    "roles_non_relation_unanswerable",
+    "roles_relation_answerable",
+    "roles_relation_unanswerable",
+]
 csv_head_row_models_names_mean = ["model"]  # concat with character names
 csv_root_path_ablation = ROOT_PATH + "/statistic/{ablation_kind}/"
 csv_root_path_coherence_task = ROOT_PATH + "/statistic/character/{character_name}/"
@@ -18,15 +23,36 @@ csv_root_path_coherence_task = ROOT_PATH + "/statistic/character/{character_name
 def calculate_mean_1(re_ba, re_non_re, re_re):
     # use the ration of all kinds of questions in the whole benchmark
     number_all_all = re_ba["number_all"] + re_non_re["number_all"] + re_re["number_all"]
-    mean_ba_answerable = re_ba['number_answerable'] / number_all_all * re_ba['accuracy_answerable']
-    mean_ba_unanswerable = re_ba['number_unanswerable'] / number_all_all * re_ba['accuracy_unanswerable']
-    mean_non_re_answerable = re_non_re['number_answerable'] / number_all_all * re_non_re['accuracy_answerable']
-    mean_non_re_unanswerable = re_non_re['number_unanswerable'] / number_all_all * re_non_re[
-        'accuracy_unanswerable']
-    mean_re_answerable = re_re['number_answerable'] / number_all_all * re_re['accuracy_answerable']
-    mean_re_unanswerable = re_re['number_unanswerable'] / number_all_all * re_re[
-        'accuracy_unanswerable']
-    mean = mean_re_unanswerable + mean_re_answerable + mean_non_re_unanswerable + mean_ba_unanswerable + mean_ba_answerable + mean_non_re_answerable
+    mean_ba_answerable = (
+        re_ba["number_answerable"] / number_all_all * re_ba["accuracy_answerable"]
+    )
+    mean_ba_unanswerable = (
+        re_ba["number_unanswerable"] / number_all_all * re_ba["accuracy_unanswerable"]
+    )
+    mean_non_re_answerable = (
+        re_non_re["number_answerable"]
+        / number_all_all
+        * re_non_re["accuracy_answerable"]
+    )
+    mean_non_re_unanswerable = (
+        re_non_re["number_unanswerable"]
+        / number_all_all
+        * re_non_re["accuracy_unanswerable"]
+    )
+    mean_re_answerable = (
+        re_re["number_answerable"] / number_all_all * re_re["accuracy_answerable"]
+    )
+    mean_re_unanswerable = (
+        re_re["number_unanswerable"] / number_all_all * re_re["accuracy_unanswerable"]
+    )
+    mean = (
+        mean_re_unanswerable
+        + mean_re_answerable
+        + mean_non_re_unanswerable
+        + mean_ba_unanswerable
+        + mean_ba_answerable
+        + mean_non_re_answerable
+    )
 
     return mean
 
@@ -37,16 +63,29 @@ def calculate_mean_2(re_ba, re_non_re, re_re):
     answerable_coefficient = 0.9
     unanswerable_coefficient = 1 - answerable_coefficient
     number_all_all = re_ba["number_all"] + re_non_re["number_all"] + re_re["number_all"]
-    mean_ba_answerable = re_ba['number_all'] / number_all_all * re_ba['accuracy_answerable']
-    mean_ba_unanswerable = re_ba['number_all'] / number_all_all * re_ba['accuracy_unanswerable']
-    mean_non_re_answerable = re_non_re['number_all'] / number_all_all * re_non_re['accuracy_answerable']
-    mean_non_re_unanswerable = re_non_re['number_all'] / number_all_all * re_non_re[
-        'accuracy_unanswerable']
-    mean_re_answerable = re_re['number_all'] / number_all_all * re_re['accuracy_answerable']
-    mean_re_unanswerable = re_re['number_all'] / number_all_all * re_re[
-        'accuracy_unanswerable']
-    mean = (mean_re_unanswerable + mean_non_re_unanswerable + mean_ba_unanswerable) * unanswerable_coefficient + \
-           (mean_ba_answerable + mean_non_re_answerable + mean_re_answerable) * answerable_coefficient
+    mean_ba_answerable = (
+        re_ba["number_all"] / number_all_all * re_ba["accuracy_answerable"]
+    )
+    mean_ba_unanswerable = (
+        re_ba["number_all"] / number_all_all * re_ba["accuracy_unanswerable"]
+    )
+    mean_non_re_answerable = (
+        re_non_re["number_all"] / number_all_all * re_non_re["accuracy_answerable"]
+    )
+    mean_non_re_unanswerable = (
+        re_non_re["number_all"] / number_all_all * re_non_re["accuracy_unanswerable"]
+    )
+    mean_re_answerable = (
+        re_re["number_all"] / number_all_all * re_re["accuracy_answerable"]
+    )
+    mean_re_unanswerable = (
+        re_re["number_all"] / number_all_all * re_re["accuracy_unanswerable"]
+    )
+    mean = (
+        mean_re_unanswerable + mean_non_re_unanswerable + mean_ba_unanswerable
+    ) * unanswerable_coefficient + (
+        mean_ba_answerable + mean_non_re_answerable + mean_re_answerable
+    ) * answerable_coefficient
 
     return mean
 
@@ -61,8 +100,16 @@ def get_calculate_fun(fun_name):
 
 
 class Statistic:
-    def __init__(self, person_name, model_name, prompt_kind, prompt_name, benchmark_version, profile_version,
-                 system_version):
+    def __init__(
+        self,
+        person_name,
+        model_name,
+        prompt_kind,
+        prompt_name,
+        benchmark_version,
+        profile_version,
+        system_version,
+    ):
         self.benchmark_version = benchmark_version
         self.profile_version = profile_version
         self.system_version = system_version
@@ -73,38 +120,42 @@ class Statistic:
         self.correct_answerable = {
             "basic_information": 0,
             "role_relation": 0,
-            "role_non_relation": 0
+            "role_non_relation": 0,
         }
         self.correct_unanswerable = {
             "basic_information": 0,
             "role_relation": 0,
-            "role_non_relation": 0
+            "role_non_relation": 0,
         }
         self.number_answerable = {
             "basic_information": 0,
             "role_relation": 0,
-            "role_non_relation": 0
+            "role_non_relation": 0,
         }
         self.number_unanswerable = {
             "basic_information": 0,
             "role_relation": 0,
-            "role_non_relation": 0
+            "role_non_relation": 0,
         }
         self.number_all = {
             "basic_information": 0,
             "role_relation": 0,
-            "role_non_relation": 0
+            "role_non_relation": 0,
         }
 
     def count_number(self, benchmark_type):
         obj = load_json_file(
-            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/questions.json")
+            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/questions.json"
+        )
 
         unanswerable = 0
 
         for count in range(len(obj)):
             question_odj = obj[count]
-            if "there's not enough information to answer this question" in question_odj['gold_answer'].lower():
+            if (
+                "there's not enough information to answer this question"
+                in question_odj["gold_answer"].lower()
+            ):
                 unanswerable += 1
 
         answer_able = len(obj) - unanswerable
@@ -115,14 +166,18 @@ class Statistic:
 
     def count_correct(self, benchmark_type):
         obj = load_json_file(
-            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/{self.prompt_kind}/{self.prompt_name}.json")
+            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/{self.prompt_kind}/{self.prompt_name}.json"
+        )
         obj = obj[f"{self.prompt_kind}_{self.prompt_name}"]
         answerable_list = []
         unanswerable_list = []
 
         for count in range(len(obj)):
             question_odj = obj[count]
-            if "there's not enough information to answer this question" in question_odj['gold_answer'].lower():
+            if (
+                "there's not enough information to answer this question"
+                in question_odj["gold_answer"].lower()
+            ):
                 unanswerable_list.append(question_odj)
             else:
                 answerable_list.append(question_odj)
@@ -136,17 +191,32 @@ class Statistic:
         self.correct_unanswerable[benchmark_type] = correct_unanswerable
 
     def count_correct_part(self, answer_list):
-        print(self.person_name + "_" + self.model_name + "_" + self.prompt_kind + "_" + self.prompt_name)
+        print(
+            self.person_name
+            + "_"
+            + self.model_name
+            + "_"
+            + self.prompt_kind
+            + "_"
+            + self.prompt_name
+        )
         result = 0
         for question_odj in answer_list:
             print(question_odj.keys())
-            if question_odj['gold_answer'].lower() == str(question_odj[f'generated_answer_{self.model_name}']).lower():
+            if (
+                question_odj["gold_answer"].lower()
+                == str(question_odj[f"generated_answer_{self.model_name}"]).lower()
+            ):
                 result += 1
-            elif str(question_odj[f'generated_answer_{self.model_name}']).lower() in question_odj[
-                'gold_answer'].lower():
+            elif (
+                str(question_odj[f"generated_answer_{self.model_name}"]).lower()
+                in question_odj["gold_answer"].lower()
+            ):
                 result += 1
-            elif question_odj['gold_answer'].lower() in str(
-                    question_odj[f'generated_answer_{self.model_name}']).lower():
+            elif (
+                question_odj["gold_answer"].lower()
+                in str(question_odj[f"generated_answer_{self.model_name}"]).lower()
+            ):
                 result += 1
         return result
 
@@ -155,22 +225,30 @@ class Statistic:
         self.count_correct(benchmark_type)
 
         if self.number_answerable[benchmark_type] != 0:
-            accuracy_answerable = self.correct_answerable[benchmark_type] / self.number_answerable[benchmark_type]
+            accuracy_answerable = (
+                self.correct_answerable[benchmark_type]
+                / self.number_answerable[benchmark_type]
+            )
         else:
-            accuracy_answerable = '~'
+            accuracy_answerable = "~"
 
         if self.number_unanswerable[benchmark_type] != 0:
             """print(self.correct_unanswerable)
             print(self.number_unanswerable)"""
-            accuracy_unanswerable = self.correct_unanswerable[benchmark_type] / self.number_unanswerable[benchmark_type]
+            accuracy_unanswerable = (
+                self.correct_unanswerable[benchmark_type]
+                / self.number_unanswerable[benchmark_type]
+            )
         else:
-            accuracy_unanswerable = '~'
+            accuracy_unanswerable = "~"
 
-        print(f"{benchmark_type} {self.model_name} {self.prompt_kind} {self.prompt_name} {self.person_name}\n"
-              f"accuracy_answerable: {accuracy_answerable}; accuracy_unanswerable: {accuracy_unanswerable}\n "
-              f"number_answerable: {self.number_answerable[benchmark_type]}; "
-              f"number_unanswerable: {self.number_unanswerable[benchmark_type]} "
-              f"number_all: {self.number_all[benchmark_type]}\n")
+        print(
+            f"{benchmark_type} {self.model_name} {self.prompt_kind} {self.prompt_name} {self.person_name}\n"
+            f"accuracy_answerable: {accuracy_answerable}; accuracy_unanswerable: {accuracy_unanswerable}\n "
+            f"number_answerable: {self.number_answerable[benchmark_type]}; "
+            f"number_unanswerable: {self.number_unanswerable[benchmark_type]} "
+            f"number_all: {self.number_all[benchmark_type]}\n"
+        )
 
         results = {
             "number_all": self.number_all[benchmark_type],
@@ -179,7 +257,7 @@ class Statistic:
             "number_answerable_correct": self.correct_answerable[benchmark_type],
             "number_unanswerable_correct": self.correct_unanswerable[benchmark_type],
             "accuracy_answerable": accuracy_answerable,
-            "accuracy_unanswerable": accuracy_unanswerable
+            "accuracy_unanswerable": accuracy_unanswerable,
         }
         return results
 
@@ -193,7 +271,9 @@ class Statistic:
         mean = get_calculate_fun(calculate_mean_fun_name)(re_ba, re_non_re, re_re)
 
         print(f'non relationship answerable number:{re_non_re["number_answerable"]}')
-        print(f'non relationship unanswerable number:{re_non_re["number_unanswerable"]}')
+        print(
+            f'non relationship unanswerable number:{re_non_re["number_unanswerable"]}'
+        )
         print(f'relationship answerable number:{re_re["number_answerable"]}')
         print(f'relationship unanswerable number:{re_re["number_unanswerable"]}')
 
@@ -202,15 +282,25 @@ class Statistic:
             "role_non_relation": re_non_re,
             "role_relation": re_re,
             "mean": mean,
-            "all_number": re_ba["number_all"] + re_non_re["number_all"] + re_re["number_all"]
+            "all_number": re_ba["number_all"]
+            + re_non_re["number_all"]
+            + re_re["number_all"],
         }
 
         return results
 
 
 class StatisticNoBasicInformation:
-    def __init__(self, person_name, model_name, prompt_kind, prompt_name, benchmark_version, profile_version,
-                 system_version):
+    def __init__(
+        self,
+        person_name,
+        model_name,
+        prompt_kind,
+        prompt_name,
+        benchmark_version,
+        profile_version,
+        system_version,
+    ):
         self.benchmark_version = benchmark_version
         self.profile_version = profile_version
         self.system_version = system_version
@@ -218,36 +308,25 @@ class StatisticNoBasicInformation:
         self.model_name = model_name
         self.prompt_kind = prompt_kind
         self.prompt_name = prompt_name
-        self.correct_answerable = {
-            "role_relation": 0,
-            "role_non_relation": 0
-        }
-        self.correct_unanswerable = {
-            "role_relation": 0,
-            "role_non_relation": 0
-        }
-        self.number_answerable = {
-            "role_relation": 0,
-            "role_non_relation": 0
-        }
-        self.number_unanswerable = {
-            "role_relation": 0,
-            "role_non_relation": 0
-        }
-        self.number_all = {
-            "role_relation": 0,
-            "role_non_relation": 0
-        }
+        self.correct_answerable = {"role_relation": 0, "role_non_relation": 0}
+        self.correct_unanswerable = {"role_relation": 0, "role_non_relation": 0}
+        self.number_answerable = {"role_relation": 0, "role_non_relation": 0}
+        self.number_unanswerable = {"role_relation": 0, "role_non_relation": 0}
+        self.number_all = {"role_relation": 0, "role_non_relation": 0}
 
     def count_number(self, benchmark_type):
         obj = load_json_file(
-            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/questions.json")
+            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/questions.json"
+        )
 
         unanswerable = 0
 
         for count in range(len(obj)):
             question_odj = obj[count]
-            if "there's not enough information to answer this question" in question_odj['gold_answer'].lower():
+            if (
+                "there's not enough information to answer this question"
+                in question_odj["gold_answer"].lower()
+            ):
                 unanswerable += 1
 
         answer_able = len(obj) - unanswerable
@@ -258,14 +337,18 @@ class StatisticNoBasicInformation:
 
     def count_correct(self, benchmark_type):
         obj = load_json_file(
-            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/{self.prompt_kind}/{self.prompt_name}.json")
+            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/{self.prompt_kind}/{self.prompt_name}.json"
+        )
         obj = obj[f"{self.prompt_kind}_{self.prompt_name}"]
         answerable_list = []
         unanswerable_list = []
 
         for count in range(len(obj)):
             question_odj = obj[count]
-            if "there's not enough information to answer this question" in question_odj['gold_answer'].lower():
+            if (
+                "there's not enough information to answer this question"
+                in question_odj["gold_answer"].lower()
+            ):
                 unanswerable_list.append(question_odj)
             else:
                 answerable_list.append(question_odj)
@@ -279,17 +362,32 @@ class StatisticNoBasicInformation:
         self.correct_unanswerable[benchmark_type] = correct_unanswerable
 
     def count_correct_part(self, answer_list):
-        print(self.person_name + "_" + self.model_name + "_" + self.prompt_kind + "_" + self.prompt_name)
+        print(
+            self.person_name
+            + "_"
+            + self.model_name
+            + "_"
+            + self.prompt_kind
+            + "_"
+            + self.prompt_name
+        )
         result = 0
         for question_odj in answer_list:
             print(question_odj.keys())
-            if question_odj['gold_answer'].lower() == str(question_odj[f'generated_answer_{self.model_name}']).lower():
+            if (
+                question_odj["gold_answer"].lower()
+                == str(question_odj[f"generated_answer_{self.model_name}"]).lower()
+            ):
                 result += 1
-            elif str(question_odj[f'generated_answer_{self.model_name}']).lower() in question_odj[
-                'gold_answer'].lower():
+            elif (
+                str(question_odj[f"generated_answer_{self.model_name}"]).lower()
+                in question_odj["gold_answer"].lower()
+            ):
                 result += 1
-            elif question_odj['gold_answer'].lower() in str(
-                    question_odj[f'generated_answer_{self.model_name}']).lower():
+            elif (
+                question_odj["gold_answer"].lower()
+                in str(question_odj[f"generated_answer_{self.model_name}"]).lower()
+            ):
                 result += 1
         return result
 
@@ -298,22 +396,30 @@ class StatisticNoBasicInformation:
         self.count_correct(benchmark_type)
 
         if self.number_answerable[benchmark_type] != 0:
-            accuracy_answerable = self.correct_answerable[benchmark_type] / self.number_answerable[benchmark_type]
+            accuracy_answerable = (
+                self.correct_answerable[benchmark_type]
+                / self.number_answerable[benchmark_type]
+            )
         else:
-            accuracy_answerable = '~'
+            accuracy_answerable = "~"
 
         if self.number_unanswerable[benchmark_type] != 0:
             """print(self.correct_unanswerable)
             print(self.number_unanswerable)"""
-            accuracy_unanswerable = self.correct_unanswerable[benchmark_type] / self.number_unanswerable[benchmark_type]
+            accuracy_unanswerable = (
+                self.correct_unanswerable[benchmark_type]
+                / self.number_unanswerable[benchmark_type]
+            )
         else:
-            accuracy_unanswerable = '~'
+            accuracy_unanswerable = "~"
 
-        print(f"{benchmark_type} {self.model_name} {self.prompt_kind} {self.prompt_name} {self.person_name}\n"
-              f"accuracy_answerable: {accuracy_answerable}; accuracy_unanswerable: {accuracy_unanswerable}\n "
-              f"number_answerable: {self.number_answerable[benchmark_type]}; "
-              f"number_unanswerable: {self.number_unanswerable[benchmark_type]} "
-              f"number_all: {self.number_all[benchmark_type]}\n")
+        print(
+            f"{benchmark_type} {self.model_name} {self.prompt_kind} {self.prompt_name} {self.person_name}\n"
+            f"accuracy_answerable: {accuracy_answerable}; accuracy_unanswerable: {accuracy_unanswerable}\n "
+            f"number_answerable: {self.number_answerable[benchmark_type]}; "
+            f"number_unanswerable: {self.number_unanswerable[benchmark_type]} "
+            f"number_all: {self.number_all[benchmark_type]}\n"
+        )
 
         results = {
             "number_all": self.number_all[benchmark_type],
@@ -322,7 +428,7 @@ class StatisticNoBasicInformation:
             "number_answerable_correct": self.correct_answerable[benchmark_type],
             "number_unanswerable_correct": self.correct_unanswerable[benchmark_type],
             "accuracy_answerable": accuracy_answerable,
-            "accuracy_unanswerable": accuracy_unanswerable
+            "accuracy_unanswerable": accuracy_unanswerable,
         }
         return results
 
@@ -337,15 +443,22 @@ class StatisticNoBasicInformation:
         results = {
             "role_non_relation": re_non_re,
             "role_relation": re_re,
-            "all_number": re_non_re["number_all"] + re_re["number_all"]
+            "all_number": re_non_re["number_all"] + re_re["number_all"],
         }
 
         return results
 
 
-def make_csv_file_models_single_person(prompt_kind, model_name_list, calculate_mean_fun_name,
-                                       benchmark_version, profile_version, system_version, prompt_name,
-                                       character_name):
+def make_csv_file_models_single_person(
+    prompt_kind,
+    model_name_list,
+    calculate_mean_fun_name,
+    benchmark_version,
+    profile_version,
+    system_version,
+    prompt_name,
+    character_name,
+):
     results_all = {}
     for model_name in model_name_list:
         sta1 = Statistic(
@@ -355,18 +468,30 @@ def make_csv_file_models_single_person(prompt_kind, model_name_list, calculate_m
             prompt_name=prompt_name,
             benchmark_version=benchmark_version,
             profile_version=profile_version,
-            system_version=system_version
+            system_version=system_version,
         )
         results = sta1.show_results(calculate_mean_fun_name)
         result_results = {
             "model": f"{model_name}",
-            "mean": results['mean'],
-            "basic_information_answerable": round(results["basic_information"]["accuracy_answerable"], 4),
-            "basic_information_unanswerable": round(results["basic_information"]["accuracy_unanswerable"], 4),
-            "roles_non_relation_answerable": round(results["role_non_relation"]["accuracy_answerable"], 4),
-            "roles_non_relation_unanswerable": round(results["role_non_relation"]["accuracy_unanswerable"], 4),
-            "roles_relation_answerable": round(results["role_relation"]["accuracy_answerable"], 4),
-            "roles_relation_unanswerable": round(results["role_relation"]["accuracy_unanswerable"], 4)
+            "mean": results["mean"],
+            "basic_information_answerable": round(
+                results["basic_information"]["accuracy_answerable"], 4
+            ),
+            "basic_information_unanswerable": round(
+                results["basic_information"]["accuracy_unanswerable"], 4
+            ),
+            "roles_non_relation_answerable": round(
+                results["role_non_relation"]["accuracy_answerable"], 4
+            ),
+            "roles_non_relation_unanswerable": round(
+                results["role_non_relation"]["accuracy_unanswerable"], 4
+            ),
+            "roles_relation_answerable": round(
+                results["role_relation"]["accuracy_answerable"], 4
+            ),
+            "roles_relation_unanswerable": round(
+                results["role_relation"]["accuracy_unanswerable"], 4
+            ),
         }
         results_all[model_name] = result_results
 
@@ -375,18 +500,29 @@ def make_csv_file_models_single_person(prompt_kind, model_name_list, calculate_m
         os.makedirs(path_)
 
     path_person = f"{path_}/{calculate_mean_fun_name}.csv"
-    with open(path_person, mode='w') as _file:
-        _writer = csv.DictWriter(_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL,
-                                 fieldnames=csv_head_row_models_single_name)
+    with open(path_person, mode="w") as _file:
+        _writer = csv.DictWriter(
+            _file,
+            delimiter=",",
+            quotechar='"',
+            quoting=csv.QUOTE_MINIMAL,
+            fieldnames=csv_head_row_models_single_name,
+        )
         _writer.writeheader()
         for model_name in model_name_list:
             _writer.writerow(results_all[model_name])
 
 
-def make_csv_file_models_single_person_no_basic_information(prompt_kind, model_name_list, calculate_mean_fun_name,
-                                                            benchmark_version, profile_version, system_version,
-                                                            prompt_name,
-                                                            character_name):
+def make_csv_file_models_single_person_no_basic_information(
+    prompt_kind,
+    model_name_list,
+    calculate_mean_fun_name,
+    benchmark_version,
+    profile_version,
+    system_version,
+    prompt_name,
+    character_name,
+):
     results_all = {}
     for model_name in model_name_list:
         sta1 = StatisticNoBasicInformation(
@@ -396,15 +532,23 @@ def make_csv_file_models_single_person_no_basic_information(prompt_kind, model_n
             prompt_name=prompt_name,
             benchmark_version=benchmark_version,
             profile_version=profile_version,
-            system_version=system_version
+            system_version=system_version,
         )
         results = sta1.show_results(calculate_mean_fun_name)
         result_results = {
             "model": f"{model_name}",
-            "roles_non_relation_answerable": round(results["role_non_relation"]["accuracy_answerable"], 4),
-            "roles_non_relation_unanswerable": round(results["role_non_relation"]["accuracy_unanswerable"], 4),
-            "roles_relation_answerable": round(results["role_relation"]["accuracy_answerable"], 4),
-            "roles_relation_unanswerable": round(results["role_relation"]["accuracy_unanswerable"], 4)
+            "roles_non_relation_answerable": round(
+                results["role_non_relation"]["accuracy_answerable"], 4
+            ),
+            "roles_non_relation_unanswerable": round(
+                results["role_non_relation"]["accuracy_unanswerable"], 4
+            ),
+            "roles_relation_answerable": round(
+                results["role_relation"]["accuracy_answerable"], 4
+            ),
+            "roles_relation_unanswerable": round(
+                results["role_relation"]["accuracy_unanswerable"], 4
+            ),
         }
         results_all[model_name] = result_results
 
@@ -413,20 +557,38 @@ def make_csv_file_models_single_person_no_basic_information(prompt_kind, model_n
         os.makedirs(path_)
 
     path_person = f"{path_}/{calculate_mean_fun_name}.csv"
-    header = ["model", "roles_non_relation_answerable", "roles_non_relation_unanswerable",
-              "roles_relation_answerable", "roles_relation_unanswerable"]
-    with open(path_person, mode='w') as _file:
-        _writer = csv.DictWriter(_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL,
-                                 fieldnames=header)
+    header = [
+        "model",
+        "roles_non_relation_answerable",
+        "roles_non_relation_unanswerable",
+        "roles_relation_answerable",
+        "roles_relation_unanswerable",
+    ]
+    with open(path_person, mode="w") as _file:
+        _writer = csv.DictWriter(
+            _file,
+            delimiter=",",
+            quotechar='"',
+            quoting=csv.QUOTE_MINIMAL,
+            fieldnames=header,
+        )
         _writer.writeheader()
         for model_name in model_name_list:
             _writer.writerow(results_all[model_name])
 
 
 # used for ablation test
-def make_csv_file_models_single_person_ablation(prompt_kind, model_name_list, calculate_mean_fun_name, ablation_kind,
-                                                full_name_list, benchmark_version, profile_version, system_version,
-                                                prompt_name):
+def make_csv_file_models_single_person_ablation(
+    prompt_kind,
+    model_name_list,
+    calculate_mean_fun_name,
+    ablation_kind,
+    full_name_list,
+    benchmark_version,
+    profile_version,
+    system_version,
+    prompt_name,
+):
     for person_name in full_name_list:
         results_all = {}
         for model_name in model_name_list:
@@ -437,18 +599,30 @@ def make_csv_file_models_single_person_ablation(prompt_kind, model_name_list, ca
                 prompt_name=prompt_name,
                 benchmark_version=benchmark_version,
                 profile_version=profile_version,
-                system_version=system_version
+                system_version=system_version,
             )
             results = sta1.show_results(calculate_mean_fun_name)
             result_results = {
                 "model": model_name,
-                "mean": results['mean'],
-                "basic_information_answerable": round(results["basic_information"]["accuracy_answerable"], 3),
-                "basic_information_unanswerable": round(results["basic_information"]["accuracy_unanswerable"], 3),
-                "roles_non_relation_answerable": round(results["role_non_relation"]["accuracy_answerable"], 3),
-                "roles_non_relation_unanswerable": round(results["role_non_relation"]["accuracy_unanswerable"], 3),
-                "roles_relation_answerable": round(results["role_relation"]["accuracy_answerable"], 3),
-                "roles_relation_unanswerable": round(results["role_relation"]["accuracy_unanswerable"], 3)
+                "mean": results["mean"],
+                "basic_information_answerable": round(
+                    results["basic_information"]["accuracy_answerable"], 3
+                ),
+                "basic_information_unanswerable": round(
+                    results["basic_information"]["accuracy_unanswerable"], 3
+                ),
+                "roles_non_relation_answerable": round(
+                    results["role_non_relation"]["accuracy_answerable"], 3
+                ),
+                "roles_non_relation_unanswerable": round(
+                    results["role_non_relation"]["accuracy_unanswerable"], 3
+                ),
+                "roles_relation_answerable": round(
+                    results["role_relation"]["accuracy_answerable"], 3
+                ),
+                "roles_relation_unanswerable": round(
+                    results["role_relation"]["accuracy_unanswerable"], 3
+                ),
             }
             results_all[model_name] = result_results
 
@@ -457,18 +631,31 @@ def make_csv_file_models_single_person_ablation(prompt_kind, model_name_list, ca
             os.makedirs(path_)
 
         path_person = f"{path_}/{person_name}.csv"
-        with open(path_person, mode='w') as _file:
-            _writer = csv.DictWriter(_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL,
-                                     fieldnames=csv_head_row_models_single_name)
+        with open(path_person, mode="w") as _file:
+            _writer = csv.DictWriter(
+                _file,
+                delimiter=",",
+                quotechar='"',
+                quoting=csv.QUOTE_MINIMAL,
+                fieldnames=csv_head_row_models_single_name,
+            )
             _writer.writeheader()
             for model_name in model_name_list:
                 _writer.writerow(results_all[model_name])
 
 
 # used for ablation test
-def make_csv_file_models_all_people_ablation(prompt_kind, model_name_list, benchmark_version, profile_version,
-                                             system_version, full_name_list, prompt_name,
-                                             ablation_kind, calculate_mean_fun_name):
+def make_csv_file_models_all_people_ablation(
+    prompt_kind,
+    model_name_list,
+    benchmark_version,
+    profile_version,
+    system_version,
+    full_name_list,
+    prompt_name,
+    ablation_kind,
+    calculate_mean_fun_name,
+):
     """
     all the  names of people origin from the same person
     Args:
@@ -477,8 +664,7 @@ def make_csv_file_models_all_people_ablation(prompt_kind, model_name_list, bench
         benchmark_version:
         profile_version:
         system_version:
-        full_name_list:
-        prompt_name:
+        full_name_list:        prompt_name:
         ablation_kind:
         calculate_mean_fun_name:
 
@@ -500,13 +686,13 @@ def make_csv_file_models_all_people_ablation(prompt_kind, model_name_list, bench
                 prompt_name=prompt_name,
                 benchmark_version=benchmark_version,
                 profile_version=profile_version,
-                system_version=system_version
+                system_version=system_version,
             )
             results = sta1.show_results(calculate_mean_fun_name)
-            mean_list.append(results['mean'])
+            mean_list.append(results["mean"])
 
             if number_of_all_question is None:
-                number_of_all_question = results['all_number']
+                number_of_all_question = results["all_number"]
 
             """# make csv file of the model on the person for all kind of benchmark file type
             path_ = f"{csv_root_path.format(ablation_kind='age')}/{model_name}/"
@@ -533,13 +719,17 @@ def make_csv_file_models_all_people_ablation(prompt_kind, model_name_list, bench
 
     # write file
     path_all = f"{path_}/all.csv"
-    logger.info(f'write file: {path_all}')
-    with open(path_all, mode='w') as _file:
-        _writer = csv.writer(_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    logger.info(f"write file: {path_all}")
+    with open(path_all, mode="w") as _file:
+        _writer = csv.writer(
+            _file, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
+        )
 
         _writer.writerow(
-            csv_head_row_models_names_mean + ["CoV", "mean", "variance",
-                                              f"range(total:{number_of_all_question})"] + full_name_list)
+            csv_head_row_models_names_mean
+            + ["CoV", "mean", "variance", f"range(total:{number_of_all_question})"]
+            + full_name_list
+        )
         for model_name in model_name_list:
             _writer.writerow([model_name] + mean_dict[model_name])
 
@@ -561,7 +751,7 @@ if __name__ == "__main__":
         prompt_name=prompt_name,
         benchmark_version=benchmark_version,
         profile_version=profile_version,
-        system_version=system_version
+        system_version=system_version,
     )
     sta1.show_results(calculate_mean_2)
 

@@ -3,7 +3,6 @@ from transformers import AutoTokenizer, AutoModel
 from person.action.system_setting.system1.chat_template import generate_system_message
 
 from person.action.brain.agent import BaseAgent
-
 # from accelerate import infer_auto_device_map
 
 
