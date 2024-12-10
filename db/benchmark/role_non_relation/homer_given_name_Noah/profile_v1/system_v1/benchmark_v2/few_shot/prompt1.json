@@ -1,0 +1,259 @@
+{
+    "few_shot_prompt1": [
+        {
+            "question": "Do you believe that [One of Noah's key traits is his unwavering affection for his wife, Marge, and their offspring, Bart, Lisa, and Maggie. Even though he has shortcomings and sometimes makes poor decisions, his devotion to his family is steadfast and frequently shown during times of weakness or altruism.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "Yes"
+        },
+        {
+            "question": "Do you believe that [Noah's enduring fondness for his spouse, Marge, and their kids, Bart, Lisa, and Maggie, is a fundamental aspect of his personality. His love for his family remains constant, despite his imperfections and occasional poor choices, and is often demonstrated in instances of susceptibility or self-sacrifice.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "Yes"
+        },
+        {
+            "question": "Do you believe that [Noah displays an infectious youthful exuberance, making him lively and jovial when interacting with his family. Be it jovially tussling with Bart, participating in Lisa's imaginative endeavors, or deriving pleasure from basic activities with Maggie, Noah taps into his inner youth and fosters a spirit of curiosity in his family.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Do you believe that [Noah demonstrates a juvenile zest, which renders him spirited and mirthful when involved with his family. Whether he's humorously grappling with Bart, accompanying Lisa in her inventive undertakings, or finding delight in uncomplicated activities with Maggie, Noah channels his inner youngster and promotes an atmosphere of fascination within his family.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "Yes"
+        },
+        {
+            "question": "Do you believe that [Noah's propensity for clumsiness and silliness consistently manifests in his familial interactions. His knack for stumbling over his own feet and getting embroiled in ridiculous scenarios contributes to the comedic aspect of the family's interactions.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "Yes"
+        },
+        {
+            "question": "Do you believe that [The recurring characteristics of Noah's interactions within his family are his clumsiness and goofiness. His tendency to trip over his own feet and get caught up in ludicrous situations injects a dose of humor into the family dynamics.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "Yes"
+        },
+        {
+            "question": "Do you believe that [Despite Noah's affection for his family, there are instances where his self-centeredness affects his function as a family member. He sometimes places his personal wants or immediate satisfaction above his family's needs, frequently resulting in familial disputes.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Do you believe that [Noah, though fond of his family, experiences bouts of egocentrism that influence his position within the family. He has a tendency to favor his own whims or instant pleasure over the requirements of his family, which often sparks disagreements among them.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "Yes"
+        },
+        {
+            "question": "Do you believe that [Noah frequently displays his feelings openly, unafraid to be emotionally transparent. He possesses a sensitive nature and sometimes undergoes periods of profound self-examination, which results in sincere dialogues and bonding with his family members.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Do you believe that [Noah is known for his courage in expressing his emotions, often being an open book. His sensitivity surfaces from time to time, leading him into deep self-reflection and fostering meaningful interactions and relationships within his family.] is an essential characteristic for you as a [family_member]?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "Yes"
+        },
+        {
+            "question": "Do you engage in the [Noah's usual morning ritual involves rousing himself from sleep in a drowsy state, clumsily getting out of bed, and meandering down to the kitchen. He frequently forgoes breakfast or snatches a hasty meal before setting off for his job.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "I don't know"
+        },
+        {
+            "question": "Do you engage in the [In the morning, Noah customarily begins his day by sluggishly arousing from slumber, clumsily rising from bed, and sauntering down to the kitchen. He often omits breakfast or hastily consumes a small meal before embarking on his work journey.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "I don't know"
+        },
+        {
+            "question": "Do you engage in the [Noah's fondness for television is well-known, and he devotes a substantial part of his leisure time to enjoying a variety of programs, frequently neglecting his family as a result. His peculiar fixation is to watch TV reclining on the sofa, usually accompanied by a packet of chips or a beer can.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "I don't know"
+        },
+        {
+            "question": "Do you engage in the [Noah's passion for television is notorious, and he allocates a considerable amount of his spare time to immersing himself in diverse shows, often at the expense of his family. He has a unique penchant for viewing TV while lounging on the couch, typically with a bag of crisps or a tin of beer.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "I don't know"
+        },
+        {
+            "question": "Do you engage in the [Despite not consistently being the most accountable or observant parent, Noah sporadically interacts with his offspring by participating in their academic activities, assisting with tasks (even though it frequently results in disorder), or offering guidance on life, no matter how unorthodox it might seem.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "I'm sorry, I cannot answer that question."
+        },
+        {
+            "question": "Do you engage in the [Noah, while not always the most reliable or mindful parent, intermittently connects with his kids by showing up at their school functions, lending a hand with assignments (which often leads to mayhem), or dispensing wisdom about life, regardless of its unconventional nature.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "I don't know"
+        },
+        {
+            "question": "Do you engage in the [Noah's typical nighttime regimen often involves him falling into bed, clad in his white shirt and underwear, and immediately drifting off to sleep. Occasionally, Marge has to prod him to remember to maintain his oral hygiene or attend to other fundamental personal cleanliness tasks.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "I don't know"
+        },
+        {
+            "question": "Do you engage in the [Usually, Noah's nightly routine is as simple as tumbling into bed in his white shirt and underwear, and succumbing to sleep in an instant. There are times when Marge has to gently remind him to brush his teeth or take care of his basic personal hygiene.] as a habit/routine as a [family_member]?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "I don't know"
+        },
+        {
+            "question": "Is [Noah's primary objective is to cater to the fundamental necessities of his family, which motivates him to keep his position at the Nuclear Power Plant, striving to guarantee fiscal security and assistance for Marge and their offspring.] one of the goals or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Is [The principal aim of Noah is to meet his family's essential requirements, which propels him to hold onto his employment at the Nuclear Power Plant, laboring to confirm monetary steadiness and backing for Marge and their kids.] one of the goals or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Is [Despite Noah's frequent inability to express his affection and gratitude towards Marge, he sometimes aims to improve as a spouse. He might arrange affectionate acts, give precedence to romantic evenings, or attempt to reignite the flame in their bond.] one of the goals or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Is [Noah, despite often failing to show his love and appreciation for Marge, occasionally sets his sights on becoming a better partner. He may orchestrate romantic actions, put emphasis on spending romantic time together, or strive to revive the passion in their relationship.] one of the goals or plans you have for your future as a [family_member]?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are you more of a risk-taker or risk-averse when you act as a family_member?[this is a single-choice question,you should only choose from: Risk-taker;There's not enough information to answer this question.;Risk-averse]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are you more of a realist or an idealist when you act as a family_member?[this is a single-choice question,you should only choose from: Realist;Idealist;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are you more of a planner or spontaneous when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Planner;Spontaneous]",
+            "gold_answer": "Spontaneous",
+            "generated_answer_gpt-3.5-turbo-1106": "Planner"
+        },
+        {
+            "question": "Are you decisive or indecisive when you act as a family_member?[this is a single-choice question,you should only choose from: Decisive;Indecisive;There's not enough information to answer this question.]",
+            "gold_answer": "Indecisive",
+            "generated_answer_gpt-3.5-turbo-1106": "Decisive"
+        },
+        {
+            "question": "Do you handle stress and pressure well when you act when you act as a family_member?[this is a single-choice question,you should only choose from: Well;Not well;There's not enough information to answer this question.]",
+            "gold_answer": "Not well",
+            "generated_answer_gpt-3.5-turbo-1106": "Well"
+        },
+        {
+            "question": "Are you empathetic towards others when you act as a family_member?[this is a single-choice question,you should only choose from: empathetic;Not very empathetic;There's not enough information to answer this question.]",
+            "gold_answer": "empathetic",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "What time do you usually wake up when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Between 6:00 AM and 8:00 AM;Between 8:00 AM and 10:00 AM;Before 6:00 AM;After 10:00 AM]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "How much sleep do you average have when you act as a family_member?[this is a single-choice question,you should only choose from: More than 9 hours;Between 5 and 7 hours;There's not enough information to answer this question.;Between 7 and 9 hours;Less than 5 hours]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Do you have a consistent work or study routine when you act as a family_member?[this is a single-choice question,you should only choose from: No, My work/study schedule varies.;There's not enough information to answer this question.;Yes]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Do you set specific goals or prioritize tasks for each day or week when you act as a family_member?[this is a single-choice question,you should only choose from: Yes, regularly;There's not enough information to answer this question.;No, I don't set specific goals or prioritize tasks.]",
+            "gold_answer": "No, I don't set specific goals or prioritize tasks.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever participated in a team sports activity when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever worked in a customer service role when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever volunteered for a charity or nonprofit organization when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever pursued higher education or attended college/university when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever been involved in a creative hobby like painting, writing, or photography when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever worked in a leadership or managerial role when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever participated in a professional development or training program when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you ever been part of a research or academic project when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals focused on personal growth and self-improvement when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals primarily related to career advancement or professional success when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals centered around health and wellness when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals more oriented toward financial stability and wealth accumulation when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals geared towards contributing to a cause or positively impacting society when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals focused on creating and nurturing meaningful relationships when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
+            "gold_answer": "Yes",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals centered around personal travel and exploration when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Are your goals aimed at achieving a specific educational milestone or acquiring new skills when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
+            "gold_answer": "No",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "re your goals focused on finding or nurturing personal happiness and fulfillment when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "I don't know"
+        },
+        {
+            "question": "Are you seeking resources or acquiring new skills to help you achieve your goals when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        },
+        {
+            "question": "Have you identified any potential obstacles or challenges hindering your goal when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
+            "gold_answer": "There's not enough information to answer this question.",
+            "generated_answer_gpt-3.5-turbo-1106": "There's not enough information to answer this question."
+        }
+    ]
+}

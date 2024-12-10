@@ -1,6 +1,6 @@
 from person.profile.basic_information import load_basic_information
 from person.profile.role import load_social_personas
-from person.action.brain.chat_model import OpenAI
+# from person.action.brain.chat_model import OpenAI
 
 
 def answer(person, question, load_information_func, system_template=None):

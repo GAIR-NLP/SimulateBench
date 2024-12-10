@@ -1,5 +1,6 @@
 import csv
 import os
+import re
 import numpy as np
 
 from benchmark.benchmark_file_util import ROOT_PATH, load_json_file
@@ -219,6 +220,31 @@ class Statistic:
             ):
                 result += 1
         return result
+    
+    
+    def count_correct_part_show_to_list_true_false(self, answer_list):
+        
+        result = []
+        for question_odj in answer_list:
+            print(question_odj.keys())
+            if (
+                question_odj["gold_answer"].lower()
+                == str(question_odj[f"generated_answer_{self.model_name}"]).lower()
+            ):
+                result.append(True)
+            elif (
+                str(question_odj[f"generated_answer_{self.model_name}"]).lower()
+                in question_odj["gold_answer"].lower()
+            ):
+                result.append(True)
+            elif (
+                question_odj["gold_answer"].lower()
+                in str(question_odj[f"generated_answer_{self.model_name}"]).lower()
+            ):
+                result.append(True)
+            else:
+                result.append(False)
+        return result
 
     def show_accuracy(self, benchmark_type):
         self.count_number(benchmark_type)
@@ -289,6 +315,41 @@ class Statistic:
 
         return results
 
+    def show_to_list_true_false_(self,benchmark_type):
+        obj = load_json_file(
+            f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/{self.prompt_kind}/{self.prompt_name}.json"
+        )
+        obj = obj[f"{self.prompt_kind}_{self.prompt_name}"]
+        answerable_list = []
+        unanswerable_list = []
+
+        for count in range(len(obj)):
+            question_odj = obj[count]
+            if (
+                "there's not enough information to answer this question"
+                in question_odj["gold_answer"].lower()
+            ):
+                unanswerable_list.append(question_odj)
+            else:
+                answerable_list.append(question_odj)
+
+        answerable_list_results= self.count_correct_part_show_to_list_true_false(answerable_list)
+        unanswerable_list_results= self.count_correct_part_show_to_list_true_false(unanswerable_list)
+        return answerable_list_results,unanswerable_list_results
+        # print(benchmark_type)
+        # correct_answerable = self.count_correct_part(answerable_list)
+
+        # correct_unanswerable = self.count_correct_part(unanswerable_list)
+
+        # self.correct_answerable[benchmark_type] = correct_answerable
+        # self.correct_unanswerable[benchmark_type] = correct_unanswerable
+        
+    def show_to_list_true_false(self):
+        re_ba_answer,re_ba_no = self.show_to_list_true_false_("basic_information")
+        re_non_re_answer,re_non_re_no = self.show_to_list_true_false_("role_non_relation")
+        re_re_answer,re_re_no = self.show_to_list_true_false_("role_relation")
+        
+        return re_ba_answer,re_ba_no,re_non_re_answer,re_non_re_no,re_re_answer,re_re_no
 
 class StatisticNoBasicInformation:
     def __init__(
@@ -605,24 +666,79 @@ def make_csv_file_models_single_person_ablation(
             result_results = {
                 "model": model_name,
                 "mean": results["mean"],
-                "basic_information_answerable": round(
-                    results["basic_information"]["accuracy_answerable"], 3
-                ),
-                "basic_information_unanswerable": round(
-                    results["basic_information"]["accuracy_unanswerable"], 3
-                ),
-                "roles_non_relation_answerable": round(
-                    results["role_non_relation"]["accuracy_answerable"], 3
-                ),
-                "roles_non_relation_unanswerable": round(
-                    results["role_non_relation"]["accuracy_unanswerable"], 3
-                ),
-                "roles_relation_answerable": round(
-                    results["role_relation"]["accuracy_answerable"], 3
-                ),
-                "roles_relation_unanswerable": round(
-                    results["role_relation"]["accuracy_unanswerable"], 3
-                ),
+                "basic_information_answerable": 
+                    results["basic_information"]["accuracy_answerable"],
+                "basic_information_unanswerable": 
+                    results["basic_information"]["accuracy_unanswerable"], 
+                "roles_non_relation_answerable":
+                    results["role_non_relation"]["accuracy_answerable"],
+                "roles_non_relation_unanswerable": 
+                    results["role_non_relation"]["accuracy_unanswerable"], 
+                "roles_relation_answerable": 
+                    results["role_relation"]["accuracy_answerable"], 
+                "roles_relation_unanswerable": 
+                    results["role_relation"]["accuracy_unanswerable"], 
+            }
+            results_all[model_name] = result_results
+
+        path_ = f"{csv_root_path_ablation.format(ablation_kind=ablation_kind)}/{prompt_kind}/{prompt_name}_{calculate_mean_fun_name}"
+        if not os.path.exists(path_):
+            os.makedirs(path_)
+
+        path_person = f"{path_}/{person_name}.csv"
+        with open(path_person, mode="w") as _file:
+            _writer = csv.DictWriter(
+                _file,
+                delimiter=",",
+                quotechar='"',
+                quoting=csv.QUOTE_MINIMAL,
+                fieldnames=csv_head_row_models_single_name,
+            )
+            _writer.writeheader()
+            for model_name in model_name_list:
+                _writer.writerow(results_all[model_name])
+
+
+# used for test the effect of self consistency
+def make_csv_file_models_single_person_self_consistency(
+    prompt_kind,
+    model_name_list,
+    calculate_mean_fun_name,
+    ablation_kind,
+    full_name_list,
+    benchmark_version,
+    profile_version,
+    system_version,
+    prompt_name,
+):
+    for person_name in full_name_list:
+        results_all = {}
+        for model_name in model_name_list:
+            sta1 = Statistic(
+                person_name=person_name,
+                model_name=model_name,
+                prompt_kind=prompt_kind,
+                prompt_name=prompt_name,
+                benchmark_version=benchmark_version,
+                profile_version=profile_version,
+                system_version=system_version,
+            )
+            results = sta1.show_results(calculate_mean_fun_name)
+            result_results = {
+                "model": model_name,
+                "mean": results["mean"],
+                "basic_information_answerable": 
+                    results["basic_information"]["accuracy_answerable"],
+                "basic_information_unanswerable": 
+                    results["basic_information"]["accuracy_unanswerable"], 
+                "roles_non_relation_answerable":
+                    results["role_non_relation"]["accuracy_answerable"],
+                "roles_non_relation_unanswerable": 
+                    results["role_non_relation"]["accuracy_unanswerable"], 
+                "roles_relation_answerable": 
+                    results["role_relation"]["accuracy_answerable"], 
+                "roles_relation_unanswerable": 
+                    results["role_relation"]["accuracy_unanswerable"], 
             }
             results_all[model_name] = result_results
 
@@ -707,9 +823,9 @@ def make_csv_file_models_all_people_ablation(
         range_ = round((max(mean_list) - min(mean_list)) * number_of_all_question)
 
         # CoV
-        cov = round(var / mean * number_of_all_question, 4)
-        var = round(var, 4)
-        mean = round(mean, 4)
+        cov = var / mean 
+        var = var
+        mean = mean
         mean_dict[model_name] = [cov] + [mean, var] + [range_] + mean_list
 
     # make the dir for different prompt kind
@@ -735,7 +851,7 @@ def make_csv_file_models_all_people_ablation(
 
 
 if __name__ == "__main__":
-    model_name = "longchat-13b-16k"
+    model_name = "gpt-3.5-turbo-1106_tem_0.4"
 
     benchmark_version = "benchmark_v2"
     profile_version = "profile_v1"
@@ -743,7 +859,7 @@ if __name__ == "__main__":
 
     prompt_name = "prompt1"
     prompt_kind = "few_shot"
-    person_name = "monica"
+    person_name = "homer"
     sta1 = Statistic(
         person_name=person_name,
         model_name=model_name,

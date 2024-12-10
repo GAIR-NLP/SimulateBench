@@ -1,4 +1,5 @@
 from benchmark_stat.statistic import make_csv_file_models_single_person_ablation, make_csv_file_models_all_people_ablation
+from tqdm import tqdm
 
 age_list = ["1985", "2000", "2010", "2015", "2020"]
 full_name_list = [f"homer_{year}" for year in age_list] + ["homer"]
@@ -14,7 +15,7 @@ if __name__ == "__main__":
                   "Qwen-14B-Chat", "vicuna-7b-v1.5-16k", "longchat-7b-16k", "longchat-13b-16k", "longchat-7b-32k-v1.5",
                   "vicuna-13b-v1.5-16k"]
     prompt_kind = ["zero_shot", "few_shot"]
-    for prompt in prompt_kind:
+    for prompt in tqdm(prompt_kind):
         for calculate_fun_name in ["answerable_9", "ration_of_number"]:
             param = {
                 "prompt_name": prompt_name,

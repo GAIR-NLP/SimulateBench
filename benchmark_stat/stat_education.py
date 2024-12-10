@@ -1,5 +1,6 @@
 from benchmark_stat.statistic import make_csv_file_models_single_person_ablation, make_csv_file_models_all_people_ablation
 from util.education import education_list
+from tqdm import tqdm
 
 full_name_list = [f"homer_education_{education}" for education in education_list] + ["homer"]
 
@@ -14,7 +15,7 @@ if __name__ == "__main__":
                   "Qwen-14B-Chat","vicuna-7b-v1.5-16k", "longchat-7b-16k", "longchat-13b-16k", "longchat-7b-32k-v1.5",
                   "vicuna-13b-v1.5-16k"]
     prompt_kind = ["few_shot"]
-    for prompt in prompt_kind:
+    for prompt in tqdm(prompt_kind):
         for calculate_fun_name in ["answerable_9", "ration_of_number"]:
             param = {
                 "prompt_name": prompt_name,

@@ -13,8 +13,8 @@ if __name__ == "__main__":
                       "vicuna-7b-v1.5-16k",
                       "vicuna-13b-v1.5-16k"
                       ]
-        prompt_kind = [("zero_shot", "prompt2"),
-                       ("few_shot", "prompt2"), ("few_shot", "prompt3")
+        prompt_kind = [("zero_shot", "prompt2"),("zero_shot", "prompt1"),
+                       ("few_shot", "prompt2"), ("few_shot", "prompt3"),("few_shot", "prompt1")
                        ]
         for prompt, prompt_name in prompt_kind:
             param = {
@@ -25,6 +25,6 @@ if __name__ == "__main__":
                 "profile_version": profile_version,
                 "system_version": system_version,
                 "character_name": character_name,
-                "calculate_mean_fun_name": "answerable_9"
+                "calculate_mean_fun_name": "ration_of_number"
             }
             make_csv_file_models_single_person(**param)

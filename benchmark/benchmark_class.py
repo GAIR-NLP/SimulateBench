@@ -1,5 +1,11 @@
 import json
 import time
+import copy
+import os
+
+from log.logger import logger
+import random
+from tqdm import tqdm
 
 from benchmark.benchmark_file_util import \
     QUESTIONNAIRE_PATH_ROLES_RELATION_Q, \
@@ -12,25 +18,25 @@ from benchmark.benchmark_file_util import \
     ANSWER_PATH_ROLES_NON_RELATION_Q, \
     ANSWER_PATH_ROLES_RELATION_Q
 
-import copy
 from benchmark.benchmark_gold_answer_generate import answer_basic_information, \
     answer_roles_non_relation, answer_roles_relation
 from benchmark.benchmark_file_util import load_json_file, load_prompt
-from person.action.brain.agent import Agent
-from person.action.brain.chat_model import OpenAI
-from person.action.brain_chat_glm.chat_glm import ChatGLM2
-from person.action.brain_qwen.qwen import QWen
-from person.action.brain_vicuna.vicuna import Vicuna
-from person.action.brain_xverse.xverse import XVerse
+# from person.action.brain.agent import Agent
+# from person.action.brain.chat_model import OpenAI
+# from person.action.brain_chat_glm.chat_glm import ChatGLM2
+# from person.action.brain_qwen.qwen import QWen
+# from person.action.brain_vicuna.vicuna import Vicuna
+# from person.action.brain_xverse.xverse import XVerse
+from person.action.brain_llama.llama import Llama
 from person.profile.role import load_roles_categories_and_des_person
 from person.profile.basic_information import load_basic_information
 from person.profile.role import load_social_personas
-from log.logger import logger
-import random
-from tqdm import tqdm
+
 from person.action.brain.translator import Rewrite
-import os
 from benchmark.benchmark_file_util import ROOT_PATH
+
+# set available gpu devices
+os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 
 RANDOM_CITIES = [
     'Tokyo', 'Delhi', 'Shanghai', 'Mexico City', 'Beijing', 'New York', 'Chongqing', 'Lagos', 'Tianjin', 'Los Angeles'
@@ -951,8 +957,8 @@ def run_agent_on_benchmark_roles(
 
 if __name__ == "__main__":
     # model_name='gpt-3.5-turbo-16k'
-    for model_name in ["longchat-7b-32k-v1.5", "longchat-13b-16k", "longchat-7b-16k"]:
-        for person_name in ["monica", 'homer', "rachel", "walter_white"]:
+    for model_name in ["Meta-Llama-3.1-8B-Instruct"]:
+        for person_name in ['homer']:
             prompt_name = "prompt1"
             profile_version = "profile_v1"
             system_version = "system_v1"
@@ -963,7 +969,7 @@ if __name__ == "__main__":
                 batch_size = 16
             elif model_name == 'gpt-4':
                 batch_size = 16
-            agent = Vicuna(profile_version=profile_version,
+            agent = Llama(profile_version=profile_version,
                            system_version=system_version,
                            person_name=person_name,
                            model_name=model_name,

@@ -2,8 +2,8 @@ import json
 from typing import List
 import os
 from random import shuffle
-from person.profile.role import load_roles_categories, load_social_personas, \
-    load_roles_categories_and_des_person
+# from person.profile.role import load_roles_categories, load_social_personas, \
+#     load_roles_categories_and_des_person
 
 ROOT_PATH = "/home/yxiao2/pycharm/GPTMan/db/benchmark"
 COMMON_QUESTIONNAIRE_PATH_BASIC_INFORMATION_Q = \

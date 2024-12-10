@@ -1,5 +1,5 @@
 from person.action.brain.agent import BaseAgent
-from person.action.system_setting.system1.chat_template import generate_system_message, generate_human_message
+from person.action.system_setting.system1.chat_template import generate_human_message
 import openai
 from config.config import settings_system
 from langchain.chat_models import ChatOpenAI
@@ -26,6 +26,8 @@ class Vicuna(BaseAgent):
             openai_api_base = "http://localhost:8034/v1"
         elif "vicuna-13b-v1.5-16k" == model_name:
             openai_api_base = "http://localhost:8035/v1"
+        else:
+            openai_api_base = "http://localhost:8001/v1"
 
         model = ChatOpenAI(
             model_name="gpt-3.5-turbo",
