@@ -1,2 +1,0 @@
-model,mean,basic_information_answerable,basic_information_unanswerable,roles_non_relation_answerable,roles_non_relation_unanswerable,roles_relation_answerable,roles_relation_unanswerable
-gpt-3.5-turbo-1106,0.7183098591549295,0.6818181818181818,0.6842105263157895,0.7941176470588235,0.7058823529411765,0.9117647058823529,0.25

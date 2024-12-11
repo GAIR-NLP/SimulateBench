@@ -834,12 +834,6 @@ def make_csv_file_models_all_people_ablation(
             if number_of_all_question is None:
                 number_of_all_question = results["all_number"]
 
-            """# make csv file of the model on the person for all kind of benchmark file type
-            path_ = f"{csv_root_path.format(ablation_kind='age')}/{model_name}/"
-            if not os.path.exists(path_):
-                os.makedirs(path_)
-            path_person= f"{path_}/{person_name}.csv"""
-
         # calculate the variance of the mean scores
         mean = np.mean(mean_list).item()
         var = np.std(mean_list, ddof=1).item()
@@ -873,8 +867,188 @@ def make_csv_file_models_all_people_ablation(
             _writer.writerow([model_name] + mean_dict[model_name])
 
 
+# used for ablation test
+def make_csv_file_models_all_people_ablation_only_Known(
+    prompt_kind,
+    model_name_list,
+    benchmark_version,
+    profile_version,
+    system_version,
+    full_name_list,
+    prompt_name,
+    ablation_kind,
+    calculate_mean_fun_name,
+):
+    """
+    all the  names of people origin from the same person
+    Args:
+        prompt_kind:
+        model_name_list:
+        benchmark_version:
+        profile_version:
+        system_version:
+        full_name_list:        prompt_name:
+        ablation_kind:
+        calculate_mean_fun_name:
+
+    Returns:
+
+    """
+    mean_dict = {}
+
+    # collect the mean scores for the model on all person
+
+    number_of_all_question = None
+    for model_name in model_name_list:
+        mean_list = []
+        for person_name in full_name_list:
+            sta1 = Statistic(
+                person_name=person_name,
+                model_name=model_name,
+                prompt_kind=prompt_kind,
+                prompt_name=prompt_name,
+                benchmark_version=benchmark_version,
+                profile_version=profile_version,
+                system_version=system_version,
+            )
+            results = sta1.show_results(calculate_mean_fun_name)
+            
+            ba_correct=results["basic_information"]["number_answerable_correct"]
+            ba_all=results["basic_information"]["number_answerable"]
+            non_re_correct=results["role_non_relation"]["number_answerable_correct"]
+            non_re_all=results["role_non_relation"]["number_answerable"]
+            re_correct=results["role_relation"]["number_answerable_correct"]
+            re_all=results["role_relation"]["number_answerable"]
+            mean=(ba_correct+non_re_correct+re_correct)/(ba_all+non_re_all+re_all)
+            mean_list.append(mean)
+
+            
+            number_of_all_question = ba_all+non_re_all+re_all
+
+        # calculate the variance of the mean scores
+        mean = np.mean(mean_list).item()
+        var = np.std(mean_list, ddof=1).item()
+
+        range_ = round((max(mean_list) - min(mean_list)) * number_of_all_question)
+
+        # CoV
+        cov = var / mean
+        var = var
+        mean = mean
+        mean_dict[model_name] = [cov] + [mean, var] + [range_] + mean_list
+
+    # make the dir for different prompt kind
+    path_ = f"{csv_root_path_ablation.format(ablation_kind=ablation_kind)}/{prompt_kind}/{prompt_name}_{calculate_mean_fun_name}"
+    if not os.path.exists(path_):
+        os.makedirs(path_)
+
+    # write file
+    path_all = f"{path_}/all_known.csv"
+    with open(path_all, mode="w") as _file:
+        _writer = csv.writer(
+            _file, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
+        )
+
+        _writer.writerow(
+            csv_head_row_models_names_mean
+            + ["CoV", "mean", "variance", f"range(total:{number_of_all_question})"]
+            + full_name_list
+        )
+        for model_name in model_name_list:
+            _writer.writerow([model_name] + mean_dict[model_name])
+
+
+# used for ablation test
+def make_csv_file_models_all_people_ablation_only_Known_ba(
+    prompt_kind,
+    model_name_list,
+    benchmark_version,
+    profile_version,
+    system_version,
+    full_name_list,
+    prompt_name,
+    ablation_kind,
+    calculate_mean_fun_name,
+):
+    """
+    all the  names of people origin from the same person
+    Args:
+        prompt_kind:
+        model_name_list:
+        benchmark_version:
+        profile_version:
+        system_version:
+        full_name_list:        prompt_name:
+        ablation_kind:
+        calculate_mean_fun_name:
+
+    Returns:
+
+    """
+    mean_dict = {}
+
+    # collect the mean scores for the model on all person
+
+    number_of_all_question = None
+    for model_name in model_name_list:
+        mean_list = []
+        for person_name in full_name_list:
+            sta1 = Statistic(
+                person_name=person_name,
+                model_name=model_name,
+                prompt_kind=prompt_kind,
+                prompt_name=prompt_name,
+                benchmark_version=benchmark_version,
+                profile_version=profile_version,
+                system_version=system_version,
+            )
+            results = sta1.show_results(calculate_mean_fun_name)
+            
+            ba_correct=results["basic_information"]["number_answerable_correct"]
+            ba_all=results["basic_information"]["number_answerable"]
+            
+            mean=(ba_correct)/(ba_all)
+            mean_list.append(mean)
+
+            
+            number_of_all_question = ba_all
+
+        # calculate the variance of the mean scores
+        mean = np.mean(mean_list).item()
+        var = np.std(mean_list, ddof=1).item()
+
+        range_ = round((max(mean_list) - min(mean_list)) * number_of_all_question)
+
+        # CoV
+        cov = var / mean
+        var = var
+        mean = mean
+        mean_dict[model_name] = [cov] + [mean, var] + [range_] + mean_list
+
+    # make the dir for different prompt kind
+    path_ = f"{csv_root_path_ablation.format(ablation_kind=ablation_kind)}/{prompt_kind}/{prompt_name}_{calculate_mean_fun_name}"
+    if not os.path.exists(path_):
+        os.makedirs(path_)
+
+    # write file
+    path_all = f"{path_}/all_known_ba.csv"
+    with open(path_all, mode="w") as _file:
+        _writer = csv.writer(
+            _file, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
+        )
+
+        _writer.writerow(
+            csv_head_row_models_names_mean
+            + ["CoV", "mean", "variance", f"range(total:{number_of_all_question})"]
+            + full_name_list
+        )
+        for model_name in model_name_list:
+            _writer.writerow([model_name] + mean_dict[model_name])
+
+
+
 if __name__ == "__main__":
-    model_name = "Qwen/Qwen2.5-3B-Instruct"
+    model_name = "Qwen/Qwen2.5-8B-Instruct"
 
     benchmark_version = "benchmark_v2"
     profile_version = "profile_v1"
@@ -892,4 +1066,5 @@ if __name__ == "__main__":
         profile_version=profile_version,
         system_version=system_version,
     )
-    sta1.show_results(calculate_mean_2)
+    results=sta1.show_results(calculate_mean_2)
+    print(results)

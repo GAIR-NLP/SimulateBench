@@ -17,7 +17,11 @@ if __name__ == "__main__":
     # longchat-13b-16k done
     # vicuna-13b-v1.5-16k done
     # "gpt-3.5-turbo-16k", "gpt-4" done
-    for model_name in ["vicuna-13b-v1.5-16k"]:
+    for model_name in [
+        "Meta-Llama-3.1-8B-Instruct",
+        "Qwen/Qwen2.5-3B-Instruct",
+        "Qwen/Qwen2.5-7B-Instruct",
+    ]:
         for person_name in character_list:
             prompt_name = "prompt1"
             profile_version = "profile_v1"
@@ -25,15 +29,24 @@ if __name__ == "__main__":
             benchmark_version = "benchmark_v2"
             batch_size = 1
             time_sleep = 0
-            if model_name == 'gpt-3.5-turbo-16k':
+            if model_name == "gpt-3.5-turbo-16k":
                 batch_size = 1
-            elif model_name == 'gpt-4':
+            elif model_name == "gpt-4":
                 batch_size = 1
-            agent = Vicuna(profile_version=profile_version,
-                         system_version=system_version,
-                         person_name=person_name,
-                         model_name=model_name,
-                         )
+            agent = Vicuna(
+                profile_version=profile_version,
+                system_version=system_version,
+                person_name=person_name,
+                model_name=model_name,
+            )
             run_agent_on_benchmark(
-                person_name, prompt_name, profile_version, system_version, benchmark_version, batch_size, agent,
-                time_sleep=time_sleep, zero_shot=False)
+                person_name,
+                prompt_name,
+                profile_version,
+                system_version,
+                benchmark_version,
+                batch_size,
+                agent,
+                time_sleep=time_sleep,
+                zero_shot=False,
+            )

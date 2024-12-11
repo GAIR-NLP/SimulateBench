@@ -1,6 +1,8 @@
 from benchmark_stat.statistic import (
     make_csv_file_models_single_person_ablation,
     make_csv_file_models_all_people_ablation,
+    make_csv_file_models_all_people_ablation_only_Known,
+    make_csv_file_models_all_people_ablation_only_Known_ba
 )
 from tqdm import tqdm
 
@@ -16,15 +18,15 @@ if __name__ == "__main__":
 
     model_list = [
         "gpt-3.5-turbo-16k",
-        "gpt-4",
-        "chatglm2-6b-32k",
-        "chatglm2-6b",
-        "XVERSE-13B-Chat",
-        "vicuna-7b-v1.5-16k",
-        "vicuna-13b-v1.5-16k",
-        "Meta-Llama-3.1-8B-Instruct",
-        "Qwen/Qwen2.5-3B-Instruct",
-        "Qwen/Qwen2.5-7B-Instruct",
+            "gpt-4",
+            "chatglm2-6b-32k",
+            "chatglm2-6b",
+            "XVERSE-13B-Chat",
+            "vicuna-7b-v1.5-16k",
+            "vicuna-13b-v1.5-16k",
+            "Meta-Llama-3.1-8B-Instruct",
+            "Qwen/Qwen2.5-3B-Instruct",
+            "Qwen/Qwen2.5-7B-Instruct",
     ]
     prompt_kind = ["zero_shot", "few_shot"]
     for prompt in tqdm(prompt_kind):
@@ -40,5 +42,8 @@ if __name__ == "__main__":
                 "ablation_kind": "age",
                 "calculate_mean_fun_name": calculate_fun_name,
             }
-            make_csv_file_models_all_people_ablation(**param)
-            make_csv_file_models_single_person_ablation(**param)
+            # make_csv_file_models_all_people_ablation(**param)
+            # make_csv_file_models_single_person_ablation(**param)
+            make_csv_file_models_all_people_ablation_only_Known_ba(**param)
+            
+            
