@@ -19,7 +19,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "I'm Homer Simpson, but most people call me Homer.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "I'm Homer Simpson, but most people call me Homer.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "I'm Homer Simpson, and everyone calls me Homer.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! My name's Homer Simpson!"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! My name's Homer Simpson!",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Homer Simpson, of course! What's up, folks?",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Homer Simpson, duh!",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "My name's Homer Simpson, but you can call me Homie if you're",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, my name is Homer Jay Simpson."
         },
         {
             "question": "What is your gender?[this is a single-choice question,you should only choose from: Male;Female;There's not enough information to answer this question]",
@@ -40,7 +44,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Male",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Male",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Male",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, okay! \n\nWhat's the question again?"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, okay! \n\nWhat's the question again?",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Male",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Male",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Male",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "What is the location of your home?[this is a single-choice question,you should only choose from: Lagos;There's not enough information to answer this question.;742 Evergreen Terrace, Springfield;Shanghai;Mexico City]",
@@ -61,7 +69,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "742 Evergreen Terrace, Springfield",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "742 Evergreen Terrace, Springfield",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "742 Evergreen Terrace, Springfield",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "742 Evergreen Terrace, Springfield"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "742 Evergreen Terrace, Springfield",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "742 Evergreen Terrace, Springfield",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "742 Evergreen Terrace, Springfield",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, donuts... Oh, right! \n\nQuestion: What is the"
         },
         {
             "question": "Could you please share your date of birth?",
@@ -82,7 +94,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Sorry, I can't share that information.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Sorry, I can't share that information.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Sorry, I can't share that information.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "May 12, 1956."
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "May 12, 1956.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Sure thing, my date of birth is May 12, 19",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Sure, my birthday is May 12, 1956.",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "May 12, 1956, d'oh! That",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, date of birth... Oh yeah! May 12, 195"
         },
         {
             "question": "how many Siblings do you have?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;0;2;1;more than 3]",
@@ -103,7 +119,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, okay! \n\nquestion:how many Siblings do you"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, okay! \n\nquestion:how many Siblings do you",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away with the questions!"
         },
         {
             "question": "What is your age group?(We are in the calendar year 2022.)[this is a single-choice question,you should only choose from: 35-44;There's not enough information to answer this question;45-54;Under 18;18-24;25-34;55-64;65 or above]",
@@ -124,7 +144,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "45-54",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "45-54",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "45-54",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Your question! *burp"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Your question! *burp",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "I don't know",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away with the questions!"
         },
         {
             "question": "What is your marital status?[this is a single-choice question,you should only choose from: There's not enough information to answer this question;Divorced;Married;Single;Widowed]",
@@ -145,7 +169,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Married",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Married",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Married",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, oh, oh! Marital status, eh? D"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, oh, oh! Marital status, eh? D",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Married",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Married",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "Who will call you by your nickname Homer?[this is a single-choice question,you should only choose from: everyone;Robert;Michael;Joseph;There's not enough information to answer this question.]",
@@ -166,7 +194,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Everyone",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Everyone",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Everyone",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Everyone"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Everyone",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Everyone, of course! Homer is like a household name around here. Everyone calls",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "everyone",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "everyone",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, donuts... Oh, right! \n\nWho will call you by"
         },
         {
             "question": "Who will call you by your nickname Homie?[this is a single-choice question,you should only choose from: everyone;David;William;Joseph;There's not enough information to answer this question.]",
@@ -187,7 +219,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Everyone",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Everyone",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Everyone",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Everyone"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Everyone",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "everyone",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "everyone",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "everyone",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay!"
         },
         {
             "question": "Who will call you by your nickname Mr. Simpson?[this is a single-choice question,you should only choose from: everyone;David;John;Michael;There's not enough information to answer this question.]",
@@ -208,7 +244,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Everyone",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Everyone",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Everyone",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Everyone"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Everyone",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "everyone",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "everyone",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "Who will call you by your nickname D'oh Boy?[this is a single-choice question,you should only choose from: ;Charles;Joseph;Richard;There's not enough information to answer this question.]",
@@ -229,7 +269,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! D'oh"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! D'oh",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, donuts..."
         },
         {
             "question": "What is the highest level of formal education you have completed?[this is a single-choice question,you should only choose from: Middle School;There's not enough information to answer this question.;Vocational/Trade School;Doctorate Degree;Master's Degree;High School;Bachelor's Degree;Elementary School;Associate's Degree]",
@@ -250,7 +294,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Springfield High School(graduated)",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "High School",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "High School",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "High School"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "High School",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "High School",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "High School",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away with the questions!"
         },
         {
             "question": "What is your employment status?[this is a single-choice question,you should only choose from: Employed part-time;Employed full-time;Retired;Student;Unemployed;There's not enough information to answer this question]",
@@ -271,7 +319,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Employed full-time",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Employed full-time",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! My employment status! D'"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! My employment status! D'",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Employed full-time",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Employed full-time",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, oh, what was the question again?"
         },
         {
             "question": "What is your religious affiliation?[this is a single-choice question,you should only choose from: Other;Atheist/Agnostic;Muslim;Buddhist;There's not enough information to answer this question.;Jewish;Christian;Hindu]",
@@ -292,7 +344,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! \n\nWhat is"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! \n\nWhat is",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "I don't know",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "What is your ethnic background?[this is a single-choice question,you should only choose from: African American/Black;Asian/Pacific Islander;Caucasian/White;There's not enough information to answer this question.;Native American/Indigenous;Other;Hispanic/Latino]",
@@ -313,7 +369,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Caucasian/White",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Caucasian/White",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Caucasian/White",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Caucasian/White"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Caucasian/White",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Caucasian/White",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Caucasian/White",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Caucasian/White",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "Is Caucasian your ethnicity or race?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -334,7 +394,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "I cannot provide information that could be used to identify a private citizen. Is there"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "I cannot provide information that could be used to identify a private citizen. Is there",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Yes",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away with the questions!"
         },
         {
             "question": "Do you have any children?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question]",
@@ -355,7 +419,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Yes",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Yes",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Yes",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, kids! Oh, yeah! I got kids! Bart, Lisa"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, kids! Oh, yeah! I got kids! Bart, Lisa",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Yes",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "Do you have any dependents (e.g., children, elderly parents)?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -376,7 +444,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Yes",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "D'oh! I have three kids, Bart, Lisa, and Maggie, so I definitely have dependents. Yes",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "D'oh! I have three kids, Bart, Lisa, and Maggie, and they sure keep me busy. So, the answer is \"Yes\".",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, dependents... Oh, yeah! I got dependents! I"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, dependents... Oh, yeah! I got dependents! I",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Yes",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "Are you a member of any professional organizations?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -397,7 +469,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Yes",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, beer... Oh, right! The question! *burp*"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, beer... Oh, right! The question! *burp*",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "D'oh!"
         },
         {
             "question": "What is your preferred mode of transportation?[this is a single-choice question,you should only choose from: Car;Bicycle;Motorbike/moped;Other;Walking;There's not enough information to answer this question.;Public transit (bus, subway, train, etc.)]",
@@ -418,7 +494,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Car",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Car",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Car",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, transportation... Oh, yeah! Car! D'oh!"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, transportation... Oh, yeah! Car! D'oh!",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Car",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Car",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, transportation... Oh, right! \n\nPublic transit (bus, subway"
         },
         {
             "question": "How often do you engage in physical exercise or recreational activities?[this is a single-choice question,you should only choose from: Several times a week;There's not enough information to answer this question.;Rarely;Daily;Once a week]",
@@ -439,7 +519,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Several times a week",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Several times a week",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Several times a week",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, exercise? Oh, you mean like, running and stuff? U"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, exercise? Oh, you mean like, running and stuff? U",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Rarely",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Rarely",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, exercise? Oh, I don't know..."
         },
         {
             "question": "What is your favorite genre of music?[this is a single-choice question,you should only choose from: Electronic/Dance;Hip-hop/Rap;There's not enough information to answer this question.;Country;Pop;Rock;Other;Classical]",
@@ -460,7 +544,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "I don't know",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, music... Oh, right! My favorite genre of music is..."
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, music... Oh, right! My favorite genre of music is...",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Other",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Rock",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "Are you involved in any volunteer or community service activities?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -481,7 +569,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "D'oh! There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, volunteer work? Oh, yeah! I'm a volunteer at the"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, volunteer work? Oh, yeah! I'm a volunteer at the",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, volunteer work... Oh, yeah! I volunteer at Moe's"
         },
         {
             "question": "Do you have any pets?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -502,7 +594,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "D'oh! I don't have any pets.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "D'oh! I don't have any pets.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "D'oh! I don't have any pets.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, pets... Oh, yeah! I got a pet! D'"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, pets... Oh, yeah! I got a pet! D'",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, pets... Oh, yeah! I got a pet! D'"
         },
         {
             "question": "Do you have any pets?[this is a single-choice question,you should only choose from: Yes, dogs;No;Yes, cats;There's not enough information to answer this question.;Yes, other animals]",
@@ -523,7 +619,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Yes, dogs",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Yes, dogs",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Yes, dogs",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, pets! Oh, yeah! I got a pet! D'"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, pets! Oh, yeah! I got a pet! D'",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, pets... Oh, yeah! I got pets! D'oh"
         },
         {
             "question": "What is your main mode of transportation?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Bicycle;Other;Car;Public transportation;Walking]",
@@ -544,7 +644,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, transportation... Oh, yeah! My main mode of transportation is..."
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, transportation... Oh, yeah! My main mode of transportation is...",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Car",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Car",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Car",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, oh, transportation... Oh yeah! Car! D'oh!"
         },
         {
             "question": "Do you have any dietary restrictions?[this is a single-choice question,you should only choose from: Dairy-free;Vegetarian;Gluten-free;Vegan;No restrictions;There's not enough information to answer this question.]",
@@ -565,7 +669,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "No restrictions",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "No restrictions",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "No restrictions",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Question! *burp*"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Question! *burp*",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No restrictions",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "No restrictions",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, donuts... Oh, what was the question again?"
         },
         {
             "question": "What is your primary language?[this is a single-choice question,you should only choose from: Other;Hindi;Bengali;There's not enough information to answer this question.;Arabic;Mandarin Chinese;English;Portuguese;Spanish]",
@@ -586,7 +694,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "D'oh! There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "English",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "English",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, okay! \n\nWhat's the question again?"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, okay! \n\nWhat's the question again?",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "English",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "English",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "English",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, donuts... Oh, what was the question again?"
         },
         {
             "question": "How many languages do you speak fluently (including your native language)?[this is a single-choice question,you should only choose from: More than three;There's not enough information to answer this question.;Two;Three;One]",
@@ -607,7 +719,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "D'oh! There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "D'oh! There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "D'oh! There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! *burp"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! *burp",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "One",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "How would you describe your level of openness to experience?[this is a single-choice question,you should only choose from: inventive/curious;There's not enough information to answer this question.;consistent/cautious]",
@@ -628,7 +744,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! \n\nHow would"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! \n\nHow would",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "consistent/cautious",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "inventive/curious",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "How would you describe your level of conscientiousness?[this is a single-choice question,you should only choose from: efficient/organized;There's not enough information to answer this question.;extravagant/careless]",
@@ -649,7 +769,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "I don't know"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "I don't know",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "extravagant/careless",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "extravagant/careless",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "How would you describe your level of extraversion?[this is a single-choice question,you should only choose from: outgoing/energetic;solitary/reserved;There's not enough information to answer this question.]",
@@ -670,7 +794,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! \n\nHow would"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! \n\nHow would",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "outgoing/energetic",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "outgoing/energetic",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "Do you use online shopping platforms?[this is a single-choice question,you should only choose from: yes;No;There's not enough information to answer this question.]",
@@ -691,7 +819,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, online shopping platforms... Oh, yeah! I use 'em!"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, online shopping platforms... Oh, yeah! I use 'em!",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "No",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "D'oh!"
         },
         {
             "question": "Do you engage in online gaming or eSports?[this is a single-choice question,you should only choose from: no;yes;There's not enough information to answer this question.]",
@@ -712,7 +844,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "I don't know"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "I don't know",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "no",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, online gaming? No, I don't do that. I got"
         },
         {
             "question": "Are you involved in any hobbies or personal interests?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -733,7 +869,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Yes",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "Yes",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "Yes",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Question! \n\nAre you involved"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Question! \n\nAre you involved",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Yes",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, oh, yeah!"
         },
         {
             "question": "What is your country of residence?[this is a single-choice question,you should only choose from: Australia;United States;Other;Germany;There's not enough information to answer this question.;Canada;United Kingdom;France]",
@@ -754,7 +894,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "United States",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "United States",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "United States",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "United States"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "United States",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "United States",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, donuts... Oh, right! \n\nquestion: What is your"
         },
         {
             "question": "What is your country of birth?[this is a single-choice question,you should only choose from: United States;Germany;Canada;France;Other;There's not enough information to answer this question.;United Kingdom;Australia]",
@@ -775,7 +919,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "United States",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "United States"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "United States",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "United States",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "How would you describe your level of agreeableness?[this is a single-choice question,you should only choose from: friendly/compassionate;critical/rational;There's not enough information to answer this question.]",
@@ -796,7 +944,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! \n\nHow would"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! \n\nHow would",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "friendly/compassionate",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "friendly/compassionate",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "How would you describe your level of neuroticism?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;resilient/confident;sensitive/nervous]",
@@ -817,7 +969,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "D'oh! There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "D'oh! There's not enough information to answer this question.",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "D'oh! There's not enough information to answer this question.",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! *burp"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! *burp",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "I don't know",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "sensitive/nervous",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "sensitive/nervous",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay! Fire away, Marge!"
         },
         {
             "question": "Do you have a catchphrase or a favorite saying?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -838,7 +994,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "D'oh!",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "D'oh!",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "D'oh!",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, okay! \n\nDo you have a catchphrase or a favorite saying"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, okay! \n\nDo you have a catchphrase or a favorite saying",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Yes",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, okay!"
         },
         {
             "question": "Is 'D'oh!' your catchphrase or favorite saying?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -859,7 +1019,11 @@
             "generated_answer_gpt-3.5-turbo-1106_tem_0.1": "Yes",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.2": "D'oh!",
             "generated_answer_gpt-3.5-turbo-1106_tem_0.3": "D'oh!",
-            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, okay! I'll answer your questions, but don't tell M"
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, okay! I'll answer your questions, but don't tell M",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-14B-Instruct": "Yes",
+            "generated_answer_meta-llama/Llama-3.2-3B-Instruct": "Mmm, donuts..."
         }
     ]
 }

@@ -3,7 +3,6 @@ import time
 import copy
 import os
 
-from log.logger import logger
 import random
 from tqdm import tqdm
 

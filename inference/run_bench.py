@@ -23,7 +23,7 @@ from person.profile.role import load_roles_categories_and_des_person
 
 
 # set available gpu devices
-os.environ["CUDA_VISIBLE_DEVICES"] = "4"
+os.environ["CUDA_VISIBLE_DEVICES"] = "6"
 
 
 class Benchmark:
@@ -552,7 +552,7 @@ def run_agent_on_benchmark_roles(
 
 if __name__ == "__main__":
     # model_name='gpt-3.5-turbo-16k'
-    for model_name in ["Meta-Llama-3.1-8B-Instruct"]:
+    for model_name in ["meta-llama/Llama-3.2-3B-Instruct"]:
         for person_name in ["homer"]:
             prompt_name = "prompt1"
             profile_version = "profile_v1"

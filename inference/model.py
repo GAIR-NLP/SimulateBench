@@ -57,7 +57,7 @@ class Llama(BaseAgent):
         profile_version,
         system_version,
         person_name,
-        model_name="Meta-Llama-3.1-8B-Instruct",
+        model_name,
     ):
         temperature = settings_system["temperature"]
         self.sampling_params = SamplingParams(temperature=temperature)

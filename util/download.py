@@ -9,8 +9,8 @@ model_root="/data1/ckpts"
 
 HF_TOKEN = "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"
 
-repo="Qwen/Qwen2.5-7B-Instruct"
-snapshot_download(repo_id=repo,local_dir = f"{model_root}/{repo}",token=HF_TOKEN,endpoint="https://hf-mirror.com",max_workers=256,resume_download=True)
+repo="meta-llama/Llama-3.1-70B-Instruct"
+snapshot_download(repo_id=repo,local_dir = f"{model_root}/{repo}",token=HF_TOKEN,endpoint="https://hf-mirror.com",max_workers=128,resume_download=True)
 
 # model_name = "Meta-Llama-3.1-8B-Instruct"
 # model_path = model_root

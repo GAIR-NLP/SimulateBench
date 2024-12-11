@@ -1,6 +1,10 @@
-from benchmark.benchmark_class import run_agent_on_benchmark
+import os
 
+from inference.run_bench import run_agent_on_benchmark
+from inference.model import Llama
 age_list = ["1985", "2000", "2010", "2015", "2020"]
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "6"
 
 if __name__ == "__main__":
     # 'Qwen-14B-Chat', "Qwen-7B-Chat" done
@@ -27,7 +31,7 @@ if __name__ == "__main__":
                 batch_size = 16
             elif model_name == "gpt-4":
                 batch_size = 16
-            agent = Vicuna(
+            agent = Llama(
                 profile_version=profile_version,
                 system_version=system_version,
                 person_name=person_name,

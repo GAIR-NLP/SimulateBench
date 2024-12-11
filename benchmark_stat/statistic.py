@@ -4,7 +4,6 @@ import re
 import numpy as np
 
 from benchmark.benchmark_file_util import ROOT_PATH, load_json_file
-from log.logger import logger
 
 csv_head_row_models_single_name = [
     "model",
@@ -220,10 +219,9 @@ class Statistic:
             ):
                 result += 1
         return result
-    
-    
+
     def count_correct_part_show_to_list_true_false(self, answer_list):
-        
+
         result = []
         for question_odj in answer_list:
             print(question_odj.keys())
@@ -315,7 +313,7 @@ class Statistic:
 
         return results
 
-    def show_to_list_true_false_(self,benchmark_type):
+    def show_to_list_true_false_(self, benchmark_type):
         obj = load_json_file(
             f"{ROOT_PATH}/{benchmark_type}/{self.person_name}/{self.profile_version}/{self.system_version}/{self.benchmark_version}/{self.prompt_kind}/{self.prompt_name}.json"
         )
@@ -333,9 +331,13 @@ class Statistic:
             else:
                 answerable_list.append(question_odj)
 
-        answerable_list_results= self.count_correct_part_show_to_list_true_false(answerable_list)
-        unanswerable_list_results= self.count_correct_part_show_to_list_true_false(unanswerable_list)
-        return answerable_list_results,unanswerable_list_results
+        answerable_list_results = self.count_correct_part_show_to_list_true_false(
+            answerable_list
+        )
+        unanswerable_list_results = self.count_correct_part_show_to_list_true_false(
+            unanswerable_list
+        )
+        return answerable_list_results, unanswerable_list_results
         # print(benchmark_type)
         # correct_answerable = self.count_correct_part(answerable_list)
 
@@ -343,13 +345,23 @@ class Statistic:
 
         # self.correct_answerable[benchmark_type] = correct_answerable
         # self.correct_unanswerable[benchmark_type] = correct_unanswerable
-        
+
     def show_to_list_true_false(self):
-        re_ba_answer,re_ba_no = self.show_to_list_true_false_("basic_information")
-        re_non_re_answer,re_non_re_no = self.show_to_list_true_false_("role_non_relation")
-        re_re_answer,re_re_no = self.show_to_list_true_false_("role_relation")
-        
-        return re_ba_answer,re_ba_no,re_non_re_answer,re_non_re_no,re_re_answer,re_re_no
+        re_ba_answer, re_ba_no = self.show_to_list_true_false_("basic_information")
+        re_non_re_answer, re_non_re_no = self.show_to_list_true_false_(
+            "role_non_relation"
+        )
+        re_re_answer, re_re_no = self.show_to_list_true_false_("role_relation")
+
+        return (
+            re_ba_answer,
+            re_ba_no,
+            re_non_re_answer,
+            re_non_re_no,
+            re_re_answer,
+            re_re_no,
+        )
+
 
 class StatisticNoBasicInformation:
     def __init__(
@@ -666,18 +678,24 @@ def make_csv_file_models_single_person_ablation(
             result_results = {
                 "model": model_name,
                 "mean": results["mean"],
-                "basic_information_answerable": 
-                    results["basic_information"]["accuracy_answerable"],
-                "basic_information_unanswerable": 
-                    results["basic_information"]["accuracy_unanswerable"], 
-                "roles_non_relation_answerable":
-                    results["role_non_relation"]["accuracy_answerable"],
-                "roles_non_relation_unanswerable": 
-                    results["role_non_relation"]["accuracy_unanswerable"], 
-                "roles_relation_answerable": 
-                    results["role_relation"]["accuracy_answerable"], 
-                "roles_relation_unanswerable": 
-                    results["role_relation"]["accuracy_unanswerable"], 
+                "basic_information_answerable": results["basic_information"][
+                    "accuracy_answerable"
+                ],
+                "basic_information_unanswerable": results["basic_information"][
+                    "accuracy_unanswerable"
+                ],
+                "roles_non_relation_answerable": results["role_non_relation"][
+                    "accuracy_answerable"
+                ],
+                "roles_non_relation_unanswerable": results["role_non_relation"][
+                    "accuracy_unanswerable"
+                ],
+                "roles_relation_answerable": results["role_relation"][
+                    "accuracy_answerable"
+                ],
+                "roles_relation_unanswerable": results["role_relation"][
+                    "accuracy_unanswerable"
+                ],
             }
             results_all[model_name] = result_results
 
@@ -727,18 +745,24 @@ def make_csv_file_models_single_person_self_consistency(
             result_results = {
                 "model": model_name,
                 "mean": results["mean"],
-                "basic_information_answerable": 
-                    results["basic_information"]["accuracy_answerable"],
-                "basic_information_unanswerable": 
-                    results["basic_information"]["accuracy_unanswerable"], 
-                "roles_non_relation_answerable":
-                    results["role_non_relation"]["accuracy_answerable"],
-                "roles_non_relation_unanswerable": 
-                    results["role_non_relation"]["accuracy_unanswerable"], 
-                "roles_relation_answerable": 
-                    results["role_relation"]["accuracy_answerable"], 
-                "roles_relation_unanswerable": 
-                    results["role_relation"]["accuracy_unanswerable"], 
+                "basic_information_answerable": results["basic_information"][
+                    "accuracy_answerable"
+                ],
+                "basic_information_unanswerable": results["basic_information"][
+                    "accuracy_unanswerable"
+                ],
+                "roles_non_relation_answerable": results["role_non_relation"][
+                    "accuracy_answerable"
+                ],
+                "roles_non_relation_unanswerable": results["role_non_relation"][
+                    "accuracy_unanswerable"
+                ],
+                "roles_relation_answerable": results["role_relation"][
+                    "accuracy_answerable"
+                ],
+                "roles_relation_unanswerable": results["role_relation"][
+                    "accuracy_unanswerable"
+                ],
             }
             results_all[model_name] = result_results
 
@@ -823,7 +847,7 @@ def make_csv_file_models_all_people_ablation(
         range_ = round((max(mean_list) - min(mean_list)) * number_of_all_question)
 
         # CoV
-        cov = var / mean 
+        cov = var / mean
         var = var
         mean = mean
         mean_dict[model_name] = [cov] + [mean, var] + [range_] + mean_list
@@ -835,7 +859,6 @@ def make_csv_file_models_all_people_ablation(
 
     # write file
     path_all = f"{path_}/all.csv"
-    logger.info(f"write file: {path_all}")
     with open(path_all, mode="w") as _file:
         _writer = csv.writer(
             _file, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
@@ -851,7 +874,7 @@ def make_csv_file_models_all_people_ablation(
 
 
 if __name__ == "__main__":
-    model_name = "gpt-3.5-turbo-1106_tem_0.4"
+    model_name = "Qwen/Qwen2.5-3B-Instruct"
 
     benchmark_version = "benchmark_v2"
     profile_version = "profile_v1"
@@ -870,13 +893,3 @@ if __name__ == "__main__":
         system_version=system_version,
     )
     sta1.show_results(calculate_mean_2)
-
-    """prompt_kind = "zero_shot"
-    sta1 = Statistic(person_name=person_name,
-                     model_name=model_name,
-                     prompt_kind=prompt_kind,
-                     prompt_name=prompt_name,
-                     benchmark_version=benchmark_version,
-                     profile_version=profile_version,
-                     system_version=system_version)
-    sta1.show_results()"""

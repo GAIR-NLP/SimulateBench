@@ -1,5 +1,5 @@
 from benchmark_stat.statistic import make_csv_file_models_single_person
-from benchmark.ablation_character import character_list
+
 
 full_name_list = ["homer"]
 if __name__ == "__main__":
@@ -13,7 +13,7 @@ if __name__ == "__main__":
         model_list = ["gpt-3.5-turbo-16k", "gpt-4", "chatglm2-6b-32k", "chatglm2-6b", "XVERSE-13B-Chat", "Qwen-7B-Chat",
                       "Qwen-14B-Chat", "longchat-7b-32k-v1.5",
                       "vicuna-7b-v1.5-16k",
-                      "vicuna-13b-v1.5-16k"
+                      "vicuna-13b-v1.5-16k", "Meta-Llama-3.1-8B-Instruct","meta-llama/Llama-3.2-3B-Instruct","Qwen/Qwen2.5-3B-Instruct","Qwen/Qwen2.5-7B-Instruct","Qwen/Qwen2.5-14B-Instruct"
                       ]
         prompt_kind = ["few_shot"]
         for prompt in prompt_kind:
