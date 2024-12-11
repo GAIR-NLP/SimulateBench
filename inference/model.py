@@ -1,12 +1,21 @@
 from typing import List
+import torch
+import gc
+import os
+
+import contextlib
+
+import ray
+
 
 from vllm import LLM, SamplingParams
+from vllm.distributed.parallel_state import destroy_model_parallel, destroy_distributed_environment
 
 from person.action.system_setting.profile_for_agent import ProfileSystem
 from person.profile.profile import load_name
 from config.config import settings_system
 
-
+os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"
 model_root = "/data1/ckpts"
 
 
@@ -63,7 +72,7 @@ class Llama(BaseAgent):
         self.sampling_params = SamplingParams(temperature=temperature)
 
         model_path = model_root
-        model = LLM(model=f"{model_path}/{model_name}")
+        model = LLM(model=f"{model_path}/{model_name}",tensor_parallel_size=1)
         super().__init__(
             person_name=person_name,
             model_name=model_name,
@@ -86,6 +95,18 @@ class Llama(BaseAgent):
         self.chat_history.append(results[0].outputs[0].text)
 
         return results[0].outputs[0].text
+    
+    def kill(self):
+        destroy_model_parallel()
+        destroy_distributed_environment()
+        del self.chat_model.llm_engine.model_executor
+        del self.chat_model
+        with contextlib.suppress(AssertionError):
+            torch.distributed.destroy_process_group()
+        gc.collect()
+        torch.cuda.empty_cache()
+        ray.shutdown()
+
 
 
 if __name__ == "__main__":

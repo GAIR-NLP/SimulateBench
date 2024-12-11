@@ -23,7 +23,7 @@ from person.profile.role import load_roles_categories_and_des_person
 
 
 # set available gpu devices
-os.environ["CUDA_VISIBLE_DEVICES"] = "6"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 
 
 class Benchmark:
@@ -293,6 +293,8 @@ class BenchmarkTest(Benchmark):
                 print(e)
             finally:
                 agent.clear()
+        
+        
         # make sure all the results is stored, incase some step is skipped in the for loop
         with open(answer_path, "w") as f:
 
@@ -391,6 +393,7 @@ class BenchmarkTest(Benchmark):
                 agent.clear()
         # make sure all the questions is answered, in case some step is skipped in the for loop for the reason of program crash
         # self.answer_single(benchmark_path, answer_path, agent)
+        
 
 
 def run_agent_on_benchmark(

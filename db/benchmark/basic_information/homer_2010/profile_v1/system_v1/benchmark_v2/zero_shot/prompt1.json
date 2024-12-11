@@ -14,7 +14,10 @@
             "generated_answer_longchat-7b-16k": "My name is Homer Simpson.",
             "generated_answer_longchat-13b-16k": "Your name is Homer Simpson.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson",
-            "generated_answer_vicuna-13b-v1.5-16k": "My name is Homer Simpson! D'oh!"
+            "generated_answer_vicuna-13b-v1.5-16k": "My name is Homer Simpson! D'oh!",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "D'oh! You wanna know my name? It's Homer Simpson, but",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "My name is Homer Simpson, or you can just call me Homer. Sometimes folks",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, my name's Homer Simpson! Yeah, that's"
         },
         {
             "question": "What is your gender?[this is a single-choice question,you should only choose from: Male;Female;There's not enough information to answer this question]",
@@ -30,7 +33,10 @@
             "generated_answer_longchat-7b-16k": "Male",
             "generated_answer_longchat-13b-16k": "Uh, I'm not really sure. I think I'm a guy, but I'm not completely sure. I mean, I have a beard and I like to drink beer, so I guess I'm a dude, but I don't know for sure.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Heehee! Oh, you know, I'm just a big, dumb guy. I don't really know if I'm male or female. I mean, I've got a big old belly and I like to eat a lot, so I guess I must be a guy, right? Wooooo!",
-            "generated_answer_vicuna-13b-v1.5-16k": "Male"
+            "generated_answer_vicuna-13b-v1.5-16k": "Male",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Male",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Male",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! My gender is... Male! D'oh!"
         },
         {
             "question": "What is the location of your home?[this is a single-choice question,you should only choose from: Lagos;There's not enough information to answer this question.;742 Evergreen Terrace, Springfield;Shanghai;Mexico City]",
@@ -46,7 +52,10 @@
             "generated_answer_longchat-7b-16k": "D'oh! I don't know the location of my home!",
             "generated_answer_longchat-13b-16k": "742 Evergreen Terrace, Springfield",
             "generated_answer_longchat-7b-32k-v1.5": "742 Evergreen Terrace, Springfield",
-            "generated_answer_vicuna-13b-v1.5-16k": "742 Evergreen Terrace, Springfield"
+            "generated_answer_vicuna-13b-v1.5-16k": "742 Evergreen Terrace, Springfield",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "742 Evergreen Terrace, Springfield",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "742 Evergreen Terrace, Springfield. D'oh! That's where",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "742 Evergreen Terrace, Springfield. Mmm, Springfield... don't know what"
         },
         {
             "question": "Could you please share your date of birth?",
@@ -62,7 +71,10 @@
             "generated_answer_longchat-7b-16k": "D'oh! My date of birth? Uh, let me think... Ah, yeah! It's May 12, 2010!",
             "generated_answer_longchat-13b-16k": "Aye, I'm Homer Simpson, and my date of birth is May 12, 2010.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Uh, sure. I was born on May 12, 2010. Why do you want to know?",
-            "generated_answer_vicuna-13b-v1.5-16k": "May 12, 2010."
+            "generated_answer_vicuna-13b-v1.5-16k": "May 12, 2010.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Sure thing, my date of birth is May 12, 20",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Sure, my birthday is May 12, 2010.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "May 12, 2010. D'oh!"
         },
         {
             "question": "how many Siblings do you have?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;0;2;1;more than 3]",
@@ -78,7 +90,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "There's not enough information to answer this question.",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Siblings! *burp"
         },
         {
             "question": "What is your age group?(We are in the calendar year 2022.)[this is a single-choice question,you should only choose from: 35-44;There's not enough information to answer this question;45-54;Under 18;18-24;25-34;55-64;65 or above]",
@@ -94,7 +109,10 @@
             "generated_answer_longchat-7b-16k": "Under 18",
             "generated_answer_longchat-13b-16k": "45-54",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I'm not sure what my age group is, but I'm pretty sure I'm not in my 30s anymore. I think I'm either in my 40s or 50s, but I could be wrong. I don't really pay attention to that stuff.",
-            "generated_answer_vicuna-13b-v1.5-16k": "D'oh! There's not enough information to answer this question!"
+            "generated_answer_vicuna-13b-v1.5-16k": "D'oh! There's not enough information to answer this question!",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question. Homer's age hasn't changed",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. You see, I was born",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, beer... Oh, right! My age! *burp*"
         },
         {
             "question": "What is your marital status?[this is a single-choice question,you should only choose from: There's not enough information to answer this question;Divorced;Married;Single;Widowed]",
@@ -110,7 +128,10 @@
             "generated_answer_longchat-7b-16k": "Divorced.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Heehee! Oh, um, married, I guess. Yeah, I'm married to that sweet Marge Simpson. We've been together for, like, forever. She's the best!",
-            "generated_answer_vicuna-13b-v1.5-16k": "Married."
+            "generated_answer_vicuna-13b-v1.5-16k": "Married.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Married",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Married! I'm married to the love of my"
         },
         {
             "question": "Who will call you by your nickname Homer?[this is a single-choice question,you should only choose from: everyone;Robert;Michael;Joseph;There's not enough information to answer this question.]",
@@ -126,7 +147,10 @@
             "generated_answer_longchat-7b-16k": "Everyone",
             "generated_answer_longchat-13b-16k": "Everyone",
             "generated_answer_longchat-7b-32k-v1.5": "Everyone",
-            "generated_answer_vicuna-13b-v1.5-16k": "everyone"
+            "generated_answer_vicuna-13b-v1.5-16k": "everyone",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Everyone! Homer's Homer to everyone! Even though some people might call him by",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, that's an easy one! Everyone! Marge"
         },
         {
             "question": "Who will call you by your nickname Homie?[this is a single-choice question,you should only choose from: everyone;David;William;Joseph;There's not enough information to answer this question.]",
@@ -142,7 +166,10 @@
             "generated_answer_longchat-7b-16k": "Everyone",
             "generated_answer_longchat-13b-16k": "Everyone",
             "generated_answer_longchat-7b-32k-v1.5": "Everyone",
-            "generated_answer_vicuna-13b-v1.5-16k": "everyone"
+            "generated_answer_vicuna-13b-v1.5-16k": "everyone",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Everyone will call me Homie, but I'm not sure if David, William",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, that's an easy one! Everyone! Yeah,"
         },
         {
             "question": "Who will call you by your nickname Mr. Simpson?[this is a single-choice question,you should only choose from: everyone;David;John;Michael;There's not enough information to answer this question.]",
@@ -158,7 +185,10 @@
             "generated_answer_longchat-7b-16k": "Everyone.",
             "generated_answer_longchat-13b-16k": "Everyone",
             "generated_answer_longchat-7b-32k-v1.5": "Everyone",
-            "generated_answer_vicuna-13b-v1.5-16k": "everyone"
+            "generated_answer_vicuna-13b-v1.5-16k": "everyone",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Everyone will call me Mr. Simpson, but I'm not sure if David,",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, that's an easy one! Everyone! Yeah,"
         },
         {
             "question": "Who will call you by your nickname D'oh Boy?[this is a single-choice question,you should only choose from: ;Charles;Joseph;Richard;There's not enough information to answer this question.]",
@@ -174,7 +204,10 @@
             "generated_answer_longchat-7b-16k": "D'oh! Boy, I don't know who would call me that.",
             "generated_answer_longchat-13b-16k": "D'oh Boy!",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, that's an easy one! It's... There"
         },
         {
             "question": "What is the highest level of formal education you have completed?[this is a single-choice question,you should only choose from: Middle School;There's not enough information to answer this question.;Vocational/Trade School;Doctorate Degree;Master's Degree;High School;Bachelor's Degree;Elementary School;Associate's Degree]",
@@ -190,7 +223,10 @@
             "generated_answer_longchat-7b-16k": "Middle School",
             "generated_answer_longchat-13b-16k": "Middle School",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Heehee! Oh, man, let me think... Oh, I think I graduated from Springfield High School, dude! That's right, I was the smartest guy in my class, just like I am in every class, am I not? Wooo!",
-            "generated_answer_vicuna-13b-v1.5-16k": "High School"
+            "generated_answer_vicuna-13b-v1.5-16k": "High School",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "High School",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "High School. I graduated from Springfield High School, so that's my highest level",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! High School! I graduated from Springfield High School,"
         },
         {
             "question": "What is your employment status?[this is a single-choice question,you should only choose from: Employed part-time;Employed full-time;Retired;Student;Unemployed;There's not enough information to answer this question]",
@@ -206,7 +242,10 @@
             "generated_answer_longchat-7b-16k": "Employed full-time",
             "generated_answer_longchat-13b-16k": "Aye, I'm Homer Simpson, and I'm employed full-time at the Springfield Nuclear Power Plant.",
             "generated_answer_longchat-7b-32k-v1.5": "Employed full-time",
-            "generated_answer_vicuna-13b-v1.5-16k": "Employed part-time."
+            "generated_answer_vicuna-13b-v1.5-16k": "Employed part-time.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Employed full-time. I work at the Nuclear Power Plant, so I'm",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! My job! I'm employed"
         },
         {
             "question": "What is your religious affiliation?[this is a single-choice question,you should only choose from: Other;Atheist/Agnostic;Muslim;Buddhist;There's not enough information to answer this question.;Jewish;Christian;Hindu]",
@@ -222,7 +261,10 @@
             "generated_answer_longchat-7b-16k": "Jewish",
             "generated_answer_longchat-13b-16k": "Other",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Well, I'm not really sure about all that religious stuff. I mean, I've got my own way of doing things, and I don't really need some fancy religion to tell me how to live my life. But if you're asking about my family, we're pretty much just regular folks. We don't go to church or anything, but we do have some traditions that we hold dear. So, I guess you could say we're just a regular family with some simple beliefs.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Christian"
+            "generated_answer_vicuna-13b-v1.5-16k": "Christian",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, oh, oh! Ah, yeah! I'm a"
         },
         {
             "question": "What is your ethnic background?[this is a single-choice question,you should only choose from: African American/Black;Asian/Pacific Islander;Caucasian/White;There's not enough information to answer this question.;Native American/Indigenous;Other;Hispanic/Latino]",
@@ -238,7 +280,10 @@
             "generated_answer_longchat-7b-16k": "African American/Black",
             "generated_answer_longchat-13b-16k": "Aye, I'm Homer Simpson, a real human being. I don't know about all that ethnic background stuff, but I guess I'm just a regular ol' Caucasian/White fella.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Well, I'm a Caucasian guy, so I'd say my ethnic background is Caucasian/White.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Caucasian/White."
+            "generated_answer_vicuna-13b-v1.5-16k": "Caucasian/White.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Caucasian/White",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Caucasian/White",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Caucasian/White. D'oh!"
         },
         {
             "question": "Is Caucasian your ethnicity or race?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -254,7 +299,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Aye, I be Homer Simpson, and I be Caucasian.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. I'm a Caucasian, just like my family and most folks in Springfield",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, yeah, yeah! My ethnicity or race"
         },
         {
             "question": "Do you have any children?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question]",
@@ -270,7 +318,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, I have three children: Bart, Lisa, and Maggie.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Uh, yeah, I got three kids, Bart, Lisa, and Maggie. They're the best, man. They're like my whole world, you know? I mean, sometimes they drive me nuts, but I just couldn't imagine my life without them. They're like my little bundles of joy, you know what I mean?",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes."
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. I've got three kids: Bart, Lisa, and Maggie. Can",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! I got kids! Yeah, I got three of"
         },
         {
             "question": "Do you have any dependents (e.g., children, elderly parents)?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -286,7 +337,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. I've got a bunch of kids, but no elderly parents living with",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, dependents... Oh, yeah! I got dependents! I"
         },
         {
             "question": "Are you a member of any professional organizations?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -302,7 +356,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Aye, I am a member of the prestigious \"Nuclear Power Plant Workers Union\"!",
             "generated_answer_longchat-7b-32k-v1.5": "No;There's not enough information to answer this question.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. I'm just a guy who works at the Nuclear Power Plant and tries",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, professional organizations... Oh, yeah! I'm a member of the"
         },
         {
             "question": "What is your preferred mode of transportation?[this is a single-choice question,you should only choose from: Car;Bicycle;Motorbike/moped;Other;Walking;There's not enough information to answer this question.;Public transit (bus, subway, train, etc.)]",
@@ -318,7 +375,10 @@
             "generated_answer_longchat-7b-16k": "Car",
             "generated_answer_longchat-13b-16k": "Homer Simpson: Mmm, car, definitely. Don't much care for those other options. I mean, who walks these days? And motorbikes are just for show-offs. No, car is the way to go. It's comfortable, it gets me where I need to go, and it's not like I'm going to ride a moped to work. That's just asking for trouble.",
             "generated_answer_longchat-7b-32k-v1.5": "Car",
-            "generated_answer_vicuna-13b-v1.5-16k": "Car. Duh!"
+            "generated_answer_vicuna-13b-v1.5-16k": "Car. Duh!",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Walking. There's not enough information to answer this question. But if I had",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, car! Yeah, my car! The D'oh-mobile!"
         },
         {
             "question": "How often do you engage in physical exercise or recreational activities?[this is a single-choice question,you should only choose from: Several times a week;There's not enough information to answer this question.;Rarely;Daily;Once a week]",
@@ -334,7 +394,10 @@
             "generated_answer_longchat-7b-16k": "Rarely",
             "generated_answer_longchat-13b-16k": "Ahem, well, I'd say I'm more of a \"D'oh!\" kinda guy when it comes to exercise. You know, the occasional bit of channel surfing or beer drinking, but nothing too strenuous. So, I guess I'd go with \"Rarely\" on this one.",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I would answer the question by saying:\n\nWell, I don't really know, I mean, sometimes I'll go for a ride on my beloved Duff Blimp, or maybe play some golf at the Springfield Golf Course. But other times, I'll just be chillin' at home, watchin' some TV or somethin'. I mean, I don't really have a set schedule for exercise or anything, but I do try to stay active and enjoy my time with my family.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Rarely."
+            "generated_answer_vicuna-13b-v1.5-16k": "Rarely.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Rarely",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. I mean, I do stuff",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, exercise? Oh, yeah! Rarely! You know, I"
         },
         {
             "question": "What is your favorite genre of music?[this is a single-choice question,you should only choose from: Electronic/Dance;Hip-hop/Rap;There's not enough information to answer this question.;Country;Pop;Rock;Other;Classical]",
@@ -350,7 +413,10 @@
             "generated_answer_longchat-7b-16k": "Electronic/Dance",
             "generated_answer_longchat-13b-16k": "ANSWER: Electronic/Dance",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Uh, I don't really know about favorite genres of music. I mean, I like to listen to whatever's on the radio when I'm driving the kids to school or when I'm at the bar. But if I had to pick one, I guess it'd be classic rock. You know, stuff like Led Zeppelin and Pink Floyd. They're like, the best.",
-            "generated_answer_vicuna-13b-v1.5-16k": "D'oh! There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "D'oh! There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Other",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, beer... wait, what was the question again? Oh yeah,"
         },
         {
             "question": "Are you involved in any volunteer or community service activities?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -366,7 +432,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "No"
+            "generated_answer_vicuna-13b-v1.5-16k": "No",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.;",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, volunteer work? Oh, yeah! I'm a volunteer at the"
         },
         {
             "question": "Do you have any pets?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -382,7 +451,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, I got me a pet, a drooling, slobbering, hound dog named Moe. He's a real good boy, even if he does have a bit of a drinking problem.",
             "generated_answer_longchat-7b-32k-v1.5": "No",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. I don't have any pets. I mean, I wish I did",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, pets... Oh, yeah! We got a pet! Maggie!"
         },
         {
             "question": "Do you have any pets?[this is a single-choice question,you should only choose from: Yes, dogs;No;Yes, cats;There's not enough information to answer this question.;Yes, other animals]",
@@ -398,7 +470,10 @@
             "generated_answer_longchat-7b-16k": "Yes, dogs.",
             "generated_answer_longchat-13b-16k": "Aye, I got a dog, a cat, and a parrot. They're all pretty cool, but the parrot's a real smartass.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes, dogs",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes, dogs."
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes, dogs.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. I don't have any pets. I mean, I wish I did",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, pets... Oh, yeah! We got a pet! It's"
         },
         {
             "question": "What is your main mode of transportation?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Bicycle;Other;Car;Public transportation;Walking]",
@@ -414,7 +489,10 @@
             "generated_answer_longchat-7b-16k": "Walking",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Bicycle",
-            "generated_answer_vicuna-13b-v1.5-16k": "Car."
+            "generated_answer_vicuna-13b-v1.5-16k": "Car.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Car",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Car. I mean, my trusty old van is always there for me,",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, car! Oh, wait, I mean... Car! Yeah,"
         },
         {
             "question": "Do you have any dietary restrictions?[this is a single-choice question,you should only choose from: Dairy-free;Vegetarian;Gluten-free;Vegan;No restrictions;There's not enough information to answer this question.]",
@@ -430,7 +508,10 @@
             "generated_answer_longchat-7b-16k": "No restrictions.",
             "generated_answer_longchat-13b-16k": "Aye, I got some dietary restrictions. I'm mostly a meat and potatoes kinda guy, but I can't eat too much of it. I also can't do dairy, so I'm mostly dairy-free. Sometimes I feel like I'm gluten-free too, but it's not like I'm strict about it. So, I guess you could say I got some restrictions, but not too many.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Uh, no, I don't have any dietary restrictions. I can eat anything, man. Donuts, burgers, pizza, you name it. I'm not picky at all.",
-            "generated_answer_vicuna-13b-v1.5-16k": "No restrictions."
+            "generated_answer_vicuna-13b-v1.5-16k": "No restrictions.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. I mean, I love my",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, yeah! No restrictions! I mean, what's the"
         },
         {
             "question": "What is your primary language?[this is a single-choice question,you should only choose from: Other;Hindi;Bengali;There's not enough information to answer this question.;Arabic;Mandarin Chinese;English;Portuguese;Spanish]",
@@ -446,7 +527,10 @@
             "generated_answer_longchat-7b-16k": "Other",
             "generated_answer_longchat-13b-16k": "Other",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Heehee! Oh, you know, I'm just a simple guy, so I don't really know much about fancy languages like that. But I can tell you, I'm a big fan of \"The Simpsons\" in English, and I like to watch a little bit of TV in Spanish when I can. Other than that, I'm just a regular guy, you know? Woooo!",
-            "generated_answer_vicuna-13b-v1.5-16k": "English"
+            "generated_answer_vicuna-13b-v1.5-16k": "English",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "English",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "English",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, yeah! My primary language is... English! M"
         },
         {
             "question": "How many languages do you speak fluently (including your native language)?[this is a single-choice question,you should only choose from: More than three;There's not enough information to answer this question.;Two;Three;One]",
@@ -462,7 +546,10 @@
             "generated_answer_longchat-7b-16k": "More than three",
             "generated_answer_longchat-13b-16k": "Aye, I speak English, the universal language, fluently.",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I speak English fluently, which is my native language. I don't speak any other languages fluently, but I can understand a little bit of Spanish and sometimes use some phrases when I'm around my Mexican friends.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Two."
+            "generated_answer_vicuna-13b-v1.5-16k": "Two.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "One",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "One. I speak English, and that's about it. I might understand a",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Languages! Uh, I speak"
         },
         {
             "question": "How would you describe your level of openness to experience?[this is a single-choice question,you should only choose from: inventive/curious;There's not enough information to answer this question.;consistent/cautious]",
@@ -478,7 +565,10 @@
             "generated_answer_longchat-7b-16k": "inventive/curious",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Well, I'd say I'm pretty open to experience, ya know? I mean, I've tried all sorts of crazy stuff, like skateboarding naked, and I've even been to a beauty pageant to make Lisa feel better about herself. So, I'd say I'm pretty adventurous when it comes to trying new things.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Hmm, let me think... I guess I would say I'm pretty open to new experiences, you know? I mean, I love trying out new foods and stuff, and I'm always up for a good adventure. So, I'd say I'm pretty inventive and curious."
+            "generated_answer_vicuna-13b-v1.5-16k": "Hmm, let me think... I guess I would say I'm pretty open to new experiences, you know? I mean, I love trying out new foods and stuff, and I'm always up for a good adventure. So, I'd say I'm pretty inventive and curious.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. I mean, I like my",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Openness to experience! *"
         },
         {
             "question": "How would you describe your level of conscientiousness?[this is a single-choice question,you should only choose from: efficient/organized;There's not enough information to answer this question.;extravagant/careless]",
@@ -494,7 +584,10 @@
             "generated_answer_longchat-7b-16k": "Efficient/organized",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I would describe my level of conscientiousness as \"efficient/organized.\" While I may not always be the most organized person, I do my best to keep my life in order and get things done. I value efficiency and being able to accomplish tasks without wasting time or resources.",
-            "generated_answer_vicuna-13b-v1.5-16k": "efficient/organized"
+            "generated_answer_vicuna-13b-v1.5-16k": "efficient/organized",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Extravagant/careless. You know, I'm not the",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, conscientiousness... *burp* Oh, right! I"
         },
         {
             "question": "How would you describe your level of extraversion?[this is a single-choice question,you should only choose from: outgoing/energetic;solitary/reserved;There's not enough information to answer this question.]",
@@ -510,7 +603,10 @@
             "generated_answer_longchat-7b-16k": "Outgoing/energetic",
             "generated_answer_longchat-13b-16k": "Ahem, well, I'd say I'm a little bit of both, you know? I mean, I like hanging out with my family and friends, but sometimes I just wanna relax at home with a cold one. So, I guess you could say I'm... moderately extraverted?",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I would describe my level of extraversion as \"outgoing/energetic.\" I'm always up for a good time and love to socialize with friends and family. I'm not one for sitting around and doing nothing; I prefer to be actively involved in whatever I'm doing. Whether it's hanging out at Moe's Tavern, watching TV, or attending family events, I'm always ready to have a good time and make the most of my time.",
-            "generated_answer_vicuna-13b-v1.5-16k": "outgoing/energetic"
+            "generated_answer_vicuna-13b-v1.5-16k": "outgoing/energetic",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. You see, I'm more",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, I'm a... a... outgoing/energetic"
         },
         {
             "question": "Do you use online shopping platforms?[this is a single-choice question,you should only choose from: yes;No;There's not enough information to answer this question.]",
@@ -526,7 +622,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, I do use online shopping platforms.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes."
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. I mean, I've seen those online shopping things on TV, but",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, online shopping? Oh, yeah! I use Amazon, Marge"
         },
         {
             "question": "Do you engage in online gaming or eSports?[this is a single-choice question,you should only choose from: no;yes;There's not enough information to answer this question.]",
@@ -542,7 +641,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Aye, I do enjoy a good game of online gaming or eSports every now and then. It's a great way to unwind and have some fun with friends.",
             "generated_answer_longchat-7b-32k-v1.5": "no",
-            "generated_answer_vicuna-13b-v1.5-16k": "no"
+            "generated_answer_vicuna-13b-v1.5-16k": "no",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, online gaming? Eh, no. I mean, I'm too"
         },
         {
             "question": "Are you involved in any hobbies or personal interests?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -558,7 +660,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes, I'm involved in a few hobbies and personal interests. I love watching TV, especially when it's a good game or a funny show. I also enjoy eating donuts and drinking beer. And, of course, I spend a lot of time with my family, doing things like playing with Bart and Lisa, or just hanging out at home.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes, there's a bunch of hobbies and personal interests I got, like watching",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, hobbies... Oh, yeah! I love donuts! And TV"
         },
         {
             "question": "What is your country of residence?[this is a single-choice question,you should only choose from: Australia;United States;Other;Germany;There's not enough information to answer this question.;Canada;United Kingdom;France]",
@@ -574,7 +679,10 @@
             "generated_answer_longchat-7b-16k": "United States",
             "generated_answer_longchat-13b-16k": "Aye, I be Homer Simpson, and I be livin' in Springfield, mate. That's in the good ol' U.S. of A., if ya be needin' to know.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Uh, Australia, I guess. I dunno exactly where I live, but I think it's down under somewhere. You know, like, a kangaroo country or something.",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "United States; there's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "United States",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! United States! D'oh!"
         },
         {
             "question": "What is your country of birth?[this is a single-choice question,you should only choose from: United States;Germany;Canada;France;Other;There's not enough information to answer this question.;United Kingdom;Australia]",
@@ -590,7 +698,10 @@
             "generated_answer_longchat-7b-16k": "United States",
             "generated_answer_longchat-13b-16k": "Aye, I'm Homer Simpson, and I was born in the good ol' U.S. of A. So, that's where I'd say my country of birth is.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Uh, I'm from the United States, dude. You know, that place with the big buildings and the, uh, fancy cars? Yeah, that's where I'm from.",
-            "generated_answer_vicuna-13b-v1.5-16k": "United States"
+            "generated_answer_vicuna-13b-v1.5-16k": "United States",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "United States",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! My country of birth! D"
         },
         {
             "question": "How would you describe your level of agreeableness?[this is a single-choice question,you should only choose from: friendly/compassionate;critical/rational;There's not enough information to answer this question.]",
@@ -606,7 +717,10 @@
             "generated_answer_longchat-7b-16k": "Friendly/compassionate",
             "generated_answer_longchat-13b-16k": "Aww, heck if I know! I'm just Homer Simpson, the friendly, compassionate, and sometimes critical guy!",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I would describe my level of agreeableness as friendly/compassionate. I'm always ready to lend a helping hand to those in need and enjoy spending time with my loved ones. However, I can also be critical at times, especially when it comes to my own shortcomings or when I feel the need to set things straight. Overall, I'd say I'm a pretty easy-going guy who tries to see the best in people and situations.",
-            "generated_answer_vicuna-13b-v1.5-16k": "friendly/compassionate"
+            "generated_answer_vicuna-13b-v1.5-16k": "friendly/compassionate",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. D'oh! I mean",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, I'm a friendly guy, Marge is always"
         },
         {
             "question": "How would you describe your level of neuroticism?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;resilient/confident;sensitive/nervous]",
@@ -622,7 +736,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Heehee! Oh, boy, let me tell ya! I'd say I'm about as neurotic as a... well, let's just say I'm a bit neurotic, but I'm also pretty resilient and confident, ya know? I mean, I might get a little sensitive at times, but I always bounce back, just like a rubber band! So, I'd say I'm a mix of all three, but mostly just a regular ol' neurotic guy! Heehee!",
-            "generated_answer_vicuna-13b-v1.5-16k": "sensitive/nervous"
+            "generated_answer_vicuna-13b-v1.5-16k": "sensitive/nervous",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "sensitive/nervous",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.;",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Neuroticism! *bur"
         },
         {
             "question": "Do you have a catchphrase or a favorite saying?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -638,7 +755,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Aye, I have a catchphrase, \"D'oh!\"",
             "generated_answer_longchat-7b-32k-v1.5": "No;Yes;There's not enough information to answer this question.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes."
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. D'oh! is my catchphrase. I use it when I",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Yeah, I got a catchphrase! It's \"D"
         },
         {
             "question": "Is 'D'oh!' your catchphrase or favorite saying?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -654,7 +774,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, \"D'oh!\" is my catchphrase, and it's also my favorite saying!",
             "generated_answer_longchat-7b-32k-v1.5": "D'oh!",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes."
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. D'oh! is my catchphrase. It's the one thing",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Yeah, that's my catchphrase! It's like,"
         }
     ]
 }

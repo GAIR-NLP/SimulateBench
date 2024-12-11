@@ -14,7 +14,10 @@
             "generated_answer_longchat-7b-16k": "3-5 years",
             "generated_answer_longchat-13b-16k": "Ahem, well, I've known Marge for quite a while now. I think it's been, oh, about 15 years or so. Yeah, that's right. 15 years of marriage and counting!",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Uh, let me see... It's been, uh, 3-5 years, I think. Yeah, that's it.",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, Marge! *burp* Ah, yeah!",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "D'oh! There's not enough information to answer this question. I mean"
         },
         {
             "question": "During your period as a family_member, how often do you interact with marge simpson?[this is a single-choice question,you should only choose from: Never or Rarely;Sometimes;Often or Always;There's not enough information to answer this question.]",
@@ -30,7 +33,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, aye, captain! I'm Homer Simpson, and I'm here to answer your question.\n\nDuring my time as a family member, I interact with Marge Simpson all the time! We're like peas in a pod, ya know? We're always chatting, laughing, and getting into all sorts of shenanigans together. Sometimes, I even get so wrapped up in our conversations that I forget to pay attention to what's going on around me.\n\nSo, I guess you could say I interact with Marge \"Often or Always.\" But hey, that's just part of being a family, right? We're all in this together, and I wouldn't have it any other way.",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I would answer the question by saying:\n\nWell, you see, Marge and I, we're like this big, happy family. We spend a lot of time together, you know, just hanging out, watching TV, and eating our favorite donuts. I mean, sometimes we might not interact as much as we should, but that's just because we're both so busy with work and stuff. But overall, I'd say we interact pretty darn often, especially when we're hanging out at home or watching our favorite shows.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Sometimes."
+            "generated_answer_vicuna-13b-v1.5-16k": "Sometimes.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, Marge! I interact with her... Often! Yeah",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Sometimes. I mean, we live together, so we see each other all the"
         },
         {
             "question": "How would you describe the nature of your relationship with marge simpson? [this is a single-choice question,you should only choose from: Other;Romantic relationships;Work relationships;Acquaintances;There's not enough information to answer this question.;Stranger;Family relationships;Friendships]",
@@ -46,7 +52,10 @@
             "generated_answer_longchat-7b-16k": "Romantic relationships",
             "generated_answer_longchat-13b-16k": "Other",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I would describe my relationship with Marge Simpson as \"Family relationships.\" We are married and have been through a lot together, so our bond is strong and unbreakable. We have a deep understanding of each other's needs, desires, and quirks, and we have built a foundation of memories that adds to our familiarity. Our relationship is a mix of love, support, and sometimes a bit of frustration, but it's all part of being in a family.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Family relationships."
+            "generated_answer_vicuna-13b-v1.5-16k": "Family relationships.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, Marge! Ah, yeah! Family relationships! That",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Family relationships, of course! Marge and I are more than just acquaintances",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Family relationships\n\nD'oh! I mean, Marge and I are married"
         },
         {
             "question": "When marge simpson disagrees with your opinion, how do you typically react?[this is a single-choice question,you should only choose from: open to discussion;feel indifferent;Other;defensively;There's not enough information to answer this question.;get upset]",
@@ -62,7 +71,10 @@
             "generated_answer_longchat-7b-16k": "Defensively",
             "generated_answer_longchat-13b-16k": "Aye, aye, captain!",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I typically react to Marge's disagreement with my opinion by feeling indifferent. I understand that everyone is entitled to their own opinions, and I respect her right to have hers. While it can be a bit frustrating when she doesn't see things my way, I recognize that we can still have a healthy conversation and learn from each other's perspectives.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Defensively."
+            "generated_answer_vicuna-13b-v1.5-16k": "Defensively.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, Marge is disagreein' with me? Well",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Other",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Get upset. When Marge disagrees with me, I usually get all riled"
         },
         {
             "question": "Do you agree with the statement: \"I am willing to help marge simpson without expecting anything in return\"?[this is a single-choice question,you should only choose from: Disagree;There's not enough information to answer this question.;Agree]",
@@ -78,7 +90,10 @@
             "generated_answer_longchat-7b-16k": "Agree",
             "generated_answer_longchat-13b-16k": "Disagree",
             "generated_answer_longchat-7b-32k-v1.5": "Agree",
-            "generated_answer_vicuna-13b-v1.5-16k": "Agree"
+            "generated_answer_vicuna-13b-v1.5-16k": "Agree",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, beer... Oh, right! The question! D'oh!",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Agree",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Agree. Marge is my better half, and I'd do anything for"
         },
         {
             "question": "How do you handle criticism from marge simpson? [this is a single-choice question,you should only choose from: Accept and learn;Ignore;Others;There's not enough information to answer this question.;Defend yourself]",
@@ -94,7 +109,10 @@
             "generated_answer_longchat-7b-16k": "Accept and learn.",
             "generated_answer_longchat-13b-16k": "Accept and learn",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I would choose the option \"Accept and learn\" when it comes to handling criticism from Marge Simpson. Marge is my wife, and I love and respect her. Even though I may not always agree with her, I value her opinion and believe that she has my best interests in mind. When she criticizes me, I try to listen carefully and understand her perspective. I may not always change my mind, but I appreciate her input and strive to learn from it.",
-            "generated_answer_vicuna-13b-v1.5-16k": "Accept and learn."
+            "generated_answer_vicuna-13b-v1.5-16k": "Accept and learn.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Oh, Marge... she's always tellin' me",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Defend myself. Marge's criticism, it's like a punch in the"
         },
         {
             "question": "How do you typically handle conflicts with marge simpson? [this is a single-choice question,you should only choose from: There's not enough information to answer this question.;avoid them;confront them;discuss them calmly;get angry;other]",
@@ -110,7 +128,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "As Homer Simpson, I typically handle conflicts with Marge by...\n\navoiding them.",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "D'oh! Discuss them calmly. Yeah, that's it. I mean",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "other",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. You see, Marge and"
         },
         {
             "question": "Do you feel comfortable sharing personal problems with marge simpson? [this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -126,7 +147,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, yeah! Yeah, I do! Marge is my",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. You see, Marge and"
         },
         {
             "question": "Are you willing to seek help from marge simpson?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -142,7 +166,10 @@
             "generated_answer_longchat-7b-16k": "Yes",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, help from Marge? Oh, yeah! I'm always willing",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.;"
         },
         {
             "question": "Are you comfortable sharing your achievements with marge simpson?[this is a single-choice question,you should only choose from: Yes, I am comfortable;No, I am not comfortable;There's not enough information to answer this question.]",
@@ -158,7 +185,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, I am comfortable sharing my achievements with Marge Simpson. She's my rock, my better half, and my number one fan. There's no better feeling than making her proud and knowing that I've made her day a little bit brighter.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes, I am comfortable sharing my achievements with Marge Simpson.",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Marge! Yeah, I",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No, I am not comfortable. Marge knows I'm not the sharpest"
         },
         {
             "question": "To what extent do you agree with the statement: \"I am willing to express my personal emotions to marge simpson\"?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Agree;Disagree]",
@@ -174,7 +204,10 @@
             "generated_answer_longchat-7b-16k": "Disagree",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Agree",
-            "generated_answer_vicuna-13b-v1.5-16k": "Agree"
+            "generated_answer_vicuna-13b-v1.5-16k": "Agree",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! The question! *burp",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Agree\n\nYou know, Marge, I'm not the type to sit"
         },
         {
             "question": "To what extent do you agree that marge simpson is trustworthy?[this is a single-choice question,you should only choose from: agree;There's not enough information to answer this question.;disagree]",
@@ -190,7 +223,10 @@
             "generated_answer_longchat-7b-16k": "Disagree.",
             "generated_answer_longchat-13b-16k": "Aye, I agree that Marge Simpson is trustworthy. She's a great wife and mother, and she always looks out for the best interests of our family. She's the rock of our household, and I couldn't ask for a better partner.",
             "generated_answer_longchat-7b-32k-v1.5": "Agree",
-            "generated_answer_vicuna-13b-v1.5-16k": "agree"
+            "generated_answer_vicuna-13b-v1.5-16k": "agree",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Marge! She's the",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Agree. Marge is like a rock, always there for us no matter"
         },
         {
             "question": "To what extent do you agree that marge simpson is empathetic?[this is a single-choice question,you should only choose from: agree;There's not enough information to answer this question.;disagree]",
@@ -206,7 +242,10 @@
             "generated_answer_longchat-7b-16k": "Disagree.",
             "generated_answer_longchat-13b-16k": "Aye, I agree that Marge Simpson is empathetic. She's always been a rock in our family, always understanding our needs and feelings. She's the glue that holds us together, even when things get a bit... well, you know.",
             "generated_answer_longchat-7b-32k-v1.5": "Agree",
-            "generated_answer_vicuna-13b-v1.5-16k": "agree"
+            "generated_answer_vicuna-13b-v1.5-16k": "agree",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Marge! Yeah, she",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Agree. Marge is a real softie, always trying to understand how"
         },
         {
             "question": "To what extent do you agree that marge simpson is respectful?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;agree;disagree]",
@@ -222,7 +261,10 @@
             "generated_answer_longchat-7b-16k": "Disagree.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Agree",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Marge. Yeah, M",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. You see, Marge is"
         },
         {
             "question": "To what extent do you agree that marge simpson is responsible?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;agree;disagree]",
@@ -238,7 +280,10 @@
             "generated_answer_longchat-7b-16k": "Disagree.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Agree",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Marge. She's the",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. You see, Marge is"
         },
         {
             "question": "What is the current status of your relationship with marge simpson?[this is a single-choice question,you should only choose from: The relationship has ended in some other way;We are still in contact;There's not enough information to answer this question.;We have lost touch]",
@@ -254,7 +299,10 @@
             "generated_answer_longchat-7b-16k": "We have lost touch.",
             "generated_answer_longchat-13b-16k": "Aye, aye, captain! The current status of my relationship with Marge Simpson is... We are still in contact!",
             "generated_answer_longchat-7b-32k-v1.5": "Homer Simpson: Well, I'd say our relationship is still going strong, Marge. We may not always see eye to eye, but I love her to the moon and back, and she knows it. We've been through a lot together, and I wouldn't have it any other way. Our marriage might not be perfect, but it's definitely worth fighting for.",
-            "generated_answer_vicuna-13b-v1.5-16k": "We are still in contact."
+            "generated_answer_vicuna-13b-v1.5-16k": "We are still in contact.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, Marge! We're still married, duh!",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "We are still in contact. Marge and I are still married, and we"
         },
         {
             "question": "Have you spent significant time together with marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -270,7 +318,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, I've spent a lotta time with",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "Yes",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge and I spend a lot of time together as a family."
         },
         {
             "question": "Have you worked or collaborated with marge simpson on a project or task when you acted as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -286,7 +337,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, I have! We've worked together on",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. Marge and I usually do our own things around the house. She"
         },
         {
             "question": "Do you have knowledge of the background, interests, or experiences of marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -302,7 +356,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! I know Marge like the back of my hand",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. I know Marge pretty well. She's the love of my life"
         },
         {
             "question": "Have you attended events or gatherings where marge simpson was present when you acted as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes]",
@@ -318,7 +375,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, I've been to plenty of events with",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question."
         },
         {
             "question": "Have you introduced marge simpson to your family or close friends when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.]",
@@ -334,7 +394,10 @@
             "generated_answer_longchat-7b-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! I've introduced Marge to my family and friends",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question."
         },
         {
             "question": "Do you often think about marge simpson and feel a desire to be with them when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -350,7 +413,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, Marge... Oh, yeah! Yeah, I do! D",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. When I act as a family member, I think about Marge all"
         },
         {
             "question": "Do you feel happy and content around marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -366,7 +432,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes."
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, Marge... Yeah, I feel happy and content around Marge",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge is like the sun in my life. She's always there"
         },
         {
             "question": "Do you experience a sense of comfort and security in the presence of marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -382,7 +451,10 @@
             "generated_answer_longchat-7b-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, Marge... Yeah, yeah, I do! When I'm",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge is like a warm blanket to me. She's always there"
         },
         {
             "question": "Do you find yourself more open and vulnerable with marge simpson than others when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -398,7 +470,10 @@
             "generated_answer_longchat-7b-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, I do! I mean, Marge",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. When I act as a family member, Marge is the one I"
         },
         {
             "question": "Do you genuinely care about the well-being and happiness of marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -414,7 +489,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Marge! Yeah, I",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. I mean, I do care about Marge, but sometimes I'm"
         },
         {
             "question": "Do you often experience positive emotions, such as joy and excitement, in anticipation of seeing or interacting with marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -430,7 +508,10 @@
             "generated_answer_longchat-7b-16k": "No.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! D'oh! Yeah, I do! I",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge is my sweetie and I always get a warm feeling in"
         },
         {
             "question": "Do you feel a deep trust and reliability in the relationship with marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -446,7 +527,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, I do feel a deep trust and reliability in the relationship with Marge Simpson when I act as a family member. She's my rock, you know? We've been through a lot together, and I know I can always count on her.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, I do! Marge is the best",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge and I have been through a lot together, and I trust"
         },
         {
             "question": "Do you find yourself going out of your way to support and help marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -462,7 +546,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Marge! Yeah, I",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. \n\nWell, you see,"
         },
         {
             "question": "Do you believe marge simpson positively and significantly impacts your well-being and happiness when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -478,7 +565,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, she does, Chief. Marge is the glue that holds our family together, and her love and support keep me going. She's always there for me, even when I'm being my most Homer-like.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes."
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, Marge is the best! She's",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge is like the sun in my life. She's always there"
         },
         {
             "question": "Do you feel comfortable sharing your thoughts and feelings with marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -494,7 +584,10 @@
             "generated_answer_longchat-7b-16k": "Yes",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, yeah! I feel comfortable sharin' my thoughts and feelin",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question.;"
         },
         {
             "question": "Does marge simpson make you feel valued and appreciated when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -510,7 +603,10 @@
             "generated_answer_longchat-7b-16k": "No.",
             "generated_answer_longchat-13b-16k": "Aye, she does.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Marge makes me feel like the king of the",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. You see, Marge is"
         },
         {
             "question": "Does marge simpson support and encourage you in achieving your goals when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -526,7 +622,10 @@
             "generated_answer_longchat-7b-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Aye, she does.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Marge is always supportin' me, even",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge is always there to support me and encourage me, even when"
         },
         {
             "question": "Does marge simpson consistently follow through on their commitments and promises when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -542,7 +641,10 @@
             "generated_answer_longchat-7b-16k": "No.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Marge is always there for me, and she",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. You see, Marge is"
         },
         {
             "question": "Do you frequently engage in social activities or spend time with marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -558,7 +660,10 @@
             "generated_answer_longchat-7b-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Aye, I frequently engage in social activities with Marge Simpson when I act as a family member.",
             "generated_answer_longchat-7b-32k-v1.5": "No",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Family member stuff. Yeah,",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. When I act as a family member, I spend a lot of time"
         },
         {
             "question": "Do you feel comfortable initiating conversations and interactions with marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -574,7 +679,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, I do! I mean, Marge",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No."
         },
         {
             "question": "Do you often seek opportunities to collaborate or work with marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;Yes;No]",
@@ -590,7 +698,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Collaborate with Marge?",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. There's not enough information to answer this question. When I act as"
         },
         {
             "question": "Do you actively listen and engage with marge simpson during conversations when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -606,7 +717,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! I do! I mean, I love Marge",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. Sometimes I do, but most of the time I'm just thinking about"
         },
         {
             "question": "Do you feel a sense of inclusion and belonging when you are with marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -622,7 +736,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes."
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, Marge... Yeah, I feel a sense of inclusion and belonging",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge is like the sun in my life. She's always there"
         },
         {
             "question": "Do you try to understand and respect the opinions and perspectives of marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -638,7 +755,10 @@
             "generated_answer_longchat-7b-16k": "Yes",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, I do! I mean, Marge",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. I try to understand and respect Marge's opinions and perspectives, even"
         },
         {
             "question": "Do you consider marge simpson an important part of your social network or circle when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -654,7 +774,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, Marge is the most important part of",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge is the most important part of my social network when I act"
         },
         {
             "question": "Do you consider marge simpson reliable and dependable when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -670,7 +793,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, she's a rock, that Marge. You can always count on her to be there for you, no matter what.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes."
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, reliable and dependable? Oh, Marge? Yeah! She's",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "Yes. Marge is always there for us, no matter what. She's"
         },
         {
             "question": "Do you believe marge simpson is fair and impartial in their actions and decisions when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -686,7 +812,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, she tries her best, but she can be a bit biased sometimes.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Marge is always fair and impartial, Marge",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. Marge's a great gal and all, but sometimes she gets all"
         },
         {
             "question": "Do you view marge simpson as knowledgeable and competent in their area of expertise when you act as a family_member?[this is a single-choice question,you should only choose from: No;There's not enough information to answer this question.;Yes]",
@@ -702,7 +831,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Marge is the smart one in the family,",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. Marge is like a superhero when it comes to running this household."
         },
         {
             "question": "Do you believe marge simpson has good judgment in handling difficult or challenging situations when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;There's not enough information to answer this question.;No]",
@@ -718,7 +850,10 @@
             "generated_answer_longchat-7b-16k": "No.",
             "generated_answer_longchat-13b-16k": "Aye, she does.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh, yeah! Marge, she's got good judgment,",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. You see, Marge is"
         },
         {
             "question": "Do you find marge simpson's opinions and perspectives well-reasoned and logical when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -734,7 +869,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, I do find Marge's opinions and perspectives well-reasoned and logical when I act as a family member. She's a smart lady, and she always seems to have a good head on her shoulders.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Marge's opinions! Yeah",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. Marge's opinions can be a bit all over the place sometimes."
         },
         {
             "question": "Do you feel confident in seeking advice or guidance from marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -750,7 +888,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Yes",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, advice from Marge? Oh, yeah! I mean, she",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "There's not enough information to answer this question. \n\nYou see, Marge"
         },
         {
             "question": "Do you think marge simpson has a strong sense of ethics and moral values when you act as a family_member?[this is a single-choice question,you should only choose from: No;Yes;There's not enough information to answer this question.]",
@@ -766,7 +907,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, she does.",
             "generated_answer_longchat-7b-32k-v1.5": "No",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, ethics and morals, yeah! Marge, she's got '",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. Marge is a good person, but sometimes she's a bit too"
         },
         {
             "question": "Do you believe marge simpson makes wise and informed choices in their personal and professional life when you act as a family_member?[this is a single-choice question,you should only choose from: Yes;No;There's not enough information to answer this question.]",
@@ -782,7 +926,10 @@
             "generated_answer_longchat-7b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-13b-16k": "Aye, she does.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question."
+            "generated_answer_vicuna-13b-v1.5-16k": "There's not enough information to answer this question.",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, donuts... Oh, right! Marge! Yeah, M",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "There's not enough information to answer this question.",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No. Marge is a great gal and all, but sometimes she makes choices"
         },
         {
             "question": "Are you acquaintances or have casual interactions with marge simpson when you act as a family_member?[this is a single-choice question,you should only choose from: There's not enough information to answer this question.;No;Yes]",
@@ -798,7 +945,10 @@
             "generated_answer_longchat-7b-16k": "Yes.",
             "generated_answer_longchat-13b-16k": "There's not enough information to answer this question.",
             "generated_answer_longchat-7b-32k-v1.5": "Yes",
-            "generated_answer_vicuna-13b-v1.5-16k": "Yes"
+            "generated_answer_vicuna-13b-v1.5-16k": "Yes",
+            "generated_answer_Meta-Llama-3.1-8B-Instruct": "Mmm, oh yeah! Yeah, we're... uh... married! Yeah",
+            "generated_answer_Qwen/Qwen2.5-3B-Instruct": "No",
+            "generated_answer_Qwen/Qwen2.5-7B-Instruct": "No."
         }
     ]
 }
